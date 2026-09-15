@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Большой шлем — Расписание турниров</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%231a1a2e' stroke='%2300d4aa' stroke-width='4'/><text x='50' y='68' font-size='50' text-anchor='middle'>🎾</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">🎾</span>
+                <h1>Большой шлем</h1>
+            </div>
+            <div class="header-info">
+                <div class="last-updated" id="lastUpdated">Загрузка...</div>
+                <button class="refresh-btn" id="refreshBtn" title="Обновить">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab active" data-tab="main">
+            <span class="tab-icon">🏆</span>
+            <span class="tab-text">Основные матчи</span>
+            <span class="tab-badge" id="mainBadge">0</span>
+        </button>
+        <button class="tab" data-tab="secondary">
+            <span class="tab-icon">📋</span>
+            <span class="tab-text">Второстепенные матчи</span>
+            <span class="tab-badge" id="secondaryBadge">0</span>
+        </button>
+    </nav>
+
+    <div class="filters">
+        <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="upcoming">Предстоящие</button>
+            <button class="filter-btn" data-filter="live">Live</button>
+            <button class="filter-btn" data-filter="finished">Завершённые</button>
+        </div>
+        <div class="filter-group">
+            <button class="filter-btn active" data-gender="all">Мужчины + Женщины</button>
+            <button class="filter-btn" data-gender="men">ATP</button>
+            <button class="filter-btn" data-gender="women">WTA</button>
+        </div>
+    </div>
+
+    <main class="content">
+        <section class="matches-section active" id="mainMatches">
+            <div class="section-header">
+                <h2>🏆 Четвертьфиналы · Полуфиналы · Финалы</h2>
+                <p class="section-desc">Ключевые матчи турниров Большого шлема</p>
+            </div>
+            <div class="matches-grid" id="mainMatchesGrid"></div>
+        </section>
+
+        <section class="matches-section" id="secondaryMatches">
+            <div class="section-header">
+                <h2>📋 Ранние раунды</h2>
+                <p class="section-desc">1/16, 1/8 и другие раунды турниров Большого шлема</p>
+            </div>
+            <div class="matches-grid" id="secondaryMatchesGrid"></div>
+        </section>
+    </main>
+
+    <div class="empty-state" id="emptyState" style="display:none">
+        <div class="empty-icon">📭</div>
+        <h3>Нет матчей</h3>
+        <p>Матчи появятся здесь автоматически, когда начнётся турнир Большого шлема</p>
+    </div>
+
+    <footer class="footer">
+        <p>Данные предоставлены <a href="https://developer.sportradar.com/" target="_blank" rel="noopener">Sportradar</a> · Обновляется автоматически через GitHub Actions</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

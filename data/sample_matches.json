@@ -1,0 +1,269 @@
+{
+  "last_updated": "2026-09-15T17:04:40+00:00",
+  "main_matches": [
+    {
+      "id": "demo:1",
+      "tournament": "Australian Open Men Singles 2027",
+      "tournament_short": "Australian Open",
+      "round": "quarterfinal",
+      "round_display": "Четвертьфинал",
+      "gender": "men",
+      "category": "ATP",
+      "start_time": "2027-01-20T10:00:00+00:00",
+      "start_time_confirmed": true,
+      "status": "not_started",
+      "match_status": "",
+      "venue": "Rod Laver Arena",
+      "city": "Melbourne",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "best_of": 5,
+      "players": [
+        {
+          "id": "demo:p1",
+          "name": "Sinner, Jannik",
+          "country": "Italy",
+          "country_code": "ITA",
+          "abbreviation": "SIN",
+          "qualifier": "home",
+          "seed": 1
+        },
+        {
+          "id": "demo:p2",
+          "name": "Alcaraz, Carlos",
+          "country": "Spain",
+          "country_code": "ESP",
+          "abbreviation": "ALC",
+          "qualifier": "away",
+          "seed": 3
+        }
+      ]
+    },
+    {
+      "id": "demo:2",
+      "tournament": "Australian Open Women Singles 2027",
+      "tournament_short": "Australian Open",
+      "round": "semifinal",
+      "round_display": "Полуфинал",
+      "gender": "women",
+      "category": "WTA",
+      "start_time": "2027-01-22T08:00:00+00:00",
+      "start_time_confirmed": true,
+      "status": "live",
+      "match_status": "set3",
+      "venue": "Rod Laver Arena",
+      "city": "Melbourne",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "best_of": 3,
+      "players": [
+        {
+          "id": "demo:p3",
+          "name": "Swiatek, Iga",
+          "country": "Poland",
+          "country_code": "POL",
+          "abbreviation": "SWI",
+          "qualifier": "home",
+          "seed": 1
+        },
+        {
+          "id": "demo:p4",
+          "name": "Gauff, Coco",
+          "country": "USA",
+          "country_code": "USA",
+          "abbreviation": "GAU",
+          "qualifier": "away",
+          "seed": 3
+        }
+      ],
+      "scores": {
+        "home": 1,
+        "away": 1,
+        "periods": [
+          {
+            "home": 6,
+            "away": 4,
+            "number": 1
+          },
+          {
+            "home": 3,
+            "away": 6,
+            "number": 2
+          },
+          {
+            "home": 4,
+            "away": 3,
+            "number": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo:3",
+      "tournament": "US Open Men Singles 2026",
+      "tournament_short": "US Open",
+      "round": "final",
+      "round_display": "Финал",
+      "gender": "men",
+      "category": "ATP",
+      "start_time": "2026-09-13T22:00:00+00:00",
+      "start_time_confirmed": true,
+      "status": "closed",
+      "match_status": "ended",
+      "venue": "Arthur Ashe Stadium",
+      "city": "New York, NY",
+      "country": "USA",
+      "timezone": "America/New_York",
+      "best_of": 5,
+      "players": [
+        {
+          "id": "demo:p5",
+          "name": "Alcaraz, Carlos",
+          "country": "Spain",
+          "country_code": "ESP",
+          "abbreviation": "ALC",
+          "qualifier": "home",
+          "seed": 3
+        },
+        {
+          "id": "demo:p6",
+          "name": "Djokovic, Novak",
+          "country": "Serbia",
+          "country_code": "SRB",
+          "abbreviation": "DJO",
+          "qualifier": "away",
+          "seed": 2
+        }
+      ],
+      "scores": {
+        "home": 3,
+        "away": 2,
+        "periods": [
+          {
+            "home": 6,
+            "away": 4,
+            "number": 1
+          },
+          {
+            "home": 5,
+            "away": 7,
+            "number": 2
+          },
+          {
+            "home": 6,
+            "away": 3,
+            "number": 3
+          },
+          {
+            "home": 3,
+            "away": 6,
+            "number": 4
+          },
+          {
+            "home": 6,
+            "away": 4,
+            "number": 5
+          }
+        ]
+      },
+      "winner_id": "demo:p5"
+    }
+  ],
+  "secondary_matches": [
+    {
+      "id": "demo:4",
+      "tournament": "Australian Open Men Singles 2027",
+      "tournament_short": "Australian Open",
+      "round": "round_of_32",
+      "round_display": "1/16 финала",
+      "gender": "men",
+      "category": "ATP",
+      "start_time": "2027-01-18T16:00:00+00:00",
+      "start_time_confirmed": true,
+      "status": "not_started",
+      "match_status": "",
+      "venue": "Margaret Court Arena",
+      "city": "Melbourne",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne",
+      "best_of": 5,
+      "players": [
+        {
+          "id": "demo:p7",
+          "name": "Djokovic, Novak",
+          "country": "Serbia",
+          "country_code": "SRB",
+          "abbreviation": "DJO",
+          "qualifier": "home",
+          "seed": 2
+        },
+        {
+          "id": "demo:p8",
+          "name": "Zverev, Alexander",
+          "country": "Germany",
+          "country_code": "DEU",
+          "abbreviation": "ZVE",
+          "qualifier": "away",
+          "seed": 4
+        }
+      ]
+    },
+    {
+      "id": "demo:5",
+      "tournament": "US Open Women Singles 2026",
+      "tournament_short": "US Open",
+      "round": "round_of_16",
+      "round_display": "1/8 финала",
+      "gender": "women",
+      "category": "WTA",
+      "start_time": "2026-09-08T18:00:00+00:00",
+      "start_time_confirmed": true,
+      "status": "closed",
+      "match_status": "ended",
+      "venue": "Louis Armstrong Stadium",
+      "city": "New York, NY",
+      "country": "USA",
+      "timezone": "America/New_York",
+      "best_of": 3,
+      "players": [
+        {
+          "id": "demo:p9",
+          "name": "Swiatek, Iga",
+          "country": "Poland",
+          "country_code": "POL",
+          "abbreviation": "SWI",
+          "qualifier": "home",
+          "seed": 1
+        },
+        {
+          "id": "demo:p10",
+          "name": "Rybakina, Elena",
+          "country": "Kazakhstan",
+          "country_code": "KAZ",
+          "abbreviation": "RYB",
+          "qualifier": "away",
+          "seed": 4
+        }
+      ],
+      "scores": {
+        "home": 2,
+        "away": 0,
+        "periods": [
+          {
+            "home": 6,
+            "away": 4,
+            "number": 1
+          },
+          {
+            "home": 7,
+            "away": 6,
+            "number": 2,
+            "home_tb": 7,
+            "away_tb": 3
+          }
+        ]
+      },
+      "winner_id": "demo:p9"
+    }
+  ]
+}
