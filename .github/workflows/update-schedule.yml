@@ -1,1 +1,62 @@
+name: Обновление расписания Большого шлема
+
+on:
+  # Запуск по расписанию:
+  # - Вне турниров: 4 раза в день (раз в 6 часов) — экономит лимиты API
+  # - Этого достаточно, т.к. матчи Большого шлема идут ~2 недели, 4 раза в год
+  schedule:
+    # UTC время: 06:00, 12:00, 18:00, 00:00 (по Москве: 09:00, 15:00, 21:00, 03:00)
+    - cron: '0 6,12,18,0 * * *'
+  # Ручной запуск
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # 1. Получаем код репозитория
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Устанавливаем Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3. Запускаем скрипт обновления
+      - name: Fetch Grand Slam matches
+        env:
+          SPORTRADAR_API_KEY: ${{ secrets.SPORTRADAR_API_KEY }}
+        run: |
+          python scripts/fetch_tennis.py
+
+      # 4. Сохраняем изменения в репозиторий
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          # Проверяем, есть ли изменения
+          if git diff --quiet data/matches.json; then
+            echo "Нет изменений для сохранения"
+          else
+            git add data/matches.json
+            git commit -m "Автоматическое обновление расписания ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+            echo "Изменения сохранены и отправлены в репозиторий"
+          fi
+
+      # 5. Логируем результат
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Обновление расписания завершено" >> $GITHUB_STEP_SUMMARY
+          echo "Время: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "Файл: data/matches.json" >> $GITHUB_STEP_SUMMARY
 
