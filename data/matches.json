@@ -1,5 +1,74 @@
 {
-  "last_updated": "",
-  "main_matches": [],
+  "last_updated": "2026-09-16T01:49:08.337956+00:00",
+  "main_matches": [
+    {
+      "id": "sr:sport_event:73992442",
+      "tournament": "US Open Men Singles",
+      "tournament_short": "US Open",
+      "round": "final",
+      "round_display": "Финал",
+      "is_qualification": false,
+      "gender": "men",
+      "category": "ATP",
+      "start_time": "2026-09-13T18:15:00+00:00",
+      "start_time_confirmed": true,
+      "status": "closed",
+      "match_status": "ended",
+      "best_of": 5,
+      "players": [
+        {
+          "id": "sr:competitor:57163",
+          "name": "Zverev, Alexander",
+          "country": "Germany",
+          "country_code": "DEU",
+          "abbreviation": "ZVE",
+          "qualifier": "home",
+          "seed": 1
+        },
+        {
+          "id": "sr:competitor:808628",
+          "name": "Shelton, Ben",
+          "country": "USA",
+          "country_code": "USA",
+          "abbreviation": "SHE",
+          "qualifier": "away",
+          "seed": 8
+        }
+      ],
+      "venue": "Arthur Ashe Stadium",
+      "city": "New York, NY",
+      "country": "USA",
+      "timezone": "America/New_York",
+      "scores": {
+        "home": 3,
+        "away": 1,
+        "periods": [
+          {
+            "home": 6,
+            "away": 3,
+            "number": 1
+          },
+          {
+            "home": 7,
+            "away": 6,
+            "number": 2,
+            "home_tb": 7,
+            "away_tb": 2
+          },
+          {
+            "home": 5,
+            "away": 7,
+            "number": 3
+          },
+          {
+            "home": 6,
+            "away": 2,
+            "number": 4
+          }
+        ]
+      },
+      "winner_id": "sr:competitor:57163"
+    }
+  ],
   "secondary_matches": []
 }
