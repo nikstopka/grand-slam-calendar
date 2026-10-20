@@ -89,18 +89,7 @@ jobs:
       - name: Summary
         if: always()
         run: |
-          {
-            echo "### Обновление расписания завершено"
-            echo ""
-            echo "- Время: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-            if [ -f data/index.json ]; then
-              python - <<'PY' >> $GITHUB_STEP_SUMMARY
-              import json
-              index = json.load(open('data/index.json', encoding='utf-8'))
-              print(f"- Турниров: {len(index['tournaments'])}")
-              for t in index['tournaments']:
-                  c = t['counts']
-                  print(f"  - {t['name']} ({t['level_label']}): {c['years']} г., основных {c['main']}, второстепенных {c['secondary']}")
-              PY
-            fi
-          } >> $GITHUB_STEP_SUMMARY
+          echo "### Обновление расписания завершено" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Время: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          python scripts/summarize.py >> $GITHUB_STEP_SUMMARY || true

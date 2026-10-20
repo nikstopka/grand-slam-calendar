@@ -13,6 +13,7 @@ const STATE = {
     statusFilter: 'all',
     lastUpdated: '',
     loading: false,
+    isDemo: false,        // показываем демонстрационные данные
 };
 
 const ACTIVE_REFRESH_MS = 5 * 60 * 1000;   // есть live / предстоящие матчи
@@ -468,23 +469,79 @@ async function fetchJson(path) {
     return response.json();
 }
 
+function dataPath(path) {
+    return STATE.isDemo ? `data/sample/${path}` : `data/${path}`;
+}
+
 async function loadTournament(slug) {
     if (STATE.tournaments[slug]) return STATE.tournaments[slug];
-    const data = await fetchJson(`data/tournaments/${slug}.json`);
+    const data = await fetchJson(dataPath(`tournaments/${slug}.json`));
     STATE.tournaments[slug] = data;
     return data;
 }
 
 async function loadCore() {
     const [index, rankings, photos] = await Promise.all([
-        fetchJson('data/index.json'),
-        fetchJson('data/rankings.json').catch(() => null),
-        fetchJson('data/players.json').catch(() => ({})),
+        fetchJson(dataPath('index.json')),
+        fetchJson(dataPath('rankings.json')).catch(() => null),
+        fetchJson(dataPath('players.json')).catch(() => ({})),
     ]);
     STATE.index = index;
     STATE.rankings = rankings;
     STATE.photos = photos || {};
     STATE.lastUpdated = index.last_updated || '';
+}
+
+// Демонстрационные данные — показываем, если боевые ещё не загружены
+async function loadDemoData() {
+    STATE.isDemo = true;
+    STATE.tournaments = {};
+    await loadCore();
+    renderTabs();
+    updateTabBadges();
+    const first = STATE.index.tournaments[0]?.slug;
+    if (first) await activateTab(first);
+    showDemoBanner();
+}
+
+function showDemoBanner() {
+    const banner = document.getElementById('demoBanner');
+    if (banner) banner.style.display = 'flex';
+}
+
+// Экран-заглушка: данных ещё нет
+function showSetupNotice() {
+    const container = document.getElementById('content');
+    container.innerHTML = `
+        <div class="notice">
+            <div class="notice-icon">📡</div>
+            <h2>Данные ещё не загружены</h2>
+            <p>
+                Календарь заполняется автоматически: скрипт в GitHub Actions раз в 6 часов
+                забирает расписание турниров из Sportradar и обновляет эту страницу.
+            </p>
+            <p class="notice-hint">
+                Если расписание долго не появляется, проверьте вкладку <b>Actions</b>:
+                работает ли workflow «Обновление расписания турниров» и добавлен ли
+                секрет <code>SPORTRADAR_API_KEY</code> (Settings → Secrets and variables → Actions).
+            </p>
+            <button class="notice-btn" id="demoBtn">Посмотреть демо-данные</button>
+        </div>
+    `;
+    const btn = document.getElementById('demoBtn');
+    if (btn) {
+        btn.addEventListener('click', async () => {
+            btn.disabled = true;
+            btn.textContent = 'Загрузка…';
+            try {
+                await loadDemoData();
+            } catch (err) {
+                console.error(err);
+                btn.disabled = false;
+                btn.textContent = 'Посмотреть демо-данные';
+            }
+        });
+    }
 }
 
 // === ОТРИСОВКА ===
@@ -592,7 +649,13 @@ async function refreshData() {
         renderTabs();
         updateTabBadges();
         updateLastUpdated(STATE.lastUpdated);
-        const defaultTab = activeTab || STATE.index.tournaments[0]?.slug || 'rankings';
+
+        const tournaments = STATE.index.tournaments || [];
+        if (!tournaments.length && !STATE.isDemo) {
+            showSetupNotice();
+            return;
+        }
+        const defaultTab = activeTab || tournaments[0]?.slug || 'rankings';
         await activateTab(defaultTab);
     } catch (err) {
         console.error('Failed to load data:', err);

@@ -68,6 +68,13 @@ REQUEST_DELAY = 0.4
 # Лимит бесплатного плана (запросов в месяц)
 MONTHLY_REQUEST_LIMIT = 1000
 
+# Безопасный порог: не расходуем квоту целиком, оставляя запас на дрейф лимита
+MONTHLY_REQUEST_BUDGET = 850
+
+# Метаданные тарифа: (ключ в ответе API, уровень доступа, что делать при коде)
+# 403 — ключ недействителен или исчерпана квота, 429 — превышен лимит запросов
+FATAL_STATUSES = (401, 403, 429)
+
 # Провайдеры фотографий в Images API (пробуем по очереди, первый рабочий запоминаем)
 IMAGE_PROVIDERS = ("usat", "getty", "ap", "reuters")
 
@@ -162,6 +169,8 @@ MAIN_ROUNDS = {"quarterfinal", "semifinal", "final"}
 
 _api_key = None
 _request_count = 0
+_budget = {"month": "", "used": 0}
+_fatal_error = None
 
 
 def get_api_key():
@@ -176,9 +185,40 @@ def get_api_key():
     return _api_key
 
 
+# --- учёт месячной квоты ---
+
+def load_budget():
+    """Загружает счётчик расхода квоты за текущий календарный месяц."""
+    global _budget
+    month = datetime.now(timezone.utc).strftime("%Y-%m")
+    entry = cache_read("budget.json")
+    if entry and entry.get("d", {}).get("month") == month:
+        _budget = entry["d"]
+    else:
+        _budget = {"month": month, "used": 0}
+    return _budget
+
+
+def save_budget():
+    cache_write("budget.json", _budget)
+
+
+def budget_left():
+    return MONTHLY_REQUEST_BUDGET - _budget.get("used", 0)
+
+
 def api_get(path, params=None, base=None, allow_error=False):
     """GET-запрос к API. Возвращает (data, error)."""
-    global _request_count
+    global _request_count, _fatal_error
+
+    if _fatal_error:
+        return None, _fatal_error
+
+    if budget_left() <= 0:
+        message = (f"исчерпан месячный бюджет запросов ({MONTHLY_REQUEST_BUDGET}) — "
+                   "данные обновляются в следующем месяце")
+        _fatal_error = message
+        return None, message
 
     base = base or API_BASE
     query = {"api_key": get_api_key()}
@@ -188,6 +228,7 @@ def api_get(path, params=None, base=None, allow_error=False):
 
     req = urllib.request.Request(url, headers={"Accept": "application/json"})
     _request_count += 1
+    _budget["used"] = _budget.get("used", 0) + 1
 
     try:
         with urllib.request.urlopen(req, timeout=45) as response:
@@ -198,7 +239,11 @@ def api_get(path, params=None, base=None, allow_error=False):
             message += " — превышен лимит запросов API"
             time.sleep(5)
         elif e.code in (401, 403):
-            message += " — проверьте API ключ и лимиты тарифа"
+            message += (" — ключ недействителен или исчерпана месячная квота "
+                        "Sportradar (лимит 1000 запросов)")
+        if e.code in FATAL_STATUSES:
+            # Дальше ходить бессмысленно — экономим остаток квоты
+            _fatal_error = message
         if not allow_error:
             print(f"  Ошибка API: {message} для {path}")
         return None, message
@@ -768,13 +813,29 @@ def main():
     print("=" * 60)
     print()
 
+    load_budget()
+    print(f"Квота API: {_budget.get('used', 0)} из {MONTHLY_REQUEST_BUDGET} "
+          f"использовано в {_budget.get('month')}")
+    print()
+
+    try:
+        run()
+    finally:
+        save_budget()
+
+
+def run():
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
 
     print("Каталог турниров...")
     tournaments = load_competitions()
     if not tournaments:
+        print()
         print("ОШИБКА: не удалось получить каталог турниров. Файлы не изменены.")
+        if _fatal_error:
+            print(f"Причина: {_fatal_error}")
+            print("Проверьте ключ Sportradar (Settings → Secrets) и лимит запросов.")
         sys.exit(1)
     print(f"  Турниров: {len(tournaments)}")
 
@@ -845,10 +906,10 @@ def main():
         os.remove(legacy)
 
     runs_per_day = 24 / SCHEDULE_EVERY_HOURS
-    # Одновременно идут обычно 2-4 крупных турнира — их сетки обновляем каждый запуск;
+    # Одновременно идут обычно 2-3 крупных турнира — их сетки обновляем каждый запуск;
     # будущие сезоны перепроверяются раз в TTL_FUTURE_SEASON суток
     per_day = (
-        4 * runs_per_day
+        3 * runs_per_day
         + 6 * (24 / TTL_FUTURE_SEASON)
         + 1        # рейтинг
         + 0.5      # каталоги турниров и сезонов
@@ -857,7 +918,9 @@ def main():
     print()
     print(f"Данные сохранены в {DATA_DIR}")
     print(f"Запросов за этот прогон: {_request_count}")
-    print(f"Оценка расхода лимита: ~{monthly:.0f} запросов/месяц из {MONTHLY_REQUEST_LIMIT}")
+    print(f"Квота за {_budget.get('month')}: {_budget.get('used', 0)} из {MONTHLY_REQUEST_BUDGET} "
+          f"(лимит Sportradar — {MONTHLY_REQUEST_LIMIT})")
+    print(f"Прогноз расхода: ~{monthly:.0f} запросов/месяц")
     print("\nГотово!")
 
 

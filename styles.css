@@ -818,6 +818,90 @@ body {
     background: linear-gradient(135deg, var(--bg-card-hover), var(--bg-input));
 }
 
+/* === Баннер демо-режима === */
+
+.demo-banner {
+    max-width: 1200px;
+    margin: 16px auto 0;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(255, 205, 0, 0.35);
+    background: rgba(255, 205, 0, 0.1);
+    color: #ffcd00;
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* === Экран-заглушка === */
+
+.notice {
+    max-width: 640px;
+    margin: 40px auto;
+    padding: 32px 28px;
+    text-align: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.notice-icon {
+    font-size: 44px;
+    margin-bottom: 12px;
+}
+
+.notice h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.notice p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.notice-hint {
+    margin-top: 14px;
+    padding: 12px;
+    border-radius: var(--radius-sm);
+    background: var(--bg-input);
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.notice-hint code {
+    color: var(--accent);
+    font-size: 12px;
+}
+
+.notice-btn {
+    margin-top: 20px;
+    padding: 10px 22px;
+    border: none;
+    border-radius: var(--radius-sm);
+    background: var(--accent);
+    color: var(--bg-primary);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.notice-btn:hover:not(:disabled) {
+    background: #00b894;
+    transform: translateY(-1px);
+}
+
+.notice-btn:disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
 /* === Уровень турнира === */
 
 .level-badge {
