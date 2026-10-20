@@ -133,19 +133,61 @@ body {
 }
 
 /* Tabs */
+.tabs-wrap {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Индикатор того, что список вкладок прокручивается */
+.tabs-wrap::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 10px;
+    width: 36px;
+    pointer-events: none;
+    background: linear-gradient(to right, rgba(13, 13, 26, 0), var(--bg-primary));
+}
+
 .tabs {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 24px 0;
     display: flex;
     gap: 8px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--bg-card-hover) transparent;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tabs::-webkit-scrollbar {
+    height: 6px;
+}
+
+.tabs::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.tabs::-webkit-scrollbar-thumb {
+    background: var(--bg-card-hover);
+    border-radius: 3px;
+}
+
+.tabs-loading {
+    color: var(--text-muted);
+    font-size: 14px;
+    padding: 12px 0;
 }
 
 .tab {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
-    padding: 12px 20px;
+    padding: 10px 16px;
     color: var(--text-secondary);
     cursor: pointer;
     transition: var(--transition);
@@ -155,6 +197,8 @@ body {
     font-size: 14px;
     font-weight: 600;
     font-family: inherit;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .tab:hover {
@@ -319,10 +363,11 @@ body {
     margin-bottom: 16px;
 }
 
+/* Match header: бейдж категории + раунд */
 .match-tournament {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     font-size: 12px;
     font-weight: 600;
     color: var(--text-secondary);
@@ -340,6 +385,14 @@ body {
 
 .gender-badge.men { color: #4a9eff; background: rgba(74, 158, 255, 0.12); }
 .gender-badge.women { color: #ff6bb5; background: rgba(255, 107, 181, 0.12); }
+
+.round-badge {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0;
+    text-transform: none;
+}
 
 .match-round {
     font-size: 12px;
@@ -375,6 +428,16 @@ body {
     color: var(--finished);
 }
 
+.status-badge.canceled {
+    background: rgba(255, 149, 0, 0.14);
+    color: #ff9500;
+}
+
+.status-badge.postponed {
+    background: rgba(255, 205, 0, 0.14);
+    color: #ffcd00;
+}
+
 .status-badge .dot {
     width: 6px;
     height: 6px;
@@ -396,6 +459,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    margin-top: 12px;
 }
 
 .player {
@@ -481,6 +545,13 @@ body {
     line-height: 1.2;
 }
 
+.set-score .set-points .tb {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-left: 1px;
+}
+
 .set-score.won .set-points {
     color: var(--accent);
 }
@@ -511,6 +582,33 @@ body {
     width: 14px;
     height: 14px;
     opacity: 0.7;
+}
+
+/* Время матча: локальное пользователя + время арены */
+.tz-hint {
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+.venue-time {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 6px;
+    border-radius: 4px;
+    background: var(--bg-input);
+    color: var(--text-muted);
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+/* Сообщения внутри сетки */
+.grid-message {
+    color: var(--text-muted);
+    padding: 20px;
+}
+
+.grid-message.error {
+    color: var(--live);
 }
 
 /* Countdown Timer */
@@ -649,3 +747,234 @@ body {
     font-size: 18px;
     margin-left: 6px;
 }
+
+/* Skip link (доступность) */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 16px;
+    background: var(--accent);
+    color: var(--bg-primary);
+    font-weight: 700;
+    border-radius: 0 0 var(--radius-sm) 0;
+}
+
+.skip-link:focus {
+    left: 0;
+}
+
+/* Предупреждение об отключённом JavaScript */
+.noscript-warning {
+    max-width: 1200px;
+    margin: 24px auto;
+    padding: 16px;
+    border: 1px solid var(--live);
+    border-radius: var(--radius-sm);
+    background: var(--live-glow);
+    color: var(--text-primary);
+    text-align: center;
+}
+
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+/* === Аватар игрока (фото с заглушкой) === */
+
+.player-avatar {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border-hover);
+}
+
+.player-avatar img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+}
+
+.avatar-fallback {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    background: linear-gradient(135deg, var(--bg-card-hover), var(--bg-input));
+}
+
+/* === Уровень турнира === */
+
+.level-badge {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-glow);
+    border: 1px solid var(--accent-dim);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* === Разделение по годам === */
+
+.year-block {
+    margin-bottom: 36px;
+}
+
+.year-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.year-badge {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: 20px;
+    background: var(--bg-input);
+    color: var(--text-muted);
+    text-transform: lowercase;
+}
+
+.year-badge.идёт { background: var(--live-glow); color: var(--live); }
+.year-badge.предстоящий { background: var(--accent-glow); color: var(--upcoming); }
+.year-badge.в процессе { background: rgba(255, 205, 0, 0.14); color: #ffcd00; }
+.year-badge.завершён { background: rgba(96, 96, 128, 0.18); color: var(--finished); }
+
+/* === Подразделы (основные / ранние раунды) === */
+
+.subsection {
+    margin-bottom: 24px;
+}
+
+.subsection-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.subsection-count {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-muted);
+    background: var(--bg-input);
+    border-radius: 20px;
+    padding: 1px 8px;
+}
+
+/* === Таблица рейтинга === */
+
+.rankings-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+}
+
+.rankings-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.rankings-table th {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+}
+
+.rankings-table td {
+    padding: 8px 14px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-primary);
+}
+
+.rankings-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.rankings-table tbody tr:hover {
+    background: var(--bg-card-hover);
+}
+
+.rankings-table .rank-cell {
+    font-weight: 700;
+    color: var(--text-secondary);
+    width: 48px;
+    text-align: right;
+}
+
+.rankings-table .avatar-cell {
+    width: 44px;
+    padding-right: 0;
+}
+
+.rankings-table .avatar-cell .player-avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.rankings-table .name-cell {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.rankings-table .country-cell {
+    width: 44px;
+    font-size: 18px;
+}
+
+.rankings-table .points-cell {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    text-align: right;
+    width: 90px;
+}
+
+.rankings-table .movement-cell {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    width: 70px;
+    white-space: nowrap;
+}
+
+.rankings-table .movement-cell.up { color: var(--upcoming); }
+.rankings-table .movement-cell.down { color: var(--live); }
+.rankings-table .movement-cell.same { color: var(--text-muted); }

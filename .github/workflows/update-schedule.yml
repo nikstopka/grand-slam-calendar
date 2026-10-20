@@ -1,22 +1,26 @@
-name: Обновление расписания Большого шлема
+name: Обновление расписания турниров
 
 on:
-  # Запуск по расписанию:
-  # - Вне турниров: 4 раза в день (раз в 6 часов) — экономит лимиты API
-  # - Этого достаточно, т.к. матчи Большого шлема идут ~2 недели, 4 раза в год
+  # Запуск по расписанию: каждые 6 часов.
+  # Скрипт кэширует каталог турниров, завершённые сезоны и фотографии,
+  # поэтому суммарный расход — около 750 запросов в месяц при лимите 1000.
   schedule:
-    # UTC время: 06:00, 12:00, 18:00, 00:00 (по Москве: 09:00, 15:00, 21:00, 03:00)
-    - cron: '0 6,12,18,0 * * *'
+    - cron: '0 0,6,12,18 * * *'
   # Ручной запуск
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Одновременные запуски не должны конфликтовать при git push
+concurrency:
+  group: update-schedule
+  cancel-in-progress: false
+
 jobs:
   update-schedule:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       # 1. Получаем код репозитория
@@ -29,34 +33,74 @@ jobs:
         with:
           python-version: '3.11'
 
-      # 3. Запускаем скрипт обновления
-      - name: Fetch Grand Slam matches
+      # 3. Кэш (экономит лимит API: каталог турниров, сезоны, фото)
+      - name: Restore API cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          # Уникальный ключ → всегда создаётся новая запись кэша;
+          # restore-keys восстанавливает самый свежий предыдущий.
+          key: tennis-cache-${{ github.run_id }}
+          restore-keys: |
+            tennis-cache-
+
+      # 4. Проверяем синтаксис скрипта
+      - name: Check script syntax
+        run: python -m py_compile scripts/fetch_tennis.py
+
+      # 5. Запускаем скрипт обновления
+      - name: Fetch tournament data
         env:
           SPORTRADAR_API_KEY: ${{ secrets.SPORTRADAR_API_KEY }}
-        run: |
-          python scripts/fetch_tennis.py
+        run: python scripts/fetch_tennis.py
 
-      # 4. Сохраняем изменения в репозиторий
+      # 6. Проверяем, что данные валидны
+      - name: Validate data
+        run: |
+          python - <<'PY'
+          import json, glob, os
+          index = json.load(open('data/index.json', encoding='utf-8-sig'))
+          assert 'tournaments' in index, 'index.json: нет списка турниров'
+          for t in index['tournaments']:
+              path = os.path.join('data', 'tournaments', t['slug'] + '.json')
+              data = json.load(open(path, encoding='utf-8-sig'))
+              assert 'years' in data, path
+          json.load(open('data/rankings.json', encoding='utf-8-sig'))
+          json.load(open('data/players.json', encoding='utf-8-sig'))
+          print('JSON OK: турниров —', len(index['tournaments']))
+          PY
+
+      # 7. Сохраняем изменения в репозитории
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-          # Проверяем, есть ли изменения
-          if git diff --quiet data/matches.json; then
+          if git diff --quiet -- data/; then
             echo "Нет изменений для сохранения"
           else
-            git add data/matches.json
+            git add data/
             git commit -m "Автоматическое обновление расписания ($(date -u '+%Y-%m-%d %H:%M UTC'))"
             git push
             echo "Изменения сохранены и отправлены в репозиторий"
           fi
 
-      # 5. Логируем результат
+      # 8. Логируем результат
       - name: Summary
         if: always()
         run: |
-          echo "### Обновление расписания завершено" >> $GITHUB_STEP_SUMMARY
-          echo "Время: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
-          echo "Файл: data/matches.json" >> $GITHUB_STEP_SUMMARY
-
+          {
+            echo "### Обновление расписания завершено"
+            echo ""
+            echo "- Время: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            if [ -f data/index.json ]; then
+              python - <<'PY' >> $GITHUB_STEP_SUMMARY
+              import json
+              index = json.load(open('data/index.json', encoding='utf-8'))
+              print(f"- Турниров: {len(index['tournaments'])}")
+              for t in index['tournaments']:
+                  c = t['counts']
+                  print(f"  - {t['name']} ({t['level_label']}): {c['years']} г., основных {c['main']}, второстепенных {c['secondary']}")
+              PY
+            fi
+          } >> $GITHUB_STEP_SUMMARY
