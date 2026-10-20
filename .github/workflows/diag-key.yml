@@ -1,0 +1,78 @@
+name: Диагностика ключа Sportradar
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Probe
+        env:
+          SPORTRADAR_API_KEY: ${{ secrets.SPORTRADAR_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os, json, urllib.request, urllib.error
+
+          key = os.environ["SPORTRADAR_API_KEY"]
+          base = "https://api.sportradar.com/tennis/trial/v3/en"
+
+          def probe(label, url, headers=None):
+              print(f"\n--- {label} ---")
+              print(f"URL: {url[:110]}")
+              req = urllib.request.Request(url, headers=headers or {"Accept": "application/json"})
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      body = r.read()
+                      print(f"HTTP {r.status}")
+                      for k, v in sorted(r.headers.items()):
+                          if k.lower() in ("x-ratelimit-limit", "x-ratelimit-remaining",
+                                           "x-ratelimit-reset", "x-rate-limit-limit",
+                                           "x-rate-limit-remaining", "retry-after",
+                                           "x-request-id", "x-usage", "x-plan", "x-tournament-id"):
+                              print(f"  {k}: {v}")
+                      try:
+                          data = json.loads(body)
+                          if isinstance(data, dict):
+                              print("  keys:", list(data.keys())[:8])
+                              if "error" in data:
+                                  print("  ERROR:", json.dumps(data["error"], ensure_ascii=False)[:400])
+                      except Exception:
+                          print("  тело:", body[:300])
+              except urllib.error.HTTPError as e:
+                  print(f"HTTP {e.code} {e.reason}")
+                  for k, v in sorted(e.headers.items()):
+                      if k.lower().startswith("x-") or k.lower() in ("retry-after", "content-type"):
+                          print(f"  {k}: {v}")
+                  try:
+                      body = e.read()
+                      print("  тело:", body[:600].decode("utf-8", "replace"))
+                  except Exception:
+                      pass
+              except Exception as e:
+                  print("  ОШИБКА:", e)
+
+          # 1. С ключом в query
+          probe("с ключом в query", f"{base}/competitions.json?api_key={key}")
+          # 2. С ключом в заголовке
+          probe("с ключом в заголовке", f"{base}/competitions.json",
+                {"Accept": "application/json", "x-api-key": key})
+          # 3. БЕЗ ключа — для сравнения текста ошибки
+          probe("БЕЗ ключа (контроль)", f"{base}/competitions.json")
+          # 4. Другой эндпоинт
+          probe("рейтинг", f"{base}/rankings.json?api_key={key}")
+          # 5. Дневная сводка
+          probe("дневная сводка", f"{base}/schedules/2026-10-18/summaries.json?api_key={key}")
+          # 6. Заведомо несуществующий путь — как выглядит «не найдено»
+          probe("несуществующий путь", f"{base}/definitely-not-a-real-path.json?api_key={key}")
+          # 7. Запрос к другому продукту с тем же ключом
+          probe("другой продукт (футбол)", f"https://api.sportradar.com/soccer/trial/v3/en/competitions.json?api_key={key}")
+          PY
