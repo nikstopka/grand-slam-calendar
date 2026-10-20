@@ -78,6 +78,14 @@ FATAL_STATUSES = (401, 403, 429)
 # Провайдеры фотографий в Images API (пробуем по очереди, первый рабочий запоминаем)
 IMAGE_PROVIDERS = ("usat", "getty", "ap", "reuters")
 
+# Wikipedia / Wikimedia Commons — основной источник фотографий игроков
+WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
+WIKIPEDIA_USER_AGENT = ("grand-slam-calendar/1.0 (https://github.com/nikstopka/grand-slam-calendar)")
+PHOTO_THUMB_SIZE = 200      # размер превью в пикселях
+PHOTO_MAX_PER_RUN = 60     # сколько новых игроков искать за один запуск
+PHOTO_TTL_DAYS = 60        # как долго хранить найденное фото
+PHOTO_DELAY = 0.25         # пауза между запросами к Wikipedia
+
 # Версия схемы кэша: при изменении формата кэш сбрасывается
 CACHE_VERSION = 3
 
@@ -689,75 +697,286 @@ def as_list(value):
     return []
 
 
-def load_player_photos():
-    """Карта {competitor_id: url_фото} из Images API. Пусто, если API недоступен."""
-    entry = cache_read("photos.json")
+def extract_assets(data):
+    """Достаёт список изображений из манифеста Images API (формат может различаться)."""
+    if not isinstance(data, dict):
+        return []
+    for key in ("assets", "players", "images"):
+        value = data.get(key)
+        if isinstance(value, list) and value:
+            return value
+    assetlist = data.get("assetlist")
+    if isinstance(assetlist, dict):
+        for value in assetlist.values():
+            if isinstance(value, list) and value:
+                return value
+    # Рекурсивный поиск первого списка объектов с полем id
+    stack = [data]
+    while stack:
+        node = stack.pop()
+        if isinstance(node, dict):
+            stack.extend(node.values())
+        elif isinstance(node, list):
+            if node and isinstance(node[0], dict) and "id" in node[0]:
+                return node
+            stack.extend(node)
+    return []
+
+
+# === ФОТОГРАФИИ ИГРОКОВ ===
+
+def wikipedia_get(params):
+    """Запрос к Wikipedia API. Возвращает (data, error)."""
+    query = {"format": "json", "formatversion": "1"}
+    query.update(params)
+    url = f"{WIKIPEDIA_API}?{urlencode(query)}"
+    req = urllib.request.Request(url, headers={
+        "Accept": "application/json",
+        "User-Agent": WIKIPEDIA_USER_AGENT,
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=30) as response:
+            return json.loads(response.read().decode("utf-8")), None
+    except Exception as e:  # noqa: BLE001
+        return None, str(e)
+
+
+def wiki_pages(data):
+    if not data:
+        return []
+    query = data.get("query", {}) or {}
+    pages = query.get("pages", {}) or {}
+    if isinstance(pages, dict):
+        return [p for p in pages.values() if isinstance(p, dict)]
+    return [p for p in as_list(pages) if isinstance(p, dict)]
+
+
+def clean_image_url(url):
+    """Убирает трекинговые utm-параметры из ссылки на изображение."""
+    if not url:
+        return ""
+    return url.split("?")[0]
+
+
+def page_looks_like_player(page):
+    """Проверяет, что страница — про теннисиста."""
+    description = (page.get("description") or "").lower()
+    title = (page.get("title") or "").lower()
+    if "tennis" in description:
+        return True
+    # У статьи может не быть короткого описания — смотрим на заголовок
+    return title.endswith("(tennis)") or " tennis" in title
+
+
+def player_article_title(name):
+    """'Sinner, Jannik' -> 'Jannik Sinner'"""
+    raw = str(name or "").strip()
+    if "," in raw:
+        last, first = raw.split(",", 1)
+        raw = f"{first.strip()} {last.strip()}"
+    return re.sub(r"\s+", " ", raw).strip()
+
+
+def wikipedia_photo(name):
+    """Ищет фотографию игрока в Wikipedia. Возвращает URL или ''."""
+    article = player_article_title(name)
+    if not article:
+        return ""
+
+    # 1. Прямой запрос статьи: сначала основная, затем с уточнением (tennis)
+    candidates = [article, f"{article} (tennis)"]
+    for title in candidates:
+        data, _error = wikipedia_get({
+            "action": "query",
+            "titles": title,
+            "prop": "pageimages|description",
+            "piprop": "thumbnail|original",
+            "pithumbsize": str(PHOTO_THUMB_SIZE),
+            "redirects": "1",
+        })
+        for page in wiki_pages(data):
+            if "missing" in page:
+                continue
+            if not page_looks_like_player(page):
+                continue
+            url = clean_image_url((page.get("thumbnail") or {}).get("source"))
+            if url:
+                return url
+        time.sleep(PHOTO_DELAY)
+
+    # 2. У статьи может не быть фото — пробуем страницу со статистикой
+    data, _error = wikipedia_get({
+        "action": "query",
+        "titles": f"{article} career statistics",
+        "prop": "pageimages",
+        "piprop": "thumbnail",
+        "pithumbsize": str(PHOTO_THUMB_SIZE),
+        "redirects": "1",
+    })
+    for page in wiki_pages(data):
+        url = clean_image_url((page.get("thumbnail") or {}).get("source"))
+        if url:
+            return url
+    time.sleep(PHOTO_DELAY)
+
+    # 3. Поиск по имени
+    data, _error = wikipedia_get({
+        "action": "query",
+        "generator": "search",
+        "gsrsearch": f"{article} tennis",
+        "gsrlimit": "5",
+        "prop": "pageimages|description",
+        "piprop": "thumbnail|original",
+        "pithumbsize": str(PHOTO_THUMB_SIZE),
+        "redirects": "1",
+    })
+    best = ""
+    for page in wiki_pages(data):
+        if not page_looks_like_player(page):
+            continue
+        url = clean_image_url((page.get("thumbnail") or {}).get("source"))
+        if url:
+            title = (page.get("title") or "").lower()
+            # приоритет: точное совпадение названия
+            if title == article.lower() or title == f"{article.lower()} (tennis)":
+                return url
+            best = best or url
+    return best
+
+
+def collect_players(tournament_files):
+    """Собирает уникальных игроков: {competitor_id: (имя, число матчей)}."""
+    players = {}
+    for data in tournament_files:
+        for year_data in (data.get("years") or {}).values():
+            for gender_data in year_data.values():
+                for key in ("main", "secondary"):
+                    for match in gender_data.get(key, []):
+                        for player in match.get("players", []):
+                            pid = player.get("id")
+                            if not pid:
+                                continue
+                            entry = players.setdefault(pid, [player.get("name", ""), 0])
+                            entry[1] += 1
+    return {pid: (name, count) for pid, (name, count) in players.items()}
+
+
+def load_player_photos(players):
+    """Карта {competitor_id: url_фото}.
+
+    Сначала пробуем Images API Sportradar, затем — Wikipedia.
+    """
+    photos = {}
+
+    # --- Sportradar Images API (если есть доступ) ---
+    entry = cache_read("photos_sportradar.json")
+    manifest_ok = False
     if entry:
         try:
             age = (datetime.now(timezone.utc) - datetime.fromisoformat(entry["ts"])).total_seconds()
         except ValueError:
             age = 1e9
         if age < TTL_IMAGES * 3600:
-            return entry["d"], True
+            manifest_ok = entry["d"].get("ok", False)
+            photos.update(entry["d"].get("photos", {}))
 
-    year = datetime.now(timezone.utc).year
-    photos = {}
-
-    for provider in IMAGE_PROVIDERS:
-        base = f"{IMAGES_BASE}/{provider}/tennis/headshots/players"
-        data, error = api_get(f"/{year}/manifest", base=base, allow_error=True)
-        if not data:
-            continue
-
-        found = 0
-        for asset in extract_assets(data):
-            if not isinstance(asset, dict):
+    if not manifest_ok:
+        year = datetime.now(timezone.utc).year
+        found = {}
+        for provider in IMAGE_PROVIDERS:
+            base = f"{IMAGES_BASE}/{provider}/tennis/headshots/players"
+            data, error = api_get(f"/{year}/manifest", base=base, allow_error=True)
+            if not data:
                 continue
-            asset_id = asset.get("id", "")
-            if not asset_id:
-                continue
-
-            href = None
-            for link in as_list(asset.get("links")):
-                if not isinstance(link, dict):
+            for asset in extract_assets(data):
+                if not isinstance(asset, dict):
                     continue
-                link_href = link.get("href", "")
-                if "crop" in link_href or link_href.endswith(".jpg") or link_href.endswith(".png"):
-                    href = link_href
-                    break
-            if not href:
-                continue
-
-            competitor_id = None
-            for ref in as_list(asset.get("refs")):
-                if not isinstance(ref, dict):
+                asset_id = asset.get("id", "")
+                if not asset_id:
                     continue
-                srid = ref.get("sportradar_id", "")
-                if srid.startswith("sr:competitor:"):
-                    competitor_id = srid
-                    break
-            if not competitor_id:
-                continue
-
-            photos[competitor_id] = f"{base}{href}"
-            found += 1
-
+                href = None
+                for link in as_list(asset.get("links")):
+                    if not isinstance(link, dict):
+                        continue
+                    link_href = link.get("href", "")
+                    if "crop" in link_href or link_href.endswith((".jpg", ".png")):
+                        href = link_href
+                        break
+                if not href:
+                    continue
+                competitor_id = None
+                for ref in as_list(asset.get("refs")):
+                    if not isinstance(ref, dict):
+                        continue
+                    srid = ref.get("sportradar_id", "")
+                    if srid.startswith("sr:competitor:"):
+                        competitor_id = srid
+                        break
+                if competitor_id:
+                    found[competitor_id] = f"{base}{href}"
+            if found:
+                break
+        photos.update(found)
+        cache_write("photos_sportradar.json", {"ok": bool(found), "photos": found})
         if found:
-            print(f"  Фотографии: провайдер {provider}, {found} изображений")
-            cache_write("photos.json", photos)
-            return photos, False
-        print(f"  Фотографии: провайдер {provider} не дал изображений")
+            print(f"  Фотографии Sportradar: {len(found)} изображений")
+        else:
+            print("  Фотографии Sportradar: Images API недоступен, используем Wikipedia")
 
-    if photos:
-        cache_write("photos.json", photos)
-        return photos, False
+    # --- Wikipedia ---
+    wiki_entry = cache_read("photos_wiki.json")
+    wiki_cache = dict(wiki_entry["d"]) if wiki_entry and isinstance(wiki_entry.get("d"), dict) else {}
+    now_ts = datetime.now(timezone.utc).isoformat()
 
-    # Манифест текущего года может быть ещё не опубликован — откатываемся на кэш
-    if entry and entry.get("d"):
-        print("  Фотографии: используем кэш")
-        return entry["d"], True
-    print("  Фотографии: Images API недоступен — будут заглушки с инициалами")
-    return {}, False
+    # Убираем протухшие записи
+    fresh = {}
+    for pid, item in wiki_cache.items():
+        if not isinstance(item, dict):
+            continue
+        try:
+            age_days = (datetime.now(timezone.utc) - datetime.fromisoformat(item.get("t", ""))).days
+        except ValueError:
+            age_days = 999
+        if age_days < PHOTO_TTL_DAYS:
+            fresh[pid] = item
+    wiki_cache = fresh
+
+    missing = []
+    for pid, (name, _count) in players.items():
+        if pid in photos:
+            continue
+        if pid in wiki_cache:
+            url = wiki_cache[pid].get("u", "")
+            if url:
+                photos[pid] = url
+                continue
+            # в кэше есть запись «фото не найдено» — не ищем повторно
+            continue
+        missing.append((pid, name))
+
+    # Сначала обслуживаем самых частых игроков — их видно чаще всего
+    missing.sort(key=lambda item: -players[item[0]][1])
+
+    if missing:
+        print(f"  Wikipedia: ищем фото для {len(missing)} игроков (максимум {PHOTO_MAX_PER_RUN} за запуск)")
+        done = 0
+        for pid, name in missing:
+            if done >= PHOTO_MAX_PER_RUN:
+                break
+            done += 1
+            try:
+                url = wikipedia_photo(name)
+            except Exception as e:  # noqa: BLE001
+                print(f"    {name}: ошибка {e}")
+                url = ""
+            wiki_cache[pid] = {"u": url, "t": now_ts, "n": name}
+            if url:
+                photos[pid] = url
+        cache_write("photos_wiki.json", wiki_cache)
+        found_count = sum(1 for v in wiki_cache.values() if v.get("u"))
+        print(f"  Wikipedia: найдено {found_count} фото всего, за этот запуск — {done}")
+
+    return photos
 
 
 # === СБОРКА ===
@@ -850,15 +1069,14 @@ def run():
     if rankings:
         print(f"  ATP: {len(rankings.get('men', []))}, WTA: {len(rankings.get('women', []))}")
 
-    print("Фотографии игроков...")
-    photos, _ = load_player_photos()
-
     print("Сетки матчей...")
     index = []
+    tournament_files = []
     for tournament in tournaments:
         data = build_tournament_file(tournament, seasons_by_comp, today)
         slug = slugify(data["name"])
         write_json(os.path.join(TOURNAMENTS_DIR, f"{slug}.json"), data)
+        tournament_files.append(data)
 
         counts = {"main": 0, "secondary": 0, "years": 0}
         for year_data in data["years"].values():
@@ -880,6 +1098,15 @@ def run():
         })
         print(f"  {data['name']}: {counts['years']} год(а), "
               f"основных {counts['main']}, второстепенных {counts['secondary']}")
+
+    print("Фотографии игроков...")
+    players = collect_players(tournament_files)
+    # Игроки из рейтинга тоже нужны — у них высокий приоритет
+    for row in (rankings or {}).get("men", []) + (rankings or {}).get("women", []):
+        pid = row.get("id")
+        if pid and pid not in players:
+            players[pid] = (row.get("name", ""), 100)
+    photos = load_player_photos(players)
 
     # Убираем устаревшие файлы турниров, которых больше нет в каталоге
     valid = {f"{t['slug']}.json" for t in index}

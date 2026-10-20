@@ -49,6 +49,10 @@
     </div>
 
     <div class="filters">
+        <div class="filter-group year-group" id="yearFilterGroup" role="group" aria-label="Выбор года">
+            <label class="filter-label" for="yearSelect">Год</label>
+            <select class="filter-select" id="yearSelect" aria-label="Год турнира"></select>
+        </div>
         <div class="filter-group" role="group" aria-label="Фильтр по категории">
             <button class="filter-btn active" data-gender="all">Все</button>
             <button class="filter-btn" data-gender="men">ATP</button>
@@ -71,7 +75,11 @@
     </main>
 
     <footer class="footer">
-        <p>Данные предоставлены <a href="https://developer.sportradar.com/" target="_blank" rel="noopener noreferrer">Sportradar</a> · Обновляется автоматически через GitHub Actions</p>
+        <p>
+            Данные предоставлены <a href="https://developer.sportradar.com/" target="_blank" rel="noopener noreferrer">Sportradar</a>
+            · Фотографии: <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
+            · Обновляется автоматически через GitHub Actions
+        </p>
     </footer>
 
     <noscript>

@@ -274,6 +274,62 @@ body {
     font-weight: 600;
 }
 
+/* Выбор года */
+.filter-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    align-self: center;
+    margin-right: -2px;
+}
+
+.filter-select {
+    background-color: var(--bg-input);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23a0a0b8' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 6px 32px 6px 14px;
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: var(--transition);
+    appearance: none;
+    -webkit-appearance: none;
+    min-width: 92px;
+}
+
+.filter-select:hover {
+    border-color: var(--border-hover);
+}
+
+.filter-select option {
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+/* Чип года в заголовке турнира */
+.year-chip {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    background: var(--bg-input);
+    border: 1px solid var(--border-hover);
+    color: var(--text-primary);
+    font-size: 12px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+.section-desc-plain {
+    color: var(--text-muted);
+}
+
 /* Content */
 .content {
     max-width: 1200px;
@@ -919,22 +975,6 @@ body {
 }
 
 /* === Разделение по годам === */
-
-.year-block {
-    margin-bottom: 36px;
-}
-
-.year-title {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 16px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
 .year-badge {
     font-size: 11px;

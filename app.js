@@ -14,6 +14,8 @@ const STATE = {
     lastUpdated: '',
     loading: false,
     isDemo: false,        // показываем демонстрационные данные
+    year: null,           // выбранный год
+    yearsByTab: {},       // slug -> доступные годы
 };
 
 const ACTIVE_REFRESH_MS = 5 * 60 * 1000;   // есть live / предстоящие матчи
@@ -295,6 +297,43 @@ function sortMatches(matches) {
     });
 }
 
+// === ВЫБОР ГОДА ===
+
+function availableYears(data) {
+    return Object.keys(data.years || {}).sort((a, b) => b.localeCompare(a));
+}
+
+// Год по умолчанию: текущий календарный, иначе ближайший доступный
+function defaultYear(years) {
+    if (!years.length) return '';
+    const current = String(new Date().getFullYear());
+    if (years.includes(current)) return current;
+    return years[0];
+}
+
+function renderYearSelect(years, selected) {
+    const group = document.getElementById('yearFilterGroup');
+    const select = document.getElementById('yearSelect');
+    if (!group || !select) return;
+
+    if (!years.length) {
+        group.style.display = 'none';
+        return;
+    }
+    group.style.display = 'flex';
+    select.innerHTML = years
+        .map(y => `<option value="${escapeHtml(y)}"${y === selected ? ' selected' : ''}>${escapeHtml(y)}</option>`)
+        .join('');
+    select.value = selected;
+}
+
+// Год, который показываем для активного турнира
+function currentYearFor(data) {
+    const years = availableYears(data);
+    if (STATE.year && years.includes(STATE.year)) return STATE.year;
+    return defaultYear(years);
+}
+
 // === РЕНДЕР ТУРНИРА ===
 
 function yearStateLabel(matches) {
@@ -309,7 +348,7 @@ function yearStateLabel(matches) {
 }
 
 function renderTournamentPanel(data) {
-    const years = Object.keys(data.years || {}).sort((a, b) => b.localeCompare(a));
+    const years = availableYears(data);
 
     if (!years.length) {
         return `
@@ -320,53 +359,48 @@ function renderTournamentPanel(data) {
         `;
     }
 
-    const blocks = years.map(year => {
-        const yearData = data.years[year] || {};
-        const allMatches = Object.values(yearData).flatMap(g => [...g.main, ...g.secondary]);
-        const label = yearStateLabel(allMatches);
+    const year = currentYearFor(data);
+    const yearData = data.years[year] || {};
+    const genders = Object.keys(yearData).sort();
+    const allMatches = genders.flatMap(g => [...yearData[g].main, ...yearData[g].secondary]);
+    const label = yearStateLabel(allMatches);
 
-        const genders = Object.keys(yearData).sort();
-        const sections = [];
+    const mainMatches = sortMatches(genders.flatMap(g => yearData[g].main).filter(matchPassesFilters));
+    const secondaryMatches = sortMatches(genders.flatMap(g => yearData[g].secondary).filter(matchPassesFilters));
 
-        const mainMatches = sortMatches(genders.flatMap(g => yearData[g].main).filter(matchPassesFilters));
-        const secondaryMatches = sortMatches(genders.flatMap(g => yearData[g].secondary).filter(matchPassesFilters));
-
-        if (mainMatches.length) {
-            sections.push(`
-                <div class="subsection">
-                    <h4 class="subsection-title">🏆 Основные матчи <span class="subsection-count">${mainMatches.length}</span></h4>
-                    <div class="matches-grid">${mainMatches.map(renderMatchCard).join('')}</div>
-                </div>
-            `);
-        }
-        if (secondaryMatches.length) {
-            sections.push(`
-                <div class="subsection">
-                    <h4 class="subsection-title">📋 Ранние раунды <span class="subsection-count">${secondaryMatches.length}</span></h4>
-                    <div class="matches-grid">${secondaryMatches.map(renderMatchCard).join('')}</div>
-                </div>
-            `);
-        }
-
-        const empty = sections.length
-            ? ''
-            : '<p class="grid-message">Нет матчей по выбранным фильтрам</p>';
-
-        return `
-            <div class="year-block">
-                <h3 class="year-title">${escapeHtml(year)}${label ? ` <span class="year-badge ${escapeHtml(label)}">${escapeHtml(label)}</span>` : ''}</h3>
-                ${sections.join('')}
-                ${empty}
+    const sections = [];
+    if (mainMatches.length) {
+        sections.push(`
+            <div class="subsection">
+                <h4 class="subsection-title">🏆 Основные матчи <span class="subsection-count">${mainMatches.length}</span></h4>
+                <div class="matches-grid">${mainMatches.map(renderMatchCard).join('')}</div>
             </div>
-        `;
-    }).join('');
+        `);
+    }
+    if (secondaryMatches.length) {
+        sections.push(`
+            <div class="subsection">
+                <h4 class="subsection-title">📋 Ранние раунды <span class="subsection-count">${secondaryMatches.length}</span></h4>
+                <div class="matches-grid">${secondaryMatches.map(renderMatchCard).join('')}</div>
+            </div>
+        `);
+    }
+
+    const empty = sections.length
+        ? ''
+        : '<p class="grid-message">Нет матчей по выбранным фильтрам</p>';
 
     return `
         <div class="section-header">
             <h2>${escapeHtml(data.icon)} ${escapeHtml(data.name)} <span class="level-badge">${escapeHtml(data.level_label)}</span></h2>
-            <p class="section-desc">${escapeHtml(data.level_label)} · одиночный разряд</p>
+            <p class="section-desc">
+                <span class="year-chip">${escapeHtml(year)}</span>
+                ${label ? `<span class="year-badge ${escapeHtml(label)}">${escapeHtml(label)}</span>` : ''}
+                <span class="section-desc-plain">${escapeHtml(data.level_label)} · одиночный разряд</span>
+            </p>
         </div>
-        ${blocks}
+        ${sections.join('')}
+        ${empty}
     `;
 }
 
@@ -551,23 +585,35 @@ function renderContent() {
     const tab = STATE.activeTab;
 
     if (!tab) {
+        hideYearSelect();
         container.innerHTML = '<p class="grid-message">Выберите турнир</p>';
         return;
     }
 
     if (tab === 'rankings') {
+        hideYearSelect();
         container.innerHTML = renderRankingsPanel();
         return;
     }
 
     const data = STATE.tournaments[tab];
     if (!data) {
+        hideYearSelect();
         container.innerHTML = '<div class="matches-grid">' +
             Array.from({ length: 3 }, () => '<div class="skeleton skeleton-card"></div>').join('') +
             '</div>';
         return;
     }
+
+    const years = availableYears(data);
+    STATE.yearsByTab[tab] = years;
+    renderYearSelect(years, currentYearFor(data));
     container.innerHTML = renderTournamentPanel(data);
+}
+
+function hideYearSelect() {
+    const group = document.getElementById('yearFilterGroup');
+    if (group) group.style.display = 'none';
 }
 
 async function activateTab(slug) {
@@ -698,6 +744,15 @@ function setupFilters() {
             renderContent();
         });
     });
+
+    // Выбор года
+    const yearSelect = document.getElementById('yearSelect');
+    if (yearSelect) {
+        yearSelect.addEventListener('change', () => {
+            STATE.year = yearSelect.value;
+            renderContent();
+        });
+    }
 }
 
 function setupRefresh() {
