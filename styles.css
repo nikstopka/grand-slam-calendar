@@ -841,6 +841,9 @@ body {
 /* === Аватар игрока (фото с заглушкой) === */
 
 .player-avatar {
+    /* inline-block обязателен: у inline-элемента ширина/высота не применяются,
+       и картинка схлопывается в ноль (видно в таблице рейтинга) */
+    display: inline-block;
     position: relative;
     width: 34px;
     height: 34px;
@@ -849,6 +852,7 @@ body {
     flex-shrink: 0;
     background: var(--bg-card);
     border: 1px solid var(--border-hover);
+    vertical-align: middle;
 }
 
 .player-avatar img {
