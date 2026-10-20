@@ -1,4 +1,4 @@
-name: Диагностика ключа Sportradar
+name: Проверка ключа Sportradar
 
 on:
   workflow_dispatch:

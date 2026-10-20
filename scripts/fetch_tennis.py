@@ -186,10 +186,8 @@ def get_api_key():
     if _api_key is None:
         _api_key = os.environ.get("SPORTRADAR_API_KEY")
         if not _api_key:
-            print("ОШИБКА: не найдена переменная окружения SPORTRADAR_API_KEY")
-            print("Получите бесплатный ключ на https://developer.sportradar.com/")
-            print("и добавьте его в GitHub Secrets (см. README.md)")
-            sys.exit(1)
+            print("Ключ SPORTRADAR_API_KEY не задан — будет использован бесплатный провайдер.")
+            return None
     return _api_key
 
 
@@ -229,9 +227,15 @@ def api_get(path, params=None, base=None, allow_error=False):
         return None, message
 
     base = base or API_BASE
-    query = {"api_key": get_api_key()}
+    query = {}
     if params:
         query.update(params)
+    key = get_api_key()
+    if not key:
+        message = "API-ключ Sportradar не задан"
+        _fatal_error = message
+        return None, message
+    query["api_key"] = key
     url = f"{base}{path}.json?{urlencode(query)}"
 
     req = urllib.request.Request(url, headers={"Accept": "application/json"})
@@ -1051,18 +1055,26 @@ def run():
     tournaments = load_competitions()
     if not tournaments:
         print()
-        print("ОШИБКА: не удалось получить каталог турниров. Файлы не изменены.")
-        if _fatal_error:
-            print(f"Причина: {_fatal_error}")
-            print("Проверьте ключ Sportradar (Settings → Secrets) и лимит запросов.")
-        sys.exit(1)
+        print("Sportradar недоступен:", _fatal_error or "нет данных о турнирах")
+        print("Переключаемся на бесплатный провайдер "
+              "(TennisMyLife + SportScore + Wikipedia)...")
+        print()
+        import free_provider
+        free_provider.run()
+        sys.exit(0)
     print(f"  Турниров: {len(tournaments)}")
 
     print("Сезоны...")
     seasons_by_comp = load_seasons()
     if not seasons_by_comp:
-        print("ОШИБКА: не удалось получить список сезонов. Файлы не изменены.")
-        sys.exit(1)
+        print()
+        print("Sportradar недоступен:", _fatal_error or "нет данных о сезонах")
+        print("Переключаемся на бесплатный провайдер "
+              "(TennisMyLife + SportScore + Wikipedia)...")
+        print()
+        import free_provider
+        free_provider.run()
+        sys.exit(0)
 
     print("Рейтинг ATP/WTA...")
     rankings = load_rankings()
