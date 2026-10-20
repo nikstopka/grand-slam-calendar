@@ -16,6 +16,9 @@ const STATE = {
     isDemo: false,        // показываем демонстрационные данные
     year: null,           // выбранный год
     yearsByTab: {},       // slug -> доступные годы
+    view: 'list',         // list | bracket
+    bracketGender: 'men', // чей сетка показана
+    bracketFrom: 'auto',  // с какого раунда показывать
 };
 
 const ACTIVE_REFRESH_MS = 5 * 60 * 1000;   // есть live / предстоящие матчи
@@ -334,7 +337,316 @@ function currentYearFor(data) {
     return defaultYear(years);
 }
 
-// === РЕНДЕР ТУРНИРА ===
+// === СЕТКА (СКОБКА) ===
+
+// Раунды от раннего к позднему
+const BRACKET_ROUNDS = [
+    ['round_of_128', '1/64'],
+    ['round_of_64', '1/32'],
+    ['round_of_32', '1/16'],
+    ['round_of_16', '1/8'],
+    ['quarterfinal', '1/4'],
+    ['semifinal', '1/2'],
+    ['final', 'Финал'],
+];
+
+const BRACKET_FROM_OPTIONS = [
+    ['auto', 'С 1/8 финала'],
+    ['quarterfinal', 'С 1/4 финала'],
+    ['round_of_32', 'С 1/16 финала'],
+    ['all', 'Все раунды'],
+];
+
+// Победа в матче: id игрока-победителя
+function matchWinnerId(match) {
+    return match.winner_id || null;
+}
+
+// Строит дерево сетки: раунды + связи «кто в кого играет»
+function buildBracketTree(matches) {
+    const rounds = new Map();
+    for (const match of matches) {
+        if (!match.round || !match.id) continue;
+        if (!rounds.has(match.round)) rounds.set(match.round, []);
+        rounds.get(match.round).push(match);
+    }
+
+    const levels = BRACKET_ROUNDS.map(r => r[0]).filter(r => rounds.has(r));
+    if (!levels.length) return null;
+
+    // children: матч → какие матчи предыдущего раунда в него вышли.
+    // Важно: карта «победитель → матч» строится ОТДЕЛЬНО для каждого перехода
+    // между раундами, иначе игрок, выигравший несколько раундов, попадёт
+    // в карту от последнего своего матча и связи разорвутся.
+    const children = new Map();
+    const parent = new Map();
+    for (let i = 0; i < levels.length - 1; i++) {
+        const prev = rounds.get(levels[i]);
+        const next = rounds.get(levels[i + 1]);
+
+        const byWinner = new Map();
+        for (const match of prev) {
+            const winner = matchWinnerId(match);
+            if (winner) byWinner.set(winner, match);
+        }
+
+        for (const p of next) {
+            const kids = [];
+            for (const player of p.players || []) {
+                const kid = byWinner.get(player.id);
+                if (kid) {
+                    kids.push(kid);
+                    parent.set(kid.id, p.id);
+                }
+            }
+            children.set(p.id, kids);
+        }
+    }
+    for (const level of levels) {
+        for (const match of rounds.get(level)) {
+            if (!children.has(match.id)) children.set(match.id, []);
+        }
+    }
+
+    return { levels, rounds, children, parent };
+}
+
+// Определяет, с какого раунда показываем сетку (индекс в levels)
+function bracketStartIndex(levels) {
+    if (STATE.bracketFrom === 'all') return 0;
+    const wanted = STATE.bracketFrom === 'auto' ? 'round_of_16' : STATE.bracketFrom;
+    const found = levels.indexOf(wanted);
+    if (found >= 0) return found;
+    // такого раунда нет (турнир с меньшей сеткой) — берём последние 4 уровня
+    return Math.max(0, levels.length - 4);
+}
+
+// Упорядочивает матчи внутри раунда «как в сетке» и считает их позиции по вертикали
+function layoutBracket(tree, startIdx) {
+    const { levels, rounds, children, parent } = tree;
+    const topLevel = levels[levels.length - 1];
+    const topMatches = rounds.get(topLevel) || [];
+
+    // Дети в порядке участников родителя (левый — первый участник)
+    const orderedKids = (match) => {
+        const kids = children.get(match.id) || [];
+        if (kids.length < 2) return kids;
+        const players = match.players || [];
+        const indexOf = (kid) => {
+            const winner = matchWinnerId(kid);
+            const idx = players.findIndex(pl => pl.id === winner);
+            return idx < 0 ? 99 : idx;
+        };
+        return kids.slice().sort((a, b) => indexOf(a) - indexOf(b));
+    };
+
+    // Обход сверху вниз: назначаем листья (матчи самого раннего показываемого уровня)
+    const firstLeaf = new Map();
+    const lastLeaf = new Map();
+    let cursor = 0;
+
+    const walk = (match, levelIdx) => {
+        if (levelIdx <= startIdx) {
+            firstLeaf.set(match.id, cursor);
+            lastLeaf.set(match.id, cursor);
+            cursor += 1;
+            return;
+        }
+        firstLeaf.set(match.id, cursor);
+        for (const kid of orderedKids(match)) walk(kid, levelIdx - 1);
+        lastLeaf.set(match.id, Math.max(cursor - 1, firstLeaf.get(match.id)));
+    };
+
+    // Матчи верхнего уровня сортируем по времени старта — иначе порядок произвольный
+    const sortedTop = topMatches.slice().sort((a, b) =>
+        (a.start_time || '').localeCompare(b.start_time || ''));
+    for (const match of sortedTop) walk(match, levels.length - 1);
+
+    // Раскладка: позиция по вертикали — центр между крайними листьями
+    const positions = new Map();
+    const ROW_H = 26;   // высота строки игрока
+    const V_GAP = 8;    // зазор между матчами
+
+    levels.forEach((level, levelIdx) => {
+        if (levelIdx < startIdx) return;
+        const matches = rounds.get(level) || [];
+        matches.forEach(match => {
+            const first = firstLeaf.get(match.id) ?? 0;
+            const last = lastLeaf.get(match.id) ?? first;
+            const center = (first + last) / 2;
+            positions.set(match.id, {
+                x: levelIdx - startIdx,
+                y: center * (ROW_H * 2 + V_GAP),
+                first,
+                last,
+            });
+        });
+    });
+
+    return { levels, rounds, children, parent, positions, orderedKids, startIdx };
+}
+
+// Наборы, выигранные игроком
+function playerSets(match, playerId) {
+    const periods = (match.scores && match.scores.periods) || [];
+    const players = match.players || [];
+    const idx = players.findIndex(p => p.id === playerId);
+    if (idx < 0) return '';
+    const side = idx === 0 ? 'home' : 'away';
+    const parts = periods.map(p => `${p[side]}-${side === 'home' ? p.away : p.home}`);
+    return parts.join(' ');
+}
+
+// Короткое имя игрока: «Sinner, Jannik» → «Sinner J.»
+function shortPlayerName(name) {
+    const raw = String(name || '').trim();
+    if (!raw) return '—';
+    if (raw.includes(',')) {
+        const [last, first] = raw.split(',', 2);
+        return `${last.trim()} ${first.trim().charAt(0)}.`;
+    }
+    const parts = raw.split(/\s+/);
+    if (parts.length === 1) return raw;
+    return `${parts[parts.length - 1]} ${parts[0].charAt(0)}.`;
+}
+
+function renderBracketPlayer(match, player, isWinner) {
+    const sets = playerSets(match, player.id);
+    const seed = player.seed ? `[${escapeHtml(player.seed)}]` : '';
+    const full = player.name || '';
+    return `
+        <div class="bracket-player ${isWinner ? 'winner' : ''}">
+            <span class="bp-seed">${seed}</span>
+            <span class="bp-name" title="${escapeHtml(full)}">${escapeHtml(shortPlayerName(full))}</span>
+            <span class="bp-sets">${escapeHtml(sets)}</span>
+        </div>
+    `;
+}
+
+// Рисует сетку: колонки раундов + SVG-связи
+function renderBracket(matches, gender) {
+    const raw = buildBracketTree(matches);
+    if (!raw) return '<p class="grid-message">Нет данных для сетки</p>';
+
+    const startIdx = bracketStartIndex(raw.levels);
+    const tree = layoutBracket(raw, startIdx);
+    const { levels, rounds, parent, positions } = tree;
+
+    const shown = levels.slice(startIdx);
+    if (!shown.length) return '<p class="grid-message">Нет данных для сетки</p>';
+
+    const COL_W = 210;
+    const COL_GAP = 34;
+    const ROW_H = 26;
+    const V_GAP = 8;
+    const BOX_H = ROW_H * 2 + 10;
+    const TOP_PAD = 30;   // место под заголовки раундов
+
+    // Позиции сдвигаем: пересчитываем по отображаемым уровням
+    const shownSet = new Set(shown);
+    const placed = new Map();
+    let minY = Infinity;
+    for (const [id, pos] of positions) {
+        if (!shownSet.has(levels[pos.x + startIdx])) continue;
+        placed.set(id, pos);
+        minY = Math.min(minY, pos.y);
+    }
+    if (!isFinite(minY)) minY = 0;
+
+    // Группируем по уровням и сортируем по вертикали
+    const columns = shown.map(level => {
+        const items = (rounds.get(level) || [])
+            .map(m => ({ match: m, pos: placed.get(m.id) }))
+            .filter(x => x.pos)
+            .sort((a, b) => a.pos.y - b.pos.y);
+        return { level, items };
+    });
+
+    const height = Math.max(
+        ...columns.map(c => c.items.length
+            ? c.items[c.items.length - 1].pos.y - minY + BOX_H
+            : 0),
+        120
+    );
+
+    // SVG-связи: от победителя к родителю
+    const lines = [];
+    for (const [childId, parentId] of parent) {
+        if (!placed.has(childId) || !placed.has(parentId)) continue;
+        const child = placed.get(childId);
+        const par = placed.get(parentId);
+        if (child.x === par.x) continue;
+
+        const childMatch = tree.rounds.get(levels[child.x]).find(m => m.id === childId);
+        const winner = childMatch ? matchWinnerId(childMatch) : null;
+        const players = (childMatch && childMatch.players) || [];
+        const winnerIdx = winner ? players.findIndex(p => p.id === winner) : 0;
+        const winnerOffset = winnerIdx === 1 ? ROW_H + 5 : 5;
+
+        const x1 = (child.x + 1) * (COL_W + COL_GAP) - COL_GAP;
+        const y1 = child.y - minY + winnerOffset + TOP_PAD;
+        const x2 = par.x * (COL_W + COL_GAP);
+        const y2 = par.y - minY + BOX_H / 2 + TOP_PAD;
+        const mid = (x1 + x2) / 2;
+        lines.push(`M ${x1} ${y1} H ${mid} V ${y2} H ${x2}`);
+    }
+
+    // HTML колонок
+    const columnsHtml = columns.map((col, colIdx) => {
+        const title = BRACKET_ROUNDS.find(r => r[0] === col.level);
+        const cells = col.items.map(({ match, pos }) => {
+            const players = match.players || [];
+            const winner = matchWinnerId(match);
+            const home = players[0] || { id: '', name: '—' };
+            const away = players[1] || { id: '', name: '—' };
+            const isLive = match.status === 'live';
+            const isUpcoming = match.status === 'not_started';
+            const statusClass = isLive ? 'live' : isUpcoming ? 'upcoming' : 'finished';
+            return `
+                <div class="bracket-match ${statusClass}" style="top:${pos.y - minY + TOP_PAD}px; width:${COL_W}px;">
+                    ${renderBracketPlayer(match, home, winner === home.id)}
+                    ${renderBracketPlayer(match, away, winner === away.id)}
+                    ${isLive ? '<span class="bracket-live">LIVE</span>' : ''}
+                </div>
+            `;
+        }).join('');
+
+        return `
+            <div class="bracket-column" style="left:${colIdx * (COL_W + COL_GAP)}px; width:${COL_W}px; top:${TOP_PAD}px;">
+                <div class="bracket-round-title">${escapeHtml(title ? title[1] : col.level)}</div>
+                ${cells}
+            </div>
+        `;
+    }).join('');
+
+    const width = columns.length * (COL_W + COL_GAP);
+    const svgWidth = width - COL_GAP;
+    const svgHeight = height + TOP_PAD + 10;
+
+    return `
+        <div class="bracket-toolbar">
+            <div class="filter-group" role="group" aria-label="Тур в сетке">
+                <button class="filter-btn ${gender === 'men' ? 'active' : ''}" data-bracket-gender="men">ATP</button>
+                <button class="filter-btn ${gender === 'women' ? 'active' : ''}" data-bracket-gender="women">WTA</button>
+            </div>
+            <div class="filter-group" role="group" aria-label="Начало сетки">
+                ${BRACKET_FROM_OPTIONS.map(([value, label]) =>
+                    `<button class="filter-btn ${STATE.bracketFrom === value ? 'active' : ''}" data-bracket-from="${escapeHtml(value)}">${escapeHtml(label)}</button>`
+                ).join('')}
+            </div>
+        </div>
+        <div class="bracket-scroll">
+            <div class="bracket" style="width:${width}px; height:${svgHeight}px;">
+                <svg class="bracket-lines" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 ${svgWidth} ${svgHeight}">
+                    ${lines.map(d => `<path d="${d}"></path>`).join('')}
+                </svg>
+                ${columnsHtml}
+            </div>
+        </div>
+    `;
+}
+
+
 
 function yearStateLabel(matches) {
     if (!matches.length) return '';
@@ -390,7 +702,7 @@ function renderTournamentPanel(data) {
         ? ''
         : '<p class="grid-message">Нет матчей по выбранным фильтрам</p>';
 
-    return `
+    const header = `
         <div class="section-header">
             <h2>${escapeHtml(data.icon)} ${escapeHtml(data.name)} <span class="level-badge">${escapeHtml(data.level_label)}</span></h2>
             <p class="section-desc">
@@ -398,10 +710,21 @@ function renderTournamentPanel(data) {
                 ${label ? `<span class="year-badge ${escapeHtml(label)}">${escapeHtml(label)}</span>` : ''}
                 <span class="section-desc-plain">${escapeHtml(data.level_label)} · одиночный разряд</span>
             </p>
+            <div class="view-switch" role="group" aria-label="Вид расписания">
+                <button class="view-btn ${STATE.view === 'list' ? 'active' : ''}" data-view="list">Список</button>
+                <button class="view-btn ${STATE.view === 'bracket' ? 'active' : ''}" data-view="bracket">Сетка</button>
+            </div>
         </div>
-        ${sections.join('')}
-        ${empty}
     `;
+
+    if (STATE.view === 'bracket') {
+        const gender = STATE.bracketGender;
+        const bracketMatches = genders.flatMap(g => (yearData[g]?.main || []).concat(yearData[g]?.secondary || []))
+            .filter(m => m.gender === gender);
+        return header + renderBracket(bracketMatches, gender);
+    }
+
+    return header + sections.join('') + empty;
 }
 
 // === РЕНДЕР РЕЙТИНГА ===
@@ -753,6 +1076,27 @@ function setupFilters() {
             renderContent();
         });
     }
+
+    // Переключение вида (список / сетка) и параметры сетки
+    document.getElementById('content').addEventListener('click', (event) => {
+        const viewBtn = event.target.closest('[data-view]');
+        if (viewBtn) {
+            STATE.view = viewBtn.dataset.view;
+            renderContent();
+            return;
+        }
+        const genderBtn = event.target.closest('[data-bracket-gender]');
+        if (genderBtn) {
+            STATE.bracketGender = genderBtn.dataset.bracketGender;
+            renderContent();
+            return;
+        }
+        const fromBtn = event.target.closest('[data-bracket-from]');
+        if (fromBtn) {
+            STATE.bracketFrom = fromBtn.dataset.bracketFrom;
+            renderContent();
+        }
+    });
 }
 
 function setupRefresh() {

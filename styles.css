@@ -962,6 +962,179 @@ body {
     cursor: default;
 }
 
+/* === Переключатель вида (список / сетка) === */
+
+.view-switch {
+    display: inline-flex;
+    gap: 4px;
+    margin-top: 14px;
+    padding: 4px;
+    background: var(--bg-input);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+}
+
+.view-btn {
+    padding: 6px 18px;
+    border: none;
+    border-radius: 18px;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.view-btn:hover {
+    color: var(--text-primary);
+}
+
+.view-btn.active {
+    background: var(--accent);
+    color: var(--bg-primary);
+}
+
+/* === Сетка (скобка) === */
+
+.bracket-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.bracket-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 12px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--bg-card-hover) transparent;
+}
+
+.bracket-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.bracket-scroll::-webkit-scrollbar-thumb {
+    background: var(--bg-card-hover);
+    border-radius: 4px;
+}
+
+.bracket {
+    position: relative;
+}
+
+.bracket-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: visible;
+}
+
+.bracket-lines path {
+    fill: none;
+    stroke: var(--border-hover);
+    stroke-width: 1.5;
+}
+
+.bracket-column {
+    position: absolute;
+    top: 0;
+}
+
+.bracket-round-title {
+    position: absolute;
+    top: -26px;
+    left: 0;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.bracket-match {
+    position: absolute;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 4px 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.bracket-match.live {
+    border-color: var(--live);
+    box-shadow: 0 0 0 1px var(--live-glow);
+}
+
+.bracket-match.upcoming {
+    border-style: dashed;
+    border-color: var(--border-hover);
+}
+
+.bracket-player {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.bracket-player.winner {
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+.bp-seed {
+    font-size: 10px;
+    color: var(--text-muted);
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.bracket-player.winner .bp-seed {
+    color: var(--accent);
+}
+
+.bp-name {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bp-sets {
+    flex: 0 0 auto;
+    margin-left: 4px;
+    font-size: 11px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.bracket-player.winner .bp-sets {
+    color: var(--text-secondary);
+}
+
+.bracket-live {
+    position: absolute;
+    top: -7px;
+    right: 6px;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: var(--live);
+    background: var(--bg-primary);
+    padding: 0 4px;
+    border-radius: 6px;
+}
+
 /* === Уровень турнира === */
 
 .level-badge {

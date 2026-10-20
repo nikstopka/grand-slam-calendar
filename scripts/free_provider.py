@@ -13,8 +13,14 @@ import csv
 import io
 import os
 import re
+import sys
 from datetime import datetime, timezone
 from html.parser import HTMLParser
+
+# Чтобы sibling-модуль common находился при любом способе запуска
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if _SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPT_DIR)
 
 from common import (DATA_DIR, TOURNAMENTS_DIR, cache_read, cache_write, count_matches,
                     http_get, http_get_json, load_player_photos, normalize_key,
@@ -142,11 +148,14 @@ def parse_date(raw):
 
 # === TENNISMYLIFE ===
 
-def fetch_tml_year(year, tour):
-    """CSV за год и тур. tour: 'atp' | 'wta'."""
-    name = f"{year}_wta.csv" if tour == "wta" else f"{year}.csv"
+def fetch_tml_year(year, tour, ongoing=False):
+    """CSV за год и тур. tour: 'atp' | 'wta'. ongoing — текущие турниры."""
+    if ongoing:
+        name = "wta_ongoing_tourneys.csv" if tour == "wta" else "ongoing_tourneys.csv"
+    else:
+        name = f"{year}_wta.csv" if tour == "wta" else f"{year}.csv"
     url = f"{TML_BASE}/{name}"
-    cache_name = f"tml_{tour}_{year}.csv"
+    cache_name = f"tml_{tour}_{'ongoing' if ongoing else year}.csv"
 
     cached = cache_read(cache_name)
     if cached and cached.get("data"):
@@ -155,12 +164,12 @@ def fetch_tml_year(year, tour):
                      datetime.fromisoformat(cached["ts"])).total_seconds() / 3600
         except ValueError:
             age_h = 999
-        if age_h < 12:
+        if age_h < (2 if ongoing else 12):
             return cached["data"]
 
     text, error = http_get(url, headers={"Accept": "text/csv"}, timeout=120)
     if text is None:
-        print(f"  TennisMyLife {tour.upper()} {year}: ошибка — {error}")
+        print(f"  TennisMyLife {tour.upper()} {name}: ошибка — {error}")
         return cached.get("data") if cached else None
 
     cache_write(cache_name, {"ts": datetime.now(timezone.utc).isoformat(), "data": text})
@@ -372,7 +381,20 @@ class TableParser(HTMLParser):
 
 
 def fetch_wikipedia_rankings():
-    """Текущий мировой рейтинг ATP и WTA из Википедии."""
+    """Текущий мировой рейтинг ATP и WTA из Википедии (с кэшем на 12 часов)."""
+    cached = cache_read("wiki_rankings.json")
+    if cached and cached.get("data") is not None:
+        try:
+            age_h = (datetime.now(timezone.utc) -
+                     datetime.fromisoformat(cached["ts"])).total_seconds() / 3600
+        except ValueError:
+            age_h = 999
+        if age_h < 12:
+            result = cached["data"]
+            print(f"  Wikipedia: рейтинг из кэша — "
+                  f"ATP {len(result.get('men', []))}, WTA {len(result.get('women', []))}")
+            return result
+
     result = {"men": [], "women": []}
     for gender, (page, section) in WIKI_RANKINGS.items():
         url = (f"https://en.wikipedia.org/w/api.php?action=parse&page={page}&section={section}"
@@ -439,6 +461,10 @@ def fetch_wikipedia_rankings():
             })
         result[gender].sort(key=lambda r: r["rank"])
         print(f"  Wikipedia: рейтинг {gender} — {len(result[gender])} строк")
+    cache_write("wiki_rankings.json", {
+        "ts": datetime.now(timezone.utc).isoformat(),
+        "data": result,
+    })
     return result
 
 
@@ -485,14 +511,37 @@ def build_tournament_files(years_to_load):
     for year in years_to_load:
         for tour in ("atp", "wta"):
             text = fetch_tml_year(year, tour)
-            if not text:
+            matches = parse_tml(text, tour) if text else []
+            if not matches:
                 continue
-            matches = parse_tml(text, tour)
             print(f"  TennisMyLife {year} {tour.upper()}: {len(matches)} матчей")
             for match in matches:
                 tourney = match.pop("_tourney")
                 level = match.pop("_level")
                 put(ensure(tourney, level), match, year)
+
+    # Текущие турниры: могут содержать матчи, которых ещё нет в годовом файле
+    current_year = datetime.now(timezone.utc).year
+    for tour in ("atp", "wta"):
+        ongoing_text = fetch_tml_year(current_year, tour, ongoing=True)
+        if not ongoing_text:
+            continue
+        known = set()
+        for entry in tournaments.values():
+            for gender_data in entry["years"].get(str(current_year), {}).values():
+                for key in ("main", "secondary"):
+                    known.update(m["id"] for m in gender_data.get(key, []))
+        added = 0
+        for match in parse_tml(ongoing_text, tour):
+            if match["id"] in known:
+                continue
+            known.add(match["id"])
+            tourney = match.pop("_tourney")
+            level = match.pop("_level")
+            put(ensure(tourney, level), match, current_year)
+            added += 1
+        if added:
+            print(f"  TennisMyLife (текущие турниры) {tour.upper()}: +{added} матчей")
 
     live = fetch_sportscore()
     if live:
@@ -527,6 +576,11 @@ def collect_players(tournaments, rankings):
 
 def run():
     """Собирает все данные и записывает их в data/."""
+    from common import should_run
+    if not should_run("free", 25):
+        print("Данные обновлены недавно — запуск пропущен.")
+        return
+
     now = datetime.now(timezone.utc)
     current_year = now.year
     years = [current_year - i for i in range(HISTORY_YEARS)]

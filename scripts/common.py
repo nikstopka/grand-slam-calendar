@@ -329,6 +329,27 @@ def write_json(path, data):
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
 
+def should_run(provider, interval_minutes):
+    """Проверяет, пора ли обновлять данные.
+
+    Позволяет запускать workflow часто (например, раз в 30 минут), но не
+    тратить запросы, если данные уже свежие.
+    """
+    entry = cache_read("last_run.json") or {}
+    now = datetime.now(timezone.utc)
+    last = entry.get(provider)
+    if last:
+        try:
+            age_min = (now - datetime.fromisoformat(last)).total_seconds() / 60
+            if age_min < interval_minutes:
+                return False
+        except ValueError:
+            pass
+    entry[provider] = now.isoformat()
+    cache_write("last_run.json", entry)
+    return True
+
+
 def count_matches(years):
     counts = {"main": 0, "secondary": 0, "years": len(years)}
     for year_data in years.values():

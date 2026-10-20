@@ -33,6 +33,11 @@ from urllib.parse import urlencode
 import urllib.request
 import urllib.error
 
+# Чтобы sibling-модули (common, free_provider) находились при любом способе запуска
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if _SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPT_DIR)
+
 # === КОНФИГУРАЦИЯ ===
 
 API_BASE = "https://api.sportradar.com/tennis/trial/v3/en"
@@ -1048,6 +1053,11 @@ def main():
 
 
 def run():
+    from common import should_run
+    if not should_run("sportradar", 60):
+        print("Данные Sportradar обновлены недавно — запуск пропущен.")
+        return
+
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
 
