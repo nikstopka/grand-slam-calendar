@@ -54,6 +54,7 @@ jobs:
       - name: Fetch tournament data
         env:
           SPORTRADAR_API_KEY: ${{ secrets.SPORTRADAR_API_KEY }}
+          LIVETENNIS_API_KEY: ${{ secrets.LIVETENNIS_API_KEY }}
         run: python scripts/fetch_tennis.py
 
       # 6. Проверяем, что данные валидны

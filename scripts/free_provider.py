@@ -480,33 +480,45 @@ def level_label(level, genders):
     return "Masters 1000"
 
 
+def ensure_tournament(tournaments, name, level):
+    """Создаёт или возвращает запись турнира."""
+    entry = tournaments.get(name)
+    if entry is None:
+        meta = next((v for v in TML_TOURNAMENTS.values() if v[0] == name),
+                    (name, name[:3].upper(), "🎾", level))
+        entry = {
+            "id": f"free:{slugify(name)}",
+            "name": name,
+            "short": meta[1],
+            "icon": meta[2],
+            "level": level,
+            "genders": set(),
+            "years": {},
+        }
+        tournaments[name] = entry
+    return entry
+
+
+def put_match(tournaments, match, year, tourney, level):
+    """Кладёт матч в нужный подраздел (основные/второстепенные)."""
+    entry = ensure_tournament(tournaments, tourney, level)
+    gender = match["gender"]
+    entry["genders"].add(gender)
+    bucket = entry["years"].setdefault(str(year), {}).setdefault(
+        gender, {"main": [], "secondary": []})
+    bucket["main" if match["round"] in MAIN_ROUNDS else "secondary"].append(match)
+
+
 def build_tournament_files(years_to_load):
-    """Собирает файлы турниров из TennisMyLife + SportScore."""
+    """Собирает файлы турниров из TennisMyLife + SportScore + Live Tennis API."""
     tournaments = {}
 
     def ensure(name, level):
-        entry = tournaments.get(name)
-        if entry is None:
-            meta = next((v for v in TML_TOURNAMENTS.values() if v[0] == name),
-                        (name, name[:3].upper(), "🎾", level))
-            entry = {
-                "id": f"free:{slugify(name)}",
-                "name": name,
-                "short": meta[1],
-                "icon": meta[2],
-                "level": level,
-                "genders": set(),
-                "years": {},
-            }
-            tournaments[name] = entry
-        return entry
+        return ensure_tournament(tournaments, name, level)
 
-    def put(entry, match, year):
-        gender = match["gender"]
-        entry["genders"].add(gender)
-        bucket = entry["years"].setdefault(str(year), {}).setdefault(
-            gender, {"main": [], "secondary": []})
-        bucket["main" if match["round"] in MAIN_ROUNDS else "secondary"].append(match)
+    def put(entry, match, year, tourney=None, level=None):
+        put_match(tournaments, match, year,
+                  tourney or entry.get("name"), level or entry.get("level", "masters"))
 
     for year in years_to_load:
         for tour in ("atp", "wta"):
@@ -552,6 +564,9 @@ def build_tournament_files(years_to_load):
             level = match.pop("_level")
             put(ensure(tourney, level), match, current_year)
 
+    # Live Tennis API: жеребьёвка будущих турниров и live-счёт
+    load_lta_matches(tournaments)
+
     return tournaments
 
 
@@ -574,6 +589,148 @@ def collect_players(tournaments, rankings):
     return players
 
 
+# Слова, которые не различают турниры между собой
+TOURNAMENT_STOP_WORDS = {
+    "open", "masters", "master", "atp", "wta", "men", "women", "m1000", "1000",
+    "presented", "by", "finals", "championships", "championship", "tour", "2026", "2025",
+}
+
+
+def core_tokens(name):
+    """Значимые слова названия турнира."""
+    return [t for t in normalize_key(name).split() if t not in TOURNAMENT_STOP_WORDS]
+
+
+def match_tournament_key(name):
+    """Ищет наш турнир по названию из любого источника.
+
+    Сравнение идёт по значимым словам, поэтому «Shanghai Masters»,
+    «Cincinnati Open» и «ATP Rome» находят свои турниры.
+    """
+    key = normalize_key(name)
+    if not key:
+        return None
+    if key in TML_TOURNAMENTS:
+        return key
+
+    source = set(core_tokens(key))
+    if not source:
+        return None
+
+    best = None
+    best_size = 0
+    for candidate in TML_TOURNAMENTS:
+        tokens = set(core_tokens(candidate))
+        if not tokens:
+            continue
+        if source == tokens or source < tokens or tokens < source:
+            if len(tokens) > best_size or (len(tokens) == best_size and len(candidate) < len(best or "")):
+                best = candidate
+                best_size = len(tokens)
+    return best
+
+
+def tournament_level_for(key, tour):
+    """Уровень турнира: Большой шлем или Masters 1000 / WTA 1000."""
+    if key in ("australian open", "roland garros", "wimbledon", "us open"):
+        return "grand_slam"
+    return "wta_1000" if str(tour or "").lower().startswith("wta") else "atp_1000"
+
+
+def load_lta_matches(tournaments):
+    """Матчи из Live Tennis API: live + предстоящие (с жеребьёвкой и временем старта)."""
+    import lta_provider
+
+    if not lta_provider.get_key():
+        return 0
+
+    # Каталог турниров кэшируем на сутки — он меняется редко
+    cached = cache_read("lta_tournaments.json")
+    catalogue = {}
+    if cached and cached.get("data"):
+        try:
+            age_h = (datetime.now(timezone.utc) -
+                     datetime.fromisoformat(cached["ts"])).total_seconds() / 3600
+        except ValueError:
+            age_h = 999
+        if age_h < 24:
+            catalogue = cached["data"]
+    if not catalogue:
+        catalogue = lta_provider.fetch_tournaments()
+        if catalogue:
+            cache_write("lta_tournaments.json", {
+                "ts": datetime.now(timezone.utc).isoformat(), "data": catalogue})
+
+    data, error = lta_provider.api_get("/matches", {"status": "upcoming", "limit": 100})
+    if not data:
+        print(f"  Live Tennis API: предстоящие матчи недоступны — {error}")
+    else:
+        for row in (data.get("data") or []):
+            match = lta_provider.normalize_match(row, catalogue)
+            if not match:
+                continue
+            key = match_tournament_key(match.get("tournament", ""))
+            if not key:
+                continue
+            meta = TML_TOURNAMENTS[key]
+            level = tournament_level_for(key, match.get("category", ""))
+            match["_tourney"] = meta[0]
+            match["_level"] = level
+            put_match(tournaments, match, match_year(match), meta[0], level)
+
+    data, error = lta_provider.api_get("/matches", {"status": "live", "limit": 100})
+    if not data:
+        print(f"  Live Tennis API: live-матчи недоступны — {error}")
+    else:
+        for row in (data.get("data") or []):
+            match = lta_provider.normalize_match(row, catalogue)
+            if not match:
+                continue
+            key = match_tournament_key(match.get("tournament", ""))
+            if not key:
+                continue
+            meta = TML_TOURNAMENTS[key]
+            level = tournament_level_for(key, match.get("category", ""))
+            match["_tourney"] = meta[0]
+            match["_level"] = level
+            put_match(tournaments, match, match_year(match), meta[0], level)
+
+    return len(tournaments)
+
+
+def match_year(match):
+    """Год матча по времени старта."""
+    stamp = (match.get("start_time") or "")[:4]
+    return int(stamp) if stamp.isdigit() else datetime.now(timezone.utc).year
+
+
+def fetch_lta_rankings():
+    """Рейтинг из Live Tennis API (кэш на 12 часов — бережём квоту 100/сутки)."""
+    import lta_provider
+
+    if not lta_provider.get_key():
+        return None
+
+    cached = cache_read("lta_rankings.json")
+    if cached and cached.get("data"):
+        try:
+            age_h = (datetime.now(timezone.utc) -
+                     datetime.fromisoformat(cached["ts"])).total_seconds() / 3600
+        except ValueError:
+            age_h = 999
+        if age_h < 12:
+            print("  Live Tennis API: рейтинг из кэша")
+            return cached["data"]
+
+    data = lta_provider.fetch_rankings()
+    if not data or not data.get("men"):
+        return None
+    cache_write("lta_rankings.json", {
+        "ts": datetime.now(timezone.utc).isoformat(), "data": data})
+    print(f"  Live Tennis API: рейтинг ATP {len(data['men'])}, WTA {len(data['women'])}")
+    return data
+
+
 def run():
     """Собирает все данные и записывает их в data/."""
     from common import should_run
@@ -588,8 +745,11 @@ def run():
     print("TennisMyLife: результаты по годам…")
     tournaments = build_tournament_files(years)
 
-    print("Wikipedia: мировой рейтинг…")
-    rankings = fetch_wikipedia_rankings()
+    print("Мировой рейтинг…")
+    rankings = fetch_lta_rankings()
+    if not rankings:
+        print("  Wikipedia: мировой рейтинг…")
+        rankings = fetch_wikipedia_rankings()
 
     print("Wikipedia: фотографии игроков…")
     players = collect_players(tournaments, rankings)
