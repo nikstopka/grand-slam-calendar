@@ -25,21 +25,24 @@ from common import http_get_json  # noqa: E402
 
 LTA_BASE = "https://api.livetennisapi.com/api/public/v1"
 
-# Коды раундов Live Tennis API → внутренние названия
+# Коды раундов Live Tennis API → внутренние названия.
+# Внимание: QF — четвертьфинал, а Q — неквалифицированный отборочный раунд.
 ROUND_CODES = {
-    "R128": "round_of_128",
-    "R64": "round_of_64",
-    "R32": "round_of_32",
-    "R16": "round_of_16",
-    "Q": "quarterfinal",
+    "QF": "quarterfinal",
     "SF": "semifinal",
     "F": "final",
+    "R16": "round_of_16",
+    "R32": "round_of_32",
+    "R64": "round_of_64",
+    "R128": "round_of_128",
+    "Q": "qualification_round_1",
     "Q1": "qualification_round_1",
     "Q2": "qualification_round_2",
     "Q3": "qualification_round_3",
-    "R16Q": "qualification_round_1",
-    "R32Q": "qualification_round_2",
-    "R64Q": "qualification_round_3",
+    "Q4": "qualification_round_4",
+    "RR": "round_robin",
+    "BR": "bracket_round",
+    "ER": "early_round",
 }
 
 
@@ -146,15 +149,20 @@ def normalize_match(match, tournaments=None):
     home = normalize_player(players.get("p1"), "home")
     away = normalize_player(players.get("p2"), "away")
 
-    tour = str(match.get("tour") or "").lower()
-    gender = str(match.get("gender") or "").lower()
+    # Пол: у них есть отдельное поле gender, а tour — «непрозрачный»
+    # (juniors_boys, challenger_men, ATP для пар), поэтому берём gender.
+    gender = str(match.get("gender") or "").strip().lower()
     if gender not in ("men", "women"):
-        gender = "women" if tour.startswith("wta") else "men"
-    category = "WTA" if tour.startswith("wta") else "ATP"
+        tour_raw = str(match.get("tour") or "").lower()
+        gender = "women" if "wta" in tour_raw or "women" in tour_raw else "men"
+    tour_raw = str(match.get("tour") or "").lower()
+    category = "WTA" if ("wta" in tour_raw or "women" in tour_raw) else "ATP"
 
     round_name = normalize_round(match)
     if not round_name:
         return None
+    if round_name.startswith("qualification") or match.get("is_qualifying"):
+        return None      # отборочные раунды в календарь не попадают
 
     result = {
         "id": f"lta:{match_id}",
