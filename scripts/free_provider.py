@@ -638,7 +638,10 @@ def tournament_level_for(key, tour):
 
 
 def cached_rows(name, ttl_minutes, loader):
-    """Ряды из кэша либо из API (с кэшем на ttl_minutes)."""
+    """Ряды из кэша либо из API (с кэшем на ttl_minutes).
+
+    loader возвращает (rows, meta) либо None.
+    """
     cached = cache_read(name)
     if cached and cached.get("data") is not None:
         try:
@@ -647,11 +650,14 @@ def cached_rows(name, ttl_minutes, loader):
         except ValueError:
             age_min = 999
         if age_min < ttl_minutes:
-            return cached["data"]
-    rows = loader()
-    if rows is not None:
-        cache_write(name, {"ts": datetime.now(timezone.utc).isoformat(), "data": rows})
-    return rows or []
+            return cached["data"], cached.get("meta") or {}
+    result = loader()
+    if result is None:
+        return [], {}
+    rows, meta = result
+    cache_write(name, {"ts": datetime.now(timezone.utc).isoformat(),
+                       "data": rows, "meta": meta})
+    return rows or [], meta or {}
 
 
 def load_lta_matches(tournaments):
@@ -673,7 +679,7 @@ def load_lta_matches(tournaments):
     catalogue = cached_rows("lta_tournaments_v2.json", 24 * 60,
                             lambda: lta_provider.fetch_tournaments() or None)
 
-    def add_rows(rows, kind):
+    def add_rows(rows, kind, meta=None):
         nonlocal added
         dropped = {"round": 0, "tournament": 0, "ok": 0}
         names = set()
@@ -687,16 +693,16 @@ def load_lta_matches(tournaments):
                 dropped["tournament"] += 1
                 names.add(str(match.get("tournament", ""))[:40])
                 continue
-            meta = TML_TOURNAMENTS[key]
+            meta_info = TML_TOURNAMENTS[key]
             level = tournament_level_for(key, match.get("category", ""))
-            put_match(tournaments, match, match_year(match), meta[0], level)
+            put_match(tournaments, match, match_year(match), meta_info[0], level)
             added += 1
             dropped["ok"] += 1
-        if rows:
-            print(f"    {kind}: получено {len(rows)}, добавлено {dropped['ok']}, "
-                  f"без раунда {dropped['round']}, турнир не распознан {dropped['tournament']}")
-            if names:
-                print(f"    нераспознанные турниры: {', '.join(sorted(names)[:8])}")
+        total = (meta or {}).get("count", "?")
+        print(f"    {kind}: в API {total}, получено {len(rows)}, добавлено {dropped['ok']}, "
+              f"без раунда {dropped['round']}, турнир не распознан {dropped['tournament']}")
+        if names:
+            print(f"    нераспознанные турниры: {', '.join(sorted(names)[:8])}")
 
     # Live-состояние — каждый запуск (1 запрос)
     def load_live():
@@ -705,22 +711,24 @@ def load_lta_matches(tournaments):
             "tier": lta_provider.LTA_TIERS, "draw": "singles"})
         if not data:
             print(f"  Live Tennis API: live-матчи недоступны — {error}")
-            return None
-        return data.get("data") or []
+            return None, None
+        return data.get("data") or [], data.get("meta") or {}
 
-    add_rows(cached_rows("lta_live_v2.json", 60, load_live), "live")
+    live_rows, live_meta = cached_rows("lta_live_v2.json", 60, load_live)
+    add_rows(live_rows, "live", live_meta)
 
-    # Предстоящие матчи (жеребьёвка) — раз в 90 минут
+    # Предстоящие матчи (жеребьёвка) — раз в полчаса
     def load_upcoming():
         data, error = lta_provider.api_get("/matches", {
             "status": "upcoming", "limit": 100,
             "tier": lta_provider.LTA_TIERS, "draw": "singles"})
         if not data:
             print(f"  Live Tennis API: предстоящие матчи недоступны — {error}")
-            return None
-        return data.get("data") or []
+            return None, None
+        return data.get("data") or [], data.get("meta") or {}
 
-    add_rows(cached_rows("lta_upcoming_v2.json", 30, load_upcoming), "upcoming")
+    upcoming_rows, upcoming_meta = cached_rows("lta_upcoming_v2.json", 30, load_upcoming)
+    add_rows(upcoming_rows, "upcoming", upcoming_meta)
 
     print(f"  Live Tennis API: матчей обработано {added}")
     return len(tournaments)
