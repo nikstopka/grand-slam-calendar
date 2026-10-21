@@ -706,7 +706,7 @@ def load_lta_matches(tournaments):
             return None
         return data.get("data") or []
 
-    add_rows(cached_rows("lta_live.json", 10, load_live), "live")
+    add_rows(cached_rows("lta_live.json", 60, load_live), "live")
 
     # Предстоящие матчи (жеребьёвка) — раз в 90 минут
     def load_upcoming():
@@ -716,7 +716,7 @@ def load_lta_matches(tournaments):
             return None
         return data.get("data") or []
 
-    add_rows(cached_rows("lta_upcoming.json", 90, load_upcoming), "upcoming")
+    add_rows(cached_rows("lta_upcoming.json", 30, load_upcoming), "upcoming")
 
     print(f"  Live Tennis API: матчей обработано {added}")
     return len(tournaments)
@@ -758,7 +758,7 @@ def fetch_lta_rankings():
 def run():
     """Собирает все данные и записывает их в data/."""
     from common import should_run
-    if not should_run("free", 10):
+    if not should_run("free", 20):
         print("Данные обновлены недавно — запуск пропущен.")
         return
 
