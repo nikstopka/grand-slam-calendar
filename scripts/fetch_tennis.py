@@ -1054,12 +1054,18 @@ def main():
 
 def run():
     from common import should_run
-    if not should_run("sportradar", 60):
-        print("Данные Sportradar обновлены недавно — запуск пропущен.")
-        return
 
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
+
+    # Троттлинг относится только к Sportradar: если его данные свежие,
+    # просто уходим на бесплатный провайдер, а не пропускаем весь запуск.
+    if not should_run("sportradar", 60):
+        print("Данные Sportradar обновлены недавно — используем бесплатный провайдер.")
+        print()
+        import free_provider
+        free_provider.run()
+        sys.exit(0)
 
     print("Каталог турниров...")
     tournaments = load_competitions()

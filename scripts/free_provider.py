@@ -642,7 +642,10 @@ def load_lta_matches(tournaments):
     import lta_provider
 
     if not lta_provider.get_key():
+        print("  Live Tennis API: ключ LIVETENNIS_API_KEY не задан — пропускаем")
         return 0
+
+    added = 0
 
     # Каталог турниров кэшируем на сутки — он меняется редко
     cached = cache_read("lta_tournaments.json")
@@ -677,6 +680,7 @@ def load_lta_matches(tournaments):
             match["_tourney"] = meta[0]
             match["_level"] = level
             put_match(tournaments, match, match_year(match), meta[0], level)
+            added += 1
 
     data, error = lta_provider.api_get("/matches", {"status": "live", "limit": 100})
     if not data:
@@ -694,7 +698,9 @@ def load_lta_matches(tournaments):
             match["_tourney"] = meta[0]
             match["_level"] = level
             put_match(tournaments, match, match_year(match), meta[0], level)
+            added += 1
 
+    print(f"  Live Tennis API: матчей обработано {added}")
     return len(tournaments)
 
 
