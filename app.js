@@ -107,7 +107,8 @@ function countryFlag(code, name) {
 function countryFlagImg(code, name, size) {
     const alpha2 = countryAlpha2(code, name);
     if (!alpha2) return '<span class="country-flag fallback">🏳️</span>';
-    const width = size || 20;
+    // у flagcdn есть только размеры w20, w40, w80 и 16x12 — других нет
+    const width = size === 40 ? 40 : 20;
     return `<img class="country-flag" src="https://flagcdn.com/w${width}/${alpha2.toLowerCase()}.png" ` +
            `alt="${alpha2}" title="${alpha2}" loading="lazy" referrerpolicy="no-referrer" ` +
            `onerror="this.outerHTML='🏳️'">`;
@@ -1279,7 +1280,7 @@ function openPlayerProfile(playerId) {
                 : `<div class="profile-photo profile-photo-fallback">${escapeHtml(playerInitials(row.name))}</div>`}
         </div>
         <div class="profile-info">
-            <h3 class="profile-name">${escapeHtml(row.name || '')} ${countryFlagImg(row.country_code, profile?.country, 24)}</h3>
+            <h3 class="profile-name">${escapeHtml(row.name || '')} ${countryFlagImg(row.country_code, profile?.country, 40)}</h3>
             ${facts.length ? `<p class="profile-facts">${facts.map(escapeHtml).join(' · ')}</p>` : ''}
             ${profile.residence ? `<p class="profile-sub">Живёт: ${escapeHtml(profile.residence)}</p>` : ''}
             ${profile.titles ? `<p class="profile-titles">🏆 ${escapeHtml(profile.titles)}</p>` : ''}

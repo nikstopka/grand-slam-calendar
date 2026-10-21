@@ -550,14 +550,21 @@ body {
 
 /* Флаг страны картинкой: Windows не рисует флаг-эмодзи, поэтому картинка */
 .country-flag {
-    width: 20px;
-    height: 14px;
-    object-fit: cover;
+    width: auto;
+    height: auto;
+    max-width: 22px;
+    max-height: 16px;
     border-radius: 2px;
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14);
     vertical-align: middle;
     flex: 0 0 auto;
     display: inline-block;
+}
+
+.profile-name .country-flag {
+    max-width: 28px;
+    max-height: 21px;
+    vertical-align: -5px;
 }
 
 .country-flag.fallback {
