@@ -630,6 +630,32 @@ def match_tournament_key(name):
     return best
 
 
+def wiki_player_name(text):
+    """«Carlos Alcaraz» из ссылки Википедии → «Alcaraz, Carlos» (наш формат)."""
+    raw = str(text or "").strip()
+    if not raw:
+        return ""
+    if "," in raw:
+        return raw
+    parts = raw.split()
+    if len(parts) < 2:
+        return raw
+    return f"{parts[-1]}, {' '.join(parts[:-1])}"
+
+
+def wiki_name_key(text):
+    """Ключ для сопоставления имён: «Alcaraz, Carlos» → «carlos alcaraz».
+
+    Уточнения в вики-ссылках («Tommy Paul (tennis)») отбрасываем.
+    """
+    raw = str(text or "").strip()
+    raw = re.sub(r"\s*\([^)]*\)\s*$", "", raw)
+    if "," in raw:
+        last, first = raw.split(",", 1)
+        raw = f"{first.strip()} {last.strip()}"
+    return re.sub(r"[^a-z0-9]+", " ", raw.lower()).strip()
+
+
 def tournament_level_for(key, tour):
     """Уровень турнира: Большой шлем или Masters 1000 / WTA 1000."""
     if key in ("australian open", "roland garros", "wimbledon", "us open"):
@@ -784,6 +810,128 @@ def fetch_lta_rankings():
     return data
 
 
+def load_calendar():
+    """Календарь турниров из Википедии: текущий и следующий сезон."""
+    import wiki_provider as wp
+
+    now = datetime.now(timezone.utc)
+    items = []
+    for year in (now.year, now.year + 1):
+        try:
+            items.extend(wp.fetch_calendar(year))
+        except Exception as e:  # noqa: BLE001
+            print(f"  Wikipedia: календарь {year} — ошибка: {e}")
+    # оставляем только «наши» уровни
+    items = [i for i in items if i["level"] in ("grand_slam", "atp_1000", "wta_1000",
+                                                "atp_finals", "wta_finals")]
+    # убираем дубли: у одного турнира в календаре есть и квалификация,
+    # и основная сетка — оставляем последнюю (она идёт позже)
+    unique = {}
+    for item in items:
+        unique[item["name"].lower()] = item
+    return sorted(unique.values(), key=lambda i: i["start"])
+
+
+def load_wiki_draws(tournaments, calendar):
+    """Добавляет в календарь матчи из жеребьёвок Википедии.
+
+    Википедия даёт участников ещё не сыгранных матчей — их нет в
+    TennisMyLife, где лежат только завершённые. Идентификаторы игроков
+    приводим к тем же, что и в TennisMyLife, чтобы сетка собиралась
+    из одного дерева.
+    """
+    import wiki_provider as wp
+
+    # карта «имя → id» по уже загруженным матчам
+    name_to_id = {}
+    for entry in tournaments.values():
+        for year_data in entry["years"].values():
+            for gender_data in year_data.values():
+                for key in ("main", "secondary"):
+                    for match in gender_data.get(key, []):
+                        for player in match.get("players", []):
+                            k = wiki_name_key(player.get("name", ""))
+                            if k:
+                                name_to_id.setdefault(k, player["id"])
+
+    added = 0
+    for item in calendar:
+        key = match_tournament_key(item["name"]) or match_tournament_key(item.get("place", ""))
+        if not key or key not in TML_TOURNAMENTS:
+            continue
+        if not item.get("draw_page"):
+            continue
+        meta = TML_TOURNAMENTS[key]
+        year = int(item["start"][:4])
+
+        # Если данные турнира уже есть (TennisMyLife отдаёт сыгранные матчи),
+        # не трогаем их — иначе появятся дубли. Википедию используем только
+        # для предстоящих турниров, которых ещё нет в базе.
+        entry_existing = tournaments.get(meta[0])
+        if entry_existing and entry_existing["years"].get(str(year)):
+            continue
+
+        for gender in ("men", "women"):
+            try:
+                wiki_matches = wp.fetch_draw(item["wiki_page"], gender, 128)
+            except Exception as e:  # noqa: BLE001
+                print(f"  Wikipedia: сетка {item['name']} — ошибка: {e}")
+                continue
+            # уже известные пары этого турнира — чтобы не задваивать
+            known = set()
+            entry = tournaments.get(meta[0])
+            if entry:
+                for gender_data in entry["years"].get(str(year), {}).values():
+                    for key in ("main", "secondary"):
+                        for m in gender_data.get(key, []):
+                            if m.get("gender") != gender:
+                                continue
+                            names = sorted(wiki_name_key(p.get("name", "")) for p in m.get("players", []))
+                            known.add((m.get("round"), tuple(names)))
+            for wiki_match in wiki_matches:
+                players = []
+                winner_index = -1
+                for raw in wiki_match["players"]:
+                    name = wiki_player_name(raw.get("name", ""))
+                    if not name:
+                        continue
+                    pid = name_to_id.get(wiki_name_key(name), f"wiki:{wiki_name_key(name)}")
+                    if raw.get("winner"):
+                        winner_index = len(players)
+                    players.append({
+                        "id": pid,
+                        "name": name,
+                        "country_code": "",
+                        "qualifier": "home" if not players else "away",
+                    })
+                if len(players) < 2:
+                    continue
+                names = tuple(sorted(wiki_name_key(p["name"]) for p in players))
+                if (wiki_match["round"], names) in known:
+                    continue          # такой матч уже есть (с результатом)
+                match = {
+                    "id": wiki_match["id"],
+                    "round": wiki_match["round"],
+                    "round_display": round_display_name(wiki_match["round"]),
+                    "gender": gender,
+                    "category": "WTA" if gender == "women" else "ATP",
+                    "start_time": "",
+                    "status": "not_started",
+                    "match_status": "",
+                    "best_of": 3,
+                    "players": players,
+                    "source": "wikipedia",
+                }
+                if 0 <= winner_index < len(players):
+                    match["winner_id"] = players[winner_index]["id"]
+                    match["status"] = "closed"
+                put_match(tournaments, match, year, meta[0], meta[3])
+                added += 1
+    if added:
+        print(f"  Wikipedia: добавлено {added} матчей из жеребьёвок")
+    return added
+
+
 def run():
     """Собирает все данные и записывает их в data/.
 
@@ -797,6 +945,17 @@ def run():
 
     print("TennisMyLife: результаты по годам…")
     tournaments = build_tournament_files(years)
+
+    print("Wikipedia: календарь турниров…")
+    calendar = load_calendar()
+    write_json(os.path.join(DATA_DIR, "calendar.json"), {
+        "last_updated": now.isoformat(),
+        "tournaments": calendar,
+    })
+    print(f"  турниров в календаре: {len(calendar)}")
+
+    print("Wikipedia: жеребьёвки предстоящих турниров…")
+    load_wiki_draws(tournaments, calendar)
 
     print("Мировой рейтинг…")
     rankings = fetch_lta_rankings()

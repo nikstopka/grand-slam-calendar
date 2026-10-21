@@ -21,8 +21,9 @@ const STATE = {
     bracketFrom: 'auto',  // с какого раунда показывать
 };
 
-const ACTIVE_REFRESH_MS = 5 * 60 * 1000;   // есть live / предстоящие матчи
-const DEFAULT_REFRESH_MS = 30 * 60 * 1000; // иначе
+const ACTIVE_REFRESH_MS = 3 * 60 * 1000;   // идут live-матчи
+const DEFAULT_REFRESH_MS = 10 * 60 * 1000;  // обычный режим
+const FALLBACK_REFRESH_MS = 15 * 60 * 1000; // резервный источник (обновление раз в 12 ч)
 const RANKINGS_LIMIT = 100;               // сколько строк показываем в рейтинге
 
 // === УТИЛИТЫ ===
@@ -813,6 +814,78 @@ function updateTabBadges() {
     }
 }
 
+// === БЛИЖАЙШИЕ ТУРНИРЫ ===
+
+const MONTH_NAMES = ['янв', 'фев', 'мар', 'апр', 'мая', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'];
+
+const LEVEL_LABELS = {
+    grand_slam: 'Большой шлем',
+    atp_1000: 'Masters 1000',
+    wta_1000: 'WTA 1000',
+    atp_finals: 'ATP Finals',
+    wta_finals: 'WTA Finals',
+};
+
+function daysUntil(dateStr) {
+    const target = new Date(dateStr + 'T00:00:00');
+    if (isNaN(target.getTime())) return null;
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return Math.round((target - today) / 86400000);
+}
+
+function renderUpcoming(calendar) {
+    const block = document.getElementById('upcomingBlock');
+    const list = document.getElementById('upcomingList');
+    if (!block || !list) return;
+
+    const today = new Date().toISOString().slice(0, 10);
+    const items = (calendar || [])
+        .filter(item => item.start >= today)
+        .slice(0, 10);
+
+    if (!items.length) {
+        block.style.display = 'none';
+        return;
+    }
+
+    list.innerHTML = items.map(item => {
+        const d = new Date(item.start + 'T00:00:00');
+        const dateText = isNaN(d.getTime())
+            ? item.start
+            : `${d.getDate()} ${MONTH_NAMES[d.getMonth()]}`;
+        const days = daysUntil(item.start);
+        const countdown = days === null ? '' :
+            days === 0 ? 'сегодня' :
+            days === 1 ? 'завтра' :
+            days < 0 ? '' : `через ${days} дн.`;
+        const level = LEVEL_LABELS[item.level] || item.level;
+        return `
+            <div class="upcoming-item ${escapeHtml(item.level)}">
+                <span class="upcoming-date">${escapeHtml(dateText)}</span>
+                <span class="upcoming-name">${escapeHtml(item.name)}</span>
+                <span class="upcoming-place">${escapeHtml(item.place || '')} · ${escapeHtml(level)}</span>
+                ${countdown ? `<span class="upcoming-countdown">${escapeHtml(countdown)}</span>` : ''}
+            </div>
+        `;
+    }).join('');
+    block.style.display = 'block';
+}
+
+// Плашка источника данных
+function renderSourceBadge(source) {
+    const badge = document.getElementById('sourceBadge');
+    if (!badge) return;
+    if (!source || source === 'sportradar') {
+        badge.style.display = 'none';
+        return;
+    }
+    badge.textContent = 'резервный источник';
+    badge.className = 'source-badge';
+    badge.title = 'Данные берутся из бесплатных открытых источников: обновление раз в 12 часов';
+    badge.style.display = 'inline-block';
+}
+
 // === ЗАГРУЗКА ДАННЫХ ===
 
 async function fetchJson(path) {
@@ -833,15 +906,19 @@ async function loadTournament(slug) {
 }
 
 async function loadCore() {
-    const [index, rankings, photos] = await Promise.all([
+    const [index, rankings, photos, calendar] = await Promise.all([
         fetchJson(dataPath('index.json')),
         fetchJson(dataPath('rankings.json')).catch(() => null),
         fetchJson(dataPath('players.json')).catch(() => ({})),
+        fetchJson(dataPath('calendar.json')).catch(() => null),
     ]);
     STATE.index = index;
     STATE.rankings = rankings;
     STATE.photos = photos || {};
+    STATE.calendar = (calendar && calendar.tournaments) || [];
     STATE.lastUpdated = index.last_updated || '';
+    renderSourceBadge(index.source);
+    renderUpcoming(STATE.calendar);
 }
 
 // Демонстрационные данные — показываем, если боевые ещё не загружены
@@ -1098,17 +1175,26 @@ function setupRefresh() {
     document.getElementById('refreshBtn').addEventListener('click', refreshData);
 }
 
+// Частота опроса подстраивается под реальную частоту обновления данных:
+// файл меняется, когда отработает workflow, поэтому чаще 5 минут опрашивать
+// бессмысленно, а при живых матчах — наоборот, нужно ждать быстрее.
+function refreshInterval() {
+    const all = Object.values(STATE.tournaments)
+        .flatMap(t => Object.values(t.years || {}))
+        .flatMap(y => Object.values(y))
+        .flatMap(g => [...g.main, ...g.secondary]);
+    const hasLive = all.some(m => m.status === 'live');
+    if (hasLive) return ACTIVE_REFRESH_MS;
+    if (STATE.index?.source && STATE.index.source !== 'sportradar') {
+        return FALLBACK_REFRESH_MS;   // резервный источник обновляется раз в 12 часов
+    }
+    return DEFAULT_REFRESH_MS;
+}
+
 function setupAutoRefresh() {
     function tick() {
         refreshData().finally(() => {
-            const all = Object.values(STATE.tournaments)
-                .flatMap(t => Object.values(t.years || {}))
-                .flatMap(y => Object.values(y))
-                .flatMap(g => [...g.main, ...g.secondary]);
-            const hasLive = all.some(m => m.status === 'live');
-            const hasUpcoming = all.some(m => m.status === 'not_started');
-            const interval = (hasLive || hasUpcoming) ? ACTIVE_REFRESH_MS : DEFAULT_REFRESH_MS;
-            setTimeout(tick, interval);
+            setTimeout(tick, refreshInterval());
         });
     }
     setTimeout(tick, DEFAULT_REFRESH_MS);

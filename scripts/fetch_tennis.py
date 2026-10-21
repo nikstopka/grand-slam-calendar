@@ -1060,7 +1060,7 @@ def run():
 
     # Троттлинг относится только к Sportradar: если его данные свежие,
     # просто уходим на бесплатный провайдер, а не пропускаем весь запуск.
-    if not should_run("sportradar", 60):
+    if not should_run("sportradar", 240):
         print("Данные Sportradar обновлены недавно — используем бесплатный провайдер.")
         print()
         import free_provider
@@ -1146,6 +1146,7 @@ def run():
 
     write_json(os.path.join(DATA_DIR, "index.json"), {
         "last_updated": now.isoformat(),
+        "source": "sportradar",
         "tournaments": index,
     })
     write_json(os.path.join(DATA_DIR, "rankings.json"), {
