@@ -760,12 +760,12 @@ def fetch_lta_rankings():
 
 
 def run():
-    """Собирает все данные и записывает их в data/."""
-    from common import should_run
-    if not should_run("free", 20):
-        print("Данные обновлены недавно — запуск пропущен.")
-        return
+    """Собирает все данные и записывает их в data/.
 
+    Общего троттлинга нет намеренно: у каждого источника свой кэш
+    (TennisMyLife — 12 ч, живая сводка — 60 мин, жеребьёвка — 30 мин,
+    рейтинг — 12 ч, фото — 60 дней), поэтому запуск тратит 1–2 запроса.
+    """
     now = datetime.now(timezone.utc)
     current_year = now.year
     years = [current_year - i for i in range(HISTORY_YEARS)]
