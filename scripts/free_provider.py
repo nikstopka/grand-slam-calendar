@@ -657,6 +657,32 @@ TOURNAMENT_STOP_WORDS = {
     "presented", "by", "finals", "championships", "championship", "tour", "2026", "2025",
 }
 
+# Точные соответствия названий из календаря Википедии нашим турнирам.
+# Без них «French Open» и «Internazionali BNL d'Italia» ни с чем не совпадают.
+CALENDAR_TOURNAMENT_ALIASES = {
+    "australian open": "australian open",
+    "french open": "roland garros",
+    "roland garros": "roland garros",
+    "wimbledon": "wimbledon",
+    "us open": "us open",
+    "us open tennis": "us open",
+    "indian wells open": "indian wells masters",
+    "indian wells masters": "indian wells masters",
+    "miami open": "miami masters",
+    "monte carlo masters": "monte carlo",
+    "madrid open": "madrid masters",
+    "italian open": "rome masters",
+    "internazionali bnl d italia": "rome masters",
+    "internazionali di roma": "rome masters",
+    "canadian open": "canada masters",
+    "national bank open": "canada masters",
+    "cincinnati open": "cincinnati masters",
+    "shanghai masters": "shanghai",
+    "paris masters": "paris masters",
+    "wta finals": "wta finals",
+    "atp finals": "atp finals",
+}
+
 
 def core_tokens(name):
     """Значимые слова названия турнира."""
@@ -896,8 +922,12 @@ def load_calendar():
     # привязываем к нашим вкладкам, чтобы титульная страница знала,
     # какой турнир и когда в ближайшем будущем
     for item in items:
-        key = (match_tournament_key(item["name"])
-               or match_tournament_key(item.get("place", "")))
+        name_key = normalize_key(item["name"])
+        key = CALENDAR_TOURNAMENT_ALIASES.get(name_key)
+        if not key:
+            # запасной вариант — по похожему названию (без места:
+            # «Paris, France» из-за этого подставлялся «Paris Masters»)
+            key = match_tournament_key(item["name"])
         if key and key in TML_TOURNAMENTS:
             item["slug"] = slugify(TML_TOURNAMENTS[key][0])
     return items

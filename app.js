@@ -732,6 +732,7 @@ function renderTournamentHero(data, year, label) {
     const description = data.description || '';
     const style = photo ? ` style="--hero-image: url('${escapeHtml(photo)}')"` : '';
     return `
+        <button class="back-btn" type="button" data-go="home">← К турнирам</button>
         <div class="tournament-hero${photo ? ' has-photo' : ''}"${style}>
             <div class="tournament-hero-content">
                 <h2>${escapeHtml(data.icon)} ${escapeHtml(data.name)} <span class="level-badge">${escapeHtml(data.level_label)}</span></h2>
@@ -758,6 +759,7 @@ function renderRankingsPanel() {
             <h2>⭐ Текущий рейтинг ${title}</h2>
             <p class="section-desc">${week ? `Неделя ${escapeHtml(week)} · ` : ''}обновляется еженедельно · нажмите на игрока, чтобы открыть профиль</p>
         </div>
+        <button class="back-btn" type="button" data-go="home">← На главную</button>
         ${renderRankTable(rows)}
     `;
 }
@@ -765,33 +767,16 @@ function renderRankingsPanel() {
 // === ВКЛАДКИ ===
 
 function renderTabs() {
+    // Полоса вкладок с турнирами убрана: навигация идёт через карусель
+    // на титульной странице. Здесь только счётчики для совместимости.
     const nav = document.getElementById('tournamentTabs');
+    if (!nav) return;
     const tournaments = STATE.index?.tournaments || [];
-
-    const homeTab = `
-        <button class="tab tab-home" data-tab="home" role="tab" aria-selected="false" aria-controls="content">
-            <span class="tab-icon">🏠</span>
-            <span class="tab-text">Главная</span>
-        </button>
-    `;
-
-    const tabs = tournaments.map(t => `
-        <button class="tab" data-tab="${escapeHtml(t.slug)}" role="tab" aria-selected="false" aria-controls="content">
-            <span class="tab-icon">${escapeHtml(t.icon)}</span>
+    nav.innerHTML = tournaments.map(t => `
+        <button class="tab" data-tab="${escapeHtml(t.slug)}" role="tab">
             <span class="tab-text">${escapeHtml(t.name)}</span>
             <span class="tab-badge" data-count="${escapeHtml(t.slug)}">${t.counts ? t.counts.main + t.counts.secondary : 0}</span>
-        </button>
-    `).join('');
-
-    const rankingsTab = `
-        <button class="tab" data-tab="rankings" role="tab" aria-selected="false" aria-controls="content">
-            <span class="tab-icon">⭐</span>
-            <span class="tab-text">Рейтинг</span>
-            <span class="tab-badge" id="rankingsBadge">—</span>
-        </button>
-    `;
-
-    nav.innerHTML = homeTab + tabs + rankingsTab;
+        </button>`).join('');
 }
 
 function updateTabBadges() {
@@ -836,9 +821,17 @@ function renderSourceBadge(source) {
 const RU_MONTHS = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля',
     'августа', 'сентября', 'октября', 'ноября', 'декабря'];
 
+// Сколько дней до даты
+function daysUntil(dateStr) {
+    const target = new Date(dateStr + 'T00:00:00');
+    if (isNaN(target.getTime())) return null;
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return Math.round((target - today) / 86400000);
+}
+
 // «19–26 января 2026»
-function formatDateRange(startStr, endStr) {
-    const start = new Date(startStr + 'T00:00:00');
+function formatDateRange(startStr, endStr) {    const start = new Date(startStr + 'T00:00:00');
     if (isNaN(start.getTime())) return { text: startStr || '', start: startStr };
     const end = new Date((endStr || startStr) + 'T00:00:00');
     const validEnd = !isNaN(end.getTime());
@@ -866,10 +859,64 @@ function nearestTournamentDate(slug) {
     return formatDateRange(item.start, item.end);
 }
 
+// Хронологический порядок турниров: по дате проведения из календаря сезона
+function tournamentsInOrder() {
+    const tournaments = (STATE.index?.tournaments || []).slice();
+    const dates = {};
+    (STATE.calendar || []).forEach(item => {
+        if (!item.slug) return;
+        if (!dates[item.slug] || item.start < dates[item.slug]) {
+            dates[item.slug] = item.start;
+        }
+    });
+    return tournaments.sort((a, b) => {
+        const da = dates[a.slug] || '9999-99-99';
+        const db = dates[b.slug] || '9999-99-99';
+        if (da === db) return a.name.localeCompare(b.name, 'ru');
+        return da < db ? -1 : 1;
+    });
+}
+
+// Ближайшие турниры — компактной лентой под каруселью
+function renderUpcomingBlock() {
+    const today = new Date().toISOString().slice(0, 10);
+    const known = new Set((STATE.index?.tournaments || []).map(t => t.slug));
+    const items = (STATE.calendar || [])
+        .filter(item => item.start >= today)
+        .sort((a, b) => (a.start < b.start ? -1 : 1))
+        .slice(0, 6);
+    if (!items.length) return '';
+
+    const rows = items.map(item => {
+        const date = formatDateRange(item.start, item.end);
+        const days = daysUntil(item.start);
+        const countdown = days === null ? ''
+            : days === 0 ? 'сегодня'
+            : days === 1 ? 'завтра'
+            : `через ${days} дн.`;
+        const level = LEVEL_LABELS[item.level] || item.level;
+        const inner = `
+            <span class="upcoming-date">${escapeHtml(date.text)}</span>
+            <span class="upcoming-name">${escapeHtml(item.name)}</span>
+            <span class="upcoming-place">${escapeHtml(item.place || '')} · ${escapeHtml(level)}</span>
+            ${countdown ? `<span class="upcoming-countdown">${escapeHtml(countdown)}</span>` : ''}`;
+        // ссылка — только если у турнира есть отдельная страница
+        return item.slug && known.has(item.slug)
+            ? `<a class="upcoming-item ${escapeHtml(item.level)}" href="#${escapeHtml(item.slug)}" data-tournament="${escapeHtml(item.slug)}">${inner}</a>`
+            : `<div class="upcoming-item plain ${escapeHtml(item.level)}">${inner}</div>`;
+    }).join('');
+
+    return `
+        <section class="upcoming-block">
+            <h3 class="upcoming-title">Ближайшие турниры</h3>
+            <div class="upcoming-list">${rows}</div>
+        </section>`;
+}
+
 // --- Карусель турниров ---
 
 function renderHeroCarousel() {
-    const tournaments = STATE.index?.tournaments || [];
+    const tournaments = tournamentsInOrder();
     if (!tournaments.length) return '';
 
     const photos = STATE.tournamentPhotos || {};
@@ -1098,18 +1145,26 @@ function renderLandingRanking() {
 
     const top = rows.slice(0, 7);
     const rest = rows.slice(7);
-    const title = STATE.genderFilter === 'women' ? 'WTA' : 'ATP';
     const week = STATE.rankings?.week || '';
 
     return `
         <section class="landing-ranking">
             <div class="section-header">
-                <h2>⭐ Мировой рейтинг ${title}</h2>
+                <div class="landing-rank-title">
+                    <h2>⭐ Мировой рейтинг</h2>
+                    <div class="view-switch compact" role="group" aria-label="Тур">
+                        <button class="view-btn ${STATE.genderFilter !== 'women' ? 'active' : ''}" data-gender="men">ATP</button>
+                        <button class="view-btn ${STATE.genderFilter === 'women' ? 'active' : ''}" data-gender="women">WTA</button>
+                    </div>
+                </div>
                 <p class="section-desc">${week ? `Неделя ${escapeHtml(week)} · ` : ''}обновляется еженедельно</p>
-                ${rest.length ? `
-                    <button class="collapse-btn" id="rankingToggle" type="button" aria-expanded="${STATE.rankingExpanded}">
-                        ${STATE.rankingExpanded ? 'Свернуть' : 'Показать весь рейтинг'} <span class="chevron">▾</span>
-                    </button>` : ''}
+                <div class="landing-ranking-actions">
+                    ${rest.length ? `
+                        <button class="collapse-btn" id="rankingToggle" type="button" aria-expanded="${STATE.rankingExpanded}">
+                            ${STATE.rankingExpanded ? 'Свернуть' : 'Показать весь рейтинг'} <span class="chevron">▾</span>
+                        </button>` : ''}
+                    <button class="collapse-btn ghost" type="button" data-go="rankings">Весь рейтинг →</button>
+                </div>
             </div>
             <div class="ranking-top">${top.map(renderRankCard).join('')}</div>
             ${rest.length ? `
@@ -1125,6 +1180,7 @@ function renderLandingPage() {
     return `
         <div class="landing">
             ${renderHeroCarousel()}
+            ${renderUpcomingBlock()}
             ${renderLandingRanking()}
         </div>`;
 }
@@ -1339,9 +1395,17 @@ async function activateTab(slug) {
         activeBtn.scrollIntoView({ inline: 'center', block: 'nearest' });
     }
 
-    // На титульной странице год и статус не нужны
+    // На титульной странице год и статус не нужны, а в рейтинге
+    // переключатель только ATP / WTA — «Все» там бессмысленно.
     const statusGroup = document.getElementById('statusFilterGroup');
     if (statusGroup) statusGroup.style.display = slug === 'home' ? 'none' : 'flex';
+    const allGender = document.querySelector('[data-gender="all"]');
+    if (allGender) allGender.style.display = slug === 'home' ? 'none' : '';
+    const filtersBar = document.getElementById('filtersBar');
+    if (filtersBar) filtersBar.style.display = slug === 'home' ? 'none' : 'flex';
+    if (slug === 'home' && STATE.genderFilter === 'all') {
+        setGenderFilter('men');
+    }
 
     if (slug !== 'rankings' && slug !== 'home' && !STATE.tournaments[slug]) {
         renderContent();
@@ -1358,6 +1422,15 @@ async function activateTab(slug) {
     }
     renderContent();
     return null;
+}
+
+// Переключатель ATP / WTA / Все
+function setGenderFilter(value) {
+    STATE.genderFilter = value;
+    document.querySelectorAll('[data-gender]').forEach(b => {
+        b.classList.toggle('active', b.dataset.gender === value);
+    });
+    updateTabBadges();
 }
 
 // Обновление относительного времени последнего обновления
@@ -1436,19 +1509,30 @@ async function refreshData() {
 // === ИНИЦИАЛИЗАЦИЯ ===
 
 function setupTabs() {
-    document.getElementById('tournamentTabs').addEventListener('click', e => {
-        const btn = e.target.closest('.tab');
-        if (!btn) return;
-        activateTab(btn.dataset.tab);
-    });
+    const nav = document.getElementById('tournamentTabs');
+    if (nav) {
+        nav.addEventListener('click', e => {
+            const btn = e.target.closest('.tab');
+            if (!btn) return;
+            activateTab(btn.dataset.tab);
+        });
+    }
 
     // Ссылки на турниры с титульной страницы: #slug
     document.addEventListener('click', e => {
         const link = e.target.closest('[data-tournament]');
-        if (!link) return;
-        e.preventDefault();
-        activateTab(link.dataset.tournament);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (link) {
+            e.preventDefault();
+            activateTab(link.dataset.tournament);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            return;
+        }
+        // Переключатель ATP / WTA — и в панели фильтров, и в блоке рейтинга
+        const genderBtn = e.target.closest('[data-gender]');
+        if (genderBtn) {
+            setGenderFilter(genderBtn.dataset.gender);
+            renderContent();
+        }
     });
 
     window.addEventListener('hashchange', () => {
@@ -1463,16 +1547,6 @@ function setupFilters() {
             document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             STATE.statusFilter = btn.dataset.filter;
-            renderContent();
-        });
-    });
-
-    document.querySelectorAll('[data-gender]').forEach(btn => {
-        btn.addEventListener('click', () => {
-            document.querySelectorAll('[data-gender]').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            STATE.genderFilter = btn.dataset.gender;
-            updateTabBadges();
             renderContent();
         });
     });
@@ -1517,6 +1591,13 @@ function setupFilters() {
         const playerBtn = event.target.closest('.player-link');
         if (playerBtn) {
             openPlayerProfile(playerBtn.dataset.player);
+            return;
+        }
+        // Кнопки «← К турнирам», «Весь рейтинг →»
+        const goBtn = event.target.closest('[data-go]');
+        if (goBtn) {
+            activateTab(goBtn.dataset.go);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     });
 }

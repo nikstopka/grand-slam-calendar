@@ -24,6 +24,7 @@ import re
 import sys
 import time
 import urllib.parse
+import urllib.request
 from datetime import date, datetime, timezone
 
 # Чтобы sibling-модули (common, wiki_provider) находились при любом способе запуска
@@ -46,11 +47,13 @@ CACHE_TOURNAMENTS = "profiles_tournaments.json"
 
 LEAD_LIMIT = 15000        # окно «лида» статьи — там ищем картинки в первую очередь
 EXTENDED_LIMIT = 45000    # расширенное окно, если в лиде подходящих фото нет
-# Размеры фото под конкретные места на сайте:
-# карточка турнира в карусели — 250px (с ретиной хватит 700),
-# аватар в рейтинге — 38px, фото в профиле — 170px.
-PHOTO_WIDTH_PLAYER = 520
-PHOTO_WIDTH_TOURNAMENT = 760
+# Размеры фото: в API запрашиваем 1200/1600 px, но отдаём не крупнее
+# PHOTO_SIZE_CAP — на сайте карточка турнира в карусели 250 px (с ретиной
+# хватит 700), аватар в рейтинге 38 px, фото в профиле 170 px.
+# Wikimedia отдаёт только «бакетные» размеры, поэтому фактически выходит 960 px.
+PHOTO_WIDTH_PLAYER = 1200
+PHOTO_WIDTH_TOURNAMENT = 1600
+PHOTO_SIZE_CAP = 760
 IMAGE_BATCH = 50          # максимум файлов в одном запросе imageinfo
 
 # Wikimedia теперь отдаёт превью только «бакетных» размеров — если API вернул
@@ -311,6 +314,7 @@ def _image_urls(titles, width):
             if not url:
                 continue
             url = _ensure_width(url, width, info.get("width") or 0)
+            url = _cap_width(url, PHOTO_SIZE_CAP, info.get("width") or 0)
             title = page.get("title") or ""
             name = title[5:] if title.lower().startswith("file:") else title
             result[_norm(name)] = url
@@ -329,6 +333,27 @@ def _ensure_width(url, width, original_width=0):
             break  # оригинал меньше — увеличивать нечего
         return url[:match.start()] + f"/{bucket}px-" + url[match.end():]
     return url
+
+
+def _cap_width(url, cap, original_width=0):
+    """Ограничивает размер превью (сайту не нужны огромные картинки)."""
+    match = re.search(r"/(\d+)px-", url)
+    if not match or int(match.group(1)) <= cap:
+        return url
+    for bucket in ALLOWED_BUCKETS:
+        if bucket < cap:
+            continue
+        if original_width and original_width < bucket:
+            break  # оригинал меньше — уменьшать нечего
+        return url[:match.start()] + f"/{bucket}px-" + url[match.end():]
+    return url
+
+
+def _caption_from_file(name):
+    """Подпись-заглушка из имени файла, если в статье подписи не было."""
+    text = urllib.parse.unquote(str(name or "").replace("_", " "))
+    text = re.sub(r"\.[A-Za-z0-9]{2,4}$", "", text)
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def _norm(name):
@@ -673,12 +698,14 @@ def tournament_photos(pages):
 
     # 3) метаданные файлов — пачками
     names = []
+    captions = {}
     for items in candidates.values():
-        for _rank, name, _caption, *_rest in items:
+        for _rank, name, caption, *_rest in items:
             if name:
                 names.append(name)
-    for slug in pending:
-        for preferred in PREFERRED_PHOTOS.get(slug[0], []):
+                captions.setdefault(_norm(name), caption)
+    for slug, _title in pending:
+        for preferred in PREFERRED_PHOTOS.get(slug, []):
             names.append(preferred)
     urls = _image_urls(names, PHOTO_WIDTH_TOURNAMENT)
 
@@ -691,6 +718,9 @@ def tournament_photos(pages):
             url = urls.get(_norm(preferred))
             if url and _is_photo_url(url):
                 photo = _clean_url(url)
+                caption = _clean_text(captions.get(_norm(preferred), ""))
+                if not caption:
+                    caption = _caption_from_file(preferred)
                 break
         if not photo:
             for item in sorted(candidates.get(slug, []), key=lambda i: i[0]):
@@ -699,6 +729,8 @@ def tournament_photos(pages):
                 url = direct_url or urls.get(_norm(name))
                 if url and _is_photo_url(url):
                     photo, caption = _clean_url(url), _clean_text(cap)
+                    if not caption:
+                        caption = _caption_from_file(name or url.rsplit("/", 1)[-1])
                     break
         if not photo:
             # последний шанс — оригинал картинки-«лида» страницы турнира
@@ -944,6 +976,10 @@ def player_profiles(players):
         pid = player.get("id") or ""
         entry = cache.get(pid)
         if entry and entry.get("photo"):
+            if entry.get("summary_en") is None:
+                # запись сохранена до появления перевода — доводим её
+                entry = _localize_entry(entry)
+                cache[pid] = entry
             result[pid] = _profile_fields(entry)
         else:
             pending.append(player)
@@ -1006,19 +1042,31 @@ def player_profiles(players):
         sentences = _split_sentences(clean_lead)
         summary = " ".join(sentences[:3]).strip()
         titles = _extract_titles(summary, clean_lead)
+        # предложение о титулах показываем отдельно — из текста его убираем,
+        # иначе после перевода одна и та же фраза будет в двух местах
+        if titles:
+            summary = re.sub(re.escape(titles), "", summary)
+            summary = re.sub(r"\s+", " ", summary).strip(" ,;:. ")
+
+        # Русские версии текстов: факты переводим, а названия титулов
+        # (Masters, ATP Finals) оставляем в оригинале — так их узнают.
+        summary_ru = translate_ru(summary)
+        titles_ru = translate_ru(titles)
 
         profile = {
             "photo": _clean_url(photo),
-            "country": _country_name(country_raw),
-            "residence": _clean_cell(fields.get("residence", "")),
+            "country": _ru_country(_country_name(country_raw)),
+            "residence": _ru_residence(_clean_cell(fields.get("residence", ""))),
             "turned_pro": turned_pro,
             "height": _parse_height(fields.get("height", "")),
-            "plays": _clean_cell(fields.get("plays", "")),
+            "plays": _ru_plays(_clean_cell(fields.get("plays", ""))),
             "weight": _parse_weight(fields.get("weight", "")),
             "born": born.isoformat() if born else "",
             "age": _age(born),
-            "summary": summary,
-            "titles": titles,
+            "summary": summary_ru or summary,
+            "titles": titles_ru or titles,
+            "summary_en": summary,
+            "titles_en": titles,
             "wiki_url": _wiki_url(info.get("title") or name),
         }
         result[pid] = profile
@@ -1042,6 +1090,153 @@ def _profile_fields(entry):
         except ValueError:
             pass
     return profile
+
+
+def _localize_entry(entry):
+    """Добавляет русские тексты к записи кэша, сохранённой ранее."""
+    entry = dict(entry)
+    summary = entry.get("summary") or ""
+    titles = entry.get("titles") or ""
+    entry["summary_en"] = summary
+    entry["titles_en"] = titles
+    entry["summary"] = translate_ru(summary) or summary
+    entry["titles"] = translate_ru(titles) or titles
+    entry["country"] = _ru_country(entry.get("country"))
+    entry["residence"] = _ru_residence(entry.get("residence"))
+    entry["plays"] = _ru_plays(entry.get("plays"))
+    return entry
+
+
+# === ПЕРЕВОД НА РУССКИЙ ===
+
+# Бесплатный переводчик Google (без ключа). Используется только для
+# коротких текстов из Википедии, ответы кэшируются вместе с профилем.
+TRANSLATE_URL = ("https://translate.googleapis.com/translate_a/single"
+                 "?client=gtx&sl=en&tl=ru&dt=t&q=")
+
+# User-Agent для обращения к переводчику
+TRANSLATE_AGENT = ("grand-slam-calendar/1.0 "
+                   "(https://github.com/nikstopka/grand-slam-calendar)")
+
+# Термины, которые машинный перевод даёт неудачно: заменяем на принятые
+# в русском теннисе. Названия турниров оставляем как в оригинале
+# (Masters, ATP Finals) — так их узнают лучше.
+RU_GLOSSARY = [
+    ("мейджорах", "турнирах Большого шлема"),
+    ("мейджоры", "турниры Большого шлема"),
+    ("мейджор", "Большой шлем"),
+    ("Мейджор", "Большой шлем"),
+    ("Открытый чемпионат Франции", "Ролан-Гаррос"),
+    ("Открытом чемпионате Франции", "Ролан-Гаррос"),
+    ("Открытый чемпионат Австралии", "Australian Open"),
+    ("Открытом чемпионате Австралии", "Australian Open"),
+    ("Открытый чемпионат США", "US Open"),
+    ("Открытом чемпионате США", "US Open"),
+    ("Фрэнч Опен", "Ролан-Гаррос"),
+    ("ATP-финал", "ATP Finals"),
+    ("WTA-финал", "WTA Finals"),
+    ("Финал ATP", "ATP Finals"),
+    ("Финал WTA", "WTA Finals"),
+]
+
+# Страны: английское название из инфобокса → русское
+COUNTRY_RU = {
+    "Italy": "Италия", "Spain": "Испания", "France": "Франция",
+    "Germany": "Германия", "United States": "США", "United Kingdom": "Великобритания",
+    "Great Britain": "Великобритания", "Russia": "Россия", "Belarus": "Беларусь",
+    "Kazakhstan": "Казахстан", "Serbia": "Сербия", "Australia": "Австралия",
+    "Austria": "Австрия", "Switzerland": "Швейцария", "Belgium": "Бельгия",
+    "Netherlands": "Нидерланды", "Czech Republic": "Чехия", "Croatia": "Хорватия",
+    "Poland": "Польша", "Canada": "Канада", "Brazil": "Бразилия",
+    "Argentina": "Аргентина", "Denmark": "Дания", "Greece": "Греция",
+    "Portugal": "Португалия", "Slovakia": "Словакия", "Slovenia": "Словения",
+    "Romania": "Румыния", "Bulgaria": "Болгария", "Ukraine": "Украина",
+    "Japan": "Япония", "China": "Китай", "South Korea": "Южная Корея",
+    "New Zealand": "Новая Зеландия", "Mexico": "Мексика", "Colombia": "Колумбия",
+    "Chile": "Чили", "Uruguay": "Уругвай", "Ecuador": "Эквадор",
+    "Latvia": "Латвия", "Lithuania": "Литва", "Estonia": "Эстония",
+    "Israel": "Израиль", "Turkey": "Турция", "Hungary": "Венгрия",
+    "Finland": "Финляндия", "Sweden": "Швеция", "Norway": "Норвегия",
+    "Morocco": "Марокко", "Tunisia": "Тунис", "Egypt": "Египет",
+    "Hong Kong": "Гонконг", "Taiwan": "Тайвань", "Thailand": "Таиланд",
+    "Moldova": "Молдова", "Cyprus": "Кипр", "Ireland": "Ирландия",
+    "Bosnia and Herzegovina": "Босния и Герцеговина", "Monaco": "Монако",
+}
+
+# Места жительства: как в Википедии → по-русски
+RESIDENCE_RU = {
+    "Monte Carlo": "Монте-Карло", "Monaco": "Монако", "Madrid": "Мадрид",
+    "Barcelona": "Барселона", "Milan": "Милан", "Milan, Italy": "Милан",
+    "Paris": "Париж", "London": "Лондон", "Melbourne": "Мельбурн",
+    "New York": "Нью-Йорк", "Los Angeles": "Лос-Анджелес", "Miami": "Miami",
+    "Monte-Carlo": "Монте-Карло", "Toulouse": "Тулуза", "Bologna": "Болонья",
+    "Prague": "Прага", "Belgrade": "Белград", "Monte Carlo, Monaco": "Монте-Карло, Монако",
+}
+
+# Хват: английский → русский
+PLAYS_RU = [
+    ("Right-handed", "Правша"),
+    ("Left-handed", "Левша"),
+    ("two-handed backhand", "двуручный удар сзади"),
+    ("one-handed backhand", "одноручный удар сзади"),
+    ("Ambidextrous", "Играет обеими руками"),
+    ("ambidextrous", "играет обеими руками"),
+]
+
+
+def _ru_country(value):
+    """«Italy» → «Италия»."""
+    text = str(value or "").strip()
+    return COUNTRY_RU.get(text, text)
+
+
+def _ru_residence(value):
+    """«Monte Carlo, Monaco» → «Монте-Карло, Монако»."""
+    text = str(value or "").strip()
+    if not text:
+        return text
+    for part in text.split(", "):
+        text = text.replace(part, RESIDENCE_RU.get(part, part))
+    return text
+
+
+def _ru_plays(value):
+    """«Right-handed (two-handed backhand)» → «Правша (двуручный удар сзади)»."""
+    text = str(value or "").strip()
+    if not text:
+        return text
+    for source, target in PLAYS_RU:
+        text = text.replace(source, target)
+    return text
+
+
+def _apply_glossary(text):
+    """Поправляет термины после машинного перевода."""
+    for source, target in RU_GLOSSARY:
+        text = text.replace(source, target)
+    return text
+
+
+def translate_ru(text):
+    """Переводит текст на русский. Пустая строка, если перевод не удался."""
+    text = str(text or "").strip()
+    if not text or not any(ch.isalpha() for ch in text):
+        return ""
+    time.sleep(0.35)     # не долбим переводчик
+    url = TRANSLATE_URL + urllib.parse.quote(text)
+    req = urllib.request.Request(url, headers={"User-Agent": TRANSLATE_AGENT})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as response:
+                data = json.loads(response.read().decode("utf-8", "replace"))
+            parts = data[0] if data and data[0] else []
+            out = "".join(chunk[0] for chunk in parts if chunk and chunk[0])
+            if not out:
+                return ""
+            return _apply_glossary(out)
+        except Exception:  # noqa: BLE001
+            time.sleep(1.5 * (attempt + 1))
+    return ""
 
 
 def _wiki_url(title):
