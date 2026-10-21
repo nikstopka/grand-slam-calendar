@@ -14,6 +14,7 @@ import io
 import os
 import re
 import sys
+import urllib.request
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 
@@ -130,6 +131,12 @@ TOURNAMENT_DESCRIPTIONS = {
         "Закрывает серию Masters 1000 — последний турнир регулярного сезона. "
         "Проходит в Париже в ноябре на новой арене La Défense Arena. Победители "
         "этого турнира едут на итоговый турнир ATP.",
+}
+
+# Рейтинг ATP/WTA: топ-100 с TennisExplorer (без ключа) и топ-20 с Википедии
+TENNISEXPLORER_RANKINGS = {
+    "men": "https://www.tennisexplorer.com/ranking/atp-men/",
+    "women": "https://www.tennisexplorer.com/ranking/wta-women/",
 }
 
 # Ключевое слово в названии турнира SportScore → наш турнир
@@ -440,6 +447,108 @@ class TableParser(HTMLParser):
             return
         if self._cell is not None:
             self._cell.append(data)
+
+
+def fetch_tennisexplorer_rankings():
+    """Рейтинг ATP/WTA (топ-100) с TennisExplorer — бесплатно, без ключа.
+
+    У них сразу есть код страны (двухбуквенный) — из него получается
+    настоящий флаг, а не набор букв.
+    """
+    cached = cache_read("te_rankings.json")
+    if cached and cached.get("data") is not None:
+        try:
+            age_h = (datetime.now(timezone.utc) -
+                     datetime.fromisoformat(cached["ts"])).total_seconds() / 3600
+        except ValueError:
+            age_h = 999
+        if age_h < 12:
+            result = cached["data"]
+            print(f"  TennisExplorer: рейтинг из кэша — "
+                  f"ATP {len(result.get('men', []))}, WTA {len(result.get('women', []))}")
+            return result
+
+    result = {"men": [], "women": []}
+    for gender, url in TENNISEXPLORER_RANKINGS.items():
+        html = _fetch_html(url)
+        if not html:
+            print(f"  TennisExplorer: рейтинг {gender} — не удалось загрузить")
+            continue
+        for row in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
+            cells = re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, re.S)
+            if len(cells) < 5:
+                continue
+            digits = re.sub(r"\D", "", re.sub(r"<[^>]+>", " ", cells[0]))
+            if not digits:
+                continue
+            rank = int(digits)
+            if not rank:
+                continue
+
+            raw_name = re.sub(r"<[^>]+>", "", cells[2]).replace("&nbsp;", " ").strip()
+            name = _ranking_name(raw_name)
+            if not name or not re.search(r"[A-Za-zА-Яа-я]", name):
+                continue
+
+            # код страны из класса флага («fl fl-kz»); у некоторых
+            # стран класс длиннее («fl fl-all»), тогда берём название
+            code_match = re.search(r"fl fl-([a-z]{2})\b", cells[3])
+            country = code_match.group(1).upper() if code_match else ""
+            country_name = re.sub(r"<[^>]+>", " ", cells[3]).replace("&nbsp;", " ").strip()
+            country_name = re.sub(r"\s+", " ", country_name).strip()
+
+            points = re.sub(r"\D", "", re.sub(r"<[^>]+>", " ", cells[4]))
+            movement = re.sub(r"\D", "", re.sub(r"<[^>]+>", " ", cells[1]))
+
+            result[gender].append({
+                "rank": rank,
+                "movement": int(movement) if movement else 0,
+                "points": int(points) if points else 0,
+                "played": 0,
+                "id": f"wiki:{normalize_key(name)}",
+                "name": name,
+                "country_code": country,
+                "country_name": country_name,
+            })
+        result[gender].sort(key=lambda r: r["rank"])
+        print(f"  TennisExplorer: {gender} — {len(result[gender])} строк")
+
+    if result["men"] or result["women"]:
+        cache_write("te_rankings.json", {
+            "ts": datetime.now(timezone.utc).isoformat(),
+            "data": result,
+        })
+    return result
+
+
+def _ranking_name(raw):
+    """«Sinner Jannik» → «Jannik Sinner», «Auger Aliassime Felix» → «Felix Auger Aliassime».
+
+    На сайте имена в формате «Имя Фамилия». У TennisExplorer фамилия стоит
+    первой и может состоять из нескольких слов («De Minaur», «Van De
+    Zandschulp»), поэтому имя игрока — последнее слово, остальное — фамилия.
+    """
+    parts = [p for p in raw.replace(" ", " ").split() if p]
+    if len(parts) < 2:
+        return raw.strip()
+    return " ".join([parts[-1]] + parts[:-1])
+
+
+def _fetch_html(url):
+    """Страница как текст (с нормальным User-Agent)."""
+    headers = {
+        "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                       "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"),
+        "Accept": "text/html,application/xhtml+xml",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=40) as response:
+            return response.read().decode("utf-8", "replace")
+    except Exception as exc:  # noqa: BLE001
+        print(f"  TennisExplorer: запрос не удался — {exc}")
+        return ""
 
 
 def fetch_wikipedia_rankings():
@@ -1059,8 +1168,11 @@ def run():
     load_wiki_draws(tournaments, calendar)
 
     print("Мировой рейтинг…")
-    rankings = fetch_lta_rankings()
-    if not rankings:
+    rankings = fetch_lta_rankings() or {"men": [], "women": []}
+    if not rankings.get("men") and not rankings.get("women"):
+        print("  TennisExplorer: мировой рейтинг…")
+        rankings = fetch_tennisexplorer_rankings()
+    if not rankings.get("men") and not rankings.get("women"):
         print("  Wikipedia: мировой рейтинг…")
         rankings = fetch_wikipedia_rankings()
 

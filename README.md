@@ -209,7 +209,8 @@ variables → Actions). Скрипт сам определит, что ключ 
 |---|---|---|
 | [TennisMyLife](https://stats.tennismylife.org/tennis-match-database) | результаты ATP и WTA по годам (CSV, ежедневно): раунд, счёт по сетам, страны, посев, рейтинг на момент матча | не нужен |
 | [SportScore](https://sportscore.com/developers/) | запасной источник live-матчей и фотографий игроков (CORS открыт) | не нужен |
-| [Wikipedia / Wikimedia Commons](https://commons.wikimedia.org/) | фотографии игроков и запасной рейтинг (топ-20), если ключа Live Tennis API нет | не нужен |
+| [TennisExplorer](https://www.tennisexplorer.com/ranking/) | мировой рейтинг ATP и WTA (топ-50), сразу с кодом страны — если нет ключа Live Tennis API | не нужен |
+| [Wikipedia / Wikimedia Commons](https://commons.wikimedia.org/) | фотографии игроков и турниров, календарь сезона, жеребьёвки, профили игроков, запасной рейтинг (топ-20) | не нужен |
 
 Ограничения бесплатного режима:
 

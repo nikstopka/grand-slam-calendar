@@ -27,7 +27,7 @@ const STATE = {
 const ACTIVE_REFRESH_MS = 3 * 60 * 1000;   // идут live-матчи
 const DEFAULT_REFRESH_MS = 10 * 60 * 1000;  // обычный режим
 const FALLBACK_REFRESH_MS = 15 * 60 * 1000; // резервный источник (обновление раз в 12 ч)
-const RANKINGS_LIMIT = 100;               // сколько строк показываем в рейтинге
+const RANKINGS_LIMIT = 50;                // сколько строк показываем в рейтинге
 
 // === УТИЛИТЫ ===
 
@@ -41,14 +41,76 @@ function escapeHtml(value) {
         .replace(/'/g, '&#39;');
 }
 
-// Country code to emoji flag
-function countryFlag(code) {
-    if (!code || typeof code !== 'string') return '🏳️';
-    const normalized = code.trim().toUpperCase();
-    if (!/^[A-Z]{3}$/.test(normalized)) return '🏳️';
+// Коды стран: теннисные трёхбуквенные → двухбуквенные ISO (для флагов).
+// В коде вида «ITA» нельзя просто превратить буквы в эмодзи: получится
+// мусор из трёх региональных индикаторов, а не флаг.
+const COUNTRY_ALPHA2 = {
+    ARG: 'AR', AUS: 'AU', AUT: 'AT', BEL: 'BE', BLR: 'BY', BIH: 'BA', BRA: 'BR',
+    BUL: 'BG', CAN: 'CA', CHI: 'CL', CHN: 'CN', COL: 'CO', CRO: 'HR', CZE: 'CZ',
+    DEN: 'DK', ECU: 'EC', EGY: 'EG', ESP: 'ES', EST: 'EE', FIN: 'FI', FRA: 'FR',
+    GBR: 'GB', GEO: 'GE', GER: 'DE', GRE: 'GR', HKG: 'HK', HUN: 'HU', INA: 'ID',
+    IRE: 'IE', ISR: 'IL', ITA: 'IT', JPN: 'JP', KAZ: 'KZ', KOR: 'KR', LAT: 'LV',
+    LTU: 'LT', LUX: 'LU', MAR: 'MA', MDA: 'MD', MEX: 'MX', NED: 'NL', NOR: 'NO',
+    NZL: 'NZ', PAR: 'PY', PHI: 'PH', POL: 'PL', POR: 'PT', ROU: 'RO', RSA: 'ZA',
+    RUS: 'RU', SLO: 'SI', SRB: 'RS', SUI: 'CH', SVK: 'SK', SWE: 'SE', THA: 'TH',
+    TUR: 'TR', UAE: 'AE', UKR: 'UA', URU: 'UY', USA: 'US', UZB: 'UZ', VEN: 'VE',
+    ZIM: 'ZW', TUN: 'TN', BMR: 'BM', CAY: 'KY', IVB: 'VG', TRI: 'TT',
+};
+
+// Название страны (из профиля или рейтинга) → код для флага
+const COUNTRY_NAME_ALPHA2 = {
+    'Argentina': 'AR', 'Australia': 'AU', 'Austria': 'AT', 'Belarus': 'BY',
+    'Belgium': 'BE', 'Brazil': 'BR', 'Bulgaria': 'BG', 'Canada': 'CA',
+    'Chile': 'CL', 'China': 'CN', 'Colombia': 'CO', 'Croatia': 'HR',
+    'Czech Republic': 'CZ', 'Czechia': 'CZ', 'Denmark': 'DK', 'Ecuador': 'EC',
+    'Egypt': 'EG', 'Estonia': 'EE', 'Finland': 'FI', 'France': 'FR',
+    'Georgia': 'GE', 'Germany': 'DE', 'Greece': 'GR', 'Hong Kong': 'HK',
+    'Hungary': 'HU', 'India': 'IN', 'Indonesia': 'ID', 'Ireland': 'IE',
+    'Israel': 'IL', 'Italy': 'IT', 'Japan': 'JP', 'Kazakhstan': 'KZ',
+    'South Korea': 'KR', 'Korea': 'KR', 'Latvia': 'LV', 'Lithuania': 'LT',
+    'Luxembourg': 'LU', 'Madagascar': 'MG', 'Morocco': 'MA', 'Moldova': 'MD',
+    'Mexico': 'MX', 'Netherlands': 'NL', 'New Zealand': 'NZ', 'Norway': 'NO',
+    'Paraguay': 'PY', 'Peru': 'PE', 'Philippines': 'PH', 'Poland': 'PL',
+    'Portugal': 'PT', 'Romania': 'RO', 'Russia': 'RU', 'Serbia': 'RS',
+    'Slovakia': 'SK', 'Slovenia': 'SI', 'South Africa': 'ZA', 'Spain': 'ES',
+    'Sweden': 'SE', 'Switzerland': 'CH', 'Taiwan': 'TW', 'Thailand': 'TH',
+    'Tunisia': 'TN', 'Turkey': 'TR', 'Ukraine': 'UA',
+    'United Arab Emirates': 'AE', 'United Kingdom': 'GB', 'Great Britain': 'GB',
+    'United States': 'US', 'Uruguay': 'UY', 'Uzbekistan': 'UZ',
+    'Venezuela': 'VE', 'Vietnam': 'VN', 'Zimbabwe': 'ZW',
+};
+
+// Двухбуквенный код страны по коду ATP/WTA или по названию
+function countryAlpha2(code, name) {
+    let alpha2 = '';
+    if (code && typeof code === 'string') {
+        const c = code.trim().toUpperCase();
+        if (/^[A-Z]{2}$/.test(c)) alpha2 = c;
+        else if (/^[A-Z]{3}$/.test(c)) alpha2 = COUNTRY_ALPHA2[c] || '';
+    }
+    if (!alpha2 && name && typeof name === 'string') {
+        alpha2 = COUNTRY_NAME_ALPHA2[name.trim()] || '';
+    }
+    return /^[A-Z]{2}$/.test(alpha2) ? alpha2 : '';
+}
+
+// Флаг эмодзи (Windows такие не рисует — показывает буквы)
+function countryFlag(code, name) {
+    const alpha2 = countryAlpha2(code, name);
+    if (!alpha2) return '🏳️';
     return String.fromCodePoint(
-        ...[...normalized].map(ch => 0x1F1E6 - 65 + ch.charCodeAt(0))
+        ...[...alpha2].map(ch => 0x1F1E6 - 65 + ch.charCodeAt(0))
     );
+}
+
+// Флаг картинкой — рисуется одинаково в любом браузере
+function countryFlagImg(code, name, size) {
+    const alpha2 = countryAlpha2(code, name);
+    if (!alpha2) return '<span class="country-flag fallback">🏳️</span>';
+    const width = size || 20;
+    return `<img class="country-flag" src="https://flagcdn.com/w${width}/${alpha2.toLowerCase()}.png" ` +
+           `alt="${alpha2}" title="${alpha2}" loading="lazy" referrerpolicy="no-referrer" ` +
+           `onerror="this.outerHTML='🏳️'">`;
 }
 
 // Инициалы для заглушки вместо фотографии
@@ -246,7 +308,7 @@ function renderMatchCard(match) {
                 <div class="player ${homeWon ? 'winner' : ''}">
                     <div class="player-info">
                         ${playerAvatar(homePlayer)}
-                        <span class="player-flag">${countryFlag(homePlayer.country_code)}</span>
+                        <span class="player-flag">${countryFlagImg(homePlayer.country_code, null, 20)}</span>
                         <span class="player-name">${escapeHtml(homePlayer.name || 'TBD')}</span>
                         ${homePlayer.seed ? `<span class="player-seed">#${escapeHtml(homePlayer.seed)}</span>` : ''}
                         ${homeWon ? '<span class="winner-indicator">✓</span>' : ''}
@@ -257,7 +319,7 @@ function renderMatchCard(match) {
                 <div class="player ${awayWon ? 'winner' : ''}">
                     <div class="player-info">
                         ${playerAvatar(awayPlayer)}
-                        <span class="player-flag">${countryFlag(awayPlayer.country_code)}</span>
+                        <span class="player-flag">${countryFlagImg(awayPlayer.country_code, null, 20)}</span>
                         <span class="player-name">${escapeHtml(awayPlayer.name || 'TBD')}</span>
                         ${awayPlayer.seed ? `<span class="player-seed">#${escapeHtml(awayPlayer.seed)}</span>` : ''}
                         ${awayWon ? '<span class="winner-indicator">✓</span>' : ''}
@@ -1095,7 +1157,7 @@ function renderRankCard(row) {
             <div class="rank-card-body">
                 <button class="player-link" type="button" data-player="${escapeHtml(row.id)}">${escapeHtml(row.name || 'TBD')}</button>
                 <span class="rank-card-meta">
-                    ${countryFlag(row.country_code)}
+                    ${countryFlagImg(row.country_code, row.country_name || profile?.country, 20)}
                     <b>${escapeHtml(row.points)}</b>
                     <span class="movement-cell ${movementClass}">${movementText}</span>
                 </span>
@@ -1120,7 +1182,7 @@ function renderRankTable(rows) {
                 <td class="name-cell">
                     <button class="player-link" type="button" data-player="${escapeHtml(row.id)}">${escapeHtml(row.name || 'TBD')}</button>
                 </td>
-                <td class="country-cell">${countryFlag(row.country_code)}</td>
+                <td class="country-cell">${countryFlagImg(row.country_code, row.country_name || profile?.country, 20)}</td>
                 <td class="points-cell">${escapeHtml(row.points)}</td>
                 <td class="movement-cell ${movementClass}">${movementText}</td>
             </tr>`;
@@ -1217,7 +1279,7 @@ function openPlayerProfile(playerId) {
                 : `<div class="profile-photo profile-photo-fallback">${escapeHtml(playerInitials(row.name))}</div>`}
         </div>
         <div class="profile-info">
-            <h3 class="profile-name">${escapeHtml(row.name || '')} ${countryFlag(row.country_code)}</h3>
+            <h3 class="profile-name">${escapeHtml(row.name || '')} ${countryFlagImg(row.country_code, profile?.country, 24)}</h3>
             ${facts.length ? `<p class="profile-facts">${facts.map(escapeHtml).join(' · ')}</p>` : ''}
             ${profile.residence ? `<p class="profile-sub">Живёт: ${escapeHtml(profile.residence)}</p>` : ''}
             ${profile.titles ? `<p class="profile-titles">🏆 ${escapeHtml(profile.titles)}</p>` : ''}

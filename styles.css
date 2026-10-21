@@ -544,6 +544,27 @@ body {
     font-size: 20px;
     line-height: 1;
     flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Флаг страны картинкой: Windows не рисует флаг-эмодзи, поэтому картинка */
+.country-flag {
+    width: 20px;
+    height: 14px;
+    object-fit: cover;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14);
+    vertical-align: middle;
+    flex: 0 0 auto;
+    display: inline-block;
+}
+
+.country-flag.fallback {
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    font-size: 16px;
 }
 
 .player-name {
@@ -1963,6 +1984,7 @@ body.modal-open {
 .rankings-table .country-cell {
     width: 44px;
     font-size: 18px;
+    text-align: center;
 }
 
 .rankings-table .points-cell {

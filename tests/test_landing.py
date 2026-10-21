@@ -85,6 +85,21 @@ check("есть предстоящие турниры", len(future) > 0, f"бу�
 
 print()
 print("=" * 62)
+print("2б) Рейтинг: 50 строк и коды стран")
+print("=" * 62)
+rankings = load_json(os.path.join(DATA, "rankings.json"))
+for tour in ("men", "women"):
+    rows = rankings.get(tour) or []
+    check(f"{tour}: не меньше 50 строк", len(rows) >= 50, f"строк: {len(rows)}")
+    with_code = [r for r in rows if r.get("country_code")]
+    check(f"{tour}: у большинства есть код страны", len(with_code) >= len(rows) - 8,
+          f"с кодом: {len(with_code)} из {len(rows)}")
+    ranks = [r.get("rank") for r in rows]
+    check(f"{tour}: ранги по порядку", ranks == sorted(ranks), f"первые: {ranks[:5]}")
+    check(f"{tour}: у всех есть имя", all(r.get("name") for r in rows))
+
+print()
+print("=" * 62)
 print("3) Фронтенд: карусель, рейтинг, профили")
 print("=" * 62)
 app = read(os.path.join(PROJECT, "app.js"))
@@ -101,7 +116,10 @@ check("активная карточка увеличена", ".carousel-card.ac
 check("есть точки-индикаторы", "carousel-dot" in css and "carousel-dots" in app)
 check("блок рейтинга сворачивается", "ranking-rest" in app and "collapsed" in css)
 check("в рейтинге видно топ-7", "rows.slice(0, 7)" in app)
+check("рейтинг показывает 50 строк", "RANKINGS_LIMIT = 50" in app)
 check("есть кнопка раскрытия рейтинга", "rankingToggle" in app)
+check("флаги рисуются картинками", "flagcdn.com" in app and "countryFlagImg" in app)
+check("есть карта кодов стран", "COUNTRY_ALPHA2" in app and "COUNTRY_NAME_ALPHA2" in app)
 check("имя игрока — ссылка на профиль", "player-link" in app and "data-player=" in app)
 check("есть модальное окно профиля", "profileModal" in html and "profileModal" in app)
 check("в шапке турнира есть описание", "tournament-description" in app and "tournament-description" in css)
