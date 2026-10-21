@@ -1313,24 +1313,27 @@ body {
     margin-top: 4px;
 }
 
-/* --- Карусель турниров (grow carousel) --- */
+/* --- Карусель турниров: крупные карточки с 3D-эффектами --- */
 
 .carousel {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
+    perspective: 1600px;
+    padding: 6px 0;
 }
 
 .carousel-track {
     position: relative;
     display: flex;
-    gap: 18px;
+    gap: 26px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
-    padding: 20px 0 28px;
+    padding: 30px 0 44px;
     cursor: grab;
+    transform-style: preserve-3d;
 }
 
 .carousel-track::-webkit-scrollbar {
@@ -1343,41 +1346,73 @@ body {
 }
 
 .carousel-card {
-    flex: 0 0 250px;
+    flex: 0 0 360px;
     scroll-snap-align: center;
-    transform: scale(0.82);
-    opacity: 0.45;
-    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
-    will-change: transform, opacity;
+    --tilt-x: 0deg;
+    --tilt-y: 0deg;
+    --mx: 50%;
+    --my: 50%;
+    transform: scale(0.86) translateY(16px);
+    opacity: 0.5;
+    filter: blur(1.2px) saturate(0.7);
+    transition:
+        transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+        opacity 0.5s ease,
+        filter 0.5s ease;
+    will-change: transform, opacity, filter;
 }
 
 .carousel-card.active {
-    transform: scale(1);
+    transform: scale(1) translateY(-8px);
     opacity: 1;
-    z-index: 2;
+    filter: none;
+    z-index: 3;
 }
 
 .carousel-link {
+    position: relative;
     display: block;
-    background: var(--bg-card);
+    background: linear-gradient(180deg, var(--bg-card) 0%, var(--bg-secondary) 100%);
     border: 1px solid var(--border);
-    border-radius: var(--radius);
+    border-radius: 20px;
     overflow: hidden;
     text-decoration: none;
     color: inherit;
-    transition: border-color var(--transition), box-shadow var(--transition);
+    transform-style: preserve-3d;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    transition:
+        border-color 0.4s ease,
+        box-shadow 0.4s ease,
+        transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .carousel-card.active .carousel-link {
-    border-color: var(--accent-dim);
-    box-shadow: 0 14px 44px rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 212, 170, 0.5);
+    box-shadow:
+        0 34px 80px rgba(0, 0, 0, 0.6),
+        0 0 0 1px rgba(0, 212, 170, 0.3),
+        0 0 60px rgba(0, 212, 170, 0.22),
+        0 0 120px rgba(0, 212, 170, 0.1);
+}
+
+/* Наклон карточки за курсором */
+.carousel-card.hovered .carousel-link {
+    transform: rotateX(var(--tilt-x)) rotateY(var(--tilt-y));
 }
 
 .carousel-media {
     position: relative;
-    height: 148px;
+    height: 210px;
     background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card));
     overflow: hidden;
+}
+
+.carousel-media::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(13, 13, 26, 0) 38%, rgba(13, 13, 26, 0.88) 100%);
+    pointer-events: none;
 }
 
 .carousel-img {
@@ -1385,100 +1420,194 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    transition: filter 0.5s ease;
 }
 
+/* Медленное «живое» зумление фото на активной карточке */
 .carousel-card.active .carousel-img {
-    transform: scale(1.06);
+    animation: kenburns 18s ease-out forwards;
+}
+
+@keyframes kenburns {
+    from { transform: scale(1.01); }
+    to { transform: scale(1.13); }
+}
+
+.carousel-card.hovered .carousel-img {
+    filter: brightness(1.12) saturate(1.08);
 }
 
 .carousel-img-fallback {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 46px;
+    font-size: 64px;
 }
 
 .carousel-badge {
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 14px;
+    top: 14px;
+    z-index: 2;
     font-size: 10px;
     font-weight: 700;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
-    padding: 4px 9px;
+    padding: 5px 11px;
     border-radius: 20px;
-    background: rgba(13, 13, 26, 0.75);
-    backdrop-filter: blur(6px);
+    background: rgba(13, 13, 26, 0.72);
+    backdrop-filter: blur(8px);
     color: var(--accent);
     border: 1px solid var(--accent-dim);
     white-space: nowrap;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+/* Пульсирующая точка у турниров, которые скоро начнутся */
+.carousel-live-dot {
+    position: absolute;
+    right: 16px;
+    top: 18px;
+    z-index: 2;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #ff4757;
+    animation: pulse 1.9s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255, 71, 87, 0.6); }
+    70% { box-shadow: 0 0 0 11px rgba(255, 71, 87, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 71, 87, 0); }
 }
 
 .carousel-body {
-    padding: 12px 14px 14px;
+    padding: 16px 18px 18px;
 }
 
 .carousel-title {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.25;
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    line-height: 1.2;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .carousel-date {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    margin-top: 6px;
+}
+
+.carousel-more {
+    display: inline-block;
+    margin-top: 10px;
     font-size: 12px;
-    color: var(--text-secondary);
-    margin-top: 4px;
+    font-weight: 600;
+    color: var(--text-muted);
+    opacity: 0;
+    transform: translateY(7px);
+    transition: opacity 0.35s ease, transform 0.35s ease, color 0.35s ease;
+}
+
+.carousel-card.active .carousel-more,
+.carousel-card.hovered .carousel-more {
+    opacity: 1;
+    transform: none;
+}
+
+.carousel-card.hovered .carousel-more {
+    color: var(--accent);
+}
+
+/* Блик, пробегающий по карточке при наведении */
+.carousel-shine {
+    position: absolute;
+    top: 0;
+    left: -140%;
+    width: 55%;
+    height: 100%;
+    background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.14), transparent);
+    transform: skewX(-16deg);
+    pointer-events: none;
+    transition: left 0.85s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.carousel-card.hovered .carousel-shine {
+    left: 140%;
+}
+
+/* Световое пятно, бегущее за курсором */
+.carousel-spotlight {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(300px circle at var(--mx) var(--my), rgba(255, 255, 255, 0.13), transparent 62%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.carousel-card.hovered .carousel-spotlight {
+    opacity: 1;
 }
 
 .carousel-arrow {
-    flex: 0 0 38px;
-    width: 38px;
-    height: 38px;
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     border: 1px solid var(--border-hover);
-    background: var(--bg-card);
+    background: rgba(28, 28, 53, 0.85);
+    backdrop-filter: blur(8px);
     color: var(--text-secondary);
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1;
     cursor: pointer;
     transition: all var(--transition);
-    z-index: 3;
+    z-index: 5;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
 }
 
 .carousel-arrow:hover {
     color: var(--accent);
     border-color: var(--accent-dim);
     background: var(--bg-card-hover);
+    transform: scale(1.08);
 }
 
 .carousel-dots {
     display: flex;
     justify-content: center;
-    gap: 6px;
-    margin-top: 2px;
+    gap: 7px;
+    margin-top: 0;
 }
 
 .carousel-dot {
-    width: 7px;
-    height: 7px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     border: none;
     background: var(--border-hover);
     cursor: pointer;
     padding: 0;
-    transition: all var(--transition);
+    transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.carousel-dot:hover {
+    background: var(--text-muted);
 }
 
 .carousel-dot.active {
     background: var(--accent);
-    width: 20px;
-    border-radius: 4px;
+    width: 26px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0, 212, 170, 0.5);
 }
+
 
 /* --- Рейтинг на титульной странице --- */
 
@@ -1837,7 +1966,15 @@ body.modal-open {
     }
 
     .carousel-card {
-        flex-basis: 205px;
+        flex-basis: 240px;
+    }
+
+    .carousel-media {
+        height: 150px;
+    }
+
+    .carousel-title {
+        font-size: 17px;
     }
 
     .carousel-arrow {

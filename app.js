@@ -983,9 +983,12 @@ function renderHeroCarousel() {
     if (!tournaments.length) return '';
 
     const photos = STATE.tournamentPhotos || {};
+    const today = new Date().toISOString().slice(0, 10);
     const cards = tournaments.map(t => {
         const photo = photos[t.slug]?.photo;
         const date = nearestTournamentDate(t.slug);
+        const days = date ? daysUntil(date.start) : null;
+        const soon = days !== null && days >= 0 && days <= 45;
         const media = photo
             ? `<img class="carousel-img" src="${escapeHtml(photo)}" alt="${escapeHtml(t.name)}" ` +
               `loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
@@ -996,11 +999,15 @@ function renderHeroCarousel() {
                     <div class="carousel-media">
                         ${media}
                         <span class="carousel-badge">${escapeHtml(t.level_label || '')}</span>
+                        ${soon ? '<span class="carousel-live-dot" title="скоро"></span>' : ''}
                     </div>
                     <div class="carousel-body">
                         <h3 class="carousel-title">${escapeHtml(t.name)}</h3>
-                        ${date ? `<p class="carousel-date">${escapeHtml(date.text)}</p>` : ''}
+                        <p class="carousel-date">${date ? escapeHtml(date.text) : ''}</p>
+                        <span class="carousel-more">Смотреть результаты →</span>
                     </div>
+                    <span class="carousel-shine" aria-hidden="true"></span>
+                    <span class="carousel-spotlight" aria-hidden="true"></span>
                 </a>
             </article>`;
     }).join('');
@@ -1082,6 +1089,30 @@ function setupCarousel() {
     }
 
     track.addEventListener('scroll', () => requestAnimationFrame(updateActive), { passive: true });
+
+    // Эффекты: наклон 3D и световое пятно следуют за курсором
+    track.addEventListener('pointermove', (event) => {
+        if (event.pointerType === 'touch') return;
+        const card = event.target.closest('.carousel-card');
+        cards.forEach(c => c.classList.remove('hovered'));
+        if (!card) return;
+        const rect = card.getBoundingClientRect();
+        const x = (event.clientX - rect.left) / rect.width;
+        const y = (event.clientY - rect.top) / rect.height;
+        card.classList.add('hovered');
+        card.style.setProperty('--mx', `${(x * 100).toFixed(1)}%`);
+        card.style.setProperty('--my', `${(y * 100).toFixed(1)}%`);
+        card.style.setProperty('--tilt-x', `${((0.5 - y) * 9).toFixed(2)}deg`);
+        card.style.setProperty('--tilt-y', `${((x - 0.5) * 12).toFixed(2)}deg`);
+    });
+
+    track.addEventListener('pointerleave', () => {
+        cards.forEach(c => {
+            c.classList.remove('hovered');
+            c.style.setProperty('--tilt-x', '0deg');
+            c.style.setProperty('--tilt-y', '0deg');
+        });
+    });
 
     // перетаскивание мышью
     track.addEventListener('pointerdown', e => {
