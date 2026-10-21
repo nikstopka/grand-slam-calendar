@@ -357,6 +357,19 @@ const BRACKET_FROM_OPTIONS = [
     ['all', 'Все раунды'],
 ];
 
+// Геометрия сетки (в пикселях)
+const BRACKET_GEOM = {
+    colW: 228,    // ширина блока матча
+    colGap: 46,   // зазор между колонками
+    rowH: 25,     // высота строки игрока
+    boxPad: 5,    // внутренний отступ блока
+    vGap: 12,     // зазор между соседними матчами по вертикали
+    topPad: 34,   // место под заголовки раундов
+};
+BRACKET_GEOM.boxH = BRACKET_GEOM.rowH * 2 + BRACKET_GEOM.boxPad * 2;
+BRACKET_GEOM.leafStep = BRACKET_GEOM.boxH + BRACKET_GEOM.vGap;
+BRACKET_GEOM.colStep = BRACKET_GEOM.colW + BRACKET_GEOM.colGap;
+
 // Победа в матче: id игрока-победителя
 function matchWinnerId(match) {
     return match.winner_id || null;
@@ -421,11 +434,11 @@ function bracketStartIndex(levels) {
     return Math.max(0, levels.length - 4);
 }
 
-// Упорядочивает матчи внутри раунда «как в сетке» и считает их позиции по вертикали
+// Раскладывает дерево по вертикали: лист i стоит на позиции i * leafStep,
+// а матч центрируется относительно своих «листьев» (потомков).
 function layoutBracket(tree, startIdx) {
-    const { levels, rounds, children, parent } = tree;
-    const topLevel = levels[levels.length - 1];
-    const topMatches = rounds.get(topLevel) || [];
+    const { levels, rounds, children } = tree;
+    const G = BRACKET_GEOM;
 
     // Дети в порядке участников родителя (левый — первый участник)
     const orderedKids = (match) => {
@@ -440,11 +453,11 @@ function layoutBracket(tree, startIdx) {
         return kids.slice().sort((a, b) => indexOf(a) - indexOf(b));
     };
 
-    // Обход сверху вниз: назначаем листья (матчи самого раннего показываемого уровня)
     const firstLeaf = new Map();
     const lastLeaf = new Map();
     let cursor = 0;
 
+    // Обход сверху вниз: самый ранний показываемый раунд — это «листья»
     const walk = (match, levelIdx) => {
         if (levelIdx <= startIdx) {
             firstLeaf.set(match.id, cursor);
@@ -457,33 +470,31 @@ function layoutBracket(tree, startIdx) {
         lastLeaf.set(match.id, Math.max(cursor - 1, firstLeaf.get(match.id)));
     };
 
-    // Матчи верхнего уровня сортируем по времени старта — иначе порядок произвольный
-    const sortedTop = topMatches.slice().sort((a, b) =>
+    const top = levels[levels.length - 1];
+    const topMatches = (rounds.get(top) || []).slice().sort((a, b) =>
         (a.start_time || '').localeCompare(b.start_time || ''));
-    for (const match of sortedTop) walk(match, levels.length - 1);
+    for (const match of topMatches) walk(match, levels.length - 1);
 
-    // Раскладка: позиция по вертикали — центр между крайними листьями
+    // Позиция блока: верх = центр между крайними листьями
     const positions = new Map();
-    const ROW_H = 26;   // высота строки игрока
-    const V_GAP = 8;    // зазор между матчами
-
+    let orphan = cursor;   // матчи без связей ставим в конец
     levels.forEach((level, levelIdx) => {
         if (levelIdx < startIdx) return;
-        const matches = rounds.get(level) || [];
-        matches.forEach(match => {
-            const first = firstLeaf.get(match.id) ?? 0;
-            const last = lastLeaf.get(match.id) ?? first;
-            const center = (first + last) / 2;
-            positions.set(match.id, {
-                x: levelIdx - startIdx,
-                y: center * (ROW_H * 2 + V_GAP),
-                first,
-                last,
-            });
-        });
+        for (const match of rounds.get(level) || []) {
+            const f = firstLeaf.get(match.id);
+            const l = lastLeaf.get(match.id);
+            let top;
+            if (f === undefined || l === undefined) {
+                top = orphan * G.leafStep;
+                orphan += 1;
+            } else {
+                top = ((f + l) / 2) * G.leafStep;
+            }
+            positions.set(match.id, { x: levelIdx - startIdx, top });
+        }
     });
 
-    return { levels, rounds, children, parent, positions, orderedKids, startIdx };
+    return { ...tree, positions, firstLeaf, lastLeaf, leafCount: cursor };
 }
 
 // Наборы, выигранные игроком
@@ -511,11 +522,12 @@ function shortPlayerName(name) {
 }
 
 function renderBracketPlayer(match, player, isWinner) {
+    const G = BRACKET_GEOM;
     const sets = playerSets(match, player.id);
     const seed = player.seed ? `[${escapeHtml(player.seed)}]` : '';
     const full = player.name || '';
     return `
-        <div class="bracket-player ${isWinner ? 'winner' : ''}">
+        <div class="bracket-player ${isWinner ? 'winner' : ''}" style="height:${G.rowH}px; line-height:${G.rowH}px;">
             <span class="bp-seed">${seed}</span>
             <span class="bp-name" title="${escapeHtml(full)}">${escapeHtml(shortPlayerName(full))}</span>
             <span class="bp-sets">${escapeHtml(sets)}</span>
@@ -531,79 +543,68 @@ function renderBracket(matches, gender) {
     const startIdx = bracketStartIndex(raw.levels);
     const tree = layoutBracket(raw, startIdx);
     const { levels, rounds, parent, positions } = tree;
+    const G = BRACKET_GEOM;
 
     const shown = levels.slice(startIdx);
     if (!shown.length) return '<p class="grid-message">Нет данных для сетки</p>';
 
-    const COL_W = 210;
-    const COL_GAP = 34;
-    const ROW_H = 26;
-    const V_GAP = 8;
-    const BOX_H = ROW_H * 2 + 10;
-    const TOP_PAD = 30;   // место под заголовки раундов
-
-    // Позиции сдвигаем: пересчитываем по отображаемым уровням
-    const shownSet = new Set(shown);
-    const placed = new Map();
-    let minY = Infinity;
-    for (const [id, pos] of positions) {
-        if (!shownSet.has(levels[pos.x + startIdx])) continue;
-        placed.set(id, pos);
-        minY = Math.min(minY, pos.y);
-    }
-    if (!isFinite(minY)) minY = 0;
-
-    // Группируем по уровням и сортируем по вертикали
-    const columns = shown.map(level => {
+    // Колонки: заголовок + матчи, отсортированные сверху вниз
+    const columns = shown.map((level, colIdx) => {
+        const title = BRACKET_ROUNDS.find(r => r[0] === level);
         const items = (rounds.get(level) || [])
-            .map(m => ({ match: m, pos: placed.get(m.id) }))
+            .map(m => ({ match: m, pos: positions.get(m.id) }))
             .filter(x => x.pos)
-            .sort((a, b) => a.pos.y - b.pos.y);
-        return { level, items };
+            .sort((a, b) => a.pos.top - b.pos.top);
+        return { level, colIdx, title, items };
     });
 
-    const height = Math.max(
-        ...columns.map(c => c.items.length
-            ? c.items[c.items.length - 1].pos.y - minY + BOX_H
-            : 0),
-        120
-    );
+    // Общая высота: самое нижнее содержимое + запас под заголовки раундов
+    let maxBottom = 0;
+    for (const col of columns) {
+        for (const item of col.items) {
+            maxBottom = Math.max(maxBottom, item.pos.top + G.boxH);
+        }
+    }
+    const totalHeight = maxBottom + G.topPad + 12;
+    const totalWidth = columns.length * G.colStep - G.colGap;
 
-    // SVG-связи: от победителя к родителю
+    // SVG-связи: от строки победителя к центру родительского блока
     const lines = [];
     for (const [childId, parentId] of parent) {
-        if (!placed.has(childId) || !placed.has(parentId)) continue;
-        const child = placed.get(childId);
-        const par = placed.get(parentId);
+        const child = positions.get(childId);
+        const par = positions.get(parentId);
+        if (!child || !par) continue;
         if (child.x === par.x) continue;
 
-        const childMatch = tree.rounds.get(levels[child.x]).find(m => m.id === childId);
+        const childMatch = (rounds.get(levels[child.x + startIdx]) || []).find(m => m.id === childId);
         const winner = childMatch ? matchWinnerId(childMatch) : null;
         const players = (childMatch && childMatch.players) || [];
         const winnerIdx = winner ? players.findIndex(p => p.id === winner) : 0;
-        const winnerOffset = winnerIdx === 1 ? ROW_H + 5 : 5;
 
-        const x1 = (child.x + 1) * (COL_W + COL_GAP) - COL_GAP;
-        const y1 = child.y - minY + winnerOffset + TOP_PAD;
-        const x2 = par.x * (COL_W + COL_GAP);
-        const y2 = par.y - minY + BOX_H / 2 + TOP_PAD;
-        const mid = (x1 + x2) / 2;
+        // y строки победителя внутри блока
+        const rowIndex = winnerIdx === 1 ? 1 : 0;
+        const winnerY = child.top + G.boxPad + rowIndex * G.rowH + G.rowH / 2 + G.topPad;
+
+        const x1 = (child.x + 1) * G.colStep - G.colGap;      // правый край блока
+        const y1 = winnerY;
+        const x2 = par.x * G.colStep;                          // левый край родителя
+        const y2 = par.top + G.boxH / 2 + G.topPad;
+        const mid = x1 + (x2 - x1) / 2;
         lines.push(`M ${x1} ${y1} H ${mid} V ${y2} H ${x2}`);
     }
 
-    // HTML колонок
-    const columnsHtml = columns.map((col, colIdx) => {
-        const title = BRACKET_ROUNDS.find(r => r[0] === col.level);
+    const columnsHtml = columns.map(col => {
         const cells = col.items.map(({ match, pos }) => {
             const players = match.players || [];
             const winner = matchWinnerId(match);
-            const home = players[0] || { id: '', name: '—' };
-            const away = players[1] || { id: '', name: '—' };
+            const home = players[0] || { id: '', name: '' };
+            const away = players[1] || { id: '', name: '' };
             const isLive = match.status === 'live';
             const isUpcoming = match.status === 'not_started';
             const statusClass = isLive ? 'live' : isUpcoming ? 'upcoming' : 'finished';
             return `
-                <div class="bracket-match ${statusClass}" style="top:${pos.y - minY + TOP_PAD}px; width:${COL_W}px;">
+                <div class="bracket-match ${statusClass}"
+                     style="top:${pos.top}px; width:${G.colW}px; height:${G.boxH}px;">
                     ${renderBracketPlayer(match, home, winner === home.id)}
                     ${renderBracketPlayer(match, away, winner === away.id)}
                     ${isLive ? '<span class="bracket-live">LIVE</span>' : ''}
@@ -612,16 +613,12 @@ function renderBracket(matches, gender) {
         }).join('');
 
         return `
-            <div class="bracket-column" style="left:${colIdx * (COL_W + COL_GAP)}px; width:${COL_W}px; top:${TOP_PAD}px;">
-                <div class="bracket-round-title">${escapeHtml(title ? title[1] : col.level)}</div>
+            <div class="bracket-column" style="left:${col.colIdx * G.colStep}px; width:${G.colW}px; top:${G.topPad}px;">
+                <div class="bracket-round-title">${escapeHtml(col.title ? col.title[1] : col.level)}</div>
                 ${cells}
             </div>
         `;
     }).join('');
-
-    const width = columns.length * (COL_W + COL_GAP);
-    const svgWidth = width - COL_GAP;
-    const svgHeight = height + TOP_PAD + 10;
 
     return `
         <div class="bracket-toolbar">
@@ -636,8 +633,8 @@ function renderBracket(matches, gender) {
             </div>
         </div>
         <div class="bracket-scroll">
-            <div class="bracket" style="width:${width}px; height:${svgHeight}px;">
-                <svg class="bracket-lines" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 ${svgWidth} ${svgHeight}">
+            <div class="bracket" style="width:${totalWidth}px; height:${totalHeight}px;">
+                <svg class="bracket-lines" width="${totalWidth}" height="${totalHeight}" viewBox="0 0 ${totalWidth} ${totalHeight}">
                     ${lines.map(d => `<path d="${d}"></path>`).join('')}
                 </svg>
                 ${columnsHtml}
@@ -645,8 +642,6 @@ function renderBracket(matches, gender) {
         </div>
     `;
 }
-
-
 
 function yearStateLabel(matches) {
     if (!matches.length) return '';

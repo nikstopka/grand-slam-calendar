@@ -1047,7 +1047,7 @@ body {
 
 .bracket-round-title {
     position: absolute;
-    top: -26px;
+    top: -30px;
     left: 0;
     font-size: 11px;
     font-weight: 700;
@@ -1062,8 +1062,9 @@ body {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
-    padding: 4px 8px;
+    padding: 5px 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
 }
 
 .bracket-match.live {
@@ -1080,11 +1081,10 @@ body {
     display: flex;
     align-items: baseline;
     gap: 6px;
-    height: 26px;
-    line-height: 26px;
     font-size: 12.5px;
     color: var(--text-secondary);
     white-space: nowrap;
+    overflow: hidden;
 }
 
 .bracket-player.winner {
@@ -1105,7 +1105,7 @@ body {
 
 .bp-name {
     flex: 1 1 auto;
-    min-width: 0;
+    min-width: 42px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -1113,9 +1113,10 @@ body {
 .bp-sets {
     flex: 0 0 auto;
     margin-left: 4px;
-    font-size: 11px;
+    font-size: 10.5px;
     color: var(--text-muted);
     font-variant-numeric: tabular-nums;
+    letter-spacing: -0.2px;
 }
 
 .bracket-player.winner .bp-sets {
