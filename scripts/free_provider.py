@@ -654,10 +654,12 @@ def cached_rows(name, ttl_minutes, loader):
     result = loader()
     if result is None:
         return [], {}
+    if not isinstance(result, tuple):
+        result = (result, {})
     rows, meta = result
     cache_write(name, {"ts": datetime.now(timezone.utc).isoformat(),
                        "data": rows, "meta": meta})
-    return rows or [], meta or {}
+    return rows or {}, meta or {}
 
 
 def load_lta_matches(tournaments):
@@ -677,7 +679,7 @@ def load_lta_matches(tournaments):
 
     # Каталог турниров — раз в сутки
     catalogue = cached_rows("lta_tournaments_v3.json", 24 * 60,
-                            lambda: lta_provider.fetch_tournaments() or None)
+                            lambda: (lta_provider.fetch_tournaments() or {}, {}))[0]
 
     def add_rows(rows, kind, meta=None):
         nonlocal added
