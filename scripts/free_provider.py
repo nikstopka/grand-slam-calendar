@@ -700,13 +700,19 @@ def load_lta_matches(tournaments):
             put_match(tournaments, match, match_year(match), meta_info[0], level)
             added += 1
             dropped["ok"] += 1
-        total = (meta or {}).get("count", "?")
-        print(f"    {kind}: в API {total}, получено {len(rows)}, добавлено {dropped['ok']}, "
-              f"без раунда {dropped['round']}, турнир не распознан {dropped['tournament']}")
+        if rows:
+            print(f"    {kind}: получено {len(rows)}, добавлено {dropped['ok']}, "
+                  f"без раунда {dropped['round']}, турнир не распознан {dropped['tournament']}")
         if names:
             print(f"    нераспознанные турниры: {', '.join(sorted(names)[:8])}")
 
-    # Live-состояние — каждый запуск (1 запрос)
+    # Откат: если наш уровень в ленте отсутствует (например, бесплатный тариф
+    # отдаёт только ITF/Challenger), не тратим квоту — проверяем раз в 6 часов.
+    def backoff_minutes(name, base):
+        state = cache_read(name) or {}
+        return 6 * 60 if state.get("empty") else base
+
+    # Live-состояние
     def load_live():
         data, error = lta_provider.api_get("/matches", {
             "status": "live", "limit": 100,
@@ -716,10 +722,11 @@ def load_lta_matches(tournaments):
             return None, None
         return data.get("data") or [], data.get("meta") or {}
 
-    live_rows, live_meta = cached_rows("lta_live_v3.json", 60, load_live)
+    live_rows, live_meta = cached_rows(
+        "lta_live_v3.json", backoff_minutes("lta_live_v3.json", 60), load_live)
     add_rows(live_rows, "live", live_meta)
 
-    # Предстоящие матчи (жеребьёвка) — раз в полчаса
+    # Предстоящие матчи (жеребьёвка)
     def load_upcoming():
         data, error = lta_provider.api_get("/matches", {
             "status": "upcoming", "limit": 100,
@@ -729,8 +736,16 @@ def load_lta_matches(tournaments):
             return None, None
         return data.get("data") or [], data.get("meta") or {}
 
-    upcoming_rows, upcoming_meta = cached_rows("lta_upcoming_v3.json", 30, load_upcoming)
+    upcoming_rows, upcoming_meta = cached_rows(
+        "lta_upcoming_v3.json", backoff_minutes("lta_upcoming_v3.json", 30), load_upcoming)
     add_rows(upcoming_rows, "upcoming", upcoming_meta)
+
+    # Помечаем пустые ответы, чтобы включить откат
+    for name, rows in (("lta_live_v3.json", live_rows), ("lta_upcoming_v3.json", upcoming_rows)):
+        if not rows:
+            state = cache_read(name) or {}
+            state["empty"] = True
+            cache_write(name, state)
 
     print(f"  Live Tennis API: матчей обработано {added}")
     return len(tournaments)
