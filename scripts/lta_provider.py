@@ -25,6 +25,10 @@ from common import http_get_json  # noqa: E402
 
 LTA_BASE = "https://api.livetennisapi.com/api/public/v1"
 
+# Уровни турниров, которые попадают в календарь. Без фильтра API отдаёт
+# весь мир (челленджеры, ITF) и нужные турниры просто не в первых 100 строках.
+LTA_TIERS = "grand_slam,atp_1000,wta_1000"
+
 # Коды раундов Live Tennis API → внутренние названия.
 # Внимание: QF — четвертьфинал, а Q — неквалифицированный отборочный раунд.
 ROUND_CODES = {
@@ -207,8 +211,8 @@ def normalize_match(match, tournaments=None):
 
 
 def fetch_tournaments():
-    """Каталог турниров: {tournament_id: {...}}."""
-    data, error = api_get("/tournaments", {"limit": 200})
+    """Каталог турниров нужных уровней: {tournament_id: {...}}."""
+    data, error = api_get("/tournaments", {"limit": 200, "tier": LTA_TIERS})
     if not data:
         print(f"  Live Tennis API: каталог турниров недоступен — {error}")
         return {}

@@ -670,7 +670,7 @@ def load_lta_matches(tournaments):
     added = 0
 
     # Каталог турниров — раз в сутки
-    catalogue = cached_rows("lta_tournaments.json", 24 * 60,
+    catalogue = cached_rows("lta_tournaments_v2.json", 24 * 60,
                             lambda: lta_provider.fetch_tournaments() or None)
 
     def add_rows(rows, kind):
@@ -700,23 +700,27 @@ def load_lta_matches(tournaments):
 
     # Live-состояние — каждый запуск (1 запрос)
     def load_live():
-        data, error = lta_provider.api_get("/matches", {"status": "live", "limit": 100})
+        data, error = lta_provider.api_get("/matches", {
+            "status": "live", "limit": 100,
+            "tier": lta_provider.LTA_TIERS, "draw": "singles"})
         if not data:
             print(f"  Live Tennis API: live-матчи недоступны — {error}")
             return None
         return data.get("data") or []
 
-    add_rows(cached_rows("lta_live.json", 60, load_live), "live")
+    add_rows(cached_rows("lta_live_v2.json", 60, load_live), "live")
 
     # Предстоящие матчи (жеребьёвка) — раз в 90 минут
     def load_upcoming():
-        data, error = lta_provider.api_get("/matches", {"status": "upcoming", "limit": 100})
+        data, error = lta_provider.api_get("/matches", {
+            "status": "upcoming", "limit": 100,
+            "tier": lta_provider.LTA_TIERS, "draw": "singles"})
         if not data:
             print(f"  Live Tennis API: предстоящие матчи недоступны — {error}")
             return None
         return data.get("data") or []
 
-    add_rows(cached_rows("lta_upcoming.json", 30, load_upcoming), "upcoming")
+    add_rows(cached_rows("lta_upcoming_v2.json", 30, load_upcoming), "upcoming")
 
     print(f"  Live Tennis API: матчей обработано {added}")
     return len(tournaments)
