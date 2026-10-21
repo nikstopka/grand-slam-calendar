@@ -673,19 +673,30 @@ def load_lta_matches(tournaments):
     catalogue = cached_rows("lta_tournaments.json", 24 * 60,
                             lambda: lta_provider.fetch_tournaments() or None)
 
-    def add_rows(rows):
+    def add_rows(rows, kind):
         nonlocal added
+        dropped = {"round": 0, "tournament": 0, "ok": 0}
+        names = set()
         for row in rows:
             match = lta_provider.normalize_match(row, catalogue)
             if not match:
+                dropped["round"] += 1
                 continue
             key = match_tournament_key(match.get("tournament", ""))
             if not key:
+                dropped["tournament"] += 1
+                names.add(str(match.get("tournament", ""))[:40])
                 continue
             meta = TML_TOURNAMENTS[key]
             level = tournament_level_for(key, match.get("category", ""))
             put_match(tournaments, match, match_year(match), meta[0], level)
             added += 1
+            dropped["ok"] += 1
+        if rows:
+            print(f"    {kind}: получено {len(rows)}, добавлено {dropped['ok']}, "
+                  f"без раунда {dropped['round']}, турнир не распознан {dropped['tournament']}")
+            if names:
+                print(f"    нераспознанные турниры: {', '.join(sorted(names)[:8])}")
 
     # Live-состояние — каждый запуск (1 запрос)
     def load_live():
@@ -695,7 +706,7 @@ def load_lta_matches(tournaments):
             return None
         return data.get("data") or []
 
-    add_rows(cached_rows("lta_live.json", 10, load_live))
+    add_rows(cached_rows("lta_live.json", 10, load_live), "live")
 
     # Предстоящие матчи (жеребьёвка) — раз в 90 минут
     def load_upcoming():
@@ -705,7 +716,7 @@ def load_lta_matches(tournaments):
             return None
         return data.get("data") or []
 
-    add_rows(cached_rows("lta_upcoming.json", 90, load_upcoming))
+    add_rows(cached_rows("lta_upcoming.json", 90, load_upcoming), "upcoming")
 
     print(f"  Live Tennis API: матчей обработано {added}")
     return len(tournaments)
