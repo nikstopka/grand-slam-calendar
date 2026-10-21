@@ -1,0 +1,57 @@
+name: Диагностика фильтров Live Tennis API
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Probe
+        env:
+          LIVETENNIS_API_KEY: ${{ secrets.LIVETENNIS_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os, json, urllib.request, urllib.error
+          from urllib.parse import urlencode
+
+          key = os.environ["LIVETENNIS_API_KEY"]
+          base = "https://api.livetennisapi.com/api/public/v1"
+
+          def probe(label, path, params):
+              url = base + path + "?" + urlencode(params)
+              req = urllib.request.Request(url, headers={"Accept": "application/json", "X-API-Key": key})
+              try:
+                  with urllib.request.urlopen(req, timeout=45) as r:
+                      data = json.loads(r.read())
+                  rows = data.get("data") or []
+                  meta = data.get("meta") or {}
+                  print(f"{label:52s} HTTP 200 count={meta.get('count')} rows={len(rows)}")
+                  for row in rows[:3]:
+                      print(f"      tier={row.get('tier')} tour={row.get('tour')} gender={row.get('gender')} "
+                            f"round={row.get('round_code')} status={row.get('status')} tmpl={row.get('tournament')!r}")
+              except urllib.error.HTTPError as e:
+                  body = e.read().decode('utf-8','replace')[:180]
+                  print(f"{label:52s} HTTP {e.code} {body}")
+              except Exception as e:
+                  print(f"{label:52s} ERR {e}")
+
+          probe("upcoming, без фильтров", "/matches", {"status": "upcoming", "limit": 5})
+          probe("upcoming, tier=grand_slam", "/matches", {"status": "upcoming", "limit": 5, "tier": "grand_slam"})
+          probe("upcoming, tier=atp_1000", "/matches", {"status": "upcoming", "limit": 5, "tier": "atp_1000"})
+          probe("upcoming, tier=wta_1000", "/matches", {"status": "upcoming", "limit": 5, "tier": "wta_1000"})
+          probe("upcoming, draw=singles", "/matches", {"status": "upcoming", "limit": 5, "draw": "singles"})
+          probe("upcoming, from=+30d", "/matches", {"status": "upcoming", "limit": 5, "from": "2026-10-21", "to": "2026-12-31"})
+          probe("tournaments, tier=grand_slam", "/tournaments", {"limit": 5, "tier": "grand_slam"})
+          probe("tournaments, без фильтра", "/tournaments", {"limit": 5})
+          probe("fixtures, без фильтров", "/fixtures", {"limit": 5})
+          probe("fixtures, tier=atp_1000", "/fixtures", {"limit": 5, "tier": "atp_1000"})
+          PY
