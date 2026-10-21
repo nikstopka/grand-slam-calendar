@@ -7,8 +7,10 @@ const STATE = {
     index: null,
     rankings: null,
     photos: {},
+    tournamentPhotos: {},   // slug -> {photo, caption}
+    profiles: {},           // id игрока -> профиль (страна, возраст, награды, факты)
     tournaments: {},      // slug -> загруженные данные турнира
-    activeTab: null,      // slug турнира либо 'rankings'
+    activeTab: null,      // slug турнира, 'home' (титульная) либо 'rankings'
     genderFilter: 'all',
     statusFilter: 'all',
     lastUpdated: '',
@@ -19,6 +21,7 @@ const STATE = {
     view: 'list',         // list | bracket
     bracketGender: 'men', // чей сетка показана
     bracketFrom: 'auto',  // с какого раунда показывать
+    rankingExpanded: false, // развёрнут ли полный рейтинг на титульной странице
 };
 
 const ACTIVE_REFRESH_MS = 3 * 60 * 1000;   // идут live-матчи
@@ -699,17 +702,17 @@ function renderTournamentPanel(data) {
         : '<p class="grid-message">Нет матчей по выбранным фильтрам</p>';
 
     const header = `
-        <div class="section-header">
-            <h2>${escapeHtml(data.icon)} ${escapeHtml(data.name)} <span class="level-badge">${escapeHtml(data.level_label)}</span></h2>
-            <p class="section-desc">
+        ${renderTournamentHero(data, year, label)}
+        <div class="tournament-toolbar">
+            <div class="view-switch" role="group" aria-label="Вид расписания">
+                <button class="view-btn ${STATE.view === 'list' ? 'active' : ''}" data-view="list">Результаты</button>
+                <button class="view-btn ${STATE.view === 'bracket' ? 'active' : ''}" data-view="bracket">Сетка</button>
+            </div>
+            <p class="tournament-toolbar-meta">
                 <span class="year-chip">${escapeHtml(year)}</span>
                 ${label ? `<span class="year-badge ${escapeHtml(label)}">${escapeHtml(label)}</span>` : ''}
                 <span class="section-desc-plain">${escapeHtml(data.level_label)} · одиночный разряд</span>
             </p>
-            <div class="view-switch" role="group" aria-label="Вид расписания">
-                <button class="view-btn ${STATE.view === 'list' ? 'active' : ''}" data-view="list">Список</button>
-                <button class="view-btn ${STATE.view === 'bracket' ? 'active' : ''}" data-view="bracket">Сетка</button>
-            </div>
         </div>
     `;
 
@@ -723,6 +726,20 @@ function renderTournamentPanel(data) {
     return header + sections.join('') + empty;
 }
 
+// Шапка карточки турнира: фото, название, краткое описание
+function renderTournamentHero(data, year, label) {
+    const photo = (STATE.tournamentPhotos || {})[data.slug]?.photo;
+    const description = data.description || '';
+    const style = photo ? ` style="--hero-image: url('${escapeHtml(photo)}')"` : '';
+    return `
+        <div class="tournament-hero${photo ? ' has-photo' : ''}"${style}>
+            <div class="tournament-hero-content">
+                <h2>${escapeHtml(data.icon)} ${escapeHtml(data.name)} <span class="level-badge">${escapeHtml(data.level_label)}</span></h2>
+                ${description ? `<p class="tournament-description">${escapeHtml(description)}</p>` : ''}
+            </div>
+        </div>`;
+}
+
 // === РЕНДЕР РЕЙТИНГА ===
 
 function renderRankingsPanel() {
@@ -733,46 +750,15 @@ function renderRankingsPanel() {
         return '<p class="grid-message">Рейтинг пока недоступен</p>';
     }
 
-    const body = rows.map(row => {
-        const movement = row.movement || 0;
-        const movementClass = movement > 0 ? 'up' : movement < 0 ? 'down' : 'same';
-        const movementText = movement > 0 ? `▲ ${movement}` : movement < 0 ? `▼ ${Math.abs(movement)}` : '—';
-        const player = { id: row.id, name: row.name };
-        return `
-            <tr>
-                <td class="rank-cell">${escapeHtml(row.rank)}</td>
-                <td class="avatar-cell">${playerAvatar(player)}</td>
-                <td class="name-cell">${escapeHtml(row.name || 'TBD')}</td>
-                <td class="country-cell">${countryFlag(row.country_code)}</td>
-                <td class="points-cell">${escapeHtml(row.points)}</td>
-                <td class="movement-cell ${movementClass}">${movementText}</td>
-            </tr>
-        `;
-    }).join('');
-
     const title = isWomen ? 'WTA' : 'ATP';
     const week = STATE.rankings?.week || '';
 
     return `
         <div class="section-header">
             <h2>⭐ Текущий рейтинг ${title}</h2>
-            <p class="section-desc">${week ? `Неделя ${escapeHtml(week)} · ` : ''}обновляется еженедельно</p>
+            <p class="section-desc">${week ? `Неделя ${escapeHtml(week)} · ` : ''}обновляется еженедельно · нажмите на игрока, чтобы открыть профиль</p>
         </div>
-        <div class="rankings-wrap">
-            <table class="rankings-table">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th></th>
-                        <th>Игрок</th>
-                        <th>Страна</th>
-                        <th>Очки</th>
-                        <th>Δ</th>
-                    </tr>
-                </thead>
-                <tbody>${body}</tbody>
-            </table>
-        </div>
+        ${renderRankTable(rows)}
     `;
 }
 
@@ -781,6 +767,13 @@ function renderRankingsPanel() {
 function renderTabs() {
     const nav = document.getElementById('tournamentTabs');
     const tournaments = STATE.index?.tournaments || [];
+
+    const homeTab = `
+        <button class="tab tab-home" data-tab="home" role="tab" aria-selected="false" aria-controls="content">
+            <span class="tab-icon">🏠</span>
+            <span class="tab-text">Главная</span>
+        </button>
+    `;
 
     const tabs = tournaments.map(t => `
         <button class="tab" data-tab="${escapeHtml(t.slug)}" role="tab" aria-selected="false" aria-controls="content">
@@ -798,7 +791,7 @@ function renderTabs() {
         </button>
     `;
 
-    nav.innerHTML = tabs + rankingsTab;
+    nav.innerHTML = homeTab + tabs + rankingsTab;
 }
 
 function updateTabBadges() {
@@ -816,8 +809,6 @@ function updateTabBadges() {
 
 // === БЛИЖАЙШИЕ ТУРНИРЫ ===
 
-const MONTH_NAMES = ['янв', 'фев', 'мар', 'апр', 'мая', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'];
-
 const LEVEL_LABELS = {
     grand_slam: 'Большой шлем',
     atp_1000: 'Masters 1000',
@@ -825,52 +816,6 @@ const LEVEL_LABELS = {
     atp_finals: 'ATP Finals',
     wta_finals: 'WTA Finals',
 };
-
-function daysUntil(dateStr) {
-    const target = new Date(dateStr + 'T00:00:00');
-    if (isNaN(target.getTime())) return null;
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    return Math.round((target - today) / 86400000);
-}
-
-function renderUpcoming(calendar) {
-    const block = document.getElementById('upcomingBlock');
-    const list = document.getElementById('upcomingList');
-    if (!block || !list) return;
-
-    const today = new Date().toISOString().slice(0, 10);
-    const items = (calendar || [])
-        .filter(item => item.start >= today)
-        .slice(0, 10);
-
-    if (!items.length) {
-        block.style.display = 'none';
-        return;
-    }
-
-    list.innerHTML = items.map(item => {
-        const d = new Date(item.start + 'T00:00:00');
-        const dateText = isNaN(d.getTime())
-            ? item.start
-            : `${d.getDate()} ${MONTH_NAMES[d.getMonth()]}`;
-        const days = daysUntil(item.start);
-        const countdown = days === null ? '' :
-            days === 0 ? 'сегодня' :
-            days === 1 ? 'завтра' :
-            days < 0 ? '' : `через ${days} дн.`;
-        const level = LEVEL_LABELS[item.level] || item.level;
-        return `
-            <div class="upcoming-item ${escapeHtml(item.level)}">
-                <span class="upcoming-date">${escapeHtml(dateText)}</span>
-                <span class="upcoming-name">${escapeHtml(item.name)}</span>
-                <span class="upcoming-place">${escapeHtml(item.place || '')} · ${escapeHtml(level)}</span>
-                ${countdown ? `<span class="upcoming-countdown">${escapeHtml(countdown)}</span>` : ''}
-            </div>
-        `;
-    }).join('');
-    block.style.display = 'block';
-}
 
 // Плашка источника данных
 function renderSourceBadge(source) {
@@ -884,6 +829,364 @@ function renderSourceBadge(source) {
     badge.className = 'source-badge';
     badge.title = 'Данные берутся из бесплатных открытых источников: обновление раз в 12 часов';
     badge.style.display = 'inline-block';
+}
+
+// === ТИТУЛЬНАЯ СТРАНИЦА ===
+
+const RU_MONTHS = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля',
+    'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+
+// «19–26 января 2026»
+function formatDateRange(startStr, endStr) {
+    const start = new Date(startStr + 'T00:00:00');
+    if (isNaN(start.getTime())) return { text: startStr || '', start: startStr };
+    const end = new Date((endStr || startStr) + 'T00:00:00');
+    const validEnd = !isNaN(end.getTime());
+    let text;
+    if (!validEnd) {
+        text = `${start.getDate()} ${RU_MONTHS[start.getMonth()]}`;
+    } else if (end.getMonth() === start.getMonth() && end.getFullYear() === start.getFullYear()) {
+        text = end.getDate() === start.getDate()
+            ? `${start.getDate()} ${RU_MONTHS[start.getMonth()]} ${start.getFullYear()}`
+            : `${start.getDate()}–${end.getDate()} ${RU_MONTHS[start.getMonth()]} ${start.getFullYear()}`;
+    } else {
+        text = `${start.getDate()} ${RU_MONTHS[start.getMonth()]} — ` +
+               `${end.getDate()} ${RU_MONTHS[end.getMonth()]} ${end.getFullYear()}`;
+    }
+    return { text, start: startStr, end: endStr || startStr };
+}
+
+// Ближайшая дата проведения турнира (из календаря сезона)
+function nearestTournamentDate(slug) {
+    const items = (STATE.calendar || []).filter(item => item.slug === slug);
+    if (!items.length) return null;
+    const today = new Date().toISOString().slice(0, 10);
+    const upcoming = items.filter(item => item.start >= today);
+    const item = upcoming.length ? upcoming[0] : items[items.length - 1];
+    return formatDateRange(item.start, item.end);
+}
+
+// --- Карусель турниров ---
+
+function renderHeroCarousel() {
+    const tournaments = STATE.index?.tournaments || [];
+    if (!tournaments.length) return '';
+
+    const photos = STATE.tournamentPhotos || {};
+    const cards = tournaments.map(t => {
+        const photo = photos[t.slug]?.photo;
+        const date = nearestTournamentDate(t.slug);
+        const media = photo
+            ? `<img class="carousel-img" src="${escapeHtml(photo)}" alt="${escapeHtml(t.name)}" ` +
+              `loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+            : `<span class="carousel-img carousel-img-fallback">${escapeHtml(t.icon || '🎾')}</span>`;
+        return `
+            <article class="carousel-card" data-slug="${escapeHtml(t.slug)}">
+                <a class="carousel-link" href="#${escapeHtml(t.slug)}" data-tournament="${escapeHtml(t.slug)}">
+                    <div class="carousel-media">
+                        ${media}
+                        <span class="carousel-badge">${escapeHtml(t.level_label || '')}</span>
+                    </div>
+                    <div class="carousel-body">
+                        <h3 class="carousel-title">${escapeHtml(t.name)}</h3>
+                        ${date ? `<p class="carousel-date">${escapeHtml(date.text)}</p>` : ''}
+                    </div>
+                </a>
+            </article>`;
+    }).join('');
+
+    return `
+        <section class="hero">
+            <div class="hero-intro">
+                <h2 class="hero-title">Турниры сезона</h2>
+                <p class="hero-sub">Большой шлем, Masters 1000 и WTA 1000 — расписание, сетки и результаты по годам</p>
+            </div>
+            <div class="carousel" id="carousel">
+                <button class="carousel-arrow carousel-prev" id="carouselPrev" type="button" aria-label="Предыдущий турнир">‹</button>
+                <div class="carousel-track" id="carouselTrack">${cards}</div>
+                <button class="carousel-arrow carousel-next" id="carouselNext" type="button" aria-label="Следующий турнир">›</button>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </section>`;
+}
+
+// Поведение карусели: активная карточка по центру, стрелки, перетаскивание
+function setupCarousel() {
+    const track = document.getElementById('carouselTrack');
+    if (!track) return;
+    const cards = Array.from(track.querySelectorAll('.carousel-card'));
+    if (!cards.length) return;
+
+    let activeIndex = 0;
+    let dragging = false;
+    let dragStartX = 0;
+    let dragScrollLeft = 0;
+    let moved = false;
+
+    function step() {
+        if (cards.length < 2) return cards[0].offsetWidth || 280;
+        const gap = Math.abs(cards[1].offsetLeft - cards[0].offsetLeft);
+        return gap || (cards[0].offsetWidth + 24);
+    }
+
+    function updateActive() {
+        const center = track.scrollLeft + track.clientWidth / 2;
+        let best = 0;
+        let bestDist = Infinity;
+        cards.forEach((card, i) => {
+            const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+            const dist = Math.abs(cardCenter - center);
+            if (dist < bestDist) {
+                bestDist = dist;
+                best = i;
+            }
+        });
+        if (best !== activeIndex) {
+            activeIndex = best;
+            cards.forEach((card, i) => card.classList.toggle('active', i === best));
+            updateCarouselDots(best);
+        }
+    }
+
+    function scrollToIndex(index) {
+        const card = cards[Math.max(0, Math.min(cards.length - 1, index))];
+        if (!card) return;
+        const left = card.offsetLeft - (track.clientWidth - card.offsetWidth) / 2;
+        track.scrollTo({ left, behavior: 'smooth' });
+    }
+
+    document.getElementById('carouselPrev')?.addEventListener('click', () => scrollToIndex(activeIndex - 1));
+    document.getElementById('carouselNext')?.addEventListener('click', () => scrollToIndex(activeIndex + 1));
+
+    // точки-индикаторы
+    const dots = document.getElementById('carouselDots');
+    if (dots) {
+        dots.innerHTML = cards.map((card, i) =>
+            `<button class="carousel-dot" data-index="${i}" type="button" ` +
+            `aria-label="Турнир ${i + 1}"></button>`).join('');
+        dots.addEventListener('click', e => {
+            const dot = e.target.closest('.carousel-dot');
+            if (!dot) return;
+            scrollToIndex(Number(dot.dataset.index));
+        });
+    }
+
+    track.addEventListener('scroll', () => requestAnimationFrame(updateActive), { passive: true });
+
+    // перетаскивание мышью
+    track.addEventListener('pointerdown', e => {
+        if (e.pointerType === 'touch') return;
+        dragging = true;
+        moved = false;
+        dragStartX = e.clientX;
+        dragScrollLeft = track.scrollLeft;
+        track.classList.add('dragging');
+    });
+    window.addEventListener('pointermove', e => {
+        if (!dragging) return;
+        const delta = e.clientX - dragStartX;
+        if (Math.abs(delta) > 6) moved = true;
+        track.scrollLeft = dragScrollLeft - delta;
+    });
+    window.addEventListener('pointerup', () => {
+        if (!dragging) return;
+        dragging = false;
+        track.classList.remove('dragging');
+    });
+    track.addEventListener('click', e => {
+        if (moved) {
+            e.preventDefault();
+            e.stopPropagation();
+            moved = false;
+        }
+    }, true);
+
+    // первая карточка — активная и по центру
+    cards[0].classList.add('active');
+    updateCarouselDots(0);
+    // поля позволяют центрировать первую и последнюю карточку
+    const pad = Math.max(0, (track.clientWidth - cards[0].offsetWidth) / 2);
+    track.style.paddingLeft = pad + 'px';
+    track.style.paddingRight = pad + 'px';
+    requestAnimationFrame(updateActive);
+}
+
+function updateCarouselDots(active) {
+    const dots = document.querySelectorAll('#carouselDots .carousel-dot');
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === active));
+}
+
+// --- Рейтинг на титульной странице ---
+
+function rankingRows() {
+    const isWomen = STATE.genderFilter === 'women';
+    return (STATE.rankings?.[isWomen ? 'women' : 'men'] || []).slice(0, RANKINGS_LIMIT);
+}
+
+function playerProfileFor(player) {
+    const direct = STATE.profiles?.[player.id];
+    if (direct) return direct;
+    // запасной путь: по нормализованному имени
+    const key = String(player.name || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const found = Object.values(STATE.profiles || {}).find(p => p.name_key === key);
+    return found || null;
+}
+
+function renderRankCard(row) {
+    const profile = playerProfileFor(row);
+    const photo = profile?.photo || STATE.photos?.[row.id];
+    const avatar = photo
+        ? `<img src="${escapeHtml(photo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+        : `<span class="avatar-fallback">${escapeHtml(playerInitials(row.name))}</span>`;
+    const movement = row.movement || 0;
+    const movementClass = movement > 0 ? 'up' : movement < 0 ? 'down' : 'same';
+    const movementText = movement > 0 ? `▲${movement}` : movement < 0 ? `▼${Math.abs(movement)}` : '—';
+    return `
+        <div class="rank-card">
+            <span class="rank-card-pos">${escapeHtml(row.rank)}</span>
+            <span class="player-avatar rank-card-avatar">${avatar}</span>
+            <div class="rank-card-body">
+                <button class="player-link" type="button" data-player="${escapeHtml(row.id)}">${escapeHtml(row.name || 'TBD')}</button>
+                <span class="rank-card-meta">
+                    ${countryFlag(row.country_code)}
+                    <b>${escapeHtml(row.points)}</b>
+                    <span class="movement-cell ${movementClass}">${movementText}</span>
+                </span>
+            </div>
+        </div>`;
+}
+
+function renderRankTable(rows) {
+    const body = rows.map(row => {
+        const movement = row.movement || 0;
+        const movementClass = movement > 0 ? 'up' : movement < 0 ? 'down' : 'same';
+        const movementText = movement > 0 ? `▲ ${movement}` : movement < 0 ? `▼ ${Math.abs(movement)}` : '—';
+        const profile = playerProfileFor(row);
+        const photo = profile?.photo || STATE.photos?.[row.id];
+        const avatar = photo
+            ? `<img src="${escapeHtml(photo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+            : `<span class="avatar-fallback">${escapeHtml(playerInitials(row.name))}</span>`;
+        return `
+            <tr>
+                <td class="rank-cell">${escapeHtml(row.rank)}</td>
+                <td class="avatar-cell"><span class="player-avatar">${avatar}</span></td>
+                <td class="name-cell">
+                    <button class="player-link" type="button" data-player="${escapeHtml(row.id)}">${escapeHtml(row.name || 'TBD')}</button>
+                </td>
+                <td class="country-cell">${countryFlag(row.country_code)}</td>
+                <td class="points-cell">${escapeHtml(row.points)}</td>
+                <td class="movement-cell ${movementClass}">${movementText}</td>
+            </tr>`;
+    }).join('');
+
+    return `
+        <div class="rankings-wrap">
+            <table class="rankings-table">
+                <thead>
+                    <tr>
+                        <th>#</th><th></th><th>Игрок</th><th>Страна</th><th>Очки</th><th>Δ</th>
+                    </tr>
+                </thead>
+                <tbody>${body}</tbody>
+            </table>
+        </div>`;
+}
+
+function renderLandingRanking() {
+    const rows = rankingRows();
+    if (!rows.length) return '';
+
+    const top = rows.slice(0, 7);
+    const rest = rows.slice(7);
+    const title = STATE.genderFilter === 'women' ? 'WTA' : 'ATP';
+    const week = STATE.rankings?.week || '';
+
+    return `
+        <section class="landing-ranking">
+            <div class="section-header">
+                <h2>⭐ Мировой рейтинг ${title}</h2>
+                <p class="section-desc">${week ? `Неделя ${escapeHtml(week)} · ` : ''}обновляется еженедельно</p>
+                ${rest.length ? `
+                    <button class="collapse-btn" id="rankingToggle" type="button" aria-expanded="${STATE.rankingExpanded}">
+                        ${STATE.rankingExpanded ? 'Свернуть' : 'Показать весь рейтинг'} <span class="chevron">▾</span>
+                    </button>` : ''}
+            </div>
+            <div class="ranking-top">${top.map(renderRankCard).join('')}</div>
+            ${rest.length ? `
+                <div class="ranking-rest ${STATE.rankingExpanded ? 'expanded' : 'collapsed'}" id="rankingRest">
+                    ${renderRankTable(rest)}
+                </div>` : ''}
+        </section>`;
+}
+
+// --- Титульная страница целиком ---
+
+function renderLandingPage() {
+    return `
+        <div class="landing">
+            ${renderHeroCarousel()}
+            ${renderLandingRanking()}
+        </div>`;
+}
+
+// --- Профиль игрока ---
+
+function openPlayerProfile(playerId) {
+    const rows = (STATE.rankings?.men || []).concat(STATE.rankings?.women || []);
+    const row = rows.find(r => r.id === playerId) || { id: playerId, name: playerId };
+    const profile = playerProfileFor(row) || {};
+    const photo = profile.photo || STATE.photos?.[playerId];
+    const modal = document.getElementById('profileModal');
+    if (!modal) return;
+
+    const facts = [];
+    if (profile.country) facts.push(profile.country);
+    if (profile.age) facts.push(`${profile.age} ${pluralYears(profile.age)}`);
+    if (profile.height) facts.push(profile.height);
+    if (profile.turned_pro) facts.push(`профи с ${profile.turned_pro}`);
+    if (profile.plays) facts.push(profile.plays);
+
+    // предложение о титулах уже показано отдельно — убираем его из текста
+    let summary = profile.summary || '';
+    if (profile.titles && summary.includes(profile.titles)) {
+        summary = summary.replace(profile.titles, '').replace(/\s+/g, ' ').trim();
+        summary = summary.replace(/^[\s,;:.]+/, '');
+    }
+
+    modal.querySelector('.profile-modal-inner').innerHTML = `
+        <button class="modal-close" type="button" data-close-modal aria-label="Закрыть">×</button>
+        <div class="profile-photo-wrap">
+            ${photo
+                ? `<img class="profile-photo" src="${escapeHtml(photo)}" alt="${escapeHtml(row.name || '')}" referrerpolicy="no-referrer">`
+                : `<div class="profile-photo profile-photo-fallback">${escapeHtml(playerInitials(row.name))}</div>`}
+        </div>
+        <div class="profile-info">
+            <h3 class="profile-name">${escapeHtml(row.name || '')} ${countryFlag(row.country_code)}</h3>
+            ${facts.length ? `<p class="profile-facts">${facts.map(escapeHtml).join(' · ')}</p>` : ''}
+            ${profile.residence ? `<p class="profile-sub">Живёт: ${escapeHtml(profile.residence)}</p>` : ''}
+            ${profile.titles ? `<p class="profile-titles">🏆 ${escapeHtml(profile.titles)}</p>` : ''}
+            ${summary ? `<p class="profile-summary">${escapeHtml(summary)}</p>` : ''}
+            ${profile.wiki_url ? `<a class="profile-link" href="${escapeHtml(profile.wiki_url)}" target="_blank" rel="noopener noreferrer">Статья в Википедии →</a>` : ''}
+            ${!profile.summary && !profile.titles ? '<p class="profile-sub">Профиль собирается…</p>' : ''}
+        </div>`;
+    modal.classList.add('open');
+    document.body.classList.add('modal-open');
+}
+
+function pluralYears(age) {
+    const n = Number(age) % 100;
+    if (n >= 11 && n <= 14) return 'лет';
+    const last = Number(age) % 10;
+    if (last === 1) return 'год';
+    if (last >= 2 && last <= 4) return 'года';
+    return 'лет';
+}
+
+function closePlayerProfile() {
+    const modal = document.getElementById('profileModal');
+    if (!modal) return;
+    modal.classList.remove('open');
+    document.body.classList.remove('modal-open');
 }
 
 // === ЗАГРУЗКА ДАННЫХ ===
@@ -906,19 +1209,22 @@ async function loadTournament(slug) {
 }
 
 async function loadCore() {
-    const [index, rankings, photos, calendar] = await Promise.all([
+    const [index, rankings, photos, calendar, tourPhotos, profiles] = await Promise.all([
         fetchJson(dataPath('index.json')),
         fetchJson(dataPath('rankings.json')).catch(() => null),
         fetchJson(dataPath('players.json')).catch(() => ({})),
         fetchJson(dataPath('calendar.json')).catch(() => null),
+        fetchJson(dataPath('tournament_photos.json')).catch(() => ({})),
+        fetchJson(dataPath('player_profiles.json')).catch(() => ({})),
     ]);
     STATE.index = index;
     STATE.rankings = rankings;
     STATE.photos = photos || {};
     STATE.calendar = (calendar && calendar.tournaments) || [];
+    STATE.tournamentPhotos = tourPhotos || {};
+    STATE.profiles = profiles || {};
     STATE.lastUpdated = index.last_updated || '';
     renderSourceBadge(index.source);
-    renderUpcoming(STATE.calendar);
 }
 
 // Демонстрационные данные — показываем, если боевые ещё не загружены
@@ -985,6 +1291,14 @@ function renderContent() {
         return;
     }
 
+    // Титульная страница
+    if (tab === 'home') {
+        hideYearSelect();
+        container.innerHTML = renderLandingPage();
+        setupCarousel();
+        return;
+    }
+
     if (tab === 'rankings') {
         hideYearSelect();
         container.innerHTML = renderRankingsPanel();
@@ -1025,7 +1339,11 @@ async function activateTab(slug) {
         activeBtn.scrollIntoView({ inline: 'center', block: 'nearest' });
     }
 
-    if (slug !== 'rankings' && !STATE.tournaments[slug]) {
+    // На титульной странице год и статус не нужны
+    const statusGroup = document.getElementById('statusFilterGroup');
+    if (statusGroup) statusGroup.style.display = slug === 'home' ? 'none' : 'flex';
+
+    if (slug !== 'rankings' && slug !== 'home' && !STATE.tournaments[slug]) {
         renderContent();
         if (!slug) return null;   // турниров ещё нет — грузить нечего
         try {
@@ -1096,7 +1414,12 @@ async function refreshData() {
             showSetupNotice();
             return;
         }
-        const defaultTab = activeTab || tournaments[0]?.slug || 'rankings';
+        const hash = (location.hash || '').replace(/^#/, '');
+        const known = tournaments.some(t => t.slug === hash);
+        const defaultTab = activeTab
+            || (known ? hash : 'home')
+            || tournaments[0]?.slug
+            || 'rankings';
         await activateTab(defaultTab);
     } catch (err) {
         console.error('Failed to load data:', err);
@@ -1117,6 +1440,20 @@ function setupTabs() {
         const btn = e.target.closest('.tab');
         if (!btn) return;
         activateTab(btn.dataset.tab);
+    });
+
+    // Ссылки на турниры с титульной страницы: #slug
+    document.addEventListener('click', e => {
+        const link = e.target.closest('[data-tournament]');
+        if (!link) return;
+        e.preventDefault();
+        activateTab(link.dataset.tournament);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    window.addEventListener('hashchange', () => {
+        const slug = (location.hash || '').replace(/^#/, '');
+        if (slug && slug !== STATE.activeTab) activateTab(slug);
     });
 }
 
@@ -1149,7 +1486,7 @@ function setupFilters() {
         });
     }
 
-    // Переключение вида (список / сетка) и параметры сетки
+    // Переключение вида (результаты / сетка) и параметры сетки
     document.getElementById('content').addEventListener('click', (event) => {
         const viewBtn = event.target.closest('[data-view]');
         if (viewBtn) {
@@ -1167,7 +1504,33 @@ function setupFilters() {
         if (fromBtn) {
             STATE.bracketFrom = fromBtn.dataset.bracketFrom;
             renderContent();
+            return;
         }
+        // Развернуть/свернуть полный рейтинг на титульной странице
+        const toggleBtn = event.target.closest('#rankingToggle');
+        if (toggleBtn) {
+            STATE.rankingExpanded = !STATE.rankingExpanded;
+            renderContent();
+            return;
+        }
+        // Профиль игрока
+        const playerBtn = event.target.closest('.player-link');
+        if (playerBtn) {
+            openPlayerProfile(playerBtn.dataset.player);
+        }
+    });
+}
+
+function setupProfileModal() {
+    const modal = document.getElementById('profileModal');
+    if (!modal) return;
+    modal.addEventListener('click', (event) => {
+        if (event.target.closest('[data-close-modal]') || event.target === modal) {
+            closePlayerProfile();
+        }
+    });
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') closePlayerProfile();
     });
 }
 
@@ -1204,6 +1567,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupTabs();
     setupFilters();
     setupRefresh();
+    setupProfileModal();
 
     refreshData();
 

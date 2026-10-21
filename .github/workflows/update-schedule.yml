@@ -4,7 +4,7 @@ on:
   # Запуск по расписанию: каждые 30 минут.
   # Скрипт сам решает, нужен ли запуск:
   #   • бесплатный провайдер — обновляет данные раз в ~25 минут (запросы не тарифицируются);
-  #   • Sportradar — не чаще раза в час, чтобы не выйти за лимит 1000 запросов в месяц.
+  #   • Sportradar — не чаще раза в 4 часа, чтобы не выйти за лимит 1000 запросов в месяц.
   # Спортивные результаты и live-счёт обновляются по мере завершения матчей.
   schedule:
     - cron: '*/30 * * * *'
@@ -22,7 +22,7 @@ concurrency:
 jobs:
   update-schedule:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
 
     steps:
       # 1. Получаем код репозитория
@@ -70,6 +70,12 @@ jobs:
               assert 'years' in data, path
           json.load(open('data/rankings.json', encoding='utf-8-sig'))
           json.load(open('data/players.json', encoding='utf-8-sig'))
+          # Фото турниров и профили игроков — необязательные: собираются из Википедии
+          for name in ('calendar.json', 'tournament_photos.json', 'player_profiles.json'):
+              path = os.path.join('data', name)
+              if os.path.exists(path):
+                  json.load(open(path, encoding='utf-8-sig'))
+                  print('OK:', name)
           print('JSON OK: турниров —', len(index['tournaments']))
           PY
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=6">
+    <link rel="stylesheet" href="styles.css?v=7">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%231a1a2e' stroke='%2300d4aa' stroke-width='4'/><text x='50' y='68' font-size='50' text-anchor='middle'>🎾</text></svg>">
 </head>
 <body>
@@ -49,11 +49,6 @@
         <span>🧪 Показаны демонстрационные данные — настоящее расписание ещё не загружено.</span>
     </div>
 
-    <div class="upcoming-block" id="upcomingBlock" style="display:none">
-        <h3 class="upcoming-title">Ближайшие турниры</h3>
-        <div class="upcoming-list" id="upcomingList"></div>
-    </div>
-
     <div class="filters">
         <div class="filter-group year-group" id="yearFilterGroup" role="group" aria-label="Выбор года">
             <label class="filter-label" for="yearSelect">Год</label>
@@ -64,7 +59,7 @@
             <button class="filter-btn" data-gender="men">ATP</button>
             <button class="filter-btn" data-gender="women">WTA</button>
         </div>
-        <div class="filter-group" role="group" aria-label="Фильтр по статусу">
+        <div class="filter-group" id="statusFilterGroup" role="group" aria-label="Фильтр по статусу">
             <button class="filter-btn active" data-filter="all">Все</button>
             <button class="filter-btn" data-filter="upcoming">Предстоящие</button>
             <button class="filter-btn" data-filter="live">Live</button>
@@ -88,12 +83,17 @@
         </p>
     </footer>
 
+    <!-- Профиль игрока -->
+    <div class="modal-backdrop" id="profileModal" role="dialog" aria-modal="true" aria-label="Профиль игрока">
+        <div class="modal profile-modal-inner"></div>
+    </div>
+
     <noscript>
         <div class="noscript-warning">
             Для просмотра расписания матчей необходимо включить JavaScript.
         </div>
     </noscript>
 
-    <script src="app.js?v=6"></script>
+    <script src="app.js?v=7"></script>
 </body>
 </html>

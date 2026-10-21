@@ -1136,76 +1136,6 @@ body {
     border-radius: 6px;
 }
 
-/* === Ближайшие турниры === */
-
-.upcoming-block {
-    max-width: 1200px;
-    margin: 20px auto 0;
-    padding: 0 24px;
-}
-
-.upcoming-title {
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
-    color: var(--text-muted);
-    margin-bottom: 10px;
-}
-
-.upcoming-list {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    padding-bottom: 8px;
-    scrollbar-width: thin;
-}
-
-.upcoming-item {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    flex: 0 0 auto;
-    min-width: 190px;
-    padding: 10px 14px;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--accent);
-    border-radius: var(--radius-sm);
-}
-
-.upcoming-item.grand_slam { border-left-color: #ffd700; }
-.upcoming-item.atp_1000 { border-left-color: var(--accent); }
-.upcoming-item.wta_1000 { border-left-color: #ff6bb5; }
-.upcoming-item.atp_finals, .upcoming-item.wta_finals { border-left-color: #a78bfa; }
-
-.upcoming-date {
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-}
-
-.upcoming-name {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--text-primary);
-    white-space: nowrap;
-}
-
-.upcoming-place {
-    font-size: 11px;
-    color: var(--text-muted);
-    white-space: nowrap;
-}
-
-.upcoming-countdown {
-    font-size: 11px;
-    color: var(--text-secondary);
-    margin-top: 2px;
-}
-
 /* === Плашка источника данных === */
 
 .source-badge {
@@ -1225,6 +1155,546 @@ body {
     background: var(--accent-glow);
     color: var(--accent);
     border-color: var(--accent-dim);
+}
+
+/* === ТИТУЛЬНАЯ СТРАНИЦА === */
+
+.landing {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4px 24px 48px;
+}
+
+.hero {
+    margin-bottom: 30px;
+}
+
+.hero-intro {
+    margin-bottom: 14px;
+}
+
+.hero-title {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+}
+
+.hero-sub {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 4px;
+}
+
+/* --- Карусель турниров (grow carousel) --- */
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.carousel-track {
+    position: relative;
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding: 20px 0 28px;
+    cursor: grab;
+}
+
+.carousel-track::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-track.dragging {
+    cursor: grabbing;
+    scroll-snap-type: none;
+}
+
+.carousel-card {
+    flex: 0 0 250px;
+    scroll-snap-align: center;
+    transform: scale(0.82);
+    opacity: 0.45;
+    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
+    will-change: transform, opacity;
+}
+
+.carousel-card.active {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 2;
+}
+
+.carousel-link {
+    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.carousel-card.active .carousel-link {
+    border-color: var(--accent-dim);
+    box-shadow: 0 14px 44px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-media {
+    position: relative;
+    height: 148px;
+    background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card));
+    overflow: hidden;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.carousel-card.active .carousel-img {
+    transform: scale(1.06);
+}
+
+.carousel-img-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+}
+
+.carousel-badge {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    padding: 4px 9px;
+    border-radius: 20px;
+    background: rgba(13, 13, 26, 0.75);
+    backdrop-filter: blur(6px);
+    color: var(--accent);
+    border: 1px solid var(--accent-dim);
+    white-space: nowrap;
+}
+
+.carousel-body {
+    padding: 12px 14px 14px;
+}
+
+.carousel-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.carousel-date {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-top: 4px;
+}
+
+.carousel-arrow {
+    flex: 0 0 38px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid var(--border-hover);
+    background: var(--bg-card);
+    color: var(--text-secondary);
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all var(--transition);
+    z-index: 3;
+}
+
+.carousel-arrow:hover {
+    color: var(--accent);
+    border-color: var(--accent-dim);
+    background: var(--bg-card-hover);
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 2px;
+}
+
+.carousel-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: none;
+    background: var(--border-hover);
+    cursor: pointer;
+    padding: 0;
+    transition: all var(--transition);
+}
+
+.carousel-dot.active {
+    background: var(--accent);
+    width: 20px;
+    border-radius: 4px;
+}
+
+/* --- Рейтинг на титульной странице --- */
+
+.landing-ranking {
+    margin-top: 8px;
+}
+
+.ranking-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.rank-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    transition: border-color var(--transition), transform var(--transition);
+}
+
+.rank-card:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-2px);
+}
+
+.rank-card-pos {
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--text-muted);
+    min-width: 20px;
+    text-align: center;
+}
+
+.rank-card-avatar {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 13px;
+}
+
+.rank-card-body {
+    min-width: 0;
+    flex: 1;
+}
+
+.rank-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.rank-card-meta b {
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+.ranking-rest {
+    overflow: hidden;
+    max-height: 5000px;
+    opacity: 1;
+    transition: max-height 0.45s ease, opacity 0.3s ease;
+}
+
+.ranking-rest.collapsed {
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.collapse-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-hover);
+    border-radius: 20px;
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.collapse-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent-dim);
+}
+
+.collapse-btn .chevron {
+    display: inline-block;
+    transition: transform var(--transition);
+}
+
+.collapse-btn[aria-expanded="true"] .chevron {
+    transform: rotate(180deg);
+}
+
+/* --- Ссылка на профиль игрока --- */
+
+.player-link {
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--text-primary);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: left;
+    border-bottom: 1px dashed transparent;
+    transition: color var(--transition), border-color var(--transition);
+}
+
+.player-link:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent-dim);
+}
+
+/* --- Шапка карточки турнира --- */
+
+.tournament-hero {
+    position: relative;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card));
+    padding: 22px 24px;
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+
+.tournament-hero.has-photo {
+    background-image: linear-gradient(90deg, rgba(13, 13, 26, 0.95) 0%, rgba(13, 13, 26, 0.8) 45%, rgba(13, 13, 26, 0.45) 100%),
+                      var(--hero-image);
+    background-size: cover;
+    background-position: center 28%;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding: 48px 24px 24px;
+}
+
+.tournament-hero-content {
+    max-width: 760px;
+}
+
+.tournament-hero h2 {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.4px;
+}
+
+.tournament-description {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-secondary);
+}
+
+.tournament-hero.has-photo .tournament-description {
+    color: #d8d8e8;
+}
+
+.tournament-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.tournament-toolbar-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+/* --- Профиль игрока (модальное окно) --- */
+
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(5, 5, 12, 0.75);
+    backdrop-filter: blur(6px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 200;
+}
+
+.modal-backdrop.open {
+    display: flex;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.modal {
+    position: relative;
+    width: min(560px, 100%);
+    max-height: 88vh;
+    overflow-y: auto;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-hover);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 26px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.modal-close:hover {
+    color: var(--accent);
+}
+
+.profile-photo-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--accent-dim);
+    background: var(--bg-card);
+}
+
+.profile-photo-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+    font-weight: 800;
+    color: var(--text-muted);
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.profile-facts {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 8px;
+    text-align: center;
+}
+
+.profile-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 6px;
+}
+
+.profile-titles {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    margin-top: 12px;
+}
+
+.profile-summary {
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--text-secondary);
+    margin-top: 10px;
+}
+
+.profile-link {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 13px;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.profile-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .landing {
+        padding: 0 16px 40px;
+    }
+
+    .carousel-card {
+        flex-basis: 205px;
+    }
+
+    .carousel-arrow {
+        display: none;
+    }
+
+    .ranking-top {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+
+    .tournament-hero.has-photo {
+        padding: 30px 16px 18px;
+        min-height: 160px;
+    }
+
+    .tournament-hero h2 {
+        font-size: 19px;
+    }
+
+    .tournament-description {
+        font-size: 13px;
+    }
+
+    .profile-photo {
+        width: 130px;
+        height: 130px;
+    }
 }
 
 /* === Уровень турнира === */
