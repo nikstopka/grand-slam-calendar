@@ -57,14 +57,17 @@ def get_key():
 
 def api_get(path, params=None):
     """GET к Live Tennis API. Возвращает (data, error)."""
+    from urllib.parse import urlencode
+
     key = get_key()
     if not key:
         return None, "нет ключа LIVETENNIS_API_KEY"
     query = dict(params or {})
     query["limit"] = query.get("limit", 100)
-    url = f"{LTA_BASE}{path}"
+    # Значения вроде tier=grand_slam,atp_1000,wta_1000 обязаны кодироваться
+    url = f"{LTA_BASE}{path}?" + urlencode(query)
     data, error = http_get_json(
-        url + "?" + "&".join(f"{k}={v}" for k, v in query.items()),
+        url,
         headers={"Accept": "application/json", "X-API-Key": key},
         timeout=45,
     )
