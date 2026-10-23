@@ -1181,6 +1181,20 @@ def run():
     photo_cache = load_player_photos(players)
     photos = {pid: item.get("u", "") for pid, item in photo_cache.items() if item.get("u")}
 
+    # Дублируем фото на альтернативные ключи одного игрока
+    # (tml:atp:... и wiki:... могут принадлежать одному человеку —
+    # иначе в карточках матчей фото не показывается)
+    name_to_pids = {}
+    for pid, (name, _count) in players.items():
+        name_to_pids.setdefault(wiki_name_key(name), []).append(pid)
+    for nk, pids in name_to_pids.items():
+        if len(pids) > 1:
+            photo = next((photos.get(p) for p in pids if photos.get(p)), None)
+            if photo:
+                for p in pids:
+                    if not photos.get(p):
+                        photos[p] = photo
+
     index = []
     for entry in sorted(tournaments.values(), key=lambda t: t["name"]):
         for year_data in entry["years"].values():
