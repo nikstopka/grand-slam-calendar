@@ -755,29 +755,61 @@ def _alt_pages(slug, title):
 # === ИГРОКИ: ПРОФИЛИ ===
 
 def _player_page(name):
-    """Ищем страницу теннисиста и возвращаем (title, text)."""
+    """Ищем страницу теннисиста и возвращаем (title, text).
+
+    Важно: при поиске через API проверяем, что найденная страница действительно
+    относится к искомому игроку, иначе можно получить фото другого спортсмена
+    (например, Arthur Fils получит фото Карлоса Алькараса).
+    """
     for title in (name, f"{name} (tennis)"):
         if not title:
             continue
         text = _wikitext(title)
         if text and _find_template(text, "Infobox tennis biography"):
             return title, text
-    # запасной вариант — поиск по имени
+    # запасной вариант — поиск по имени. Пробуем и исходное, и развернутое имя,
+    # чтобы TennisMyLife-формат «Фамилия, Имя» не ломал поиск.
     query = re.sub(r"[<>\"*]", " ", str(name or "")).strip()
     if query:
-        data = _api_get({
-            "action": "query", "format": "json", "formatversion": "2",
-            "list": "search", "srsearch": f"{query} tennis player",
-            "srlimit": "5", "srnamespace": "0",
-        }, f"поиск «{query}»")
-        for item in ((data or {}).get("query") or {}).get("search") or []:
-            title = item.get("title") or ""
-            if not title:
-                continue
-            text = _wikitext(title)
-            if text and _find_template(text, "Infobox tennis biography"):
-                return title, text
+        # Пробуем оба варианта порядка слов: как есть и развернутые
+        candidates = [query]
+        if "," in query:
+            parts = query.split(",", 1)
+            reversed_name = parts[1].strip() + " " + parts[0].strip()
+            candidates.append(reversed_name)
+        for search_name in candidates:
+            data = _api_get({
+                "action": "query", "format": "json", "formatversion": "2",
+                "list": "search", "srsearch": f"{search_name} tennis player",
+                "srlimit": "5", "srnamespace": "0",
+            }, f"поиск «{search_name}»")
+            for item in ((data or {}).get("query") or {}).get("search") or []:
+                title = item.get("title") or ""
+                if not title:
+                    continue
+                # Проверяем, что найденная страница относится к искомому игроку
+                if not _player_title_matches(title, name):
+                    continue
+                text = _wikitext(title)
+                if text and _find_template(text, "Infobox tennis biography"):
+                    return title, text
     return "", ""
+
+
+def _player_title_matches(page_title, player_name):
+    """Проверяет, что заголовок страницы Википедии относится к искомому игроку."""
+    if not page_title or not player_name:
+        return False
+    page_norm = re.sub(r"\s+", " ", page_title.replace("_", " ")).strip().lower()
+    name_norm = re.sub(r"\s+", " ", str(player_name)).strip().lower()
+    # Убираем скобочные уточнения из заголовка страницы: "Arthur Fils (tennis)" → "arthur fils"
+    page_base = re.sub(r"\s*\([^)]*\)\s*$", "", page_norm).strip()
+    if page_base == name_norm:
+        return True
+    # Проверяем, что все слова игрока содержатся в заголовке страницы
+    player_words = set(name_norm.split())
+    page_words = set(page_base.split())
+    return player_words.issubset(page_words) or page_words.issubset(player_words)
 
 
 def _country_name(value):

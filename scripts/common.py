@@ -310,13 +310,15 @@ def load_player_photos(players, cache_name="photos_wiki.json"):
             if done >= PHOTO_MAX_PER_RUN:
                 break
             done += 1
+            # TennisMyLife хранит [имя, число матчей]; извлекаем строку имени
+            name_str = name[0] if isinstance(name, (list, tuple)) else name
             try:
-                url = wikipedia_photo(name)
+                url = wikipedia_photo(name_str)
             except Exception:  # noqa: BLE001
                 url = ""
-            cache[pid] = {"u": url, "t": now.isoformat(), "n": name}
+            cache[pid] = {"u": url, "t": now.isoformat(), "n": name_str}
             if url:
-                print(f"    {name} → найдено")
+                print(f"    {name_str} → найдено")
         cache_write(cache_name, cache)
     return cache
 
