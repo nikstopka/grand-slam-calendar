@@ -1334,6 +1334,9 @@ body {
     padding: 30px 0 44px;
     cursor: grab;
     transform-style: preserve-3d;
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+    touch-action: pan-x;
 }
 
 .carousel-track::-webkit-scrollbar {
@@ -1967,6 +1970,13 @@ body.modal-open {
 
     .carousel-card {
         flex-basis: 240px;
+        transition-duration: 0.8s;
+        transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    .carousel-track {
+        scroll-behavior: smooth;
+        scrollbar-gutter: stable;
     }
 
     .carousel-media {

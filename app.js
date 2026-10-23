@@ -1039,6 +1039,8 @@ function setupCarousel() {
     let dragStartX = 0;
     let dragScrollLeft = 0;
     let moved = false;
+    let velocity = 0;
+    let animationId = null;
 
     function step() {
         if (cards.length < 2) return cards[0].offsetWidth || 280;
@@ -1070,6 +1072,23 @@ function setupCarousel() {
         if (!card) return;
         const left = card.offsetLeft - (track.clientWidth - card.offsetWidth) / 2;
         track.scrollTo({ left, behavior: 'smooth' });
+    }
+
+    function easeOutQuad(t) {
+        return t * (2 - t);
+    }
+
+    function animateInertia() {
+        if (!dragging && Math.abs(velocity) > 0.5) {
+            track.scrollLeft += velocity;
+            velocity *= 0.92; // трение
+            animationId = requestAnimationFrame(animateInertia);
+        } else {
+            velocity = 0;
+            cancelAnimationFrame(animationId);
+            animationId = null;
+            updateActive();
+        }
     }
 
     document.getElementById('carouselPrev')?.addEventListener('click', () => scrollToIndex(activeIndex - 1));
@@ -1116,23 +1135,37 @@ function setupCarousel() {
 
     // перетаскивание мышью
     track.addEventListener('pointerdown', e => {
-        if (e.pointerType === 'touch') return;
         dragging = true;
         moved = false;
         dragStartX = e.clientX;
         dragScrollLeft = track.scrollLeft;
+        velocity = 0;
+        if (animationId) {
+            cancelAnimationFrame(animationId);
+            animationId = null;
+        }
         track.classList.add('dragging');
     });
     window.addEventListener('pointermove', e => {
         if (!dragging) return;
         const delta = e.clientX - dragStartX;
         if (Math.abs(delta) > 6) moved = true;
-        track.scrollLeft = dragScrollLeft - delta;
+        // уменьшаем чувствительность на 30% для более плавного управления
+        track.scrollLeft = dragScrollLeft - delta * 0.7;
+        // вычисляем скорость для инерции
+        velocity = delta * 0.7;
     });
     window.addEventListener('pointerup', () => {
         if (!dragging) return;
         dragging = false;
         track.classList.remove('dragging');
+        // инерция при отпускании
+        if (Math.abs(velocity) > 1) {
+            cancelAnimationFrame(animationId);
+            animationId = requestAnimationFrame(animateInertia);
+        } else {
+            updateActive();
+        }
     });
     track.addEventListener('click', e => {
         if (moved) {
