@@ -1839,6 +1839,28 @@ body {
     margin-top: 8px;
 }
 
+.ranking-top5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.ranking-top-row {
+    display: grid;
+    gap: 10px;
+}
+
+.ranking-top-row-1 {
+    grid-template-columns: minmax(260px, 320px);
+    justify-content: center;
+}
+
+.ranking-top-row-2,
+.ranking-top-row-3 {
+    grid-template-columns: repeat(2, minmax(215px, 1fr));
+}
+
 .ranking-top {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
@@ -2218,6 +2240,13 @@ body.modal-open {
         display: none;
     }
 
+    .ranking-top-row-1 {
+        grid-template-columns: 1fr;
+    }
+    .ranking-top-row-2,
+    .ranking-top-row-3 {
+        grid-template-columns: 1fr;
+    }
     .ranking-top {
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     }

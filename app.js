@@ -1324,9 +1324,24 @@ function renderLandingRanking() {
     const rows = rankingRows();
     if (!rows.length) return '';
 
-    const top = rows.slice(0, 7);
-    const rest = rows.slice(7);
+    const top5 = rows.slice(0, 5);
+    const rest = rows.slice(5);
     const week = STATE.rankings?.week || '';
+
+    let topHtml = '';
+    if (top5.length >= 1) {
+        topHtml += `<div class="ranking-top-row ranking-top-row-1">${renderRankCard(top5[0])}</div>`;
+    }
+    if (top5.length >= 3) {
+        topHtml += `<div class="ranking-top-row ranking-top-row-2">${renderRankCard(top5[1])}${renderRankCard(top5[2])}</div>`;
+    } else if (top5.length === 2) {
+        topHtml += `<div class="ranking-top-row ranking-top-row-2">${renderRankCard(top5[1])}</div>`;
+    }
+    if (top5.length >= 5) {
+        topHtml += `<div class="ranking-top-row ranking-top-row-3">${renderRankCard(top5[3])}${renderRankCard(top5[4])}</div>`;
+    } else if (top5.length === 4) {
+        topHtml += `<div class="ranking-top-row ranking-top-row-3">${renderRankCard(top5[3])}</div>`;
+    }
 
     return `
         <section class="landing-ranking">
@@ -1347,7 +1362,7 @@ function renderLandingRanking() {
                     <button class="collapse-btn ghost" type="button" data-go="rankings">Весь рейтинг →</button>
                 </div>
             </div>
-            <div class="ranking-top">${top.map(renderRankCard).join('')}</div>
+            <div class="ranking-top5">${topHtml}</div>
             ${rest.length ? `
                 <div class="ranking-rest ${STATE.rankingExpanded ? 'expanded' : 'collapsed'}" id="rankingRest">
                     ${renderRankTable(rest)}

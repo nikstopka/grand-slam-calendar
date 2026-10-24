@@ -1,0 +1,2575 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//grand-slam-calendar//tennis//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Теннис: Indian Wells
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
+BEGIN:VEVENT
+UID:tml:atp:2026-404:89@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260312T120000Z
+DTEND:20260312T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Zverev\, Alexander vs Fils\, Arthur
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Zverev\, Alexander vs Fils\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:90@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260313T120000Z
+DTEND:20260313T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Sinner\, Jannik vs Tien\, Learner
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Sinner\, Jannik vs Tien\, Learner\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:91@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260313T120000Z
+DTEND:20260313T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Medvedev\, Daniil vs Draper\, Jack
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Medvedev\, Daniil vs Draper\, Jack\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:92@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260313T120000Z
+DTEND:20260313T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Alcaraz\, Carlos vs Norrie\, Cameron
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Alcaraz\, Carlos vs Norrie\, Cameron\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:93@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260315T120000Z
+DTEND:20260315T150000Z
+SUMMARY:Indian Wells 2026 — Полуфинал: Medvedev\, Daniil vs Alcaraz\, Carlos
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Полуфинал\nМатч: Medvedev\, Daniil vs Alcaraz\, Carlos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:94@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260315T120000Z
+DTEND:20260315T150000Z
+SUMMARY:Indian Wells 2026 — Полуфинал: Sinner\, Jannik vs Zverev\, Alexander
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Полуфинал\nМатч: Sinner\, Jannik vs Zverev\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:95@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260315T120000Z
+DTEND:20260315T150000Z
+SUMMARY:Indian Wells 2026 — Финал: Sinner\, Jannik vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Финал\nМатч: Sinner\, Jannik vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:1@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260304T120000Z
+DTEND:20260304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Carabelli\, Camilo Ugo vs Damm\, Martin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Carabelli\, Camilo Ugo vs Damm\, Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:2@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260304T120000Z
+DTEND:20260304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Walton\, Adam vs Halys\, Quentin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Walton\, Adam vs Halys\, Quentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:3@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260304T120000Z
+DTEND:20260304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Opelka\, Reilly vs Quinn\, Ethan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Opelka\, Reilly vs Quinn\, Ethan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:4@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260304T120000Z
+DTEND:20260304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Bergs\, Zizou vs Struff\, Jan-Lennard
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Bergs\, Zizou vs Struff\, Jan-Lennard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:5@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260304T120000Z
+DTEND:20260304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Giron\, Marcos vs Navone\, Mariano
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Giron\, Marcos vs Navone\, Mariano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:6@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260304T120000Z
+DTEND:20260304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Kecmanovic\, Miomir vs Altmaier\, Daniel
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Kecmanovic\, Miomir vs Altmaier\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:7@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Brooksby\, Jenson vs Popyrin\, Alexei
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Brooksby\, Jenson vs Popyrin\, Alexei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:8@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Diallo\, Gabriel vs Bellucci\, Mattia
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Diallo\, Gabriel vs Bellucci\, Mattia\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:9@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Fucsovics\, Marton vs O'Connell\, Christopher
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Fucsovics\, Marton vs O'Connell\, Christopher\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:10@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Svrcina\, Dalibor vs Duckworth\, James
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Svrcina\, Dalibor vs Duckworth\, James\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:11@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Monfils\, Gael vs Galarneau\, Alexis
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Monfils\, Gael vs Galarneau\, Alexis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:12@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Berrettini\, Matteo vs Mannarino\, Adrian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Berrettini\, Matteo vs Mannarino\, Adrian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:13@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Prizmic\, Dino vs Schoolkate\, Tristan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Prizmic\, Dino vs Schoolkate\, Tristan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:14@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Fonseca\, Joao vs Collignon\, Raphael
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Fonseca\, Joao vs Collignon\, Raphael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:15@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Svajda\, Zachary vs Cilic\, Marin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Svajda\, Zachary vs Cilic\, Marin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:16@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Shapovalov\, Denis vs Tsitsipas\, Stefanos
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Shapovalov\, Denis vs Tsitsipas\, Stefanos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:17@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Shevchenko\, Alexander vs Shimabukuro\, Sho
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Shevchenko\, Alexander vs Shimabukuro\, Sho\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:18@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Majchrzak\, Kamil vs Perricard\, Giovanni Mpetshi
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Majchrzak\, Kamil vs Perricard\, Giovanni Mpetshi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:19@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Kovacevic\, Aleksandar vs Hurkacz\, Hubert
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Kovacevic\, Aleksandar vs Hurkacz\, Hubert\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:20@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Baez\, Sebastian vs Tseng\, Chun-Hsin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Baez\, Sebastian vs Tseng\, Chun-Hsin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:21@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Dimitrov\, Grigor vs Atmane\, Terence
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Dimitrov\, Grigor vs Atmane\, Terence\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:22@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260305T120000Z
+DTEND:20260305T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Fearnley\, Jacob vs Dzumhur\, Damir
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Fearnley\, Jacob vs Dzumhur\, Damir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:23@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Agut\, Roberto Bautista vs Marozsan\, Fabian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Agut\, Roberto Bautista vs Marozsan\, Fabian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:24@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Bonzi\, Benjamin vs Royer\, Valentin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Bonzi\, Benjamin vs Royer\, Valentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:25@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Michelsen\, Alex vs Merida\, Daniel
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Michelsen\, Alex vs Merida\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:26@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Kopriva\, Vit vs Zheng\, Michael
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Kopriva\, Vit vs Zheng\, Michael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:27@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Borges\, Nuno vs Nava\, Emilio
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Borges\, Nuno vs Nava\, Emilio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:28@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Cerundolo\, Juan Manuel vs Zandschulp\, Botic van de
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Cerundolo\, Juan Manuel vs Zandschulp\, Botic van de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:29@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Hijikata\, Rinky vs Maestrelli\, Francesco
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Hijikata\, Rinky vs Maestrelli\, Francesco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:30@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Korda\, Sebastian vs Comesana\, Francisco
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Korda\, Sebastian vs Comesana\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:31@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: McDonald\, Mackenzie vs Arnaldi\, Matteo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: McDonald\, Mackenzie vs Arnaldi\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:32@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Tabilo\, Alejandro vs Jodar\, Rafael
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Tabilo\, Alejandro vs Jodar\, Rafael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:33@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Tien\, Learner vs Walton\, Adam
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Tien\, Learner vs Walton\, Adam\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:34@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260306T120000Z
+DTEND:20260306T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Zverev\, Alexander vs Berrettini\, Matteo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Zverev\, Alexander vs Berrettini\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:35@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Fucsovics\, Marton vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Fucsovics\, Marton vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:36@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Cobolli\, Flavio vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Cobolli\, Flavio vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:37@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Monfils\, Gael
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Auger-Aliassime\, Felix vs Monfils\, Gael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:38@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Shelton\, Ben vs Opelka\, Reilly
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Shelton\, Ben vs Opelka\, Reilly\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:39@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Tiafoe\, Frances vs Brooksby\, Jenson
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Tiafoe\, Frances vs Brooksby\, Jenson\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:40@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Nakashima\, Brandon vs Carabelli\, Camilo Ugo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Nakashima\, Brandon vs Carabelli\, Camilo Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:41@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Fils\, Arthur vs Prizmic\, Dino
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Fils\, Arthur vs Prizmic\, Dino\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:42@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Svajda\, Zachary
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Fokina\, Alejandro Davidovich vs Svajda\, Zachary\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:43@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Sinner\, Jannik vs Svrcina\, Dalibor
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Sinner\, Jannik vs Svrcina\, Dalibor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:44@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Mensik\, Jakub vs Giron\, Marcos
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Mensik\, Jakub vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:45@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Paul\, Tommy vs Bergs\, Zizou
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Paul\, Tommy vs Bergs\, Zizou\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:46@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260307T120000Z
+DTEND:20260307T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Shapovalov\, Denis vs Etcheverry\, Tomas Martin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Shapovalov\, Denis vs Etcheverry\, Tomas Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:47@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Vacherot\, Valentin vs Borges\, Nuno
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Vacherot\, Valentin vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:48@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Ruud\, Casper vs Shevchenko\, Alexander
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Ruud\, Casper vs Shevchenko\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:49@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Draper\, Jack vs Agut\, Roberto Bautista
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Draper\, Jack vs Agut\, Roberto Bautista\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:50@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Fonseca\, Joao vs Khachanov\, Karen
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Fonseca\, Joao vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:51@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Cerundolo\, Francisco vs Bonzi\, Benjamin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs Bonzi\, Benjamin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:52@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Rinderknech\, Arthur vs Cerundolo\, Juan Manuel
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Rinderknech\, Arthur vs Cerundolo\, Juan Manuel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:53@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Kovacevic\, Aleksandar vs Moutet\, Corentin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Kovacevic\, Aleksandar vs Moutet\, Corentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:54@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Diallo\, Gabriel vs Rublev\, Andrey
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Diallo\, Gabriel vs Rublev\, Andrey\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:55@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Djokovic\, Novak vs Majchrzak\, Kamil
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Djokovic\, Novak vs Majchrzak\, Kamil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:56@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Alcaraz\, Carlos vs Dimitrov\, Grigor
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Alcaraz\, Carlos vs Dimitrov\, Grigor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:57@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Baez\, Sebastian vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Baez\, Sebastian vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:58@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Minaur\, Alex de vs Korda\, Sebastian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Minaur\, Alex de vs Korda\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:59@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Fritz\, Taylor vs Fearnley\, Jacob
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Fritz\, Taylor vs Fearnley\, Jacob\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:60@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Hijikata\, Rinky vs Darderi\, Luciano
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Hijikata\, Rinky vs Darderi\, Luciano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:61@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Norrie\, Cameron vs McDonald\, Mackenzie
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Norrie\, Cameron vs McDonald\, Mackenzie\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:62@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Michelsen\, Alex vs Humbert\, Ugo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Michelsen\, Alex vs Humbert\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:63@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Bublik\, Alexander vs Kopriva\, Vit
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Bublik\, Alexander vs Kopriva\, Vit\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:64@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Medvedev\, Daniil vs Tabilo\, Alejandro
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Medvedev\, Daniil vs Tabilo\, Alejandro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:65@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Zverev\, Alexander vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Zverev\, Alexander vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:66@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260308T120000Z
+DTEND:20260308T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Tien\, Learner vs Shelton\, Ben
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Tien\, Learner vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:67@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Sinner\, Jannik vs Shapovalov\, Denis
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Sinner\, Jannik vs Shapovalov\, Denis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:68@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Fokina\, Alejandro Davidovich vs Mensik\, Jakub
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Fokina\, Alejandro Davidovich vs Mensik\, Jakub\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:69@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Fonseca\, Joao vs Paul\, Tommy
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Fonseca\, Joao vs Paul\, Tommy\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:70@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Auger-Aliassime\, Felix vs Diallo\, Gabriel
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Auger-Aliassime\, Felix vs Diallo\, Gabriel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:71@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Tiafoe\, Frances vs Cobolli\, Flavio
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Tiafoe\, Frances vs Cobolli\, Flavio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:72@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Fils\, Arthur vs Fucsovics\, Marton
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Fils\, Arthur vs Fucsovics\, Marton\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:73@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Djokovic\, Novak vs Kovacevic\, Aleksandar
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Djokovic\, Novak vs Kovacevic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:74@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Norrie\, Cameron vs Minaur\, Alex de
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Norrie\, Cameron vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:75@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Hijikata\, Rinky vs Bublik\, Alexander
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Hijikata\, Rinky vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:76@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260309T120000Z
+DTEND:20260309T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Draper\, Jack vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Draper\, Jack vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:77@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260310T120000Z
+DTEND:20260310T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Michelsen\, Alex vs Fritz\, Taylor
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Michelsen\, Alex vs Fritz\, Taylor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:78@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260310T120000Z
+DTEND:20260310T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Ruud\, Casper vs Vacherot\, Valentin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Ruud\, Casper vs Vacherot\, Valentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:79@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260310T120000Z
+DTEND:20260310T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Alcaraz\, Carlos vs Rinderknech\, Arthur
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Alcaraz\, Carlos vs Rinderknech\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:80@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260310T120000Z
+DTEND:20260310T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Medvedev\, Daniil vs Baez\, Sebastian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Medvedev\, Daniil vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:81@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260310T120000Z
+DTEND:20260310T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Fils\, Arthur vs Auger-Aliassime\, Felix
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Fils\, Arthur vs Auger-Aliassime\, Felix\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:82@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260310T120000Z
+DTEND:20260310T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Zverev\, Alexander vs Tiafoe\, Frances
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Zverev\, Alexander vs Tiafoe\, Frances\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:83@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260311T120000Z
+DTEND:20260311T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Tien\, Learner vs Fokina\, Alejandro Davidovich
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Tien\, Learner vs Fokina\, Alejandro Davidovich\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:84@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260311T120000Z
+DTEND:20260311T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Sinner\, Jannik vs Fonseca\, Joao
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Sinner\, Jannik vs Fonseca\, Joao\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:85@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260311T120000Z
+DTEND:20260311T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Medvedev\, Daniil vs Michelsen\, Alex
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Medvedev\, Daniil vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:86@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260311T120000Z
+DTEND:20260311T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Norrie\, Cameron vs Hijikata\, Rinky
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Norrie\, Cameron vs Hijikata\, Rinky\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:87@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260312T120000Z
+DTEND:20260312T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Alcaraz\, Carlos vs Ruud\, Casper
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Alcaraz\, Carlos vs Ruud\, Casper\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-404:88@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260312T120000Z
+DTEND:20260312T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Draper\, Jack vs Djokovic\, Novak
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Draper\, Jack vs Djokovic\, Novak\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:89@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Alcaraz\, Carlos vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Alcaraz\, Carlos vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:90@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Medvedev\, Daniil vs Fils\, Arthur
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Medvedev\, Daniil vs Fils\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:91@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Draper\, Jack vs Shelton\, Ben
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Draper\, Jack vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:92@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Rune\, Holger vs Griekspoor\, Tallon
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Rune\, Holger vs Griekspoor\, Tallon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:93@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — Полуфинал: Draper\, Jack vs Alcaraz\, Carlos
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Полуфинал\nМатч: Draper\, Jack vs Alcaraz\, Carlos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:94@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — Полуфинал: Rune\, Holger vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Полуфинал\nМатч: Rune\, Holger vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:95@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — Финал: Draper\, Jack vs Rune\, Holger
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Финал\nМатч: Draper\, Jack vs Rune\, Holger\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:1@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Arnaldi\, Matteo vs Kovacevic\, Aleksandar
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Arnaldi\, Matteo vs Kovacevic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:2@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Borges\, Nuno vs Rinderknech\, Arthur
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Borges\, Nuno vs Rinderknech\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:3@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Brooksby\, Jenson vs Bonzi\, Benjamin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Brooksby\, Jenson vs Bonzi\, Benjamin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:4@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Fonseca\, Joao vs Fearnley\, Jacob
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Fonseca\, Joao vs Fearnley\, Jacob\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:5@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Gaston\, Hugo vs Darderi\, Luciano
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Gaston\, Hugo vs Darderi\, Luciano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:6@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Gigante\, Matteo vs Baez\, Sebastian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Gigante\, Matteo vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:7@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Goffin\, David vs Sonego\, Lorenzo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Goffin\, David vs Sonego\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:8@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Halys\, Quentin vs Busta\, Pablo Carreno
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Halys\, Quentin vs Busta\, Pablo Carreno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:9@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Hijikata\, Rinky vs Shevchenko\, Alexander
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Hijikata\, Rinky vs Shevchenko\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:10@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Lajovic\, Dusan vs Tu\, Li
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Lajovic\, Dusan vs Tu\, Li\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:11@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: McDonald\, Mackenzie vs Fokina\, Alejandro Davidovich
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: McDonald\, Mackenzie vs Fokina\, Alejandro Davidovich\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:12@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Mensik\, Jakub vs Etcheverry\, Tomas Martin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Mensik\, Jakub vs Etcheverry\, Tomas Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:13@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Monfils\, Gael vs Struff\, Jan-Lennard
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Monfils\, Gael vs Struff\, Jan-Lennard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:14@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Navone\, Mariano vs Tien\, Learner
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Navone\, Mariano vs Tien\, Learner\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:15@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Zandschulp\, Botic van de vs Kyrgios\, Nick
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Zandschulp\, Botic van de vs Kyrgios\, Nick\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:16@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Walton\, Adam vs Zeppieri\, Giulio
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Walton\, Adam vs Zeppieri\, Giulio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:17@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Bergs\, Zizou vs Quinn\, Ethan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Bergs\, Zizou vs Quinn\, Ethan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:18@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Boyer\, Tristan vs Vukic\, Aleksandar
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Boyer\, Tristan vs Vukic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:19@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Bu\, Yunchaokete vs Basavareddy\, Nishesh
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Bu\, Yunchaokete vs Basavareddy\, Nishesh\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:20@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Diallo\, Gabriel vs Zhang\, Zhizhen
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Diallo\, Gabriel vs Zhang\, Zhizhen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:21@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Dzumhur\, Damir vs Agut\, Roberto Bautista
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Dzumhur\, Damir vs Agut\, Roberto Bautista\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:22@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Giron\, Marcos vs Basilashvili\, Nikoloz
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Giron\, Marcos vs Basilashvili\, Nikoloz\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:23@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Griekspoor\, Tallon vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Griekspoor\, Tallon vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:24@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Marozsan\, Fabian vs Martinez\, Pedro
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Marozsan\, Fabian vs Martinez\, Pedro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:25@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Moutet\, Corentin vs Thompson\, Jordan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Moutet\, Corentin vs Thompson\, Jordan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:26@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Nishikori\, Kei vs Munar\, Jaume
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Nishikori\, Kei vs Munar\, Jaume\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:27@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Norrie\, Cameron vs Nardi\, Luca
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Norrie\, Cameron vs Nardi\, Luca\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:28@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: O'Connell\, Christopher vs Baena\, Roberto Carballes
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: O'Connell\, Christopher vs Baena\, Roberto Carballes\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:29@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Safiullin\, Roman vs Opelka\, Reilly
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Safiullin\, Roman vs Opelka\, Reilly\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:30@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Wild\, Thiago Seyboth vs Muller\, Alexandre
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Wild\, Thiago Seyboth vs Muller\, Alexandre\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:31@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Smith\, Colton vs Cobolli\, Flavio
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Smith\, Colton vs Cobolli\, Flavio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:32@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Watanuki\, Yosuke vs Bublik\, Alexander
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Watanuki\, Yosuke vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:33@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Alcaraz\, Carlos vs Halys\, Quentin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Alcaraz\, Carlos vs Halys\, Quentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:34@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Fritz\, Taylor vs Gigante\, Matteo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Fritz\, Taylor vs Gigante\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:35@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Zandschulp\, Botic van de vs Djokovic\, Novak
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Zandschulp\, Botic van de vs Djokovic\, Novak\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:36@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Arnaldi\, Matteo vs Rublev\, Andrey
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Arnaldi\, Matteo vs Rublev\, Andrey\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:37@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Minaur\, Alex de vs Goffin\, David
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Minaur\, Alex de vs Goffin\, David\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:38@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Shelton\, Ben vs Navone\, Mariano
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Shelton\, Ben vs Navone\, Mariano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:39@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Draper\, Jack vs Fonseca\, Joao
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Draper\, Jack vs Fonseca\, Joao\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:40@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Dimitrov\, Grigor vs Borges\, Nuno
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Dimitrov\, Grigor vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:41@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Brooksby\, Jenson vs Auger-Aliassime\, Felix
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Brooksby\, Jenson vs Auger-Aliassime\, Felix\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:42@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Hurkacz\, Hubert vs Gaston\, Hugo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Hurkacz\, Hubert vs Gaston\, Hugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:43@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Khachanov\, Karen vs Mensik\, Jakub
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Khachanov\, Karen vs Mensik\, Jakub\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:44@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Monfils\, Gael vs Korda\, Sebastian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Monfils\, Gael vs Korda\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:45@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Cerundolo\, Francisco vs McDonald\, Mackenzie
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs McDonald\, Mackenzie\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:46@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Shapovalov\, Denis vs Walton\, Adam
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Shapovalov\, Denis vs Walton\, Adam\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:47@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Tabilo\, Alejandro vs Lajovic\, Dusan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Tabilo\, Alejandro vs Lajovic\, Dusan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:48@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Nakashima\, Brandon vs Hijikata\, Rinky
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Nakashima\, Brandon vs Hijikata\, Rinky\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:49@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Griekspoor\, Tallon vs Zverev\, Alexander
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Griekspoor\, Tallon vs Zverev\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:50@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Giron\, Marcos vs Ruud\, Casper
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Giron\, Marcos vs Ruud\, Casper\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:51@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Medvedev\, Daniil vs Bu\, Yunchaokete
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Medvedev\, Daniil vs Bu\, Yunchaokete\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:52@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Tsitsipas\, Stefanos vs Wild\, Thiago Seyboth
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Tsitsipas\, Stefanos vs Wild\, Thiago Seyboth\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:53@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Paul\, Tommy vs Boyer\, Tristan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Paul\, Tommy vs Boyer\, Tristan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:54@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Rune\, Holger vs Moutet\, Corentin
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Rune\, Holger vs Moutet\, Corentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:55@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Musetti\, Lorenzo vs Safiullin\, Roman
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Musetti\, Lorenzo vs Safiullin\, Roman\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:56@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Tiafoe\, Frances vs Dzumhur\, Damir
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Tiafoe\, Frances vs Dzumhur\, Damir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:57@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Humbert\, Ugo vs Nishikori\, Kei
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Humbert\, Ugo vs Nishikori\, Kei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:58@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Watanuki\, Yosuke vs Machac\, Tomas
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Watanuki\, Yosuke vs Machac\, Tomas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:59@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Fils\, Arthur vs Diallo\, Gabriel
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Fils\, Arthur vs Diallo\, Gabriel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:60@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Norrie\, Cameron vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Norrie\, Cameron vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:61@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Popyrin\, Alexei vs Bergs\, Zizou
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Popyrin\, Alexei vs Bergs\, Zizou\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:62@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Berrettini\, Matteo vs O'Connell\, Christopher
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Berrettini\, Matteo vs O'Connell\, Christopher\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:63@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Perricard\, Giovanni Mpetshi vs Marozsan\, Fabian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Perricard\, Giovanni Mpetshi vs Marozsan\, Fabian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:64@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Michelsen\, Alex vs Smith\, Colton
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Michelsen\, Alex vs Smith\, Colton\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:65@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Alcaraz\, Carlos vs Shapovalov\, Denis
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Alcaraz\, Carlos vs Shapovalov\, Denis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:66@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Fritz\, Taylor vs Tabilo\, Alejandro
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Fritz\, Taylor vs Tabilo\, Alejandro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:67@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Minaur\, Alex de vs Hurkacz\, Hubert
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Minaur\, Alex de vs Hurkacz\, Hubert\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:68@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Shelton\, Ben vs Khachanov\, Karen
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Shelton\, Ben vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:69@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Draper\, Jack vs Brooksby\, Jenson
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Draper\, Jack vs Brooksby\, Jenson\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:70@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Dimitrov\, Grigor vs Monfils\, Gael
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Dimitrov\, Grigor vs Monfils\, Gael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:71@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Cerundolo\, Francisco vs Zandschulp\, Botic van de
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Cerundolo\, Francisco vs Zandschulp\, Botic van de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:72@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Nakashima\, Brandon vs Arnaldi\, Matteo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Nakashima\, Brandon vs Arnaldi\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:73@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Medvedev\, Daniil vs Michelsen\, Alex
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Medvedev\, Daniil vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:74@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Tsitsipas\, Stefanos vs Berrettini\, Matteo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Tsitsipas\, Stefanos vs Berrettini\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:75@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Paul\, Tommy vs Norrie\, Cameron
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Paul\, Tommy vs Norrie\, Cameron\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:76@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Rune\, Holger vs Humbert\, Ugo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Rune\, Holger vs Humbert\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:77@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Fils\, Arthur vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Fils\, Arthur vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:78@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Watanuki\, Yosuke vs Tiafoe\, Frances
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Watanuki\, Yosuke vs Tiafoe\, Frances\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:79@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Giron\, Marcos vs Popyrin\, Alexei
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Giron\, Marcos vs Popyrin\, Alexei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:80@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Griekspoor\, Tallon vs Perricard\, Giovanni Mpetshi
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Griekspoor\, Tallon vs Perricard\, Giovanni Mpetshi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:81@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Alcaraz\, Carlos vs Dimitrov\, Grigor
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Alcaraz\, Carlos vs Dimitrov\, Grigor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:82@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Draper\, Jack vs Fritz\, Taylor
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Draper\, Jack vs Fritz\, Taylor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:83@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Cerundolo\, Francisco vs Minaur\, Alex de
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Cerundolo\, Francisco vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:84@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Shelton\, Ben vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Shelton\, Ben vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:85@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Medvedev\, Daniil vs Paul\, Tommy
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Medvedev\, Daniil vs Paul\, Tommy\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:86@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Rune\, Holger vs Tsitsipas\, Stefanos
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Rune\, Holger vs Tsitsipas\, Stefanos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:87@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Fils\, Arthur vs Giron\, Marcos
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Fils\, Arthur vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-404:88@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250303T120000Z
+DTEND:20250303T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Griekspoor\, Tallon vs Watanuki\, Yosuke
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Griekspoor\, Tallon vs Watanuki\, Yosuke\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:89@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Alcaraz\, Carlos vs Zverev\, Alexander
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Alcaraz\, Carlos vs Zverev\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:90@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Sinner\, Jannik vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Sinner\, Jannik vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:91@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Medvedev\, Daniil vs Rune\, Holger
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Medvedev\, Daniil vs Rune\, Holger\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:92@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — Четвертьфинал: Paul\, Tommy vs Ruud\, Casper
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Четвертьфинал\nМатч: Paul\, Tommy vs Ruud\, Casper\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:93@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — Полуфинал: Alcaraz\, Carlos vs Sinner\, Jannik
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Полуфинал\nМатч: Alcaraz\, Carlos vs Sinner\, Jannik\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:94@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — Полуфинал: Medvedev\, Daniil vs Paul\, Tommy
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Полуфинал\nМатч: Medvedev\, Daniil vs Paul\, Tommy\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:95@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — Финал: Alcaraz\, Carlos vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: Финал\nМатч: Alcaraz\, Carlos vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:1@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Arnaldi\, Matteo vs Assche\, Luca Van
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Arnaldi\, Matteo vs Assche\, Luca Van\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:2@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Lestienne\, Constant vs Kudla\, Denis
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Lestienne\, Constant vs Kudla\, Denis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:3@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Marozsan\, Fabian vs Rodionov\, Jurij
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Marozsan\, Fabian vs Rodionov\, Jurij\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:4@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Wild\, Thiago Seyboth vs Wolf\, J.J.
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Wild\, Thiago Seyboth vs Wolf\, J.J.\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:5@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Daniel\, Taro vs Galan\, Daniel Elahi
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Daniel\, Taro vs Galan\, Daniel Elahi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:6@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Shang\, Juncheng vs Thompson\, Jordan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Shang\, Juncheng vs Thompson\, Jordan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:7@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Hanfmann\, Yannick vs Cachin\, Pedro
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Hanfmann\, Yannick vs Cachin\, Pedro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:8@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: O'Connell\, Christopher vs Draper\, Jack
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: O'Connell\, Christopher vs Draper\, Jack\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:9@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Kokkinakis\, Thanasi vs Giron\, Marcos
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Kokkinakis\, Thanasi vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:10@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Coric\, Borna vs Ofner\, Sebastian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Coric\, Borna vs Ofner\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:11@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Shevchenko\, Alexander vs Koepfer\, Dominik
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Shevchenko\, Alexander vs Koepfer\, Dominik\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:12@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Mensik\, Jakub vs Hong\, Seongchan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Mensik\, Jakub vs Hong\, Seongchan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:13@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Pouille\, Lucas vs Altmaier\, Daniel
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Pouille\, Lucas vs Altmaier\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:14@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Lajovic\, Dusan vs Ruusuvuori\, Emil
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Lajovic\, Dusan vs Ruusuvuori\, Emil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:15@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Nakashima\, Brandon vs Eubanks\, Christopher
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Nakashima\, Brandon vs Eubanks\, Christopher\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:16@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Murray\, Andy vs Goffin\, David
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Murray\, Andy vs Goffin\, David\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:17@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Raonic\, Milos vs Nagal\, Sumit
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Raonic\, Milos vs Nagal\, Sumit\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:18@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Shapovalov\, Denis vs Zandschulp\, Botic van de
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Shapovalov\, Denis vs Zandschulp\, Botic van de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:19@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Fognini\, Fabio vs Miralles\, Bernabe Zapata
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Fognini\, Fabio vs Miralles\, Bernabe Zapata\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:20@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Tabilo\, Alejandro vs Kotov\, Pavel
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Tabilo\, Alejandro vs Kotov\, Pavel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:21@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Muller\, Alexandre vs Grenier\, Hugo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Muller\, Alexandre vs Grenier\, Hugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:22@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Machac\, Tomas vs Wawrinka\, Stan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Machac\, Tomas vs Wawrinka\, Stan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:23@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Safiullin\, Roman vs Evans\, Daniel
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Safiullin\, Roman vs Evans\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:24@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Baena\, Roberto Carballes vs Cobolli\, Flavio
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Baena\, Roberto Carballes vs Cobolli\, Flavio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:25@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Monfils\, Gael vs Purcell\, Max
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Monfils\, Gael vs Purcell\, Max\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:26@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Sonego\, Lorenzo vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Sonego\, Lorenzo vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:27@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Fils\, Arthur vs Borges\, Nuno
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Fils\, Arthur vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:28@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Klein\, Lukas vs Alboran\, Nicolas Moreno De
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Klein\, Lukas vs Alboran\, Nicolas Moreno De\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:29@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Kypson\, Patrick vs Quinn\, Ethan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Kypson\, Patrick vs Quinn\, Ethan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:30@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Michelsen\, Alex vs Munar\, Jaume
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Michelsen\, Alex vs Munar\, Jaume\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:31@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Zhang\, Zhizhen vs Kovacevic\, Aleksandar
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Zhang\, Zhizhen vs Kovacevic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:32@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/64 финала: Vukic\, Aleksandar vs Mochizuki\, Shintaro
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/64 финала\nМатч: Vukic\, Aleksandar vs Mochizuki\, Shintaro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:33@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Alcaraz\, Carlos vs Arnaldi\, Matteo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Alcaraz\, Carlos vs Arnaldi\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:34@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Lestienne\, Constant
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Auger-Aliassime\, Felix vs Lestienne\, Constant\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:35@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Marozsan\, Fabian vs Jarry\, Nicolas
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Marozsan\, Fabian vs Jarry\, Nicolas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:36@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Wild\, Thiago Seyboth vs Khachanov\, Karen
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Wild\, Thiago Seyboth vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:37@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Minaur\, Alex de vs Daniel\, Taro
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Minaur\, Alex de vs Daniel\, Taro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:38@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Bublik\, Alexander vs Shang\, Juncheng
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Bublik\, Alexander vs Shang\, Juncheng\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:39@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Griekspoor\, Tallon vs Hanfmann\, Yannick
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Griekspoor\, Tallon vs Hanfmann\, Yannick\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:40@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Zverev\, Alexander vs O'Connell\, Christopher
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Zverev\, Alexander vs O'Connell\, Christopher\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:41@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Sinner\, Jannik vs Kokkinakis\, Thanasi
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Sinner\, Jannik vs Kokkinakis\, Thanasi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:42@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Struff\, Jan-Lennard vs Coric\, Borna
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Struff\, Jan-Lennard vs Coric\, Borna\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:43@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Cerundolo\, Francisco vs Shevchenko\, Alexander
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs Shevchenko\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:44@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Shelton\, Ben vs Mensik\, Jakub
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Shelton\, Ben vs Mensik\, Jakub\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:45@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Tsitsipas\, Stefanos vs Pouille\, Lucas
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Tsitsipas\, Stefanos vs Pouille\, Lucas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:46@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Tiafoe\, Frances vs Lajovic\, Dusan
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Tiafoe\, Frances vs Lajovic\, Dusan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:47@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Lehecka\, Jiri vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Lehecka\, Jiri vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:48@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Rublev\, Andrey vs Murray\, Andy
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Rublev\, Andrey vs Murray\, Andy\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:49@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Rune\, Holger vs Raonic\, Milos
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Rune\, Holger vs Raonic\, Milos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:50@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Musetti\, Lorenzo vs Shapovalov\, Denis
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Musetti\, Lorenzo vs Shapovalov\, Denis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:51@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Baez\, Sebastian vs Fognini\, Fabio
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Baez\, Sebastian vs Fognini\, Fabio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:52@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Fritz\, Taylor vs Tabilo\, Alejandro
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Fritz\, Taylor vs Tabilo\, Alejandro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:53@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Dimitrov\, Grigor vs Muller\, Alexandre
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Dimitrov\, Grigor vs Muller\, Alexandre\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:54@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Mannarino\, Adrian vs Machac\, Tomas
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Mannarino\, Adrian vs Machac\, Tomas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:55@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Korda\, Sebastian vs Safiullin\, Roman
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Korda\, Sebastian vs Safiullin\, Roman\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:56@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Medvedev\, Daniil vs Baena\, Roberto Carballes
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Medvedev\, Daniil vs Baena\, Roberto Carballes\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:57@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Monfils\, Gael vs Hurkacz\, Hubert
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Monfils\, Gael vs Hurkacz\, Hubert\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:58@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Norrie\, Cameron vs Sonego\, Lorenzo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Norrie\, Cameron vs Sonego\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:59@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Fils\, Arthur vs Fokina\, Alejandro Davidovich
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Fils\, Arthur vs Fokina\, Alejandro Davidovich\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:60@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Ruud\, Casper vs Klein\, Lukas
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Ruud\, Casper vs Klein\, Lukas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:61@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Humbert\, Ugo vs Kypson\, Patrick
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Humbert\, Ugo vs Kypson\, Patrick\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:62@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Paul\, Tommy vs Michelsen\, Alex
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Paul\, Tommy vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:63@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Nardi\, Luca vs Zhang\, Zhizhen
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Nardi\, Luca vs Zhang\, Zhizhen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:64@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/32 финала: Djokovic\, Novak vs Vukic\, Aleksandar
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/32 финала\nМатч: Djokovic\, Novak vs Vukic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:65@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Alcaraz\, Carlos vs Auger-Aliassime\, Felix
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Alcaraz\, Carlos vs Auger-Aliassime\, Felix\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:66@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Marozsan\, Fabian vs Wild\, Thiago Seyboth
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Marozsan\, Fabian vs Wild\, Thiago Seyboth\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:67@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Minaur\, Alex de vs Bublik\, Alexander
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Minaur\, Alex de vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:68@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Zverev\, Alexander vs Griekspoor\, Tallon
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Zverev\, Alexander vs Griekspoor\, Tallon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:69@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Sinner\, Jannik vs Struff\, Jan-Lennard
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Sinner\, Jannik vs Struff\, Jan-Lennard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:70@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Shelton\, Ben vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Shelton\, Ben vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:71@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Tsitsipas\, Stefanos vs Tiafoe\, Frances
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Tsitsipas\, Stefanos vs Tiafoe\, Frances\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:72@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Lehecka\, Jiri vs Rublev\, Andrey
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Lehecka\, Jiri vs Rublev\, Andrey\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:73@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Rune\, Holger vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Rune\, Holger vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:74@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Fritz\, Taylor vs Baez\, Sebastian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Fritz\, Taylor vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:75@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Dimitrov\, Grigor vs Mannarino\, Adrian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Dimitrov\, Grigor vs Mannarino\, Adrian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:76@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Medvedev\, Daniil vs Korda\, Sebastian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Medvedev\, Daniil vs Korda\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:77@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Monfils\, Gael vs Norrie\, Cameron
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Monfils\, Gael vs Norrie\, Cameron\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:78@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Ruud\, Casper vs Fils\, Arthur
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Ruud\, Casper vs Fils\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:79@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Paul\, Tommy vs Humbert\, Ugo
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Paul\, Tommy vs Humbert\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:80@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/16 финала: Nardi\, Luca vs Djokovic\, Novak
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/16 финала\nМатч: Nardi\, Luca vs Djokovic\, Novak\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:81@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Alcaraz\, Carlos vs Marozsan\, Fabian
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Alcaraz\, Carlos vs Marozsan\, Fabian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:82@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Zverev\, Alexander vs Minaur\, Alex de
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Zverev\, Alexander vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:83@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Sinner\, Jannik vs Shelton\, Ben
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Sinner\, Jannik vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:84@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Lehecka\, Jiri vs Tsitsipas\, Stefanos
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Lehecka\, Jiri vs Tsitsipas\, Stefanos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:85@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Rune\, Holger vs Fritz\, Taylor
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Rune\, Holger vs Fritz\, Taylor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:86@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Medvedev\, Daniil vs Dimitrov\, Grigor
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Medvedev\, Daniil vs Dimitrov\, Grigor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:87@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Ruud\, Casper vs Monfils\, Gael
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Ruud\, Casper vs Monfils\, Gael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-404:88@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240304T120000Z
+DTEND:20240304T150000Z
+SUMMARY:Indian Wells 2026 — 1/8 финала: Paul\, Tommy vs Nardi\, Luca
+DESCRIPTION:Турнир: Indian Wells (2026)\nЭтап: 1/8 финала\nМатч: Paul\, Tommy vs Nardi\, Luca\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
+END:VEVENT
+END:VCALENDAR

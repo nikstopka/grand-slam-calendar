@@ -63,6 +63,12 @@ jobs:
           pip install requests beautifulsoup4 lxml
           python scripts/fetch_news.py || true
 
+      # 5b. Генерируем ICS-календари для подписки
+      - name: Generate calendars
+        run: |
+          pip install requests beautifulsoup4 lxml
+          python scripts/generate_ics.py || true
+
       # 6. Проверяем, что данные валидны
       - name: Validate data
         run: |
@@ -91,10 +97,10 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-          if git diff --quiet -- data/; then
+          if git diff --quiet -- data/ calendars/; then
             echo "Нет изменений для сохранения"
           else
-            git add data/
+            git add data/ calendars/
             git commit -m "Автоматическое обновление расписания ($(date -u '+%Y-%m-%d %H:%M UTC'))"
             git push
             echo "Изменения сохранены и отправлены в репозиторий"

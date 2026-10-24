@@ -1,0 +1,2575 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//grand-slam-calendar//tennis//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Теннис: Madrid Open
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:89@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260429T120000Z
+DTEND:20260429T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Sinner\, Jannik vs Jodar\, Rafael
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Sinner\, Jannik vs Jodar\, Rafael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:90@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260429T120000Z
+DTEND:20260429T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Fils\, Arthur vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Fils\, Arthur vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:91@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260430T120000Z
+DTEND:20260430T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Blockx\, Alexander vs Ruud\, Casper
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Blockx\, Alexander vs Ruud\, Casper\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:92@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260430T120000Z
+DTEND:20260430T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Zverev\, Alexander vs Cobolli\, Flavio
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Zverev\, Alexander vs Cobolli\, Flavio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:93@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260501T120000Z
+DTEND:20260501T150000Z
+SUMMARY:Madrid Open 2026 — Полуфинал: Sinner\, Jannik vs Fils\, Arthur
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Полуфинал\nМатч: Sinner\, Jannik vs Fils\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:94@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260501T120000Z
+DTEND:20260501T150000Z
+SUMMARY:Madrid Open 2026 — Полуфинал: Zverev\, Alexander vs Blockx\, Alexander
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Полуфинал\nМатч: Zverev\, Alexander vs Blockx\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:95@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260503T120000Z
+DTEND:20260503T150000Z
+SUMMARY:Madrid Open 2026 — Финал: Sinner\, Jannik vs Zverev\, Alexander
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Финал\nМатч: Sinner\, Jannik vs Zverev\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:1@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Ofner\, Sebastian vs Basilashvili\, Nikoloz
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Ofner\, Sebastian vs Basilashvili\, Nikoloz\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:2@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Buse\, Ignacio vs Mannarino\, Adrian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Buse\, Ignacio vs Mannarino\, Adrian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:3@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Cilic\, Marin vs Bergs\, Zizou
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Cilic\, Marin vs Bergs\, Zizou\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:4@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Dzumhur\, Damir vs Bellucci\, Mattia
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Dzumhur\, Damir vs Bellucci\, Mattia\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:5@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Kopriva\, Vit vs Zhang\, Zhizhen
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Kopriva\, Vit vs Zhang\, Zhizhen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:6@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Lajovic\, Dusan vs Sonego\, Lorenzo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Lajovic\, Dusan vs Sonego\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:7@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Nava\, Emilio vs Brooksby\, Jenson
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Nava\, Emilio vs Brooksby\, Jenson\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:8@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Prizmic\, Dino vs Berrettini\, Matteo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Prizmic\, Dino vs Berrettini\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:9@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Struff\, Jan-Lennard vs Muller\, Alexandre
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Struff\, Jan-Lennard vs Muller\, Alexandre\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:10@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Tirante\, Thiago Agustin vs Agut\, Roberto Bautista
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Tirante\, Thiago Agustin vs Agut\, Roberto Bautista\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:11@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Hurkacz\, Hubert vs Faria\, Jaime
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Hurkacz\, Hubert vs Faria\, Jaime\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:12@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Moller\, Elmer vs Cina\, Federico
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Moller\, Elmer vs Cina\, Federico\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:13@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Jodar\, Rafael vs Jong\, Jesper de
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Jodar\, Rafael vs Jong\, Jesper de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:14@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Bonzi\, Benjamin vs Droguet\, Titouan
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Bonzi\, Benjamin vs Droguet\, Titouan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:15@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Machac\, Tomas vs Comesana\, Francisco
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Machac\, Tomas vs Comesana\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:16@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260422T120000Z
+DTEND:20260422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Tabilo\, Alejandro vs Royer\, Valentin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Tabilo\, Alejandro vs Royer\, Valentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:17@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Vallejo\, Adolfo Daniel vs Dimitrov\, Grigor
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Vallejo\, Adolfo Daniel vs Dimitrov\, Grigor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:18@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Atmane\, Terence vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Atmane\, Terence vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:19@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Blockx\, Alexander vs Garin\, Cristian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Blockx\, Alexander vs Garin\, Cristian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:20@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Busta\, Pablo Carreno vs Fucsovics\, Marton
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Busta\, Pablo Carreno vs Fucsovics\, Marton\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:21@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Damm\, Martin vs Popyrin\, Alexei
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Damm\, Martin vs Popyrin\, Alexei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:22@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Hanfmann\, Yannick vs Giron\, Marcos
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Hanfmann\, Yannick vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:23@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Marozsan\, Fabian vs Quinn\, Ethan
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Marozsan\, Fabian vs Quinn\, Ethan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:24@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Munar\, Jaume vs Shevchenko\, Alexander
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Munar\, Jaume vs Shevchenko\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:25@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Navone\, Mariano vs Borges\, Nuno
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Navone\, Mariano vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:26@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Cerundolo\, Juan Manuel vs Altmaier\, Daniel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Cerundolo\, Juan Manuel vs Altmaier\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:27@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Gaubas\, Vilius vs Baez\, Sebastian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Gaubas\, Vilius vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:28@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Tsitsipas\, Stefanos vs Kypson\, Patrick
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Tsitsipas\, Stefanos vs Kypson\, Patrick\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:29@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Carabelli\, Camilo Ugo vs Monfils\, Gael
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Carabelli\, Camilo Ugo vs Monfils\, Gael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:30@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Kjaer\, Nicolai Budkov vs Opelka\, Reilly
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Kjaer\, Nicolai Budkov vs Opelka\, Reilly\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:31@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Merida\, Daniel vs Trungelliti\, Marco
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Merida\, Daniel vs Trungelliti\, Marco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:32@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260423T120000Z
+DTEND:20260423T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Walton\, Adam vs Landaluce\, Martin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Walton\, Adam vs Landaluce\, Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:33@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Moller\, Elmer vs Diallo\, Gabriel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Moller\, Elmer vs Diallo\, Gabriel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:34@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Musetti\, Lorenzo vs Hurkacz\, Hubert
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Musetti\, Lorenzo vs Hurkacz\, Hubert\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:35@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Nava\, Emilio vs Vacherot\, Valentin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Nava\, Emilio vs Vacherot\, Valentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:36@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Rinderknech\, Arthur vs Lajovic\, Dusan
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Rinderknech\, Arthur vs Lajovic\, Dusan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:37@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Griekspoor\, Tallon vs Dzumhur\, Damir
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Griekspoor\, Tallon vs Dzumhur\, Damir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:38@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Michelsen\, Alex vs Struff\, Jan-Lennard
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Michelsen\, Alex vs Struff\, Jan-Lennard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:39@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Fonseca\, Joao vs Cilic\, Marin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Fonseca\, Joao vs Cilic\, Marin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:40@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Sinner\, Jannik vs Bonzi\, Benjamin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Sinner\, Jannik vs Bonzi\, Benjamin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:41@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Prizmic\, Dino vs Shelton\, Ben
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Prizmic\, Dino vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:42@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Lehecka\, Jiri vs Tabilo\, Alejandro
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Lehecka\, Jiri vs Tabilo\, Alejandro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:43@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Fils\, Arthur vs Buse\, Ignacio
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Fils\, Arthur vs Buse\, Ignacio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:44@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Etcheverry\, Tomas Martin vs Ofner\, Sebastian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Etcheverry\, Tomas Martin vs Ofner\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:45@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Norrie\, Cameron vs Machac\, Tomas
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Norrie\, Cameron vs Machac\, Tomas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:46@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Jodar\, Rafael vs Minaur\, Alex de
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Jodar\, Rafael vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:47@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Kopriva\, Vit vs Rublev\, Andrey
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Kopriva\, Vit vs Rublev\, Andrey\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:48@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260424T120000Z
+DTEND:20260424T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Tirante\, Thiago Agustin vs Paul\, Tommy
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Tirante\, Thiago Agustin vs Paul\, Tommy\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:49@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Cerundolo\, Francisco vs Hanfmann\, Yannick
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs Hanfmann\, Yannick\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:50@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Khachanov\, Karen vs Walton\, Adam
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Khachanov\, Karen vs Walton\, Adam\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:51@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Busta\, Pablo Carreno
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Fokina\, Alejandro Davidovich vs Busta\, Pablo Carreno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:52@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Atmane\, Terence vs Humbert\, Ugo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Atmane\, Terence vs Humbert\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:53@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Gaubas\, Vilius
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Auger-Aliassime\, Felix vs Gaubas\, Vilius\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:54@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Ruud\, Casper vs Munar\, Jaume
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Ruud\, Casper vs Munar\, Jaume\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:55@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Darderi\, Luciano vs Cerundolo\, Juan Manuel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Darderi\, Luciano vs Cerundolo\, Juan Manuel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:56@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Mensik\, Jakub vs Damm\, Martin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Mensik\, Jakub vs Damm\, Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:57@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Blockx\, Alexander vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Blockx\, Alexander vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:58@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Cobolli\, Flavio vs Carabelli\, Camilo Ugo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Cobolli\, Flavio vs Carabelli\, Camilo Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:59@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Zverev\, Alexander vs Navone\, Mariano
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Zverev\, Alexander vs Navone\, Mariano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:60@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260425T120000Z
+DTEND:20260425T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Vallejo\, Adolfo Daniel vs Tien\, Learner
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Vallejo\, Adolfo Daniel vs Tien\, Learner\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:61@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Tsitsipas\, Stefanos vs Bublik\, Alexander
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Tsitsipas\, Stefanos vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:62@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Medvedev\, Daniil vs Marozsan\, Fabian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Medvedev\, Daniil vs Marozsan\, Fabian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:63@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Merida\, Daniel vs Moutet\, Corentin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Merida\, Daniel vs Moutet\, Corentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:64@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Kjaer\, Nicolai Budkov vs Shapovalov\, Denis
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Kjaer\, Nicolai Budkov vs Shapovalov\, Denis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:65@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Musetti\, Lorenzo vs Griekspoor\, Tallon
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Musetti\, Lorenzo vs Griekspoor\, Tallon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:66@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Lehecka\, Jiri vs Michelsen\, Alex
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Lehecka\, Jiri vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:67@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Sinner\, Jannik vs Moller\, Elmer
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Sinner\, Jannik vs Moller\, Elmer\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:68@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Etcheverry\, Tomas Martin vs Prizmic\, Dino
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Etcheverry\, Tomas Martin vs Prizmic\, Dino\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:69@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Norrie\, Cameron vs Tirante\, Thiago Agustin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Norrie\, Cameron vs Tirante\, Thiago Agustin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:70@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Fils\, Arthur vs Nava\, Emilio
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Fils\, Arthur vs Nava\, Emilio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:71@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260426T120000Z
+DTEND:20260426T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Kopriva\, Vit vs Rinderknech\, Arthur
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Kopriva\, Vit vs Rinderknech\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:72@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260427T120000Z
+DTEND:20260427T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Jodar\, Rafael vs Fonseca\, Joao
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Jodar\, Rafael vs Fonseca\, Joao\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:73@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260427T120000Z
+DTEND:20260427T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Ruud\, Casper vs Fokina\, Alejandro Davidovich
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Ruud\, Casper vs Fokina\, Alejandro Davidovich\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:74@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260427T120000Z
+DTEND:20260427T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Medvedev\, Daniil vs Kjaer\, Nicolai Budkov
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Medvedev\, Daniil vs Kjaer\, Nicolai Budkov\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:75@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260427T120000Z
+DTEND:20260427T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Tsitsipas\, Stefanos vs Merida\, Daniel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Tsitsipas\, Stefanos vs Merida\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:76@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260427T120000Z
+DTEND:20260427T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Cobolli\, Flavio vs Vallejo\, Adolfo Daniel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Cobolli\, Flavio vs Vallejo\, Adolfo Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:77@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260427T120000Z
+DTEND:20260427T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Blockx\, Alexander vs Auger-Aliassime\, Felix
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Blockx\, Alexander vs Auger-Aliassime\, Felix\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:78@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260427T120000Z
+DTEND:20260427T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Zverev\, Alexander vs Atmane\, Terence
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Zverev\, Alexander vs Atmane\, Terence\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:79@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260427T120000Z
+DTEND:20260427T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Mensik\, Jakub vs Khachanov\, Karen
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Mensik\, Jakub vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:80@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260427T120000Z
+DTEND:20260427T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Cerundolo\, Francisco vs Darderi\, Luciano
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Cerundolo\, Francisco vs Darderi\, Luciano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:81@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260428T120000Z
+DTEND:20260428T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Sinner\, Jannik vs Norrie\, Cameron
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Sinner\, Jannik vs Norrie\, Cameron\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:82@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260428T120000Z
+DTEND:20260428T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Fils\, Arthur vs Etcheverry\, Tomas Martin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Fils\, Arthur vs Etcheverry\, Tomas Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:83@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260428T120000Z
+DTEND:20260428T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Ruud\, Casper vs Tsitsipas\, Stefanos
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Ruud\, Casper vs Tsitsipas\, Stefanos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:84@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260428T120000Z
+DTEND:20260428T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Lehecka\, Jiri vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Lehecka\, Jiri vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:85@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260428T120000Z
+DTEND:20260428T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Jodar\, Rafael vs Kopriva\, Vit
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Jodar\, Rafael vs Kopriva\, Vit\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:86@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260428T120000Z
+DTEND:20260428T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Blockx\, Alexander vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Blockx\, Alexander vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:87@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260429T120000Z
+DTEND:20260429T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Zverev\, Alexander vs Mensik\, Jakub
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Zverev\, Alexander vs Mensik\, Jakub\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-1536:88@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20260429T120000Z
+DTEND:20260429T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Cobolli\, Flavio vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Cobolli\, Flavio vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:89@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Draper\, Jack vs Arnaldi\, Matteo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Draper\, Jack vs Arnaldi\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:90@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Ruud\, Casper vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Ruud\, Casper vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:91@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Musetti\, Lorenzo vs Diallo\, Gabriel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Musetti\, Lorenzo vs Diallo\, Gabriel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:92@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Cerundolo\, Francisco vs Mensik\, Jakub
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Cerundolo\, Francisco vs Mensik\, Jakub\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:93@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — Полуфинал: Draper\, Jack vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Полуфинал\nМатч: Draper\, Jack vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:94@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — Полуфинал: Ruud\, Casper vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Полуфинал\nМатч: Ruud\, Casper vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:95@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — Финал: Ruud\, Casper vs Draper\, Jack
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Финал\nМатч: Ruud\, Casper vs Draper\, Jack\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:1@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Arnaldi\, Matteo vs Coric\, Borna
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Arnaldi\, Matteo vs Coric\, Borna\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:2@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Darderi\, Luciano vs Halys\, Quentin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Darderi\, Luciano vs Halys\, Quentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:3@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Diallo\, Gabriel vs Bergs\, Zizou
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Diallo\, Gabriel vs Bergs\, Zizou\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:4@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Dzumhur\, Damir vs Bellucci\, Mattia
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Dzumhur\, Damir vs Bellucci\, Mattia\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:5@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Etcheverry\, Tomas Martin vs Medjedovic\, Hamad
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Etcheverry\, Tomas Martin vs Medjedovic\, Hamad\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:6@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Fearnley\, Jacob vs Bu\, Yunchaokete
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Fearnley\, Jacob vs Bu\, Yunchaokete\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:7@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Fonseca\, Joao vs Moller\, Elmer
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Fonseca\, Joao vs Moller\, Elmer\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:8@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Giron\, Marcos vs Tien\, Learner
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Giron\, Marcos vs Tien\, Learner\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:9@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Griekspoor\, Tallon vs Kopriva\, Vit
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Griekspoor\, Tallon vs Kopriva\, Vit\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:10@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Jarry\, Nicolas vs Altmaier\, Daniel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Jarry\, Nicolas vs Altmaier\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:11@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Muller\, Alexandre vs Goffin\, David
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Muller\, Alexandre vs Goffin\, David\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:12@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Nishikori\, Kei vs Vukic\, Aleksandar
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Nishikori\, Kei vs Vukic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:13@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Norrie\, Cameron vs Landaluce\, Martin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Norrie\, Cameron vs Landaluce\, Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:14@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Opelka\, Reilly vs Hijikata\, Rinky
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Opelka\, Reilly vs Hijikata\, Rinky\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:15@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Sonego\, Lorenzo vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Sonego\, Lorenzo vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:16@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Struff\, Jan-Lennard vs Zandschulp\, Botic van de
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Struff\, Jan-Lennard vs Zandschulp\, Botic van de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:17@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Agut\, Roberto Bautista vs Munar\, Jaume
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Agut\, Roberto Bautista vs Munar\, Jaume\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:18@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Bonzi\, Benjamin vs Cilic\, Marin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Bonzi\, Benjamin vs Cilic\, Marin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:19@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Borges\, Nuno vs Busta\, Pablo Carreno
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Borges\, Nuno vs Busta\, Pablo Carreno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:20@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Bublik\, Alexander vs Michelsen\, Alex
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Bublik\, Alexander vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:21@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Cerundolo\, Juan Manuel vs Kovacevic\, Aleksandar
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Cerundolo\, Juan Manuel vs Kovacevic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:22@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Cina\, Federico vs Wong\, Coleman
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Cina\, Federico vs Wong\, Coleman\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:23@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Cobolli\, Flavio vs Marozsan\, Fabian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Cobolli\, Flavio vs Marozsan\, Fabian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:24@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Comesana\, Francisco vs Martinez\, Pedro
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Comesana\, Francisco vs Martinez\, Pedro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:25@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Djere\, Laslo vs Fognini\, Fabio
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Djere\, Laslo vs Fognini\, Fabio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:26@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Mayot\, Harold vs Moutet\, Corentin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Mayot\, Harold vs Moutet\, Corentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:27@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Monfils\, Gael vs Gojo\, Borna
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Monfils\, Gael vs Gojo\, Borna\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:28@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Navone\, Mariano vs Perricard\, Giovanni Mpetshi
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Navone\, Mariano vs Perricard\, Giovanni Mpetshi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:29@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: O'Connell\, Christopher vs Carabelli\, Camilo Ugo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: O'Connell\, Christopher vs Carabelli\, Camilo Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:30@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Ofner\, Sebastian vs Gaston\, Hugo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Ofner\, Sebastian vs Gaston\, Hugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:31@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Quinn\, Ethan vs Lajovic\, Dusan
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Quinn\, Ethan vs Lajovic\, Dusan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:32@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Rinderknech\, Arthur vs Safiullin\, Roman
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Rinderknech\, Arthur vs Safiullin\, Roman\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:33@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Arnaldi\, Matteo vs Djokovic\, Novak
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Arnaldi\, Matteo vs Djokovic\, Novak\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:34@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Draper\, Jack vs Griekspoor\, Tallon
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Draper\, Jack vs Griekspoor\, Tallon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:35@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Minaur\, Alex de vs Sonego\, Lorenzo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Minaur\, Alex de vs Sonego\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:36@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Musetti\, Lorenzo vs Etcheverry\, Tomas Martin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Musetti\, Lorenzo vs Etcheverry\, Tomas Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:37@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Paul\, Tommy vs Fonseca\, Joao
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Paul\, Tommy vs Fonseca\, Joao\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:38@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Dimitrov\, Grigor vs Jarry\, Nicolas
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Dimitrov\, Grigor vs Jarry\, Nicolas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:39@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Tiafoe\, Frances vs Darderi\, Luciano
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Tiafoe\, Frances vs Darderi\, Luciano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:40@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Tsitsipas\, Stefanos vs Struff\, Jan-Lennard
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Tsitsipas\, Stefanos vs Struff\, Jan-Lennard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:41@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Fearnley\, Jacob vs Machac\, Tomas
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Fearnley\, Jacob vs Machac\, Tomas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:42@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Muller\, Alexandre vs Humbert\, Ugo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Muller\, Alexandre vs Humbert\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:43@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Khachanov\, Karen vs Opelka\, Reilly
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Khachanov\, Karen vs Opelka\, Reilly\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:44@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Norrie\, Cameron vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Norrie\, Cameron vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:45@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Shapovalov\, Denis vs Nishikori\, Kei
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Shapovalov\, Denis vs Nishikori\, Kei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:46@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Berrettini\, Matteo vs Giron\, Marcos
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Berrettini\, Matteo vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:47@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Dzumhur\, Damir vs Baez\, Sebastian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Dzumhur\, Damir vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:48@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Diallo\, Gabriel vs Majchrzak\, Kamil
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Diallo\, Gabriel vs Majchrzak\, Kamil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:49@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Zverev\, Alexander vs Agut\, Roberto Bautista
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Zverev\, Alexander vs Agut\, Roberto Bautista\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:50@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Fritz\, Taylor vs O'Connell\, Christopher
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Fritz\, Taylor vs O'Connell\, Christopher\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:51@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Rublev\, Andrey vs Monfils\, Gael
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Rublev\, Andrey vs Monfils\, Gael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:52@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Cobolli\, Flavio vs Rune\, Holger
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Cobolli\, Flavio vs Rune\, Holger\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:53@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Medvedev\, Daniil vs Djere\, Laslo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Medvedev\, Daniil vs Djere\, Laslo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:54@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Shelton\, Ben vs Navone\, Mariano
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Shelton\, Ben vs Navone\, Mariano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:55@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Comesana\, Francisco vs Fils\, Arthur
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Comesana\, Francisco vs Fils\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:56@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Ruud\, Casper vs Rinderknech\, Arthur
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Ruud\, Casper vs Rinderknech\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:57@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Cerundolo\, Juan Manuel vs Auger-Aliassime\, Felix
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Juan Manuel vs Auger-Aliassime\, Felix\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:58@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Cerundolo\, Francisco vs Mayot\, Harold
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs Mayot\, Harold\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:59@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Mensik\, Jakub vs Quinn\, Ethan
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Mensik\, Jakub vs Quinn\, Ethan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:60@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Korda\, Sebastian vs Cina\, Federico
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Korda\, Sebastian vs Cina\, Federico\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:61@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Bublik\, Alexander vs Popyrin\, Alexei
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Bublik\, Alexander vs Popyrin\, Alexei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:62@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Bonzi\, Benjamin vs Hurkacz\, Hubert
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Bonzi\, Benjamin vs Hurkacz\, Hubert\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:63@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Borges\, Nuno
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Fokina\, Alejandro Davidovich vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:64@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Nakashima\, Brandon vs Ofner\, Sebastian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Nakashima\, Brandon vs Ofner\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:65@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Draper\, Jack vs Berrettini\, Matteo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Draper\, Jack vs Berrettini\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:66@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Minaur\, Alex de vs Shapovalov\, Denis
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Minaur\, Alex de vs Shapovalov\, Denis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:67@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Musetti\, Lorenzo vs Tsitsipas\, Stefanos
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Musetti\, Lorenzo vs Tsitsipas\, Stefanos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:68@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Paul\, Tommy vs Khachanov\, Karen
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Paul\, Tommy vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:69@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Tiafoe\, Frances vs Muller\, Alexandre
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Tiafoe\, Frances vs Muller\, Alexandre\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:70@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Diallo\, Gabriel vs Norrie\, Cameron
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Diallo\, Gabriel vs Norrie\, Cameron\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:71@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Dimitrov\, Grigor vs Fearnley\, Jacob
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Dimitrov\, Grigor vs Fearnley\, Jacob\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:72@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Arnaldi\, Matteo vs Dzumhur\, Damir
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Arnaldi\, Matteo vs Dzumhur\, Damir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:73@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Zverev\, Alexander vs Fokina\, Alejandro Davidovich
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Zverev\, Alexander vs Fokina\, Alejandro Davidovich\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:74@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Fritz\, Taylor vs Bonzi\, Benjamin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Fritz\, Taylor vs Bonzi\, Benjamin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:75@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Bublik\, Alexander vs Rublev\, Andrey
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Bublik\, Alexander vs Rublev\, Andrey\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:76@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Medvedev\, Daniil vs Cerundolo\, Juan Manuel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Medvedev\, Daniil vs Cerundolo\, Juan Manuel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:77@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Mensik\, Jakub vs Shelton\, Ben
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Mensik\, Jakub vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:78@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Ruud\, Casper vs Korda\, Sebastian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Ruud\, Casper vs Korda\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:79@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Cerundolo\, Francisco vs Comesana\, Francisco
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Cerundolo\, Francisco vs Comesana\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:80@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Nakashima\, Brandon vs Cobolli\, Flavio
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Nakashima\, Brandon vs Cobolli\, Flavio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:81@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Draper\, Jack vs Paul\, Tommy
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Draper\, Jack vs Paul\, Tommy\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:82@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Musetti\, Lorenzo vs Minaur\, Alex de
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Musetti\, Lorenzo vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:83@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Diallo\, Gabriel vs Dimitrov\, Grigor
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Diallo\, Gabriel vs Dimitrov\, Grigor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:84@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Arnaldi\, Matteo vs Tiafoe\, Frances
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Arnaldi\, Matteo vs Tiafoe\, Frances\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:85@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Cerundolo\, Francisco vs Zverev\, Alexander
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Cerundolo\, Francisco vs Zverev\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:86@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Ruud\, Casper vs Fritz\, Taylor
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Ruud\, Casper vs Fritz\, Taylor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:87@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Medvedev\, Daniil vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Medvedev\, Daniil vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-1536:88@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20250421T120000Z
+DTEND:20250421T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Mensik\, Jakub vs Bublik\, Alexander
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Mensik\, Jakub vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:89@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Rublev\, Andrey vs Alcaraz\, Carlos
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Rublev\, Andrey vs Alcaraz\, Carlos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:90@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Fritz\, Taylor vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Fritz\, Taylor vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:91@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Lehecka\, Jiri vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Lehecka\, Jiri vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:92@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — Четвертьфинал: Auger-Aliassime\, Felix vs Sinner\, Jannik
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Четвертьфинал\nМатч: Auger-Aliassime\, Felix vs Sinner\, Jannik\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:93@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — Полуфинал: Rublev\, Andrey vs Fritz\, Taylor
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Полуфинал\nМатч: Rublev\, Andrey vs Fritz\, Taylor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:94@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — Полуфинал: Auger-Aliassime\, Felix vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Полуфинал\nМатч: Auger-Aliassime\, Felix vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:95@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — Финал: Rublev\, Andrey vs Auger-Aliassime\, Felix
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: Финал\nМатч: Rublev\, Andrey vs Auger-Aliassime\, Felix\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:1@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Shevchenko\, Alexander vs Rinderknech\, Arthur
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Shevchenko\, Alexander vs Rinderknech\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:2@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Wild\, Thiago Seyboth vs Safiullin\, Roman
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Wild\, Thiago Seyboth vs Safiullin\, Roman\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:3@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Munar\, Jaume vs Borges\, Nuno
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Munar\, Jaume vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:4@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Zandschulp\, Botic van de vs Eubanks\, Christopher
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Zandschulp\, Botic van de vs Eubanks\, Christopher\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:5@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Navone\, Mariano vs Popyrin\, Alexei
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Navone\, Mariano vs Popyrin\, Alexei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:6@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Daniel\, Taro vs Vukic\, Aleksandar
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Daniel\, Taro vs Vukic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:7@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Shang\, Juncheng vs Moutet\, Corentin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Shang\, Juncheng vs Moutet\, Corentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:8@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Bagnis\, Facundo vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Bagnis\, Facundo vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:9@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Coric\, Borna vs Hassan\, Benjamin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Coric\, Borna vs Hassan\, Benjamin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:10@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Shapovalov\, Denis vs Acosta\, Facundo Diaz
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Shapovalov\, Denis vs Acosta\, Facundo Diaz\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:11@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Marozsan\, Fabian vs Karatsev\, Aslan
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Marozsan\, Fabian vs Karatsev\, Aslan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:12@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Klein\, Lukas vs Ruiz\, Pablo Llamas
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Klein\, Lukas vs Ruiz\, Pablo Llamas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:13@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Darderi\, Luciano vs Monfils\, Gael
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Darderi\, Luciano vs Monfils\, Gael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:14@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Assche\, Luca Van vs Bergs\, Zizou
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Assche\, Luca Van vs Bergs\, Zizou\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:15@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Altmaier\, Daniel vs Landaluce\, Martin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Altmaier\, Daniel vs Landaluce\, Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:16@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Draper\, Jack vs Kokkinakis\, Thanasi
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Draper\, Jack vs Kokkinakis\, Thanasi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:17@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Monteiro\, Thiago vs Lajovic\, Dusan
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Monteiro\, Thiago vs Lajovic\, Dusan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:18@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Medjedovic\, Hamad vs Kovacevic\, Aleksandar
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Medjedovic\, Hamad vs Kovacevic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:19@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Cachin\, Pedro vs Ofner\, Sebastian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Cachin\, Pedro vs Ofner\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:20@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Nadal\, Rafael vs Blanch\, Darwin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Nadal\, Rafael vs Blanch\, Darwin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:21@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Machac\, Tomas vs Ruusuvuori\, Emil
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Machac\, Tomas vs Ruusuvuori\, Emil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:22@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Baena\, Roberto Carballes vs Koepfer\, Dominik
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Baena\, Roberto Carballes vs Koepfer\, Dominik\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:23@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Purcell\, Max vs Giron\, Marcos
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Purcell\, Max vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:24@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Arnaldi\, Matteo vs O'Connell\, Christopher
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Arnaldi\, Matteo vs O'Connell\, Christopher\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:25@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Kecmanovic\, Miomir vs Zhang\, Zhizhen
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Kecmanovic\, Miomir vs Zhang\, Zhizhen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:26@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Fonseca\, Joao vs Michelsen\, Alex
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Fonseca\, Joao vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:27@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Auger-Aliassime\, Felix vs Nishioka\, Yoshihito
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Auger-Aliassime\, Felix vs Nishioka\, Yoshihito\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:28@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Mensik\, Jakub vs Hanfmann\, Yannick
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Mensik\, Jakub vs Hanfmann\, Yannick\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:29@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Agut\, Roberto Bautista vs Galan\, Daniel Elahi
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Agut\, Roberto Bautista vs Galan\, Daniel Elahi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:30@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Cobolli\, Flavio vs Tabilo\, Alejandro
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Cobolli\, Flavio vs Tabilo\, Alejandro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:31@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Kotov\, Pavel vs Ramos-Vinolas\, Albert
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Kotov\, Pavel vs Ramos-Vinolas\, Albert\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:32@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/64 финала: Sonego\, Lorenzo vs Gasquet\, Richard
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/64 финала\nМатч: Sonego\, Lorenzo vs Gasquet\, Richard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:33@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Alcaraz\, Carlos vs Shevchenko\, Alexander
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Alcaraz\, Carlos vs Shevchenko\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:34@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Wild\, Thiago Seyboth vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Wild\, Thiago Seyboth vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:35@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Struff\, Jan-Lennard vs Munar\, Jaume
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Struff\, Jan-Lennard vs Munar\, Jaume\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:36@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Humbert\, Ugo vs Zandschulp\, Botic van de
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Humbert\, Ugo vs Zandschulp\, Botic van de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:37@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Rune\, Holger vs Navone\, Mariano
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Rune\, Holger vs Navone\, Mariano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:38@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Griekspoor\, Tallon vs Daniel\, Taro
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Griekspoor\, Tallon vs Daniel\, Taro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:39@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Shang\, Juncheng
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Fokina\, Alejandro Davidovich vs Shang\, Juncheng\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:40@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Rublev\, Andrey vs Bagnis\, Facundo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Rublev\, Andrey vs Bagnis\, Facundo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:41@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Zverev\, Alexander vs Coric\, Borna
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Zverev\, Alexander vs Coric\, Borna\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:42@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Shapovalov\, Denis vs Etcheverry\, Tomas Martin
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Shapovalov\, Denis vs Etcheverry\, Tomas Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:43@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Cerundolo\, Francisco vs Marozsan\, Fabian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs Marozsan\, Fabian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:44@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Paul\, Tommy vs Klein\, Lukas
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Paul\, Tommy vs Klein\, Lukas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:45@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Fritz\, Taylor vs Darderi\, Luciano
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Fritz\, Taylor vs Darderi\, Luciano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:46@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Baez\, Sebastian vs Assche\, Luca Van
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Baez\, Sebastian vs Assche\, Luca Van\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:47@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Altmaier\, Daniel vs Fils\, Arthur
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Altmaier\, Daniel vs Fils\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:48@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Hurkacz\, Hubert vs Draper\, Jack
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Hurkacz\, Hubert vs Draper\, Jack\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:49@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Monteiro\, Thiago vs Tsitsipas\, Stefanos
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Monteiro\, Thiago vs Tsitsipas\, Stefanos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:50@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Lehecka\, Jiri vs Medjedovic\, Hamad
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Lehecka\, Jiri vs Medjedovic\, Hamad\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:51@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Cachin\, Pedro vs Tiafoe\, Frances
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Cachin\, Pedro vs Tiafoe\, Frances\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:52@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Nadal\, Rafael vs Minaur\, Alex de
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Nadal\, Rafael vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:53@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Shelton\, Ben vs Machac\, Tomas
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Shelton\, Ben vs Machac\, Tomas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:54@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Bublik\, Alexander vs Baena\, Roberto Carballes
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Bublik\, Alexander vs Baena\, Roberto Carballes\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:55@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Korda\, Sebastian vs Purcell\, Max
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Korda\, Sebastian vs Purcell\, Max\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:56@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Medvedev\, Daniil vs Arnaldi\, Matteo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Medvedev\, Daniil vs Arnaldi\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:57@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Ruud\, Casper vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Ruud\, Casper vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:58@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Norrie\, Cameron vs Fonseca\, Joao
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Norrie\, Cameron vs Fonseca\, Joao\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:59@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Mannarino\, Adrian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Auger-Aliassime\, Felix vs Mannarino\, Adrian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:60@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Mensik\, Jakub vs Dimitrov\, Grigor
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Mensik\, Jakub vs Dimitrov\, Grigor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:61@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Khachanov\, Karen vs Agut\, Roberto Bautista
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Khachanov\, Karen vs Agut\, Roberto Bautista\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:62@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Cobolli\, Flavio vs Jarry\, Nicolas
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Cobolli\, Flavio vs Jarry\, Nicolas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:63@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Kotov\, Pavel vs Thompson\, Jordan
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Kotov\, Pavel vs Thompson\, Jordan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:64@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/32 финала: Sinner\, Jannik vs Sonego\, Lorenzo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/32 финала\nМатч: Sinner\, Jannik vs Sonego\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:65@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Alcaraz\, Carlos vs Wild\, Thiago Seyboth
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Alcaraz\, Carlos vs Wild\, Thiago Seyboth\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:66@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Struff\, Jan-Lennard vs Humbert\, Ugo
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Struff\, Jan-Lennard vs Humbert\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:67@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Griekspoor\, Tallon vs Rune\, Holger
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Griekspoor\, Tallon vs Rune\, Holger\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:68@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Rublev\, Andrey vs Fokina\, Alejandro Davidovich
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Rublev\, Andrey vs Fokina\, Alejandro Davidovich\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:69@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Zverev\, Alexander vs Shapovalov\, Denis
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Zverev\, Alexander vs Shapovalov\, Denis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:70@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Cerundolo\, Francisco vs Paul\, Tommy
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Cerundolo\, Francisco vs Paul\, Tommy\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:71@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Fritz\, Taylor vs Baez\, Sebastian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Fritz\, Taylor vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:72@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Hurkacz\, Hubert vs Altmaier\, Daniel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Hurkacz\, Hubert vs Altmaier\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:73@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Lehecka\, Jiri vs Monteiro\, Thiago
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Lehecka\, Jiri vs Monteiro\, Thiago\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:74@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Nadal\, Rafael vs Cachin\, Pedro
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Nadal\, Rafael vs Cachin\, Pedro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:75@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Bublik\, Alexander vs Shelton\, Ben
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Bublik\, Alexander vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:76@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Medvedev\, Daniil vs Korda\, Sebastian
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Medvedev\, Daniil vs Korda\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:77@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Ruud\, Casper vs Norrie\, Cameron
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Ruud\, Casper vs Norrie\, Cameron\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:78@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Auger-Aliassime\, Felix vs Mensik\, Jakub
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Auger-Aliassime\, Felix vs Mensik\, Jakub\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:79@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Khachanov\, Karen vs Cobolli\, Flavio
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Khachanov\, Karen vs Cobolli\, Flavio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:80@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/16 финала: Sinner\, Jannik vs Kotov\, Pavel
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/16 финала\nМатч: Sinner\, Jannik vs Kotov\, Pavel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:81@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Alcaraz\, Carlos vs Struff\, Jan-Lennard
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Alcaraz\, Carlos vs Struff\, Jan-Lennard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:82@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Rublev\, Andrey vs Griekspoor\, Tallon
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Rublev\, Andrey vs Griekspoor\, Tallon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:83@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Cerundolo\, Francisco vs Zverev\, Alexander
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Cerundolo\, Francisco vs Zverev\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:84@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Fritz\, Taylor vs Hurkacz\, Hubert
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Fritz\, Taylor vs Hurkacz\, Hubert\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:85@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Lehecka\, Jiri vs Nadal\, Rafael
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Lehecka\, Jiri vs Nadal\, Rafael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:86@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Medvedev\, Daniil vs Bublik\, Alexander
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Medvedev\, Daniil vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:87@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Auger-Aliassime\, Felix vs Ruud\, Casper
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Auger-Aliassime\, Felix vs Ruud\, Casper\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-1536:88@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20240422T120000Z
+DTEND:20240422T150000Z
+SUMMARY:Madrid Open 2026 — 1/8 финала: Sinner\, Jannik vs Khachanov\, Karen
+DESCRIPTION:Турнир: Madrid Open (2026)\nЭтап: 1/8 финала\nМатч: Sinner\, Jannik vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/madrid-open
+END:VEVENT
+END:VCALENDAR

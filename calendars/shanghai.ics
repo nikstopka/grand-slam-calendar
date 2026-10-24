@@ -1,0 +1,1720 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//grand-slam-calendar//tennis//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Теннис: Shanghai
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:89@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261015T120000Z
+DTEND:20261015T150000Z
+SUMMARY:Shanghai 2026 — Четвертьфинал: Fokina\, Alejandro Davidovich vs Gea\, Arthur
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Четвертьфинал\nМатч: Fokina\, Alejandro Davidovich vs Gea\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:90@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261015T120000Z
+DTEND:20261015T150000Z
+SUMMARY:Shanghai 2026 — Четвертьфинал: Zverev\, Alexander vs Minaur\, Alex de
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Четвертьфинал\nМатч: Zverev\, Alexander vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:91@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261016T120000Z
+DTEND:20261016T150000Z
+SUMMARY:Shanghai 2026 — Четвертьфинал: Jodar\, Rafael vs Ruud\, Casper
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Четвертьфинал\nМатч: Jodar\, Rafael vs Ruud\, Casper\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:92@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261016T120000Z
+DTEND:20261016T150000Z
+SUMMARY:Shanghai 2026 — Четвертьфинал: Medvedev\, Daniil vs Paul\, Tommy
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Четвертьфинал\nМатч: Medvedev\, Daniil vs Paul\, Tommy\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:93@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261017T120000Z
+DTEND:20261017T150000Z
+SUMMARY:Shanghai 2026 — Полуфинал: Fokina\, Alejandro Davidovich vs Zverev\, Alexander
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Полуфинал\nМатч: Fokina\, Alejandro Davidovich vs Zverev\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:94@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261017T120000Z
+DTEND:20261017T150000Z
+SUMMARY:Shanghai 2026 — Полуфинал: Jodar\, Rafael vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Полуфинал\nМатч: Jodar\, Rafael vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:95@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261018T120000Z
+DTEND:20261018T150000Z
+SUMMARY:Shanghai 2026 — Финал: Fokina\, Alejandro Davidovich vs Jodar\, Rafael
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Финал\nМатч: Fokina\, Alejandro Davidovich vs Jodar\, Rafael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:1@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Berrettini\, Matteo vs Kovacevic\, Aleksandar
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Berrettini\, Matteo vs Kovacevic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:2@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Gea\, Arthur vs Faria\, Jaime
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Gea\, Arthur vs Faria\, Jaime\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:3@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Hanfmann\, Yannick vs Majchrzak\, Kamil
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Hanfmann\, Yannick vs Majchrzak\, Kamil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:4@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Halys\, Quentin vs Wong\, Coleman
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Halys\, Quentin vs Wong\, Coleman\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:5@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Kecmanovic\, Miomir vs Shimabukuro\, Sho
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Kecmanovic\, Miomir vs Shimabukuro\, Sho\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:6@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Machac\, Tomas vs Zhang\, Zhizhen
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Machac\, Tomas vs Zhang\, Zhizhen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:7@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Mannarino\, Adrian vs Basilashvili\, Nikoloz
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Mannarino\, Adrian vs Basilashvili\, Nikoloz\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:8@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Molcan\, Alex vs Cina\, Federico
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Molcan\, Alex vs Cina\, Federico\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:9@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Sakamoto\, Rei vs Trungelliti\, Marco
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Sakamoto\, Rei vs Trungelliti\, Marco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:10@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Safiullin\, Roman vs Hijikata\, Rinky
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Safiullin\, Roman vs Hijikata\, Rinky\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:11@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Wu\, Yibing vs Zheng\, Michael
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Wu\, Yibing vs Zheng\, Michael\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:12@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Zhou\, Yi vs Bellucci\, Mattia
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Zhou\, Yi vs Bellucci\, Mattia\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:13@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Fery\, Arthur vs Cilic\, Marin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Fery\, Arthur vs Cilic\, Marin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:14@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261007T120000Z
+DTEND:20261007T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Altmaier\, Daniel vs Rune\, Holger
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Altmaier\, Daniel vs Rune\, Holger\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:15@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Tsitsipas\, Stefanos vs Coppejans\, Kimmer
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Tsitsipas\, Stefanos vs Coppejans\, Kimmer\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:16@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Kotov\, Pavel vs Griekspoor\, Tallon
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Kotov\, Pavel vs Griekspoor\, Tallon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:17@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Borges\, Nuno vs Acosta\, Facundo Diaz
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Borges\, Nuno vs Acosta\, Facundo Diaz\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:18@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Brooksby\, Jenson vs Munar\, Jaume
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Brooksby\, Jenson vs Munar\, Jaume\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:19@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Carabelli\, Camilo Ugo vs Simakin\, Ilia
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Carabelli\, Camilo Ugo vs Simakin\, Ilia\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:20@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Arnaldi\, Matteo vs Tomic\, Bernard
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Arnaldi\, Matteo vs Tomic\, Bernard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:21@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Hurkacz\, Hubert vs Duckworth\, James
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Hurkacz\, Hubert vs Duckworth\, James\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:22@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Tirante\, Thiago Agustin vs Medjedovic\, Hamad
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Tirante\, Thiago Agustin vs Medjedovic\, Hamad\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:23@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Vallejo\, Adolfo Daniel vs Royer\, Valentin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Vallejo\, Adolfo Daniel vs Royer\, Valentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:24@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Svajda\, Zachary vs Marozsan\, Fabian
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Svajda\, Zachary vs Marozsan\, Fabian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:25@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Baez\, Sebastian vs Giron\, Marcos
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Baez\, Sebastian vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:26@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Busta\, Pablo Carreno vs Navone\, Mariano
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Busta\, Pablo Carreno vs Navone\, Mariano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:27@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Cerundolo\, Juan Manuel vs Mejia\, Nicolas
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Cerundolo\, Juan Manuel vs Mejia\, Nicolas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:28@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Struff\, Jan-Lennard vs Landaluce\, Martin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Struff\, Jan-Lennard vs Landaluce\, Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:29@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Zandschulp\, Botic van de vs Merida\, Daniel
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Zandschulp\, Botic van de vs Merida\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:30@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Bu\, Yunchaokete vs Assche\, Luca Van
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Bu\, Yunchaokete vs Assche\, Luca Van\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:31@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Bergs\, Zizou vs Kopriva\, Vit
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Bergs\, Zizou vs Kopriva\, Vit\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:32@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261008T120000Z
+DTEND:20261008T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Svrcina\, Dalibor vs Norrie\, Cameron
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Svrcina\, Dalibor vs Norrie\, Cameron\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:33@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Minaur\, Alex De vs Molcan\, Alex
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Minaur\, Alex De vs Molcan\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:34@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Sakamoto\, Rei vs Rublev\, Andrey
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Sakamoto\, Rei vs Rublev\, Andrey\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:35@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Gea\, Arthur vs Humbert\, Ugo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Gea\, Arthur vs Humbert\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:36@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Shelton\, Ben vs Altmaier\, Daniel
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Shelton\, Ben vs Altmaier\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:37@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Mannarino\, Adrian vs Cobolli\, Flavio
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Mannarino\, Adrian vs Cobolli\, Flavio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:38@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Nakashima\, Brandon vs Berrettini\, Matteo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Nakashima\, Brandon vs Berrettini\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:39@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Zverev\, Alexander vs Wu\, Yibing
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Zverev\, Alexander vs Wu\, Yibing\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:40@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Halys\, Quentin vs Blockx\, Alexander
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Halys\, Quentin vs Blockx\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:41@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Tiafoe\, Frances vs Hanfmann\, Yannick
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Tiafoe\, Frances vs Hanfmann\, Yannick\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:42@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Brooksby\, Jenson
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Fokina\, Alejandro Davidovich vs Brooksby\, Jenson\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:43@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Mensik\, Jakub vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Mensik\, Jakub vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:44@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Cerundolo\, Francisco vs Safiullin\, Roman
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs Safiullin\, Roman\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:45@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Hurkacz\, Hubert vs Djokovic\, Novak
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Hurkacz\, Hubert vs Djokovic\, Novak\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:46@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Khachanov\, Karen vs Fery\, Arthur
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Khachanov\, Karen vs Fery\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:47@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Bublik\, Alexander vs Machac\, Tomas
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Bublik\, Alexander vs Machac\, Tomas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:48@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261009T120000Z
+DTEND:20261009T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Zhou\, Yi vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Zhou\, Yi vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:49@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Jodar\, Rafael vs Tirante\, Thiago Agustin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Jodar\, Rafael vs Tirante\, Thiago Agustin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:50@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Lehecka\, Jiri vs Borges\, Nuno
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Lehecka\, Jiri vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:51@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Medvedev\, Daniil vs Struff\, Jan-Lennard
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Medvedev\, Daniil vs Struff\, Jan-Lennard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:52@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Carabelli\, Camilo Ugo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Auger-Aliassime\, Felix vs Carabelli\, Camilo Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:53@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Fritz\, Taylor vs Arnaldi\, Matteo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Fritz\, Taylor vs Arnaldi\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:54@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Fils\, Arthur vs Kotov\, Pavel
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Fils\, Arthur vs Kotov\, Pavel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:55@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Ruud\, Casper vs Bu\, Yunchaokete
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Ruud\, Casper vs Bu\, Yunchaokete\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:56@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Busta\, Pablo Carreno vs Tabilo\, Alejandro
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Busta\, Pablo Carreno vs Tabilo\, Alejandro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:57@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Svrcina\, Dalibor vs Etcheverry\, Tomas Martin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Svrcina\, Dalibor vs Etcheverry\, Tomas Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:58@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Tien\, Learner vs Svajda\, Zachary
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Tien\, Learner vs Svajda\, Zachary\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:59@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Alcaraz\, Carlos vs Cerundolo\, Juan Manuel
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Alcaraz\, Carlos vs Cerundolo\, Juan Manuel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:60@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Paul\, Tommy vs Vallejo\, Adolfo Daniel
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Paul\, Tommy vs Vallejo\, Adolfo Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:61@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Tsitsipas\, Stefanos vs Darderi\, Luciano
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Tsitsipas\, Stefanos vs Darderi\, Luciano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:62@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Bergs\, Zizou vs Buse\, Ignacio
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Bergs\, Zizou vs Buse\, Ignacio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:63@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Zandschulp\, Botic van de vs Michelsen\, Alex
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Zandschulp\, Botic van de vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:64@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261010T120000Z
+DTEND:20261010T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Vacherot\, Valentin vs Baez\, Sebastian
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Vacherot\, Valentin vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:65@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261011T120000Z
+DTEND:20261011T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Khachanov\, Karen vs Mannarino\, Adrian
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Khachanov\, Karen vs Mannarino\, Adrian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:66@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261011T120000Z
+DTEND:20261011T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Gea\, Arthur vs Shelton\, Ben
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Gea\, Arthur vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:67@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261011T120000Z
+DTEND:20261011T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Minaur\, Alex de vs Sakamoto\, Rei
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Minaur\, Alex de vs Sakamoto\, Rei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:68@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261011T120000Z
+DTEND:20261011T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Hurkacz\, Hubert vs Zhou\, Yi
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Hurkacz\, Hubert vs Zhou\, Yi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:69@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261011T120000Z
+DTEND:20261011T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Mensik\, Jakub vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Mensik\, Jakub vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:70@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261011T120000Z
+DTEND:20261011T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Zverev\, Alexander vs Halys\, Quentin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Zverev\, Alexander vs Halys\, Quentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:71@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261011T120000Z
+DTEND:20261011T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Bublik\, Alexander vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Bublik\, Alexander vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:72@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261011T120000Z
+DTEND:20261011T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Fokina\, Alejandro Davidovich vs Tiafoe\, Frances
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Fokina\, Alejandro Davidovich vs Tiafoe\, Frances\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:73@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261012T120000Z
+DTEND:20261012T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Ruud\, Casper vs Tien\, Learner
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Ruud\, Casper vs Tien\, Learner\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:74@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261012T120000Z
+DTEND:20261012T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Auger-Aliassime\, Felix vs Busta\, Pablo Carreno
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Auger-Aliassime\, Felix vs Busta\, Pablo Carreno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:75@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261012T120000Z
+DTEND:20261012T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Tsitsipas\, Stefanos vs Fritz\, Taylor
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Tsitsipas\, Stefanos vs Fritz\, Taylor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:76@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261012T120000Z
+DTEND:20261012T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Jodar\, Rafael vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Jodar\, Rafael vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:77@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261012T120000Z
+DTEND:20261012T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Medvedev\, Daniil vs Svrcina\, Dalibor
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Medvedev\, Daniil vs Svrcina\, Dalibor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:78@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261012T120000Z
+DTEND:20261012T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Bergs\, Zizou vs Alcaraz\, Carlos
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Bergs\, Zizou vs Alcaraz\, Carlos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:79@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261012T120000Z
+DTEND:20261012T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Zandschulp\, Botic van de vs Fils\, Arthur
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Zandschulp\, Botic van de vs Fils\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:80@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261012T120000Z
+DTEND:20261012T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Paul\, Tommy vs Vacherot\, Valentin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Paul\, Tommy vs Vacherot\, Valentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:81@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261013T120000Z
+DTEND:20261013T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Minaur\, Alex de vs Khachanov\, Karen
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Minaur\, Alex de vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:82@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261013T120000Z
+DTEND:20261013T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Gea\, Arthur vs Mensik\, Jakub
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Gea\, Arthur vs Mensik\, Jakub\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:83@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261013T120000Z
+DTEND:20261013T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Zverev\, Alexander vs Bublik\, Alexander
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Zverev\, Alexander vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:84@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261013T120000Z
+DTEND:20261013T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Fokina\, Alejandro Davidovich vs Hurkacz\, Hubert
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Fokina\, Alejandro Davidovich vs Hurkacz\, Hubert\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:85@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261014T120000Z
+DTEND:20261014T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Jodar\, Rafael vs Zandschulp\, Botic van de
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Jodar\, Rafael vs Zandschulp\, Botic van de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:86@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261014T120000Z
+DTEND:20261014T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Ruud\, Casper vs Auger-Aliassime\, Felix
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Ruud\, Casper vs Auger-Aliassime\, Felix\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:87@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261014T120000Z
+DTEND:20261014T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Medvedev\, Daniil vs Tsitsipas\, Stefanos
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Medvedev\, Daniil vs Tsitsipas\, Stefanos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2026-5014:88@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20261014T120000Z
+DTEND:20261014T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Paul\, Tommy vs Bergs\, Zizou
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Paul\, Tommy vs Bergs\, Zizou\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — Четвертьфинал: Vacherot\, Valentin vs Rune\, Holger
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Четвертьфинал\nМатч: Vacherot\, Valentin vs Rune\, Holger\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — Четвертьфинал: Djokovic\, Novak vs Bergs\, Zizou
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Четвертьфинал\nМатч: Djokovic\, Novak vs Bergs\, Zizou\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — Четвертьфинал: Rinderknech\, Arthur vs Auger-Aliassime\, Felix
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Четвертьфинал\nМатч: Rinderknech\, Arthur vs Auger-Aliassime\, Felix\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — Четвертьфинал: Medvedev\, Daniil vs Minaur\, Alex de
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Четвертьфинал\nМатч: Medvedev\, Daniil vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — Полуфинал: Vacherot\, Valentin vs Djokovic\, Novak
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Полуфинал\nМатч: Vacherot\, Valentin vs Djokovic\, Novak\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — Полуфинал: Rinderknech\, Arthur vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Полуфинал\nМатч: Rinderknech\, Arthur vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — Финал: Vacherot\, Valentin vs Rinderknech\, Arthur
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: Финал\nМатч: Vacherot\, Valentin vs Rinderknech\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Baez\, Sebastian vs Zhang\, Zhizhen
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Baez\, Sebastian vs Zhang\, Zhizhen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Altmaier\, Daniel vs Schoolkate\, Tristan
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Altmaier\, Daniel vs Schoolkate\, Tristan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Bellucci\, Mattia vs Walton\, Adam
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Bellucci\, Mattia vs Walton\, Adam\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Bergs\, Zizou vs Korda\, Sebastian
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Bergs\, Zizou vs Korda\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Cilic\, Marin vs Basilashvili\, Nikoloz
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Cilic\, Marin vs Basilashvili\, Nikoloz\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Goffin\, David vs Muller\, Alexandre
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Goffin\, David vs Muller\, Alexandre\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Mannarino\, Adrian vs Berrettini\, Matteo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Mannarino\, Adrian vs Berrettini\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Munar\, Jaume vs Fucsovics\, Marton
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Munar\, Jaume vs Fucsovics\, Marton\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Nardi\, Luca vs Ofner\, Sebastian
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Nardi\, Luca vs Ofner\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Nishioka\, Yoshihito vs Shevchenko\, Alexander
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Nishioka\, Yoshihito vs Shevchenko\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Thompson\, Jordan vs Holmgren\, August
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Thompson\, Jordan vs Holmgren\, August\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Vacherot\, Valentin vs Djere\, Laslo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Vacherot\, Valentin vs Djere\, Laslo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Marozsan\, Fabian vs Wawrinka\, Stan
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Marozsan\, Fabian vs Wawrinka\, Stan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Hanfmann\, Yannick vs Sonego\, Lorenzo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Hanfmann\, Yannick vs Sonego\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Shang\, Juncheng vs Kovacevic\, Aleksandar
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Shang\, Juncheng vs Kovacevic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Bonzi\, Benjamin vs Opelka\, Reilly
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Bonzi\, Benjamin vs Opelka\, Reilly\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Borges\, Nuno vs Zandschulp\, Botic van de
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Borges\, Nuno vs Zandschulp\, Botic van de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Brooksby\, Jenson vs Trotter\, James
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Brooksby\, Jenson vs Trotter\, James\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Cazaux\, Arthur vs Martinez\, Pedro
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Cazaux\, Arthur vs Martinez\, Pedro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Comesana\, Francisco vs Blanchet\, Ugo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Comesana\, Francisco vs Blanchet\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Jong\, Jesper de vs Zhou\, Yi
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Jong\, Jesper de vs Zhou\, Yi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Halys\, Quentin vs McDonald\, Mackenzie
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Halys\, Quentin vs McDonald\, Mackenzie\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Majchrzak\, Kamil vs Quinn\, Ethan
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Majchrzak\, Kamil vs Quinn\, Ethan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: O'Connell\, Christopher vs Dzumhur\, Damir
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: O'Connell\, Christopher vs Dzumhur\, Damir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Royer\, Valentin vs Navone\, Mariano
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Royer\, Valentin vs Navone\, Mariano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Svrcina\, Dalibor vs Wu\, Yibing
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Svrcina\, Dalibor vs Wu\, Yibing\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Tabilo\, Alejandro vs Giron\, Marcos
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Tabilo\, Alejandro vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Carabelli\, Camilo Ugo vs Atmane\, Terence
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Carabelli\, Camilo Ugo vs Atmane\, Terence\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Tien\, Learner vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Tien\, Learner vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Arnaldi\, Matteo vs Sakamoto\, Rei
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Arnaldi\, Matteo vs Sakamoto\, Rei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Bu\, Yunchaokete vs Cerundolo\, Juan Manuel
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Bu\, Yunchaokete vs Cerundolo\, Juan Manuel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/64 финала: Rinderknech\, Arthur vs Medjedovic\, Hamad
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/64 финала\nМатч: Rinderknech\, Arthur vs Medjedovic\, Hamad\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Vacherot\, Valentin vs Bublik\, Alexander
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Vacherot\, Valentin vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Djokovic\, Novak vs Cilic\, Marin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Djokovic\, Novak vs Cilic\, Marin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Goffin\, David vs Shelton\, Ben
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Goffin\, David vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Rune\, Holger vs Baez\, Sebastian
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Rune\, Holger vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Cerundolo\, Francisco vs Mannarino\, Adrian
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs Mannarino\, Adrian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Machac\, Tomas vs Bellucci\, Mattia
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Machac\, Tomas vs Bellucci\, Mattia\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Humbert\, Ugo vs Thompson\, Jordan
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Humbert\, Ugo vs Thompson\, Jordan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Munar\, Jaume vs Cobolli\, Flavio
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Munar\, Jaume vs Cobolli\, Flavio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Hanfmann\, Yannick vs Tiafoe\, Frances
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Hanfmann\, Yannick vs Tiafoe\, Frances\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Griekspoor\, Tallon vs Brooksby\, Jenson
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Griekspoor\, Tallon vs Brooksby\, Jenson\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Diallo\, Gabriel vs Bonzi\, Benjamin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Diallo\, Gabriel vs Bonzi\, Benjamin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Perricard\, Giovanni Mpetshi vs Nardi\, Luca
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Perricard\, Giovanni Mpetshi vs Nardi\, Luca\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Fritz\, Taylor vs Marozsan\, Fabian
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Fritz\, Taylor vs Marozsan\, Fabian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Bergs\, Zizou vs Ruud\, Casper
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Bergs\, Zizou vs Ruud\, Casper\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Sinner\, Jannik vs Altmaier\, Daniel
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Sinner\, Jannik vs Altmaier\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Zverev\, Alexander vs Royer\, Valentin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Zverev\, Alexander vs Royer\, Valentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Minaur\, Alex de vs Carabelli\, Camilo Ugo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Minaur\, Alex de vs Carabelli\, Camilo Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Musetti\, Lorenzo vs Comesana\, Francisco
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Musetti\, Lorenzo vs Comesana\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Tabilo\, Alejandro
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Auger-Aliassime\, Felix vs Tabilo\, Alejandro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Nishioka\, Yoshihito vs Rublev\, Andrey
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Nishioka\, Yoshihito vs Rublev\, Andrey\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Lehecka\, Jiri vs Halys\, Quentin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Lehecka\, Jiri vs Halys\, Quentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Medvedev\, Daniil vs Svrcina\, Dalibor
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Medvedev\, Daniil vs Svrcina\, Dalibor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Jong\, Jesper de vs Mensik\, Jakub
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Jong\, Jesper de vs Mensik\, Jakub\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Arnaldi\, Matteo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Fokina\, Alejandro Davidovich vs Arnaldi\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Shapovalov\, Denis vs O'Connell\, Christopher
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Shapovalov\, Denis vs O'Connell\, Christopher\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Darderi\, Luciano vs Bu\, Yunchaokete
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Darderi\, Luciano vs Bu\, Yunchaokete\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Rinderknech\, Arthur vs Michelsen\, Alex
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Rinderknech\, Arthur vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Majchrzak\, Kamil vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Majchrzak\, Kamil vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Norrie\, Cameron vs Cazaux\, Arthur
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Norrie\, Cameron vs Cazaux\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Tien\, Learner vs Moutet\, Corentin
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Tien\, Learner vs Moutet\, Corentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Shang\, Juncheng vs Khachanov\, Karen
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Shang\, Juncheng vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/32 финала: Borges\, Nuno vs Vukic\, Aleksandar
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/32 финала\nМатч: Borges\, Nuno vs Vukic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Djokovic\, Novak vs Hanfmann\, Yannick
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Djokovic\, Novak vs Hanfmann\, Yannick\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Perricard\, Giovanni Mpetshi vs Fritz\, Taylor
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Perricard\, Giovanni Mpetshi vs Fritz\, Taylor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Rune\, Holger vs Humbert\, Ugo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Rune\, Holger vs Humbert\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Bergs\, Zizou vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Bergs\, Zizou vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Vacherot\, Valentin vs Machac\, Tomas
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Vacherot\, Valentin vs Machac\, Tomas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Diallo\, Gabriel vs Goffin\, David
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Diallo\, Gabriel vs Goffin\, David\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Munar\, Jaume vs Nishioka\, Yoshihito
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Munar\, Jaume vs Nishioka\, Yoshihito\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Griekspoor\, Tallon vs Sinner\, Jannik
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Griekspoor\, Tallon vs Sinner\, Jannik\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Minaur\, Alex de vs Majchrzak\, Kamil
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Minaur\, Alex de vs Majchrzak\, Kamil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Auger-Aliassime\, Felix vs Jong\, Jesper de
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Auger-Aliassime\, Felix vs Jong\, Jesper de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Borges\, Nuno vs Shang\, Juncheng
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Borges\, Nuno vs Shang\, Juncheng\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Lehecka\, Jiri vs Shapovalov\, Denis
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Lehecka\, Jiri vs Shapovalov\, Denis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Rinderknech\, Arthur vs Zverev\, Alexander
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Rinderknech\, Arthur vs Zverev\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Musetti\, Lorenzo vs Darderi\, Luciano
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Musetti\, Lorenzo vs Darderi\, Luciano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Medvedev\, Daniil vs Fokina\, Alejandro Davidovich
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Medvedev\, Daniil vs Fokina\, Alejandro Davidovich\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/16 финала: Tien\, Learner vs Norrie\, Cameron
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/16 финала\nМатч: Tien\, Learner vs Norrie\, Cameron\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Bergs\, Zizou vs Diallo\, Gabriel
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Bergs\, Zizou vs Diallo\, Gabriel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Rune\, Holger vs Perricard\, Giovanni Mpetshi
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Rune\, Holger vs Perricard\, Giovanni Mpetshi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Djokovic\, Novak vs Munar\, Jaume
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Djokovic\, Novak vs Munar\, Jaume\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Vacherot\, Valentin vs Griekspoor\, Tallon
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Vacherot\, Valentin vs Griekspoor\, Tallon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Minaur\, Alex de vs Borges\, Nuno
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Minaur\, Alex de vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Rinderknech\, Arthur vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Rinderknech\, Arthur vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Auger-Aliassime\, Felix vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Auger-Aliassime\, Felix vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-5014:@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251001T120000Z
+DTEND:20251001T150000Z
+SUMMARY:Shanghai 2026 — 1/8 финала: Medvedev\, Daniil vs Tien\, Learner
+DESCRIPTION:Турнир: Shanghai (2026)\nЭтап: 1/8 финала\nМатч: Medvedev\, Daniil vs Tien\, Learner\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
+END:VEVENT
+END:VCALENDAR

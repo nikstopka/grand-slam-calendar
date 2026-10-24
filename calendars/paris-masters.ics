@@ -1,0 +1,1000 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//grand-slam-calendar//tennis//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Теннис: Paris Masters
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+X-PUBLISHED-TTL:PT30M
+BEGIN:VEVENT
+UID:tml:atp:2025-352:49@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — Четвертьфинал: Auger-Aliassime\, Felix vs Vacherot\, Valentin
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Четвертьфинал\nМатч: Auger-Aliassime\, Felix vs Vacherot\, Valentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:50@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — Четвертьфинал: Bublik\, Alexander vs Minaur\, Alex de
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Четвертьфинал\nМатч: Bublik\, Alexander vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:51@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — Четвертьфинал: Sinner\, Jannik vs Shelton\, Ben
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Четвертьфинал\nМатч: Sinner\, Jannik vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:52@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — Четвертьфинал: Zverev\, Alexander vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Четвертьфинал\nМатч: Zverev\, Alexander vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:53@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — Полуфинал: Auger-Aliassime\, Felix vs Bublik\, Alexander
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Полуфинал\nМатч: Auger-Aliassime\, Felix vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:54@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — Полуфинал: Sinner\, Jannik vs Zverev\, Alexander
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Полуфинал\nМатч: Sinner\, Jannik vs Zverev\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:55@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — Финал: Sinner\, Jannik vs Auger-Aliassime\, Felix
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Финал\nМатч: Sinner\, Jannik vs Auger-Aliassime\, Felix\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:1@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Bublik\, Alexander vs Popyrin\, Alexei
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Bublik\, Alexander vs Popyrin\, Alexei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:2@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Rublev\, Andrey vs Fearnley\, Jacob
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Rublev\, Andrey vs Fearnley\, Jacob\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:3@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Altmaier\, Daniel vs Giron\, Marcos
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Altmaier\, Daniel vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:4@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Cazaux\, Arthur vs Darderi\, Luciano
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Cazaux\, Arthur vs Darderi\, Luciano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:5@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Cerundolo\, Francisco vs Dzumhur\, Damir
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs Dzumhur\, Damir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:6@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Cobolli\, Flavio vs Machac\, Tomas
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Cobolli\, Flavio vs Machac\, Tomas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:7@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Kecmanovic\, Miomir vs Kovacevic\, Aleksandar
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Kecmanovic\, Miomir vs Kovacevic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:8@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Norrie\, Cameron vs Baez\, Sebastian
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Norrie\, Cameron vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:9@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Rinderknech\, Arthur vs Marozsan\, Fabian
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Rinderknech\, Arthur vs Marozsan\, Fabian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:10@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Tien\, Learner vs Borges\, Nuno
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Tien\, Learner vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:11@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Vukic\, Aleksandar vs Atmane\, Terence
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Vukic\, Aleksandar vs Atmane\, Terence\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:12@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Khachanov\, Karen vs Quinn\, Ethan
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Khachanov\, Karen vs Quinn\, Ethan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:13@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Bergs\, Zizou vs Michelsen\, Alex
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Bergs\, Zizou vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:14@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Dimitrov\, Grigor vs Perricard\, Giovanni Mpetshi
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Dimitrov\, Grigor vs Perricard\, Giovanni Mpetshi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:15@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Muller\, Alexandre vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Muller\, Alexandre vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:16@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Sonego\, Lorenzo vs Korda\, Sebastian
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Sonego\, Lorenzo vs Korda\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:17@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Auger-Aliassime\, Felix vs Comesana\, Francisco
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Auger-Aliassime\, Felix vs Comesana\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:18@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Medvedev\, Daniil vs Munar\, Jaume
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Medvedev\, Daniil vs Munar\, Jaume\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:19@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Vacherot\, Valentin vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Vacherot\, Valentin vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:20@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Diallo\, Gabriel vs Griekspoor\, Tallon
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Diallo\, Gabriel vs Griekspoor\, Tallon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:21@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Fonseca\, Joao vs Shapovalov\, Denis
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Fonseca\, Joao vs Shapovalov\, Denis\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:22@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Moutet\, Corentin vs Opelka\, Reilly
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Moutet\, Corentin vs Opelka\, Reilly\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:23@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Carabelli\, Camilo Ugo vs Etcheverry\, Tomas Martin
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Carabelli\, Camilo Ugo vs Etcheverry\, Tomas Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:24@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Fokina\, Alejandro Davidovich vs Royer\, Valentin
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Fokina\, Alejandro Davidovich vs Royer\, Valentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:25@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Fritz\, Taylor vs Vukic\, Aleksandar
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Fritz\, Taylor vs Vukic\, Aleksandar\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:26@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Norrie\, Cameron vs Alcaraz\, Carlos
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Norrie\, Cameron vs Alcaraz\, Carlos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:27@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Shelton\, Ben vs Cobolli\, Flavio
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Shelton\, Ben vs Cobolli\, Flavio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:28@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Rublev\, Andrey vs Tien\, Learner
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Rublev\, Andrey vs Tien\, Learner\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:29@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Sinner\, Jannik vs Bergs\, Zizou
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Sinner\, Jannik vs Bergs\, Zizou\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:30@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Zverev\, Alexander vs Carabelli\, Camilo Ugo
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Zverev\, Alexander vs Carabelli\, Camilo Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:31@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Altmaier\, Daniel vs Ruud\, Casper
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Altmaier\, Daniel vs Ruud\, Casper\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:32@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Auger-Aliassime\, Felix vs Muller\, Alexandre
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Auger-Aliassime\, Felix vs Muller\, Alexandre\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:33@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Medvedev\, Daniil vs Dimitrov\, Grigor
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Medvedev\, Daniil vs Dimitrov\, Grigor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:34@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Fokina\, Alejandro Davidovich vs Cazaux\, Arthur
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Fokina\, Alejandro Davidovich vs Cazaux\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:35@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Cerundolo\, Francisco vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Cerundolo\, Francisco vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:36@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Vacherot\, Valentin vs Rinderknech\, Arthur
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Vacherot\, Valentin vs Rinderknech\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:37@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Minaur\, Alex de vs Diallo\, Gabriel
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Minaur\, Alex de vs Diallo\, Gabriel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:38@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Sonego\, Lorenzo vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Sonego\, Lorenzo vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:39@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Khachanov\, Karen vs Fonseca\, Joao
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Khachanov\, Karen vs Fonseca\, Joao\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:40@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Bublik\, Alexander vs Moutet\, Corentin
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Bublik\, Alexander vs Moutet\, Corentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:41@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Sinner\, Jannik vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Sinner\, Jannik vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:42@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Zverev\, Alexander vs Fokina\, Alejandro Davidovich
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Zverev\, Alexander vs Fokina\, Alejandro Davidovich\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:43@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Bublik\, Alexander vs Fritz\, Taylor
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Bublik\, Alexander vs Fritz\, Taylor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:44@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Shelton\, Ben vs Rublev\, Andrey
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Shelton\, Ben vs Rublev\, Andrey\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:45@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Minaur\, Alex de vs Khachanov\, Karen
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Minaur\, Alex de vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:46@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Auger-Aliassime\, Felix vs Altmaier\, Daniel
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Auger-Aliassime\, Felix vs Altmaier\, Daniel\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:47@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Medvedev\, Daniil vs Sonego\, Lorenzo
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Medvedev\, Daniil vs Sonego\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2025-352:48@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20251027T120000Z
+DTEND:20251027T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Vacherot\, Valentin vs Norrie\, Cameron
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Vacherot\, Valentin vs Norrie\, Cameron\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:49@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — Четвертьфинал: Zverev\, Alexander vs Tsitsipas\, Stefanos
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Четвертьфинал\nМатч: Zverev\, Alexander vs Tsitsipas\, Stefanos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:50@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — Четвертьфинал: Rune\, Holger vs Minaur\, Alex de
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Четвертьфинал\nМатч: Rune\, Holger vs Minaur\, Alex de\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:51@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — Четвертьфинал: Humbert\, Ugo vs Thompson\, Jordan
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Четвертьфинал\nМатч: Humbert\, Ugo vs Thompson\, Jordan\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:52@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — Четвертьфинал: Khachanov\, Karen vs Dimitrov\, Grigor
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Четвертьфинал\nМатч: Khachanov\, Karen vs Dimitrov\, Grigor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:53@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — Полуфинал: Zverev\, Alexander vs Rune\, Holger
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Полуфинал\nМатч: Zverev\, Alexander vs Rune\, Holger\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:54@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — Полуфинал: Humbert\, Ugo vs Khachanov\, Karen
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Полуфинал\nМатч: Humbert\, Ugo vs Khachanov\, Karen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:55@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — Финал: Zverev\, Alexander vs Humbert\, Ugo
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: Финал\nМатч: Zverev\, Alexander vs Humbert\, Ugo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:1@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Rinderknech\, Arthur vs Machac\, Tomas
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Rinderknech\, Arthur vs Machac\, Tomas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:2@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Griekspoor\, Tallon vs Darderi\, Luciano
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Griekspoor\, Tallon vs Darderi\, Luciano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:3@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Thompson\, Jordan vs Martinez\, Pedro
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Thompson\, Jordan vs Martinez\, Pedro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:4@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Cerundolo\, Francisco vs Halys\, Quentin
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Cerundolo\, Francisco vs Halys\, Quentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:5@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Etcheverry\, Tomas Martin vs Zhang\, Zhizhen
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Etcheverry\, Tomas Martin vs Zhang\, Zhizhen\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:6@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Giron\, Marcos vs Shang\, Juncheng
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Giron\, Marcos vs Shang\, Juncheng\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:7@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Humbert\, Ugo vs Nakashima\, Brandon
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Humbert\, Ugo vs Nakashima\, Brandon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:8@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Kecmanovic\, Miomir vs Baez\, Sebastian
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Kecmanovic\, Miomir vs Baez\, Sebastian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:9@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Bublik\, Alexander vs Fognini\, Fabio
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Bublik\, Alexander vs Fognini\, Fabio\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:10@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Tsitsipas\, Stefanos vs Baena\, Roberto Carballes
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Tsitsipas\, Stefanos vs Baena\, Roberto Carballes\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:11@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Jarry\, Nicolas vs Sonego\, Lorenzo
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Jarry\, Nicolas vs Sonego\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:12@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Tabilo\, Alejandro vs Borges\, Nuno
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Tabilo\, Alejandro vs Borges\, Nuno\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:13@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Mannarino\, Adrian vs Paul\, Tommy
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Mannarino\, Adrian vs Paul\, Tommy\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:14@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Struff\, Jan-Lennard vs Musetti\, Lorenzo
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Struff\, Jan-Lennard vs Musetti\, Lorenzo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:15@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Michelsen\, Alex vs Hurkacz\, Hubert
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Michelsen\, Alex vs Hurkacz\, Hubert\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:16@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Fils\, Arthur vs Cilic\, Marin
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Fils\, Arthur vs Cilic\, Marin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:17@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Popyrin\, Alexei vs Berrettini\, Matteo
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Popyrin\, Alexei vs Berrettini\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:18@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Perricard\, Giovanni Mpetshi vs Tiafoe\, Frances
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Perricard\, Giovanni Mpetshi vs Tiafoe\, Frances\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:19@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Khachanov\, Karen vs O'Connell\, Christopher
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Khachanov\, Karen vs O'Connell\, Christopher\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:20@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Rune\, Holger vs Arnaldi\, Matteo
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Rune\, Holger vs Arnaldi\, Matteo\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:21@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Bergs\, Zizou vs Gasquet\, Richard
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Bergs\, Zizou vs Gasquet\, Richard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:22@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Minaur\, Alex de vs Navone\, Mariano
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Minaur\, Alex de vs Navone\, Mariano\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:23@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Shelton\, Ben vs Moutet\, Corentin
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Shelton\, Ben vs Moutet\, Corentin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:24@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/32 финала: Draper\, Jack vs Lehecka\, Jiri
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/32 финала\nМатч: Draper\, Jack vs Lehecka\, Jiri\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:25@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Cerundolo\, Francisco vs Rublev\, Andrey
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Cerundolo\, Francisco vs Rublev\, Andrey\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:26@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Alcaraz\, Carlos vs Jarry\, Nicolas
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Alcaraz\, Carlos vs Jarry\, Nicolas\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:27@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Tsitsipas\, Stefanos vs Tabilo\, Alejandro
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Tsitsipas\, Stefanos vs Tabilo\, Alejandro\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:28@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Thompson\, Jordan vs Ruud\, Casper
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Thompson\, Jordan vs Ruud\, Casper\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:29@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Dimitrov\, Grigor vs Etcheverry\, Tomas Martin
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Dimitrov\, Grigor vs Etcheverry\, Tomas Martin\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:30@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Rinderknech\, Arthur vs Michelsen\, Alex
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Rinderknech\, Arthur vs Michelsen\, Alex\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:31@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Popyrin\, Alexei vs Medvedev\, Daniil
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Popyrin\, Alexei vs Medvedev\, Daniil\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:32@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Mannarino\, Adrian vs Bergs\, Zizou
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Mannarino\, Adrian vs Bergs\, Zizou\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:33@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Fils\, Arthur vs Struff\, Jan-Lennard
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Fils\, Arthur vs Struff\, Jan-Lennard\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:34@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Humbert\, Ugo vs Giron\, Marcos
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Humbert\, Ugo vs Giron\, Marcos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:35@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Rune\, Holger vs Bublik\, Alexander
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Rune\, Holger vs Bublik\, Alexander\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:36@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Khachanov\, Karen vs Perricard\, Giovanni Mpetshi
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Khachanov\, Karen vs Perricard\, Giovanni Mpetshi\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:37@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Minaur\, Alex de vs Kecmanovic\, Miomir
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Minaur\, Alex de vs Kecmanovic\, Miomir\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:38@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Zverev\, Alexander vs Griekspoor\, Tallon
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Zverev\, Alexander vs Griekspoor\, Tallon\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:39@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Draper\, Jack vs Fritz\, Taylor
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Draper\, Jack vs Fritz\, Taylor\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:40@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/16 финала: Cazaux\, Arthur vs Shelton\, Ben
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/16 финала\nМатч: Cazaux\, Arthur vs Shelton\, Ben\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:41@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Thompson\, Jordan vs Mannarino\, Adrian
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Thompson\, Jordan vs Mannarino\, Adrian\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:42@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Tsitsipas\, Stefanos vs Cerundolo\, Francisco
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Tsitsipas\, Stefanos vs Cerundolo\, Francisco\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:43@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Khachanov\, Karen vs Popyrin\, Alexei
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Khachanov\, Karen vs Popyrin\, Alexei\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:44@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Zverev\, Alexander vs Fils\, Arthur
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Zverev\, Alexander vs Fils\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:45@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Minaur\, Alex de vs Draper\, Jack
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Minaur\, Alex de vs Draper\, Jack\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:46@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Humbert\, Ugo vs Alcaraz\, Carlos
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Humbert\, Ugo vs Alcaraz\, Carlos\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:47@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Rune\, Holger vs Cazaux\, Arthur
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Rune\, Holger vs Cazaux\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+BEGIN:VEVENT
+UID:tml:atp:2024-352:48@grand-slam-calendar
+DTSTAMP:20261024T232045Z
+DTSTART:20241028T120000Z
+DTEND:20241028T150000Z
+SUMMARY:Paris Masters 2025 — 1/8 финала: Dimitrov\, Grigor vs Rinderknech\, Arthur
+DESCRIPTION:Турнир: Paris Masters (2025)\nЭтап: 1/8 финала\nМатч: Dimitrov\, Grigor vs Rinderknech\, Arthur\nКатегория: ATP
+URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
+END:VEVENT
+END:VCALENDAR
