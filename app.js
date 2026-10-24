@@ -1358,7 +1358,24 @@ function renderLandingRanking() {
 // --- Титульная страница целиком ---
 
 function renderNewsPreview() {
-    const items = (STATE.news?.items || []).slice(0, 3);
+    let items = (STATE.news?.items || []).slice();
+    if (!items.length) {
+        try {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'data/news.json?v=' + Date.now(), false);
+            xhr.send(null);
+            if (xhr.status === 200) {
+                const data = JSON.parse(xhr.responseText);
+                if (data && Array.isArray(data.items) && data.items.length) {
+                    STATE.news = data;
+                    items = data.items.slice();
+                }
+            }
+        } catch (e) {
+            // ignore
+        }
+    }
+    items = items.slice(0, 3);
     if (!items.length) return '';
     const cards = items.map(item => {
         const img = item.image
