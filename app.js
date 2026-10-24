@@ -1523,13 +1523,14 @@ async function loadTournament(slug) {
 }
 
 async function loadCore() {
-    const [index, rankings, photos, calendar, tourPhotos, profiles] = await Promise.all([
+    const [index, rankings, photos, calendar, tourPhotos, profiles, news] = await Promise.all([
         fetchJson(dataPath('index.json')),
         fetchJson(dataPath('rankings.json')).catch(() => null),
         fetchJson(dataPath('players.json')).catch(() => ({})),
         fetchJson(dataPath('calendar.json')).catch(() => null),
         fetchJson(dataPath('tournament_photos.json')).catch(() => ({})),
         fetchJson(dataPath('player_profiles.json')).catch(() => ({})),
+        fetchJson(dataPath('news.json')).catch(() => ({ items: [], updated_at: '' })),
     ]);
     STATE.index = index;
     STATE.rankings = rankings;
@@ -1537,6 +1538,11 @@ async function loadCore() {
     STATE.calendar = (calendar && calendar.tournaments) || [];
     STATE.tournamentPhotos = tourPhotos || {};
     STATE.profiles = profiles || {};
+    if (news && Array.isArray(news.items)) {
+        STATE.news = news;
+    } else {
+        STATE.news = { items: [], updated_at: '' };
+    }
     STATE.lastUpdated = index.last_updated || '';
     renderSourceBadge(index.source);
 }
