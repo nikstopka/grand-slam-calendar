@@ -1648,6 +1648,27 @@ function renderContent() {
         hideYearSelect();
         container.innerHTML = renderLandingPage();
         setupCarousel();
+        // Добавим блок подписки на календарь
+        const landing = container.querySelector('.landing');
+        if (landing && !document.getElementById('calendarSubscribe')) {
+            const block = document.createElement('section');
+            block.className = 'calendar-subscribe';
+            block.id = 'calendarSubscribe';
+            block.innerHTML = `
+                <div class="section-header">
+                    <div>
+                        <h2>📅 Подписной календарь</h2>
+                        <p class="section-desc">Автоматически обновляемый .ics для Apple Календаря, Google Календарь, Outlook</p>
+                    </div>
+                </div>
+                <div class="calendar-subscribe-links">
+                    <a class="calendar-btn" href="webcal://raw.githubusercontent.com/nikstopka/grand-slam-calendar/main/calendars/all.ics">Подписаться на все турниры (webcal)</a>
+                    <a class="calendar-btn ghost" href="https://raw.githubusercontent.com/nikstopka/grand-slam-calendar/main/calendars/all.ics" download>Скачать all.ics</a>
+                </div>
+                <p class="section-desc">В календаре отображаются: турнир, этап (финал/полуфинал/1/4 и др.), пары игроков. Календарь обновляется автоматически вместе с сайтом.</p>
+            `;
+            landing.appendChild(block);
+        }
         return;
     }
 

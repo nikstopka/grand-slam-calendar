@@ -1832,6 +1832,45 @@ body {
     }
 }
 
+/* --- Подписной календарь --- */
+.calendar-subscribe {
+    margin-top: 18px;
+}
+
+.calendar-subscribe-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.calendar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgba(0, 212, 170, 0.9) 0%, rgba(0, 160, 140, 0.9) 100%);
+    color: #06110f;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    border: 1px solid rgba(0, 212, 170, 0.6);
+    box-shadow: 0 14px 40px rgba(0, 212, 170, 0.25);
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.calendar-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 50px rgba(0, 212, 170, 0.32);
+}
+
+.calendar-btn.ghost {
+    background: transparent;
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+    box-shadow: none;
+}
+
 
 /* --- Рейтинг на титульной странице --- */
 
