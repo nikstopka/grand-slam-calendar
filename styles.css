@@ -1330,6 +1330,8 @@ body {
     gap: 26px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    scroll-padding: 0 calc(50% - 180px);
     scrollbar-width: none;
     padding: 30px 0 44px;
     cursor: grab;
@@ -1345,12 +1347,14 @@ body {
 
 .carousel-track.dragging {
     cursor: grabbing;
-    scroll-snap-type: none;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
 }
 
 .carousel-card {
     flex: 0 0 360px;
     scroll-snap-align: center;
+    scroll-snap-stop: always;
     --tilt-x: 0deg;
     --tilt-y: 0deg;
     --mx: 50%;
@@ -1396,6 +1400,49 @@ body {
         0 0 0 1px rgba(0, 212, 170, 0.3),
         0 0 60px rgba(0, 212, 170, 0.22),
         0 0 120px rgba(0, 212, 170, 0.1);
+}
+
+/* Плашка "идёт" на карточке карусели */
+.carousel-inprogress {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(220, 38, 38, 0.9);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.35);
+    backdrop-filter: blur(4px);
+}
+
+.carousel-inprogress::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.18);
+    animation: carousel-pulse 1.6s infinite;
+}
+
+@keyframes carousel-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
 }
 
 /* Наклон карточки за курсором */
@@ -1972,10 +2019,14 @@ body.modal-open {
         flex-basis: 240px;
         transition-duration: 0.8s;
         transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        scroll-snap-stop: always;
     }
 
     .carousel-track {
         scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        scroll-snap-stop: always;
+        scroll-padding: 0 calc(50% - 120px);
         scrollbar-gutter: stable;
     }
 

@@ -922,17 +922,39 @@ function nearestTournamentDate(slug) {
     return formatDateRange(item.start, item.end);
 }
 
-// Хронологический порядок турниров: по дате проведения из календаря сезона
+// Хронологический порядок турниров: сначала идущие в данный момент, затем по дате
 function tournamentsInOrder() {
     const tournaments = (STATE.index?.tournaments || []).slice();
     const dates = {};
+    const calendarBySlug = {};
     (STATE.calendar || []).forEach(item => {
         if (!item.slug) return;
+        if (!calendarBySlug[item.slug]) calendarBySlug[item.slug] = [];
+        calendarBySlug[item.slug].push(item);
         if (!dates[item.slug] || item.start < dates[item.slug]) {
             dates[item.slug] = item.start;
         }
     });
+    const now = new Date();
     return tournaments.sort((a, b) => {
+        const itemsA = calendarBySlug[a.slug] || [];
+        const itemsB = calendarBySlug[b.slug] || [];
+        const inProgressA = itemsA.some(item => {
+            const start = new Date(item.start + 'T00:00:00');
+            if (isNaN(start.getTime())) return false;
+            const end = item.end ? new Date(item.end + 'T23:59:59') : new Date(start.getTime());
+            if (isNaN(end.getTime())) end.setTime(start.getTime() + 86400000 - 1);
+            return start <= now && end >= now;
+        });
+        const inProgressB = itemsB.some(item => {
+            const start = new Date(item.start + 'T00:00:00');
+            if (isNaN(start.getTime())) return false;
+            const end = item.end ? new Date(item.end + 'T23:59:59') : new Date(start.getTime());
+            if (isNaN(end.getTime())) end.setTime(start.getTime() + 86400000 - 1);
+            return start <= now && end >= now;
+        });
+        if (inProgressA && !inProgressB) return -1;
+        if (!inProgressA && inProgressB) return 1;
         const da = dates[a.slug] || '9999-99-99';
         const db = dates[b.slug] || '9999-99-99';
         if (da === db) return a.name.localeCompare(b.name, 'ru');
@@ -940,12 +962,26 @@ function tournamentsInOrder() {
     });
 }
 
-// Ближайшие турниры — компактной лентой под каруселью
+// Ближайшие турниры — только предстоящие, без идущих в данный момент
 function renderUpcomingBlock() {
-    const today = new Date().toISOString().slice(0, 10);
+    const today = new Date();
+    const todayStr = today.toISOString().slice(0, 10);
     const known = new Set((STATE.index?.tournaments || []).map(t => t.slug));
     const items = (STATE.calendar || [])
-        .filter(item => item.start >= today)
+        .filter(item => {
+            if (!item.start) return false;
+            const startDate = new Date(item.start + 'T00:00:00');
+            if (isNaN(startDate.getTime())) return false;
+            const endDate = item.end ? new Date(item.end + 'T23:59:59') : startDate;
+            if (isNaN(endDate.getTime())) {
+                endDate.setTime(startDate.getTime());
+                endDate.setHours(23, 59, 59, 999);
+            }
+            // Исключаем уже начавшиеся/идущие турниры
+            if (endDate < today) return false;
+            if (startDate <= today) return false;
+            return item.start >= todayStr;
+        })
         .sort((a, b) => (a.start < b.start ? -1 : 1))
         .slice(0, 6);
     if (!items.length) return '';
@@ -983,23 +1019,40 @@ function renderHeroCarousel() {
     if (!tournaments.length) return '';
 
     const photos = STATE.tournamentPhotos || {};
-    const today = new Date().toISOString().slice(0, 10);
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const now = new Date();
+    const calendarBySlug = {};
+    (STATE.calendar || []).forEach(item => {
+        if (!item.slug) return;
+        if (!calendarBySlug[item.slug]) calendarBySlug[item.slug] = [];
+        calendarBySlug[item.slug].push(item);
+    });
+
     const cards = tournaments.map(t => {
         const photo = photos[t.slug]?.photo;
         const date = nearestTournamentDate(t.slug);
         const days = date ? daysUntil(date.start) : null;
         const soon = days !== null && days >= 0 && days <= 45;
+        const items = calendarBySlug[t.slug] || [];
+        const inProgress = items.some(item => {
+            const start = new Date(item.start + 'T00:00:00');
+            if (isNaN(start.getTime())) return false;
+            const end = item.end ? new Date(item.end + 'T23:59:59') : new Date(start.getTime());
+            if (isNaN(end.getTime())) end.setTime(start.getTime() + 86400000 - 1);
+            return start <= now && end >= now;
+        });
         const media = photo
             ? `<img class="carousel-img" src="${escapeHtml(photo)}" alt="${escapeHtml(t.name)}" ` +
               `loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
             : `<span class="carousel-img carousel-img-fallback">${escapeHtml(t.icon || '🎾')}</span>`;
         return `
-            <article class="carousel-card" data-slug="${escapeHtml(t.slug)}">
+            <article class="carousel-card" data-slug="${escapeHtml(t.slug)}" data-inprogress="${inProgress ? '1' : '0'}">
                 <a class="carousel-link" href="#${escapeHtml(t.slug)}" data-tournament="${escapeHtml(t.slug)}">
                     <div class="carousel-media">
                         ${media}
                         <span class="carousel-badge">${escapeHtml(t.level_label || '')}</span>
-                        ${soon ? '<span class="carousel-live-dot" title="скоро"></span>' : ''}
+                        ${inProgress ? '<span class="carousel-inprogress">идёт</span>' : ''}
+                        ${!inProgress && soon ? '<span class="carousel-live-dot" title="скоро"></span>' : ''}
                     </div>
                     <div class="carousel-body">
                         <h3 class="carousel-title">${escapeHtml(t.name)}</h3>
