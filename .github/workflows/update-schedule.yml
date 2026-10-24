@@ -57,6 +57,12 @@ jobs:
           LIVETENNIS_API_KEY: ${{ secrets.LIVETENNIS_API_KEY }}
         run: python scripts/fetch_tennis.py
 
+      # 5a. Собираем новости ATP / WTA / Tennis.com и переводим на русский
+      - name: Fetch tennis news
+        run: |
+          pip install requests beautifulsoup4 lxml
+          python scripts/fetch_news.py || true
+
       # 6. Проверяем, что данные валидны
       - name: Validate data
         run: |
@@ -71,7 +77,7 @@ jobs:
           json.load(open('data/rankings.json', encoding='utf-8-sig'))
           json.load(open('data/players.json', encoding='utf-8-sig'))
           # Фото турниров и профили игроков — необязательные: собираются из Википедии
-          for name in ('calendar.json', 'tournament_photos.json', 'player_profiles.json'):
+          for name in ('calendar.json', 'tournament_photos.json', 'player_profiles.json', 'news.json'):
               path = os.path.join('data', name)
               if os.path.exists(path):
                   json.load(open(path, encoding='utf-8-sig'))

@@ -10,7 +10,7 @@ const STATE = {
     tournamentPhotos: {},   // slug -> {photo, caption}
     profiles: {},           // id игрока -> профиль (страна, возраст, награды, факты)
     tournaments: {},      // slug -> загруженные данные турнира
-    activeTab: null,      // slug турнира, 'home' (титульная) либо 'rankings'
+    activeTab: null,      // slug турнира, 'home' (титульная), 'rankings' либо 'news'
     genderFilter: 'all',
     statusFilter: 'all',
     lastUpdated: '',
@@ -22,6 +22,7 @@ const STATE = {
     bracketGender: 'men', // чей сетка показана
     bracketFrom: 'auto',  // с какого раунда показывать
     rankingExpanded: false, // развёрнут ли полный рейтинг на титульной странице
+    news: { items: [], updated_at: '' },
 };
 
 const ACTIVE_REFRESH_MS = 3 * 60 * 1000;   // идут live-матчи
@@ -1356,11 +1357,88 @@ function renderLandingRanking() {
 
 // --- Титульная страница целиком ---
 
+function renderNewsPreview() {
+    const items = (STATE.news?.items || []).slice(0, 3);
+    if (!items.length) return '';
+    const cards = items.map(item => {
+        const img = item.image
+            ? `<img class="news-preview-img" src="${escapeHtml(item.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+            : '';
+        return `
+            <a class="news-preview-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+                <div class="news-preview-media">${img}</div>
+                <div class="news-preview-body">
+                    <div class="news-preview-meta">
+                        <span class="news-source">${escapeHtml(item.source)}</span>
+                    </div>
+                    <h4 class="news-preview-title">${escapeHtml(item.title_ru || item.title_orig || '')}</h4>
+                </div>
+            </a>`;
+    }).join('');
+    return `
+        <section class="news-preview">
+            <div class="section-header">
+                <div>
+                    <h2>📰 Новости тенниса</h2>
+                    <p class="section-desc">ATP, WTA, Tennis.com — переведено на русский</p>
+                </div>
+                <button class="collapse-btn ghost" type="button" data-go="news">Все новости →</button>
+            </div>
+            <div class="news-preview-grid">${cards}</div>
+        </section>`;
+}
+
+function renderNewsPage() {
+    const items = STATE.news?.items || [];
+    if (!items.length) {
+        return `
+            <div class="landing">
+                <button class="back-btn" type="button" data-go="home">← На главную</button>
+                <section class="news-page">
+                    <div class="section-header">
+                        <h2>📰 Новости тенниса</h2>
+                        <p class="section-desc">ATP, WTA, Tennis.com — переведено на русский</p>
+                    </div>
+                    <p class="grid-message">Новости пока не загружены. Они появятся после обновления через GitHub Actions.</p>
+                </section>
+            </div>`;
+    }
+    const rows = items.map(item => {
+        const img = item.image
+            ? `<img class="news-row-img" src="${escapeHtml(item.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+            : '';
+        return `
+            <a class="news-row" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+                <div class="news-row-media">${img}</div>
+                <div class="news-row-body">
+                    <div class="news-row-meta">
+                        <span class="news-source">${escapeHtml(item.source)}</span>
+                        <span class="news-arrow">Оригинал →</span>
+                    </div>
+                    <h3 class="news-row-title">${escapeHtml(item.title_ru || item.title_orig || '')}</h3>
+                    ${item.title_orig && item.title_ru && item.title_orig !== item.title_ru ? `<p class="news-row-orig">${escapeHtml(item.title_orig)}</p>` : ''}
+                </div>
+            </a>`;
+    }).join('');
+    return `
+        <div class="landing">
+            <button class="back-btn" type="button" data-go="home">← На главную</button>
+            <section class="news-page">
+                <div class="section-header">
+                    <h2>📰 Новости тенниса</h2>
+                    <p class="section-desc">ATP, WTA, Tennis.com — переведено на русский</p>
+                </div>
+                <div class="news-list">${rows}</div>
+            </section>
+        </div>`;
+}
+
 function renderLandingPage() {
     return `
         <div class="landing">
             ${renderHeroCarousel()}
             ${renderUpcomingBlock()}
+            ${renderNewsPreview()}
             ${renderLandingRanking()}
         </div>`;
 }
@@ -1535,6 +1613,12 @@ function renderContent() {
         return;
     }
 
+    if (tab === 'news') {
+        hideYearSelect();
+        container.innerHTML = renderNewsPage();
+        return;
+    }
+
     if (tab === 'rankings') {
         hideYearSelect();
         container.innerHTML = renderRankingsPanel();
@@ -1563,6 +1647,11 @@ function hideYearSelect() {
 
 async function activateTab(slug) {
     STATE.activeTab = slug;
+    if (slug === 'home') {
+        history.replaceState(null, '', window.location.pathname);
+    } else if (slug) {
+        history.replaceState(null, '', '#' + slug);
+    }
     let activeBtn = null;
     document.querySelectorAll('.tab').forEach(t => {
         const isActive = t.dataset.tab === slug;
@@ -1575,19 +1664,18 @@ async function activateTab(slug) {
         activeBtn.scrollIntoView({ inline: 'center', block: 'nearest' });
     }
 
-    // На титульной странице год и статус не нужны, а в рейтинге
-    // переключатель только ATP / WTA — «Все» там бессмысленно.
+    // На титульной странице, в новостях и рейтинге фильтры не нужны
     const statusGroup = document.getElementById('statusFilterGroup');
-    if (statusGroup) statusGroup.style.display = slug === 'home' ? 'none' : 'flex';
+    if (statusGroup) statusGroup.style.display = (slug === 'home' || slug === 'news') ? 'none' : 'flex';
     const allGender = document.querySelector('[data-gender="all"]');
-    if (allGender) allGender.style.display = slug === 'home' ? 'none' : '';
+    if (allGender) allGender.style.display = (slug === 'home' || slug === 'news') ? 'none' : '';
     const filtersBar = document.getElementById('filtersBar');
-    if (filtersBar) filtersBar.style.display = slug === 'home' ? 'none' : 'flex';
+    if (filtersBar) filtersBar.style.display = (slug === 'home' || slug === 'news') ? 'none' : 'flex';
     if (slug === 'home' && STATE.genderFilter === 'all') {
         setGenderFilter('men');
     }
 
-    if (slug !== 'rankings' && slug !== 'home' && !STATE.tournaments[slug]) {
+    if (slug !== 'rankings' && slug !== 'home' && slug !== 'news' && !STATE.tournaments[slug]) {
         renderContent();
         if (!slug) return null;   // турниров ещё нет — грузить нечего
         try {
@@ -1668,7 +1756,7 @@ async function refreshData() {
             return;
         }
         const hash = (location.hash || '').replace(/^#/, '');
-        const known = tournaments.some(t => t.slug === hash);
+        const known = tournaments.some(t => t.slug === hash) || hash === 'news' || hash === 'rankings';
         const defaultTab = activeTab
             || (known ? hash : 'home')
             || tournaments[0]?.slug
@@ -1773,11 +1861,13 @@ function setupFilters() {
             openPlayerProfile(playerBtn.dataset.player);
             return;
         }
-        // Кнопки «← К турнирам», «Весь рейтинг →»
+        // Кнопки «← К турнирам», «Весь рейтинг →», «Все новости →»
         const goBtn = event.target.closest('[data-go]');
         if (goBtn) {
             activateTab(goBtn.dataset.go);
+            location.hash = goBtn.dataset.go === 'home' ? '' : '#' + goBtn.dataset.go;
             window.scrollTo({ top: 0, behavior: 'smooth' });
+            return;
         }
     });
 }
