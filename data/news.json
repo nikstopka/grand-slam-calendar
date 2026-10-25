@@ -1,275 +1,275 @@
 {
-  "updated_at": "2026-10-25T17:27:54.122030+00:00",
+  "updated_at": "2026-10-25T19:54:34.967990+00:00",
   "items": [
     {
-      "id": "news_1792949245_0",
+      "id": "news_1792958022_0",
       "source": "ATP",
-      "title_orig": "Musetti triumphs in Lyon, wins first title since 2022",
-      "title_ru": "Мюзетти побеждает в Лионе и выигрывает первый титул с 2022 года",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/14/29/musetti-lyon-2026-final.jpg",
-      "url": "https://www.atptour.com/en/news/fritz-musetti-lyon-2026-final-sunday",
-      "published_at": "2026-10-25T17:27:21.928671+00:00"
+      "title_orig": "What is the Vienna tennis schedule?",
+      "title_ru": "Какое расписание тенниса в Вене?",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/18/52/vienna-2026-schedule.jpg",
+      "url": "https://www.atptour.com/en/news/vienna-2026-schedule",
+      "published_at": "2026-10-25T19:53:39.102059+00:00"
     },
     {
-      "id": "news_1792949246_1",
+      "id": "news_1792958023_1",
+      "source": "ATP",
+      "title_orig": "Mensik and Merida challenge fans at ATP Fantasy live event in Vienna",
+      "title_ru": "Менсик и Мерида бросают вызов фанатам на живом мероприятии ATP Fantasy в Вене",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/15/06/merida-vienna-2026-atp-fantasy-activation.jpg",
+      "url": "https://www.atptour.com/en/news/atp-fantasy-activation-vienna-2026",
+      "published_at": "2026-10-25T19:53:39.102242+00:00"
+    },
+    {
+      "id": "news_1792958026_2",
+      "source": "ATP",
+      "title_orig": "Griekspoor rallies past Struff for Brussels crown",
+      "title_ru": "Греческий митинг Spoor помогает Штруффу бороться за корону в Брюсселе",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/19/30/griekspoor-brussels-2026-trophy.jpg",
+      "url": "https://www.atptour.com/en/news/griekspoor-struff-brussels-2026-final-sunday",
+      "published_at": "2026-10-25T19:53:39.102393+00:00"
+    },
+    {
+      "id": "news_1792958027_3",
+      "source": "ATP",
+      "title_orig": "What is the Basel tennis schedule?",
+      "title_ru": "Какое расписание тенниса в Базеле?",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/16/29/basel-2026-schedule.jpg",
+      "url": "https://www.atptour.com/en/news/basel-2026-schedule",
+      "published_at": "2026-10-25T19:53:39.102581+00:00"
+    },
+    {
+      "id": "news_1792958029_4",
+      "source": "ATP",
+      "title_orig": "Wawrinka kicks off farewell week with FC Basel visit",
+      "title_ru": "Вавринка начинает прощальную неделю визитом в «Базель»",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/17/23/wawrinka-fc-basel-2026.jpg",
+      "url": "https://www.atptour.com/en/news/wawrinka-basel-fc-2026",
+      "published_at": "2026-10-25T19:53:39.102727+00:00"
+    },
+    {
+      "id": "news_1792958030_5",
       "source": "ATP",
       "title_orig": "Djokovic back, Wawrinka's farewell in Basel; Zverev eyes No. 1 in Vienna: Scouting Report",
       "title_ru": "возвращение Джоковича, прощание Вавринки в Базеле; Зверев видит номер один в Вене: отчет скаутинга",
       "image": "https://www.atptour.com/-/media/images/news/2026/10/24/21/58/basel-vienna-scouting-report-2026.jpg",
       "url": "https://www.atptour.com/en/news/basel-vienna-2026-scouting-report",
-      "published_at": "2026-10-25T17:27:21.928865+00:00"
+      "published_at": "2026-10-25T19:53:39.102871+00:00"
     },
     {
-      "id": "news_1792949247_2",
+      "id": "news_1792958032_6",
+      "source": "ATP",
+      "title_orig": "Musetti triumphs in Lyon, wins first title since 2022",
+      "title_ru": "Мюзетти побеждает в Лионе и выигрывает первый титул с 2022 года",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/14/29/musetti-lyon-2026-final.jpg",
+      "url": "https://www.atptour.com/en/news/fritz-musetti-lyon-2026-final-sunday",
+      "published_at": "2026-10-25T19:53:39.103004+00:00"
+    },
+    {
+      "id": "news_1792958033_7",
       "source": "ATP",
       "title_orig": "Cash/Glasspool boost Turin hopes with Lyon title; Bhambri/Seggerman win Almaty",
-      "title_ru": "Cash/Glasspool boost Turin hopes with Lyon title; Bhambri/Seggerman win Almaty",
+      "title_ru": "Кэш/Гласспул укрепили надежды Турина, выиграв титул в Лионе; Бхамбри/Сеггерман побеждают Алматы",
       "image": "https://www.atptour.com/-/media/images/news/2026/10/25/14/32/cash-glasspool-lyon-2026-doubles-title.jpg",
       "url": "https://www.atptour.com/en/news/lyon-almaty-brussels-2026-doubles-final",
-      "published_at": "2026-10-25T17:27:21.929039+00:00"
+      "published_at": "2026-10-25T19:53:39.103141+00:00"
     },
     {
-      "id": "news_1792949248_3",
+      "id": "news_1792958035_8",
       "source": "ATP",
       "title_orig": "Alcaraz, Zverev greet fans, practise at Vienna’s historic cattle market: Best photos",
-      "title_ru": "Alcaraz, Zverev greet fans, practise at Vienna’s historic cattle market: Best photos",
+      "title_ru": "Алькарас и Зверев приветствуют фанатов, тренируются на историческом скотном рынке Вены: лучшие фотографии",
       "image": "https://www.atptour.com/-/media/images/news/2026/10/25/12/03/alcaraz-zverev-vienna-2026-practice-story.jpg",
       "url": "https://www.atptour.com/en/news/alcaraz-zverev-vienna-2026-practice-story",
-      "published_at": "2026-10-25T17:27:21.929219+00:00"
+      "published_at": "2026-10-25T19:53:39.103275+00:00"
     },
     {
-      "id": "news_1792949249_4",
+      "id": "news_1792958037_9",
       "source": "ATP",
       "title_orig": "Medvedev successfully defends Almaty title, wins 25th crown",
-      "title_ru": "Медведев успешно защищает титул Алматы и выигрывает 25-ю корону",
+      "title_ru": "Медведев успешно защитил титул Алматы и завоевал 25-ю корону",
       "image": "https://www.atptour.com/-/media/images/news/2026/10/25/14/03/medvedev-almaty-2026-trophy.jpg",
       "url": "https://www.atptour.com/en/news/medvedev-basilashvili-almaty-2026-final",
-      "published_at": "2026-10-25T17:27:21.929361+00:00"
+      "published_at": "2026-10-25T19:53:39.103408+00:00"
     },
     {
-      "id": "news_1792949250_5",
+      "id": "news_1792958037_10",
       "source": "ATP",
       "title_orig": "What Zverev must do in Vienna to become World No. 1 next Monday",
-      "title_ru": "What Zverev must do in Vienna to become World No. 1 next Monday",
+      "title_ru": "Что должен сделать Зверев в Вене, чтобы в следующий понедельник стать первой ракеткой мира",
       "image": "https://www.atptour.com/-/media/images/news/2026/10/24/21/27/zverev-vienna-2026-no-1-scenario.jpg",
       "url": "https://www.atptour.com/en/news/zverev-vienna-2026-no-1-scenario",
-      "published_at": "2026-10-25T17:27:21.929497+00:00"
+      "published_at": "2026-10-25T19:53:39.103581+00:00"
     },
     {
-      "id": "news_1792949251_6",
+      "id": "news_1792958039_11",
       "source": "ATP",
       "title_orig": "Struff shocks Fils in Brussels, sets Griekspoor final clash",
       "title_ru": "Штруфф шокирует Филса в Брюсселе и назначает финальный поединок с Грикспуром",
       "image": "https://www.atptour.com/-/media/images/news/2026/10/24/19/14/struff-brussels-2026-saturday.jpg",
       "url": "https://www.atptour.com/en/news/struff-fils-brussels-2026-saturday-sf",
-      "published_at": "2026-10-25T17:27:21.929636+00:00"
+      "published_at": "2026-10-25T19:53:39.103715+00:00"
     },
     {
-      "id": "news_1792949251_7",
+      "id": "news_1792958040_12",
       "source": "ATP",
       "title_orig": "Musetti saves 4 MPs, shocks Cobolli to set Fritz final in Lyon",
-      "title_ru": "Musetti saves 4 MPs, shocks Cobolli to set Fritz final in Lyon",
+      "title_ru": "Мюзетти спас 4 депутатов и шокировал Коболли, чтобы организовать финал Фрица в Лионе",
       "image": "https://www.atptour.com/-/media/images/news/2026/10/24/17/15/musetti-lyon-2026-sf-saturday-file.jpg",
       "url": "https://www.atptour.com/en/news/fritz-paul-cobolli-musetti-lyon-2026-sfs",
-      "published_at": "2026-10-25T17:27:21.929775+00:00"
+      "published_at": "2026-10-25T19:53:39.103844+00:00"
     },
     {
-      "id": "news_1792949252_8",
-      "source": "ATP",
-      "title_orig": "Medvedev into Almaty final after Bublik retirement, faces Basilashvili for trophy",
-      "title_ru": "Медведев вышел в финал в Алматы после ухода Бублика и встретится с Басилашвили за трофей",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/24/14/51/medvedev-almaty-2026-bh.jpg",
-      "url": "https://www.atptour.com/en/news/medvedev-bublik-almaty-2026-saturday",
-      "published_at": "2026-10-25T17:27:21.929910+00:00"
-    },
-    {
-      "id": "news_1792949252_9",
-      "source": "ATP",
-      "title_orig": "Djokovic, Shelton in same half of Basel draw; Wawrinka faces Lehecka",
-      "title_ru": "Джокович и Шелтон в одной половине матча с Базелем; Вавринка встретится с Лехецкой",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/24/10/57/djokovic-basel-2026-draw-preview.jpg",
-      "url": "https://www.atptour.com/en/news/djokovic-basel-2026-draw-preview",
-      "published_at": "2026-10-25T17:27:21.930065+00:00"
-    },
-    {
-      "id": "news_1792949253_10",
-      "source": "ATP",
-      "title_orig": "Alcaraz faces Khachanov test in Vienna opener; Zverev meets Landaluce",
-      "title_ru": "Alcaraz faces Khachanov test in Vienna opener; Zverev meets Landaluce",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/12/08/alcaraz-vienna-2026-practice-bh.jpg",
-      "url": "https://www.atptour.com/en/news/alcaraz-vienna-2026-draw-preview",
-      "published_at": "2026-10-25T17:27:21.930199+00:00"
-    },
-    {
-      "id": "news_1792949254_11",
-      "source": "ATP",
-      "title_orig": "Cobolli’s Turin mission: A dream within reach",
-      "title_ru": "Cobolli’s Turin mission: A dream within reach",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/21/10/16/cobolli-turin-2026-feature.jpg",
-      "url": "https://www.atptour.com/en/news/cobolli-turin-chase-2026-feature",
-      "published_at": "2026-10-25T17:27:21.930337+00:00"
-    },
-    {
-      "id": "news_1792949255_12",
-      "source": "ATP",
-      "title_orig": "Fils converts sixth MP to down Michelsen in Brussels, boost Turin hopes",
-      "title_ru": "Fils converts sixth MP to down Michelsen in Brussels, boost Turin hopes",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/23/17/45/fils-brussels-2026-qf.jpg",
-      "url": "https://www.atptour.com/en/news/fils-michelsen-brussels-2026-friday",
-      "published_at": "2026-10-25T17:27:21.930468+00:00"
-    },
-    {
-      "id": "news_1792949255_13",
+      "id": "news_1792958041_13",
       "source": "WTA",
       "title_orig": "Tournaments",
       "title_ru": "Турниры",
       "image": null,
       "url": "https://www.wtatennis.com/news/tournaments",
-      "published_at": "2026-10-25T17:27:23.559857+00:00"
+      "published_at": "2026-10-25T19:53:40.401885+00:00"
     },
     {
-      "id": "news_1792949256_14",
+      "id": "news_1792958042_14",
       "source": "WTA",
       "title_orig": "Match Reaction",
-      "title_ru": "Match Reaction",
+      "title_ru": "Реакция матча",
       "image": null,
       "url": "https://www.wtatennis.com/news/match-reaction",
-      "published_at": "2026-10-25T17:27:23.559979+00:00"
+      "published_at": "2026-10-25T19:53:40.402007+00:00"
     },
     {
-      "id": "news_1792949257_15",
+      "id": "news_1792958043_15",
       "source": "WTA",
       "title_orig": "By the Numbers: Rybakina wins Ningbo Open for tour-leading fourth title of season",
       "title_ru": "В цифрах: Рыбакина выиграла Ningbo Open и стала лидером тура в четвертый раз в сезоне",
       "image": null,
       "url": "https://www.wtatennis.com/news/4598517/by-the-numbers-rybakina-wins-ningbo-open-for-tour-leading-fourth-title-of-season",
-      "published_at": "2026-10-25T17:27:23.560081+00:00"
+      "published_at": "2026-10-25T19:53:40.402085+00:00"
     },
     {
-      "id": "news_1792949257_16",
+      "id": "news_1792958044_16",
       "source": "WTA",
       "title_orig": "Siniakova ends title drought with dominant Japan Open victory",
-      "title_ru": "Siniakova ends title drought with dominant Japan Open victory",
+      "title_ru": "Синякова завершила титульную засуху убедительной победой на Japan Open",
       "image": null,
       "url": "https://www.wtatennis.com/news/4598497/siniakova-wins-10-straight-games-to-clinch-sixth-wta-singlea-title",
-      "published_at": "2026-10-25T17:27:23.560224+00:00"
+      "published_at": "2026-10-25T19:53:40.402232+00:00"
     },
     {
-      "id": "news_1792949258_17",
+      "id": "news_1792958046_17",
       "source": "WTA",
       "title_orig": "Rybakina survives Shnaider test, sets up Ningbo final with Fernandez",
-      "title_ru": "Rybakina survives Shnaider test, sets up Ningbo final with Fernandez",
+      "title_ru": "Рыбакина выдержала тест Шнайдера и вышла в финал Нинбо с Фернандесом",
       "image": null,
       "url": "https://www.wtatennis.com/news/4598225/rybakina-survives-shnaider-test-sets-up-ningbo-final-with-fernandez",
-      "published_at": "2026-10-25T17:27:23.560360+00:00"
+      "published_at": "2026-10-25T19:53:40.402371+00:00"
     },
     {
-      "id": "news_1792949259_18",
+      "id": "news_1792958047_18",
       "source": "WTA",
       "title_orig": "Rybakina vs. Fernandez: Everything to know about the Ningbo final",
-      "title_ru": "Rybakina vs. Fernandez: Everything to know about the Ningbo final",
+      "title_ru": "Рыбакина против Фернандеса: все, что нужно знать о финале в Нинбо",
       "image": null,
       "url": "https://www.wtatennis.com/news/4598107/elena-rybakina-vs-leylah-fernandez-everything-to-know-about-the-ningbo-final",
-      "published_at": "2026-10-25T17:27:23.560478+00:00"
+      "published_at": "2026-10-25T19:53:40.402531+00:00"
     },
     {
-      "id": "news_1792949260_19",
+      "id": "news_1792958049_19",
       "source": "WTA",
       "title_orig": "View all View all player features",
-      "title_ru": "View all View all player features",
+      "title_ru": "Посмотреть все Посмотреть все возможности плеера",
       "image": null,
       "url": "https://www.wtatennis.com/news/player-feature",
-      "published_at": "2026-10-25T17:27:23.561546+00:00"
+      "published_at": "2026-10-25T19:53:40.403597+00:00"
     },
     {
-      "id": "news_1792949261_20",
+      "id": "news_1792958051_20",
       "source": "WTA",
       "title_orig": "View all View all social buzz",
-      "title_ru": "View all View all social buzz",
+      "title_ru": "Просмотреть все Просмотреть все обновления в социальных сетях",
       "image": null,
       "url": "https://www.wtatennis.com/news/social-buzz",
-      "published_at": "2026-10-25T17:27:23.562683+00:00"
+      "published_at": "2026-10-25T19:53:40.404719+00:00"
     },
     {
-      "id": "news_1792949261_21",
+      "id": "news_1792958052_21",
       "source": "WTA",
       "title_orig": "View all View all hot shots",
-      "title_ru": "View all View all hot shots",
+      "title_ru": "Посмотреть все Посмотреть все горячие снимки",
       "image": null,
       "url": "https://www.wtatennis.com/news/hot-shots",
-      "published_at": "2026-10-25T17:27:23.563244+00:00"
+      "published_at": "2026-10-25T19:53:40.405213+00:00"
     },
     {
-      "id": "news_1792949262_22",
+      "id": "news_1792958053_22",
       "source": "WTA",
       "title_orig": "View all View all stats corner",
-      "title_ru": "View all View all stats corner",
+      "title_ru": "Посмотреть все Посмотреть всю статистику",
       "image": null,
       "url": "https://www.wtatennis.com/news/stats-corner",
-      "published_at": "2026-10-25T17:27:23.563349+00:00"
+      "published_at": "2026-10-25T19:53:40.405316+00:00"
     },
     {
-      "id": "news_1792949263_23",
+      "id": "news_1792958054_23",
       "source": "WTA",
       "title_orig": "All Doubles News All Doubles News",
-      "title_ru": "All Doubles News All Doubles News",
+      "title_ru": "Все новости парного спорта Все новости парного спорта",
       "image": null,
       "url": "https://www.wtatennis.com/news/doubles",
-      "published_at": "2026-10-25T17:27:23.563844+00:00"
+      "published_at": "2026-10-25T19:53:40.405843+00:00"
     },
     {
-      "id": "news_1792949264_24",
+      "id": "news_1792958056_24",
       "source": "WTA",
       "title_orig": "View all View all previews",
-      "title_ru": "View all View all previews",
+      "title_ru": "Посмотреть все Посмотреть все превью",
       "image": null,
       "url": "https://www.wtatennis.com/news/previews",
-      "published_at": "2026-10-25T17:27:23.564869+00:00"
+      "published_at": "2026-10-25T19:53:40.406884+00:00"
     },
     {
-      "id": "news_1792949264_25",
+      "id": "news_1792958058_25",
       "source": "Tennis.com",
       "title_orig": "Felix Auger-Aliassime rises to new career-high ranking of No. 4 after best run at Roland Garros",
-      "title_ru": "Felix Auger-Aliassime rises to new career-high ranking of No. 4 after best run at Roland Garros",
+      "title_ru": "Феликс Оже-Альяссим поднялся на новое четвертое место в карьере после лучшего выступления на Ролан Гаррос",
       "image": "https://tennis.com/images/articles/0bcab86a-6d0c-4833-8adf-1bfe17949798/web.jpg",
       "url": "https://www.tennis.com/news/articles/felix-auger-aliassime-rises-to-new-career-high-ranking-of-number-4-after-roland-garros-raonic-andreescu",
-      "published_at": "2026-10-25T17:27:25.109769+00:00"
+      "published_at": "2026-10-25T19:53:41.794569+00:00"
     },
     {
-      "id": "news_1792949265_26",
+      "id": "news_1792958059_26",
       "source": "Tennis.com",
       "title_orig": "Emilio Nava leaves \"one of the most enjoyable weeks\" in Bad Rappenau with trophy",
-      "title_ru": "Emilio Nava leaves \"one of the most enjoyable weeks\" in Bad Rappenau with trophy",
+      "title_ru": "Эмилио Нава покидает «одну из самых приятных недель» в Бад-Раппенау с трофеем",
       "image": "https://tennis.com/images/articles/8741a1e2-1aaf-4400-8fb2-e9746e0b5634/web.jpg",
       "url": "https://www.tennis.com/news/articles/emilio-nava-leaves-one-of-the-most-enjoyable-weeks-in-bad-rappenau-with-trophy",
-      "published_at": "2026-10-25T17:27:25.109893+00:00"
+      "published_at": "2026-10-25T19:53:41.794693+00:00"
     },
     {
-      "id": "news_1792949266_27",
+      "id": "news_1792958061_27",
       "source": "Tennis.com",
       "title_orig": "Flavio Cobolli breaks into Top 10 after reaching first Grand Slam final at Roland Garros",
-      "title_ru": "Flavio Cobolli breaks into Top 10 after reaching first Grand Slam final at Roland Garros",
+      "title_ru": "Флавио Коболли вошел в десятку лучших после первого выхода в финал турнира Большого шлема на Ролан Гаррос",
       "image": "https://tennis.com/images/articles/4dbcece2-708a-429a-b93c-4c0df4911cad/web.jpg",
       "url": "https://www.tennis.com/news/articles/flavio-cobolli-breaks-into-top-10-after-reaching-first-grand-slam-final-at-roland-garros",
-      "published_at": "2026-10-25T17:27:25.110023+00:00"
+      "published_at": "2026-10-25T19:53:41.794802+00:00"
     },
     {
-      "id": "news_1792949267_28",
+      "id": "news_1792958062_28",
       "source": "Tennis.com",
       "title_orig": "Maja Chwalinska soars from No. 114 to No. 21 following dream run to Roland Garros final",
-      "title_ru": "Maja Chwalinska soars from No. 114 to No. 21 following dream run to Roland Garros final",
+      "title_ru": "Майя Хвалинска взлетела со 114-го на 21-е место благодаря своей мечте о выходе в финал Ролан Гаррос",
       "image": "https://tennis.com/images/articles/ad095ead-3dbb-4fcf-80c0-498cb75fd196/web.jpg",
       "url": "https://www.tennis.com/news/articles/maja-chwalinska-soars-from-114-to-21-on-wta-rankings-after-dream-run-to-roland-garros-final-andreeva-kostyuk-shnaider",
-      "published_at": "2026-10-25T17:27:25.110139+00:00"
+      "published_at": "2026-10-25T19:53:41.794910+00:00"
     },
     {
-      "id": "news_1792949268_29",
+      "id": "news_1792958064_29",
       "source": "Tennis.com",
       "title_orig": "Alexander Zverev won his first Grand Slam title. Choose your own reaction",
-      "title_ru": "Alexander Zverev won his first Grand Slam title. Choose your own reaction",
+      "title_ru": "Александр Зверев выиграл свой первый титул Большого шлема. Выбери свою реакцию",
       "image": "https://tennis.com/images/articles/31dc544b-2a08-428f-a727-86d5c7066901/web.jpg",
       "url": "https://www.tennis.com/news/articles/alexander-zverev-won-his-first-grand-slam-title-choose-your-own-reaction",
-      "published_at": "2026-10-25T17:27:25.110246+00:00"
+      "published_at": "2026-10-25T19:53:41.795016+00:00"
     }
   ]
 }
