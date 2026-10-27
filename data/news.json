@@ -1,275 +1,275 @@
 {
-  "updated_at": "2026-10-27T19:51:52.467450+00:00",
+  "updated_at": "2026-10-27T23:34:00.337017+00:00",
   "items": [
     {
-      "id": "news_1793130683_0",
-      "source": "ATP",
-      "title_orig": "Alcaraz settles to sink Khachanov in high-quality Vienna return",
-      "title_ru": "Alcaraz settles to sink Khachanov in high-quality Vienna return",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/16/37/alcaraz-vienna-2026-tuesday.jpg",
-      "url": "https://www.atptour.com/en/news/alcaraz-khachanov-vienna-2026-tuesday",
-      "published_at": "2026-10-27T19:51:19.860161+00:00"
-    },
-    {
-      "id": "news_1793130684_1",
-      "source": "ATP",
-      "title_orig": "Djokovic states his end-of-year goals ahead of Basel bid...",
-      "title_ru": "Djokovic states his end-of-year goals ahead of Basel bid...",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/14/30/djokovic-basel-2026-preview.jpg",
-      "url": "https://www.atptour.com/en/news/djokovic-basel-2026-preview",
-      "published_at": "2026-10-27T19:51:19.860373+00:00"
-    },
-    {
-      "id": "news_1793130685_2",
-      "source": "ATP",
-      "title_orig": "Lehecka reflects on hilarious locker room exchange with Tiafoe",
-      "title_ru": "Lehecka reflects on hilarious locker room exchange with Tiafoe",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/14/25/lehecka-locker-room-code-2026.jpg",
-      "url": "https://www.atptour.com/en/news/lehecka-locker-room-code-2026",
-      "published_at": "2026-10-27T19:51:19.860530+00:00"
-    },
-    {
-      "id": "news_1793130685_3",
-      "source": "ATP",
-      "title_orig": "What were the Vienna tennis results?",
-      "title_ru": "What were the Vienna tennis results?",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/17/50/vienna-2026-results.jpg",
-      "url": "https://www.atptour.com/en/news/vienna-2026-results",
-      "published_at": "2026-10-27T19:51:19.860699+00:00"
-    },
-    {
-      "id": "news_1793130686_4",
+      "id": "news_1793144011_0",
       "source": "ATP",
       "title_orig": "What were the Basel tennis results?",
       "title_ru": "What were the Basel tennis results?",
       "image": "https://www.atptour.com/-/media/images/news/2026/10/26/18/23/basel-2026-results.jpg",
       "url": "https://www.atptour.com/en/news/basel-2026-results",
-      "published_at": "2026-10-27T19:51:19.860848+00:00"
+      "published_at": "2026-10-27T23:33:27.376404+00:00"
     },
     {
-      "id": "news_1793130687_5",
+      "id": "news_1793144011_1",
       "source": "ATP",
       "title_orig": "What is the Basel tennis schedule?",
       "title_ru": "What is the Basel tennis schedule?",
       "image": "https://www.atptour.com/-/media/images/news/2026/10/25/16/29/basel-2026-schedule.jpg",
       "url": "https://www.atptour.com/en/news/basel-2026-schedule",
-      "published_at": "2026-10-27T19:51:19.860996+00:00"
+      "published_at": "2026-10-27T23:33:27.376578+00:00"
     },
     {
-      "id": "news_1793130688_6",
+      "id": "news_1793144012_2",
       "source": "ATP",
-      "title_orig": "Birthday boy Brooksby stops #NextGenATP hopeful Blanch in Challenger final",
-      "title_ru": "Birthday boy Brooksby stops #NextGenATP hopeful Blanch in Challenger final",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/18/50/brooksby-serve-2026.jpg",
-      "url": "https://www.atptour.com/en/news/brooksby-fort-worth-challenger-2026-title",
-      "published_at": "2026-10-27T19:51:19.861135+00:00"
+      "title_orig": "What is the Vienna tennis schedule?",
+      "title_ru": "What is the Vienna tennis schedule?",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/18/52/vienna-2026-schedule.jpg",
+      "url": "https://www.atptour.com/en/news/vienna-2026-schedule",
+      "published_at": "2026-10-27T23:33:27.376710+00:00"
     },
     {
-      "id": "news_1793130688_7",
+      "id": "news_1793144013_3",
       "source": "ATP",
-      "title_orig": "Rune survives Halys' 32 aces in Basel for first ATP Tour win since injury",
-      "title_ru": "Rune survives Halys' 32 aces in Basel for first ATP Tour win since injury",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/17/39/rune-basel-2026-monday-1.jpg",
-      "url": "https://www.atptour.com/en/news/rune-halys-basel-2026-monday",
-      "published_at": "2026-10-27T19:51:19.861299+00:00"
+      "title_orig": "What were the Vienna tennis results?",
+      "title_ru": "What were the Vienna tennis results?",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/17/50/vienna-2026-results.jpg",
+      "url": "https://www.atptour.com/en/news/vienna-2026-results",
+      "published_at": "2026-10-27T23:33:27.376860+00:00"
     },
     {
-      "id": "news_1793130689_8",
+      "id": "news_1793144014_4",
       "source": "ATP",
-      "title_orig": "De Minaur weathers Machac’s Vienna whirlwind for crucial R1 win",
-      "title_ru": "De Minaur weathers Machac’s Vienna whirlwind for crucial R1 win",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/17/04/de-minaur-vienna-2026-monday.jpg",
-      "url": "https://www.atptour.com/en/news/de-minaur-machac-vienna-2026-monday",
-      "published_at": "2026-10-27T19:51:19.861449+00:00"
+      "title_orig": "Wawrinka, without regrets: 'That's the only way you can leave the sport'",
+      "title_ru": "Wawrinka, without regrets: 'That's the only way you can leave the sport'",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/11/49/wawrinka-legacy-feature-basel-2026.jpg",
+      "url": "https://www.atptour.com/en/news/wawrinka-legacy-feature-basel-2026",
+      "published_at": "2026-10-27T23:33:27.376985+00:00"
     },
     {
-      "id": "news_1793130690_9",
+      "id": "news_1793144015_5",
       "source": "ATP",
-      "title_orig": "When will Djokovic play in Basel?",
-      "title_ru": "When will Djokovic play in Basel?",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/16/14/djokovic-basel-2026-first-match.jpg",
-      "url": "https://www.atptour.com/en/news/djokovic-basel-2026-first-match",
-      "published_at": "2026-10-27T19:51:19.861587+00:00"
+      "title_orig": "The best photos from Stan Wawrinka's career",
+      "title_ru": "The best photos from Stan Wawrinka's career",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/24/22/44/wawrinka-retirement-2026-photo-gallery-signature-celebration.jpg",
+      "url": "https://www.atptour.com/en/news/wawrinka-retirement-october-2026-photo-gallery",
+      "published_at": "2026-10-27T23:33:27.377105+00:00"
     },
     {
-      "id": "news_1793130691_10",
+      "id": "news_1793144016_6",
       "source": "ATP",
-      "title_orig": "Arevalo & Pavic qualify for third consecutive Nitto ATP Finals together",
-      "title_ru": "Arevalo & Pavic qualify for third consecutive Nitto ATP Finals together",
-      "image": "https://www.atptour.com/-/media/images/news/2026/09/08/21/52/arevalo-pavic-turin-2026-qualification.jpg",
-      "url": "https://www.atptour.com/en/news/arevalo-pavic-nitto-atp-finals-2026-qualification",
-      "published_at": "2026-10-27T19:51:19.861723+00:00"
+      "title_orig": "Celebrating Stan Wawrinka: Stan the Everyman",
+      "title_ru": "Celebrating Stan Wawrinka: Stan the Everyman",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/15/47/wawrinka-retirement-2026-16x9.jpg",
+      "url": "https://www.atptour.com/en/news/stan-wawrinka-longform-retirement-tribute",
+      "published_at": "2026-10-27T23:33:27.377220+00:00"
     },
     {
-      "id": "news_1793130691_11",
+      "id": "news_1793144016_7",
       "source": "ATP",
-      "title_orig": "Landaluce carefree and ready to spring surprise on No. 1-bound Zverev",
-      "title_ru": "Landaluce carefree and ready to spring surprise on No. 1-bound Zverev",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/16/01/landaluce-vienna-2026-feature.jpg",
-      "url": "https://www.atptour.com/en/news/landaluce-vienna-2026-feature",
-      "published_at": "2026-10-27T19:51:19.861856+00:00"
+      "title_orig": "Wawrinka, 41, retires after standout career",
+      "title_ru": "Wawrinka, 41, retires after standout career",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/15/06/wawrinka-2026-tribute.jpg",
+      "url": "https://www.atptour.com/en/news/wawrinka-retirement-basel-2026",
+      "published_at": "2026-10-27T23:33:27.377341+00:00"
     },
     {
-      "id": "news_1793130692_12",
+      "id": "news_1793144017_8",
       "source": "ATP",
-      "title_orig": "Del Potro wins International Tennis Hall of Fame Fan Vote",
-      "title_ru": "Del Potro wins International Tennis Hall of Fame Fan Vote",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/15/41/del-potro-2018-forehand.jpg",
-      "url": "https://www.atptour.com/en/news/del-potro-hall-of-fame-fan-vote-2026",
-      "published_at": "2026-10-27T19:51:19.861990+00:00"
+      "title_orig": "Zverev saves 4 MPs, survives Landaluce test in Vienna",
+      "title_ru": "Zverev saves 4 MPs, survives Landaluce test in Vienna",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/19/38/zverev-vienna-2026-tuesday.jpg",
+      "url": "https://www.atptour.com/en/news/zverev-landaluce-vienna-2026-tuesday",
+      "published_at": "2026-10-27T23:33:27.377470+00:00"
     },
     {
-      "id": "news_1793130693_13",
+      "id": "news_1793144018_9",
+      "source": "ATP",
+      "title_orig": "Shelton blasts 44 aces in scare, Lehecka ends Wawrinka's career in Basel",
+      "title_ru": "Shelton blasts 44 aces in scare, Lehecka ends Wawrinka's career in Basel",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/21/12/shelton-basel-2026-tuesday-1.jpg",
+      "url": "https://www.atptour.com/en/news/shelton-kovacevic-basel-2026-tuesday",
+      "published_at": "2026-10-27T23:33:27.377588+00:00"
+    },
+    {
+      "id": "news_1793144019_10",
+      "source": "ATP",
+      "title_orig": "Alcaraz settles to sink Khachanov in high-quality Vienna return",
+      "title_ru": "Alcaraz settles to sink Khachanov in high-quality Vienna return",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/16/37/alcaraz-vienna-2026-tuesday.jpg",
+      "url": "https://www.atptour.com/en/news/alcaraz-khachanov-vienna-2026-tuesday",
+      "published_at": "2026-10-27T23:33:27.377703+00:00"
+    },
+    {
+      "id": "news_1793144020_11",
+      "source": "ATP",
+      "title_orig": "Djokovic states his end-of-year goals ahead of Basel bid...",
+      "title_ru": "Djokovic states his end-of-year goals ahead of Basel bid...",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/14/30/djokovic-basel-2026-preview.jpg",
+      "url": "https://www.atptour.com/en/news/djokovic-basel-2026-preview",
+      "published_at": "2026-10-27T23:33:27.377821+00:00"
+    },
+    {
+      "id": "news_1793144021_12",
+      "source": "ATP",
+      "title_orig": "Lehecka reflects on hilarious locker room exchange with Tiafoe",
+      "title_ru": "Lehecka reflects on hilarious locker room exchange with Tiafoe",
+      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/14/25/lehecka-locker-room-code-2026.jpg",
+      "url": "https://www.atptour.com/en/news/lehecka-locker-room-code-2026",
+      "published_at": "2026-10-27T23:33:27.377938+00:00"
+    },
+    {
+      "id": "news_1793144021_13",
       "source": "WTA",
       "title_orig": "Tournaments",
       "title_ru": "Tournaments",
       "image": null,
       "url": "https://www.wtatennis.com/news/tournaments",
-      "published_at": "2026-10-27T19:51:21.684363+00:00"
+      "published_at": "2026-10-27T23:33:29.012232+00:00"
     },
     {
-      "id": "news_1793130694_14",
+      "id": "news_1793144022_14",
       "source": "WTA",
       "title_orig": "Match Reaction",
       "title_ru": "Match Reaction",
       "image": null,
       "url": "https://www.wtatennis.com/news/match-reaction",
-      "published_at": "2026-10-27T19:51:21.684484+00:00"
+      "published_at": "2026-10-27T23:33:29.012346+00:00"
     },
     {
-      "id": "news_1793130695_15",
+      "id": "news_1793144023_15",
       "source": "WTA",
       "title_orig": "Yastremska saves five match points again, beats friend Volynets in Guangzhou",
       "title_ru": "Yastremska saves five match points again, beats friend Volynets in Guangzhou",
       "image": null,
       "url": "https://www.wtatennis.com/news/4599795/yastremska-saves-five-match-points-again-beats-friend-volynets-in-guangzhou",
-      "published_at": "2026-10-27T19:51:21.684561+00:00"
+      "published_at": "2026-10-27T23:33:29.012429+00:00"
     },
     {
-      "id": "news_1793130695_16",
+      "id": "news_1793144024_16",
       "source": "WTA",
       "title_orig": "Osaka wears Hana Yagi, holds off Paolini in Tokyo homecoming",
       "title_ru": "Osaka wears Hana Yagi, holds off Paolini in Tokyo homecoming",
       "image": null,
       "url": "https://www.wtatennis.com/news/4599543/osaka-wears-hana-yagi-holds-off-paolini-in-tokyo-homecoming",
-      "published_at": "2026-10-27T19:51:21.684702+00:00"
+      "published_at": "2026-10-27T23:33:29.012559+00:00"
     },
     {
-      "id": "news_1793130696_17",
+      "id": "news_1793144024_17",
       "source": "WTA",
       "title_orig": "Week in review: Rybakina adds more fuel to her fire in Ningbo",
       "title_ru": "Week in review: Rybakina adds more fuel to her fire in Ningbo",
       "image": null,
       "url": "https://www.wtatennis.com/news/4599250/week-in-review-elena-rybakina-adds-more-fuel-to-her-fire-in-ningbo",
-      "published_at": "2026-10-27T19:51:21.684821+00:00"
+      "published_at": "2026-10-27T23:33:29.012667+00:00"
     },
     {
-      "id": "news_1793130697_18",
+      "id": "news_1793144025_18",
       "source": "WTA",
       "title_orig": "Social Buzz",
       "title_ru": "Social Buzz",
       "image": null,
       "url": "https://www.wtatennis.com/news/social-buzz",
-      "published_at": "2026-10-27T19:51:21.684891+00:00"
+      "published_at": "2026-10-27T23:33:29.012728+00:00"
     },
     {
-      "id": "news_1793130698_19",
+      "id": "news_1793144026_19",
       "source": "WTA",
       "title_orig": "Sabalenka, fight fan? World No. 2 enjoys UFC bout in Abu Dhabi",
       "title_ru": "Sabalenka, fight fan? World No. 2 enjoys UFC bout in Abu Dhabi",
       "image": null,
       "url": "https://www.wtatennis.com/news/4599186/aryna-sabalenka-attends-ufc-333-in-abu-dhabi",
-      "published_at": "2026-10-27T19:51:21.684971+00:00"
+      "published_at": "2026-10-27T23:33:29.012791+00:00"
     },
     {
-      "id": "news_1793130699_20",
+      "id": "news_1793144027_20",
       "source": "WTA",
       "title_orig": "View all View all player features",
       "title_ru": "View all View all player features",
       "image": null,
       "url": "https://www.wtatennis.com/news/player-feature",
-      "published_at": "2026-10-27T19:51:21.686124+00:00"
+      "published_at": "2026-10-27T23:33:29.013751+00:00"
     },
     {
-      "id": "news_1793130699_21",
+      "id": "news_1793144027_21",
       "source": "WTA",
       "title_orig": "View all View all hot shots",
       "title_ru": "View all View all hot shots",
       "image": null,
       "url": "https://www.wtatennis.com/news/hot-shots",
-      "published_at": "2026-10-27T19:51:21.687773+00:00"
+      "published_at": "2026-10-27T23:33:29.015253+00:00"
     },
     {
-      "id": "news_1793130700_22",
+      "id": "news_1793144028_22",
       "source": "WTA",
       "title_orig": "View all View all stats corner",
       "title_ru": "View all View all stats corner",
       "image": null,
       "url": "https://www.wtatennis.com/news/stats-corner",
-      "published_at": "2026-10-27T19:51:21.687880+00:00"
+      "published_at": "2026-10-27T23:33:29.015350+00:00"
     },
     {
-      "id": "news_1793130701_23",
+      "id": "news_1793144029_23",
       "source": "WTA",
       "title_orig": "All Doubles News All Doubles News",
       "title_ru": "All Doubles News All Doubles News",
       "image": null,
       "url": "https://www.wtatennis.com/news/doubles",
-      "published_at": "2026-10-27T19:51:21.688401+00:00"
+      "published_at": "2026-10-27T23:33:29.015827+00:00"
     },
     {
-      "id": "news_1793130702_24",
+      "id": "news_1793144030_24",
       "source": "WTA",
       "title_orig": "View all View all previews",
       "title_ru": "View all View all previews",
       "image": null,
       "url": "https://www.wtatennis.com/news/previews",
-      "published_at": "2026-10-27T19:51:21.689430+00:00"
+      "published_at": "2026-10-27T23:33:29.016777+00:00"
     },
     {
-      "id": "news_1793130703_25",
+      "id": "news_1793144031_25",
       "source": "Tennis.com",
       "title_orig": "Felix Auger-Aliassime rises to new career-high ranking of No. 4 after best run at Roland Garros",
       "title_ru": "Felix Auger-Aliassime rises to new career-high ranking of No. 4 after best run at Roland Garros",
       "image": "https://tennis.com/images/articles/0bcab86a-6d0c-4833-8adf-1bfe17949798/web.jpg",
       "url": "https://www.tennis.com/news/articles/felix-auger-aliassime-rises-to-new-career-high-ranking-of-number-4-after-roland-garros-raonic-andreescu",
-      "published_at": "2026-10-27T19:51:23.236303+00:00"
+      "published_at": "2026-10-27T23:33:30.577874+00:00"
     },
     {
-      "id": "news_1793130703_26",
+      "id": "news_1793144031_26",
       "source": "Tennis.com",
       "title_orig": "Emilio Nava leaves \"one of the most enjoyable weeks\" in Bad Rappenau with trophy",
       "title_ru": "Emilio Nava leaves \"one of the most enjoyable weeks\" in Bad Rappenau with trophy",
       "image": "https://tennis.com/images/articles/8741a1e2-1aaf-4400-8fb2-e9746e0b5634/web.jpg",
       "url": "https://www.tennis.com/news/articles/emilio-nava-leaves-one-of-the-most-enjoyable-weeks-in-bad-rappenau-with-trophy",
-      "published_at": "2026-10-27T19:51:23.236433+00:00"
+      "published_at": "2026-10-27T23:33:30.577990+00:00"
     },
     {
-      "id": "news_1793130704_27",
+      "id": "news_1793144032_27",
       "source": "Tennis.com",
       "title_orig": "Flavio Cobolli breaks into Top 10 after reaching first Grand Slam final at Roland Garros",
       "title_ru": "Flavio Cobolli breaks into Top 10 after reaching first Grand Slam final at Roland Garros",
       "image": "https://tennis.com/images/articles/4dbcece2-708a-429a-b93c-4c0df4911cad/web.jpg",
       "url": "https://www.tennis.com/news/articles/flavio-cobolli-breaks-into-top-10-after-reaching-first-grand-slam-final-at-roland-garros",
-      "published_at": "2026-10-27T19:51:23.236546+00:00"
+      "published_at": "2026-10-27T23:33:30.578088+00:00"
     },
     {
-      "id": "news_1793130705_28",
+      "id": "news_1793144033_28",
       "source": "Tennis.com",
       "title_orig": "Maja Chwalinska soars from No. 114 to No. 21 following dream run to Roland Garros final",
       "title_ru": "Maja Chwalinska soars from No. 114 to No. 21 following dream run to Roland Garros final",
       "image": "https://tennis.com/images/articles/ad095ead-3dbb-4fcf-80c0-498cb75fd196/web.jpg",
       "url": "https://www.tennis.com/news/articles/maja-chwalinska-soars-from-114-to-21-on-wta-rankings-after-dream-run-to-roland-garros-final-andreeva-kostyuk-shnaider",
-      "published_at": "2026-10-27T19:51:23.236657+00:00"
+      "published_at": "2026-10-27T23:33:30.578184+00:00"
     },
     {
-      "id": "news_1793130706_29",
+      "id": "news_1793144034_29",
       "source": "Tennis.com",
       "title_orig": "Alexander Zverev won his first Grand Slam title. Choose your own reaction",
       "title_ru": "Alexander Zverev won his first Grand Slam title. Choose your own reaction",
       "image": "https://tennis.com/images/articles/31dc544b-2a08-428f-a727-86d5c7066901/web.jpg",
       "url": "https://www.tennis.com/news/articles/alexander-zverev-won-his-first-grand-slam-title-choose-your-own-reaction",
-      "published_at": "2026-10-27T19:51:23.236764+00:00"
+      "published_at": "2026-10-27T23:33:30.578284+00:00"
     }
   ]
 }
