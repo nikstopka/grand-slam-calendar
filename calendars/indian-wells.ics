@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT30M
 X-PUBLISHED-TTL:PT30M
 BEGIN:VEVENT
 UID:tml:atp:2026-404:89@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260312T120000Z
 DTEND:20260312T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Zverev\, Alexander vs Fils\, Arthur
@@ -18,7 +18,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:90@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260313T120000Z
 DTEND:20260313T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Sinner\, Jannik vs Tien\, Learner
@@ -27,7 +27,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:91@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260313T120000Z
 DTEND:20260313T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Medvedev\, Daniil vs Draper\, Jack
@@ -36,7 +36,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:92@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260313T120000Z
 DTEND:20260313T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Alcaraz\, Carlos vs Norrie\, Cameron
@@ -45,7 +45,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:93@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260315T120000Z
 DTEND:20260315T150000Z
 SUMMARY:Indian Wells 2026 — Полуфинал: Medvedev\, Daniil vs Alcaraz\, Carlos
@@ -54,7 +54,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:94@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260315T120000Z
 DTEND:20260315T150000Z
 SUMMARY:Indian Wells 2026 — Полуфинал: Sinner\, Jannik vs Zverev\, Alexander
@@ -63,7 +63,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:95@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260315T120000Z
 DTEND:20260315T150000Z
 SUMMARY:Indian Wells 2026 — Финал: Sinner\, Jannik vs Medvedev\, Daniil
@@ -72,7 +72,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:1@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260304T120000Z
 DTEND:20260304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Carabelli\, Camilo Ugo vs Damm\, Martin
@@ -81,7 +81,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:2@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260304T120000Z
 DTEND:20260304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Walton\, Adam vs Halys\, Quentin
@@ -90,7 +90,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:3@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260304T120000Z
 DTEND:20260304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Opelka\, Reilly vs Quinn\, Ethan
@@ -99,7 +99,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:4@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260304T120000Z
 DTEND:20260304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Bergs\, Zizou vs Struff\, Jan-Lennard
@@ -108,7 +108,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:5@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260304T120000Z
 DTEND:20260304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Giron\, Marcos vs Navone\, Mariano
@@ -117,7 +117,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:6@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260304T120000Z
 DTEND:20260304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Kecmanovic\, Miomir vs Altmaier\, Daniel
@@ -126,7 +126,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:7@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Brooksby\, Jenson vs Popyrin\, Alexei
@@ -135,7 +135,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:8@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Diallo\, Gabriel vs Bellucci\, Mattia
@@ -144,7 +144,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:9@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Fucsovics\, Marton vs O'Connell\, Christopher
@@ -153,7 +153,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:10@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Svrcina\, Dalibor vs Duckworth\, James
@@ -162,7 +162,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:11@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Monfils\, Gael vs Galarneau\, Alexis
@@ -171,7 +171,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:12@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Berrettini\, Matteo vs Mannarino\, Adrian
@@ -180,7 +180,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:13@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Prizmic\, Dino vs Schoolkate\, Tristan
@@ -189,7 +189,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:14@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Fonseca\, Joao vs Collignon\, Raphael
@@ -198,7 +198,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:15@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Svajda\, Zachary vs Cilic\, Marin
@@ -207,7 +207,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:16@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Shapovalov\, Denis vs Tsitsipas\, Stefanos
@@ -216,7 +216,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:17@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Shevchenko\, Aleksandr vs Shimabukuro\, Sho
@@ -225,7 +225,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:18@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Majchrzak\, Kamil vs Perricard\, Giovanni Mpetshi
@@ -234,7 +234,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:19@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Kovacevic\, Aleksandar vs Hurkacz\, Hubert
@@ -243,7 +243,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:20@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Baez\, Sebastian vs Tseng\, Chun-Hsin
@@ -252,7 +252,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:21@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Dimitrov\, Grigor vs Atmane\, Terence
@@ -261,7 +261,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:22@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260305T120000Z
 DTEND:20260305T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Fearnley\, Jacob vs Dzumhur\, Damir
@@ -270,7 +270,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:23@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Agut\, Roberto Bautista vs Marozsan\, Fabian
@@ -279,7 +279,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:24@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Bonzi\, Benjamin vs Royer\, Valentin
@@ -288,7 +288,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:25@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Michelsen\, Alex vs Merida\, Daniel
@@ -297,7 +297,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:26@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Kopriva\, Vit vs Zheng\, Michael
@@ -306,7 +306,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:27@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Borges\, Nuno vs Nava\, Emilio
@@ -315,7 +315,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:28@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Cerundolo\, Juan Manuel vs Zandschulp\, Botic van de
@@ -324,7 +324,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:29@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Hijikata\, Rinky vs Maestrelli\, Francesco
@@ -333,7 +333,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:30@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Korda\, Sebastian vs Comesana\, Francisco
@@ -342,7 +342,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:31@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: McDonald\, Mackenzie vs Arnaldi\, Matteo
@@ -351,7 +351,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:32@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Tabilo\, Alejandro vs Jodar\, Rafael
@@ -360,7 +360,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:33@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Tien\, Learner vs Walton\, Adam
@@ -369,7 +369,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:34@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260306T120000Z
 DTEND:20260306T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Zverev\, Alexander vs Berrettini\, Matteo
@@ -378,7 +378,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:35@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Fucsovics\, Marton vs Musetti\, Lorenzo
@@ -387,7 +387,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:36@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Cobolli\, Flavio vs Kecmanovic\, Miomir
@@ -396,7 +396,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:37@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Monfils\, Gael
@@ -405,7 +405,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:38@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Shelton\, Ben vs Opelka\, Reilly
@@ -414,7 +414,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:39@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Tiafoe\, Frances vs Brooksby\, Jenson
@@ -423,7 +423,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:40@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Nakashima\, Brandon vs Carabelli\, Camilo Ugo
@@ -432,7 +432,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:41@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Fils\, Arthur vs Prizmic\, Dino
@@ -441,7 +441,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:42@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Svajda\, Zachary
@@ -450,7 +450,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:43@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Sinner\, Jannik vs Svrcina\, Dalibor
@@ -459,7 +459,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:44@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Mensik\, Jakub vs Giron\, Marcos
@@ -468,7 +468,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:45@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Paul\, Tommy vs Bergs\, Zizou
@@ -477,7 +477,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:46@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260307T120000Z
 DTEND:20260307T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Shapovalov\, Denis vs Etcheverry\, Tomas Martin
@@ -486,7 +486,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:47@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Vacherot\, Valentin vs Borges\, Nuno
@@ -495,7 +495,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:48@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Ruud\, Casper vs Shevchenko\, Aleksandr
@@ -504,7 +504,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:49@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Draper\, Jack vs Agut\, Roberto Bautista
@@ -513,7 +513,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:50@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Fonseca\, Joao vs Khachanov\, Karen
@@ -522,7 +522,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:51@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Cerundolo\, Francisco vs Bonzi\, Benjamin
@@ -531,7 +531,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:52@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Rinderknech\, Arthur vs Cerundolo\, Juan Manuel
@@ -540,7 +540,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:53@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Kovacevic\, Aleksandar vs Moutet\, Corentin
@@ -549,7 +549,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:54@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Diallo\, Gabriel vs Rublev\, Andrey
@@ -558,7 +558,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:55@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Djokovic\, Novak vs Majchrzak\, Kamil
@@ -567,7 +567,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:56@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Alcaraz\, Carlos vs Dimitrov\, Grigor
@@ -576,7 +576,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:57@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Baez\, Sebastian vs Lehecka\, Jiri
@@ -585,7 +585,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:58@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Minaur\, Alex de vs Korda\, Sebastian
@@ -594,7 +594,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:59@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Fritz\, Taylor vs Fearnley\, Jacob
@@ -603,7 +603,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:60@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Hijikata\, Rinky vs Darderi\, Luciano
@@ -612,7 +612,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:61@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Norrie\, Cameron vs McDonald\, Mackenzie
@@ -621,7 +621,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:62@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Michelsen\, Alex vs Humbert\, Ugo
@@ -630,7 +630,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:63@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Bublik\, Alexander vs Kopriva\, Vit
@@ -639,7 +639,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:64@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Medvedev\, Daniil vs Tabilo\, Alejandro
@@ -648,7 +648,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:65@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Zverev\, Alexander vs Nakashima\, Brandon
@@ -657,7 +657,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:66@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260308T120000Z
 DTEND:20260308T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Tien\, Learner vs Shelton\, Ben
@@ -666,7 +666,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:67@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Sinner\, Jannik vs Shapovalov\, Denis
@@ -675,7 +675,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:68@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Fokina\, Alejandro Davidovich vs Mensik\, Jakub
@@ -684,7 +684,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:69@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Fonseca\, Joao vs Paul\, Tommy
@@ -693,7 +693,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:70@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Auger-Aliassime\, Felix vs Diallo\, Gabriel
@@ -702,7 +702,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:71@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Tiafoe\, Frances vs Cobolli\, Flavio
@@ -711,7 +711,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:72@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Fils\, Arthur vs Fucsovics\, Marton
@@ -720,7 +720,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:73@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Djokovic\, Novak vs Kovacevic\, Aleksandar
@@ -729,7 +729,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:74@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Norrie\, Cameron vs Minaur\, Alex de
@@ -738,7 +738,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:75@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Hijikata\, Rinky vs Bublik\, Alexander
@@ -747,7 +747,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:76@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260309T120000Z
 DTEND:20260309T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Draper\, Jack vs Cerundolo\, Francisco
@@ -756,7 +756,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:77@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260310T120000Z
 DTEND:20260310T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Michelsen\, Alex vs Fritz\, Taylor
@@ -765,7 +765,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:78@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260310T120000Z
 DTEND:20260310T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Ruud\, Casper vs Vacherot\, Valentin
@@ -774,7 +774,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:79@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260310T120000Z
 DTEND:20260310T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Alcaraz\, Carlos vs Rinderknech\, Arthur
@@ -783,7 +783,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:80@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260310T120000Z
 DTEND:20260310T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Medvedev\, Daniil vs Baez\, Sebastian
@@ -792,7 +792,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:81@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260310T120000Z
 DTEND:20260310T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Fils\, Arthur vs Auger-Aliassime\, Felix
@@ -801,7 +801,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:82@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260310T120000Z
 DTEND:20260310T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Zverev\, Alexander vs Tiafoe\, Frances
@@ -810,7 +810,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:83@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260311T120000Z
 DTEND:20260311T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Tien\, Learner vs Fokina\, Alejandro Davidovich
@@ -819,7 +819,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:84@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260311T120000Z
 DTEND:20260311T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Sinner\, Jannik vs Fonseca\, Joao
@@ -828,7 +828,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:85@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260311T120000Z
 DTEND:20260311T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Medvedev\, Daniil vs Michelsen\, Alex
@@ -837,7 +837,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:86@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260311T120000Z
 DTEND:20260311T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Norrie\, Cameron vs Hijikata\, Rinky
@@ -846,7 +846,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:87@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260312T120000Z
 DTEND:20260312T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Alcaraz\, Carlos vs Ruud\, Casper
@@ -855,7 +855,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-404:88@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20260312T120000Z
 DTEND:20260312T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Draper\, Jack vs Djokovic\, Novak
@@ -864,7 +864,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:89@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Alcaraz\, Carlos vs Cerundolo\, Francisco
@@ -873,7 +873,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:90@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Medvedev\, Daniil vs Fils\, Arthur
@@ -882,7 +882,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:91@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Draper\, Jack vs Shelton\, Ben
@@ -891,7 +891,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:92@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Rune\, Holger vs Griekspoor\, Tallon
@@ -900,7 +900,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:93@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — Полуфинал: Draper\, Jack vs Alcaraz\, Carlos
@@ -909,7 +909,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:94@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — Полуфинал: Rune\, Holger vs Medvedev\, Daniil
@@ -918,7 +918,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:95@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — Финал: Draper\, Jack vs Rune\, Holger
@@ -927,7 +927,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:1@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Arnaldi\, Matteo vs Kovacevic\, Aleksandar
@@ -936,7 +936,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:2@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Borges\, Nuno vs Rinderknech\, Arthur
@@ -945,7 +945,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:3@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Brooksby\, Jenson vs Bonzi\, Benjamin
@@ -954,7 +954,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:4@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Fonseca\, Joao vs Fearnley\, Jacob
@@ -963,7 +963,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:5@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Gaston\, Hugo vs Darderi\, Luciano
@@ -972,7 +972,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:6@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Gigante\, Matteo vs Baez\, Sebastian
@@ -981,7 +981,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:7@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Goffin\, David vs Sonego\, Lorenzo
@@ -990,7 +990,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:8@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Halys\, Quentin vs Busta\, Pablo Carreno
@@ -999,7 +999,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:9@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Hijikata\, Rinky vs Shevchenko\, Aleksandr
@@ -1008,7 +1008,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:10@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Lajovic\, Dusan vs Tu\, Li
@@ -1017,7 +1017,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:11@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: McDonald\, Mackenzie vs Fokina\, Alejandro Davidovich
@@ -1026,7 +1026,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:12@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Mensik\, Jakub vs Etcheverry\, Tomas Martin
@@ -1035,7 +1035,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:13@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Monfils\, Gael vs Struff\, Jan-Lennard
@@ -1044,7 +1044,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:14@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Navone\, Mariano vs Tien\, Learner
@@ -1053,7 +1053,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:15@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Zandschulp\, Botic van de vs Kyrgios\, Nick
@@ -1062,7 +1062,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:16@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Walton\, Adam vs Zeppieri\, Giulio
@@ -1071,7 +1071,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:17@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Bergs\, Zizou vs Quinn\, Ethan
@@ -1080,7 +1080,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:18@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Boyer\, Tristan vs Vukic\, Aleksandar
@@ -1089,7 +1089,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:19@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Bu\, Yunchaokete vs Basavareddy\, Nishesh
@@ -1098,7 +1098,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:20@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Diallo\, Gabriel vs Zhang\, Zhizhen
@@ -1107,7 +1107,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:21@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Dzumhur\, Damir vs Agut\, Roberto Bautista
@@ -1116,7 +1116,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:22@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Giron\, Marcos vs Basilashvili\, Nikoloz
@@ -1125,7 +1125,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:23@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Griekspoor\, Tallon vs Kecmanovic\, Miomir
@@ -1134,7 +1134,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:24@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Marozsan\, Fabian vs Martinez\, Pedro
@@ -1143,7 +1143,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:25@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Moutet\, Corentin vs Thompson\, Jordan
@@ -1152,7 +1152,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:26@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Nishikori\, Kei vs Munar\, Jaume
@@ -1161,7 +1161,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:27@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Norrie\, Cameron vs Nardi\, Luca
@@ -1170,7 +1170,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:28@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: O'Connell\, Christopher vs Baena\, Roberto Carballes
@@ -1179,7 +1179,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:29@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Safiullin\, Roman vs Opelka\, Reilly
@@ -1188,7 +1188,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:30@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Wild\, Thiago Seyboth vs Muller\, Alexandre
@@ -1197,7 +1197,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:31@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Smith\, Colton vs Cobolli\, Flavio
@@ -1206,7 +1206,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:32@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Watanuki\, Yosuke vs Bublik\, Alexander
@@ -1215,7 +1215,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:33@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Alcaraz\, Carlos vs Halys\, Quentin
@@ -1224,7 +1224,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:34@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Fritz\, Taylor vs Gigante\, Matteo
@@ -1233,7 +1233,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:35@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Zandschulp\, Botic van de vs Djokovic\, Novak
@@ -1242,7 +1242,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:36@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Arnaldi\, Matteo vs Rublev\, Andrey
@@ -1251,7 +1251,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:37@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Minaur\, Alex de vs Goffin\, David
@@ -1260,7 +1260,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:38@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Shelton\, Ben vs Navone\, Mariano
@@ -1269,7 +1269,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:39@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Draper\, Jack vs Fonseca\, Joao
@@ -1278,7 +1278,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:40@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Dimitrov\, Grigor vs Borges\, Nuno
@@ -1287,7 +1287,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:41@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Brooksby\, Jenson vs Auger-Aliassime\, Felix
@@ -1296,7 +1296,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:42@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Hurkacz\, Hubert vs Gaston\, Hugo
@@ -1305,7 +1305,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:43@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Khachanov\, Karen vs Mensik\, Jakub
@@ -1314,7 +1314,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:44@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Monfils\, Gael vs Korda\, Sebastian
@@ -1323,7 +1323,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:45@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Cerundolo\, Francisco vs McDonald\, Mackenzie
@@ -1332,7 +1332,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:46@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Shapovalov\, Denis vs Walton\, Adam
@@ -1341,7 +1341,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:47@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Tabilo\, Alejandro vs Lajovic\, Dusan
@@ -1350,7 +1350,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:48@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Nakashima\, Brandon vs Hijikata\, Rinky
@@ -1359,7 +1359,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:49@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Griekspoor\, Tallon vs Zverev\, Alexander
@@ -1368,7 +1368,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:50@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Giron\, Marcos vs Ruud\, Casper
@@ -1377,7 +1377,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:51@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Medvedev\, Daniil vs Bu\, Yunchaokete
@@ -1386,7 +1386,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:52@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Tsitsipas\, Stefanos vs Wild\, Thiago Seyboth
@@ -1395,7 +1395,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:53@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Paul\, Tommy vs Boyer\, Tristan
@@ -1404,7 +1404,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:54@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Rune\, Holger vs Moutet\, Corentin
@@ -1413,7 +1413,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:55@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Musetti\, Lorenzo vs Safiullin\, Roman
@@ -1422,7 +1422,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:56@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Tiafoe\, Frances vs Dzumhur\, Damir
@@ -1431,7 +1431,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:57@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Humbert\, Ugo vs Nishikori\, Kei
@@ -1440,7 +1440,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:58@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Watanuki\, Yosuke vs Machac\, Tomas
@@ -1449,7 +1449,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:59@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Fils\, Arthur vs Diallo\, Gabriel
@@ -1458,7 +1458,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:60@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Norrie\, Cameron vs Lehecka\, Jiri
@@ -1467,7 +1467,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:61@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Popyrin\, Alexei vs Bergs\, Zizou
@@ -1476,7 +1476,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:62@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Berrettini\, Matteo vs O'Connell\, Christopher
@@ -1485,7 +1485,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:63@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Perricard\, Giovanni Mpetshi vs Marozsan\, Fabian
@@ -1494,7 +1494,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:64@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Michelsen\, Alex vs Smith\, Colton
@@ -1503,7 +1503,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:65@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Alcaraz\, Carlos vs Shapovalov\, Denis
@@ -1512,7 +1512,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:66@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Fritz\, Taylor vs Tabilo\, Alejandro
@@ -1521,7 +1521,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:67@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Minaur\, Alex de vs Hurkacz\, Hubert
@@ -1530,7 +1530,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:68@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Shelton\, Ben vs Khachanov\, Karen
@@ -1539,7 +1539,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:69@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Draper\, Jack vs Brooksby\, Jenson
@@ -1548,7 +1548,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:70@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Dimitrov\, Grigor vs Monfils\, Gael
@@ -1557,7 +1557,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:71@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Cerundolo\, Francisco vs Zandschulp\, Botic van de
@@ -1566,7 +1566,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:72@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Nakashima\, Brandon vs Arnaldi\, Matteo
@@ -1575,7 +1575,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:73@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Medvedev\, Daniil vs Michelsen\, Alex
@@ -1584,7 +1584,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:74@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Tsitsipas\, Stefanos vs Berrettini\, Matteo
@@ -1593,7 +1593,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:75@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Paul\, Tommy vs Norrie\, Cameron
@@ -1602,7 +1602,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:76@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Rune\, Holger vs Humbert\, Ugo
@@ -1611,7 +1611,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:77@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Fils\, Arthur vs Musetti\, Lorenzo
@@ -1620,7 +1620,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:78@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Watanuki\, Yosuke vs Tiafoe\, Frances
@@ -1629,7 +1629,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:79@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Giron\, Marcos vs Popyrin\, Alexei
@@ -1638,7 +1638,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:80@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Griekspoor\, Tallon vs Perricard\, Giovanni Mpetshi
@@ -1647,7 +1647,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:81@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Alcaraz\, Carlos vs Dimitrov\, Grigor
@@ -1656,7 +1656,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:82@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Draper\, Jack vs Fritz\, Taylor
@@ -1665,7 +1665,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:83@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Cerundolo\, Francisco vs Minaur\, Alex de
@@ -1674,7 +1674,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:84@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Shelton\, Ben vs Nakashima\, Brandon
@@ -1683,7 +1683,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:85@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Medvedev\, Daniil vs Paul\, Tommy
@@ -1692,7 +1692,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:86@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Rune\, Holger vs Tsitsipas\, Stefanos
@@ -1701,7 +1701,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:87@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Fils\, Arthur vs Giron\, Marcos
@@ -1710,7 +1710,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-404:88@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20250303T120000Z
 DTEND:20250303T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Griekspoor\, Tallon vs Watanuki\, Yosuke
@@ -1719,7 +1719,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:89@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Alcaraz\, Carlos vs Zverev\, Alexander
@@ -1728,7 +1728,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:90@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Sinner\, Jannik vs Lehecka\, Jiri
@@ -1737,7 +1737,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:91@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Medvedev\, Daniil vs Rune\, Holger
@@ -1746,7 +1746,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:92@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — Четвертьфинал: Paul\, Tommy vs Ruud\, Casper
@@ -1755,7 +1755,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:93@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — Полуфинал: Alcaraz\, Carlos vs Sinner\, Jannik
@@ -1764,7 +1764,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:94@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — Полуфинал: Medvedev\, Daniil vs Paul\, Tommy
@@ -1773,7 +1773,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:95@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — Финал: Alcaraz\, Carlos vs Medvedev\, Daniil
@@ -1782,7 +1782,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:1@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Arnaldi\, Matteo vs Assche\, Luca Van
@@ -1791,7 +1791,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:2@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Lestienne\, Constant vs Kudla\, Denis
@@ -1800,7 +1800,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:3@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Marozsan\, Fabian vs Rodionov\, Jurij
@@ -1809,7 +1809,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:4@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Wild\, Thiago Seyboth vs Wolf\, J.J.
@@ -1818,7 +1818,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:5@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Daniel\, Taro vs Galan\, Daniel Elahi
@@ -1827,7 +1827,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:6@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Shang\, Juncheng vs Thompson\, Jordan
@@ -1836,7 +1836,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:7@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Hanfmann\, Yannick vs Cachin\, Pedro
@@ -1845,7 +1845,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:8@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: O'Connell\, Christopher vs Draper\, Jack
@@ -1854,7 +1854,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:9@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Kokkinakis\, Thanasi vs Giron\, Marcos
@@ -1863,7 +1863,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:10@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Coric\, Borna vs Ofner\, Sebastian
@@ -1872,7 +1872,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:11@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Shevchenko\, Alexander vs Koepfer\, Dominik
@@ -1881,7 +1881,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:12@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Mensik\, Jakub vs Hong\, Seongchan
@@ -1890,7 +1890,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:13@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Pouille\, Lucas vs Altmaier\, Daniel
@@ -1899,7 +1899,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:14@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Lajovic\, Dusan vs Ruusuvuori\, Emil
@@ -1908,7 +1908,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:15@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Nakashima\, Brandon vs Eubanks\, Christopher
@@ -1917,7 +1917,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:16@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Murray\, Andy vs Goffin\, David
@@ -1926,7 +1926,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:17@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Raonic\, Milos vs Nagal\, Sumit
@@ -1935,7 +1935,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:18@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Shapovalov\, Denis vs Zandschulp\, Botic van de
@@ -1944,7 +1944,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:19@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Fognini\, Fabio vs Miralles\, Bernabe Zapata
@@ -1953,7 +1953,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:20@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Tabilo\, Alejandro vs Kotov\, Pavel
@@ -1962,7 +1962,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:21@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Muller\, Alexandre vs Grenier\, Hugo
@@ -1971,7 +1971,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:22@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Machac\, Tomas vs Wawrinka\, Stan
@@ -1980,7 +1980,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:23@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Safiullin\, Roman vs Evans\, Daniel
@@ -1989,7 +1989,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:24@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Baena\, Roberto Carballes vs Cobolli\, Flavio
@@ -1998,7 +1998,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:25@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Monfils\, Gael vs Purcell\, Max
@@ -2007,7 +2007,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:26@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Sonego\, Lorenzo vs Kecmanovic\, Miomir
@@ -2016,7 +2016,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:27@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Fils\, Arthur vs Borges\, Nuno
@@ -2025,7 +2025,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:28@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Klein\, Lukas vs Alboran\, Nicolas Moreno De
@@ -2034,7 +2034,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:29@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Kypson\, Patrick vs Quinn\, Ethan
@@ -2043,7 +2043,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:30@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Michelsen\, Alex vs Munar\, Jaume
@@ -2052,7 +2052,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:31@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Zhang\, Zhizhen vs Kovacevic\, Aleksandar
@@ -2061,7 +2061,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:32@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/64 финала: Vukic\, Aleksandar vs Mochizuki\, Shintaro
@@ -2070,7 +2070,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:33@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Alcaraz\, Carlos vs Arnaldi\, Matteo
@@ -2079,7 +2079,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:34@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Lestienne\, Constant
@@ -2088,7 +2088,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:35@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Marozsan\, Fabian vs Jarry\, Nicolas
@@ -2097,7 +2097,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:36@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Wild\, Thiago Seyboth vs Khachanov\, Karen
@@ -2106,7 +2106,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:37@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Minaur\, Alex de vs Daniel\, Taro
@@ -2115,7 +2115,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:38@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Bublik\, Alexander vs Shang\, Juncheng
@@ -2124,7 +2124,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:39@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Griekspoor\, Tallon vs Hanfmann\, Yannick
@@ -2133,7 +2133,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:40@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Zverev\, Alexander vs O'Connell\, Christopher
@@ -2142,7 +2142,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:41@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Sinner\, Jannik vs Kokkinakis\, Thanasi
@@ -2151,7 +2151,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:42@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Struff\, Jan-Lennard vs Coric\, Borna
@@ -2160,7 +2160,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:43@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Cerundolo\, Francisco vs Shevchenko\, Alexander
@@ -2169,7 +2169,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:44@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Shelton\, Ben vs Mensik\, Jakub
@@ -2178,7 +2178,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:45@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Tsitsipas\, Stefanos vs Pouille\, Lucas
@@ -2187,7 +2187,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:46@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Tiafoe\, Frances vs Lajovic\, Dusan
@@ -2196,7 +2196,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:47@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Lehecka\, Jiri vs Nakashima\, Brandon
@@ -2205,7 +2205,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:48@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Rublev\, Andrey vs Murray\, Andy
@@ -2214,7 +2214,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:49@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Rune\, Holger vs Raonic\, Milos
@@ -2223,7 +2223,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:50@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Musetti\, Lorenzo vs Shapovalov\, Denis
@@ -2232,7 +2232,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:51@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Baez\, Sebastian vs Fognini\, Fabio
@@ -2241,7 +2241,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:52@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Fritz\, Taylor vs Tabilo\, Alejandro
@@ -2250,7 +2250,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:53@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Dimitrov\, Grigor vs Muller\, Alexandre
@@ -2259,7 +2259,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:54@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Mannarino\, Adrian vs Machac\, Tomas
@@ -2268,7 +2268,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:55@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Korda\, Sebastian vs Safiullin\, Roman
@@ -2277,7 +2277,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:56@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Medvedev\, Daniil vs Baena\, Roberto Carballes
@@ -2286,7 +2286,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:57@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Monfils\, Gael vs Hurkacz\, Hubert
@@ -2295,7 +2295,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:58@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Norrie\, Cameron vs Sonego\, Lorenzo
@@ -2304,7 +2304,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:59@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Fils\, Arthur vs Fokina\, Alejandro Davidovich
@@ -2313,7 +2313,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:60@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Ruud\, Casper vs Klein\, Lukas
@@ -2322,7 +2322,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:61@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Humbert\, Ugo vs Kypson\, Patrick
@@ -2331,7 +2331,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:62@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Paul\, Tommy vs Michelsen\, Alex
@@ -2340,7 +2340,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:63@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Nardi\, Luca vs Zhang\, Zhizhen
@@ -2349,7 +2349,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:64@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/32 финала: Djokovic\, Novak vs Vukic\, Aleksandar
@@ -2358,7 +2358,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:65@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Alcaraz\, Carlos vs Auger-Aliassime\, Felix
@@ -2367,7 +2367,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:66@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Marozsan\, Fabian vs Wild\, Thiago Seyboth
@@ -2376,7 +2376,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:67@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Minaur\, Alex de vs Bublik\, Alexander
@@ -2385,7 +2385,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:68@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Zverev\, Alexander vs Griekspoor\, Tallon
@@ -2394,7 +2394,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:69@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Sinner\, Jannik vs Struff\, Jan-Lennard
@@ -2403,7 +2403,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:70@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Shelton\, Ben vs Cerundolo\, Francisco
@@ -2412,7 +2412,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:71@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Tsitsipas\, Stefanos vs Tiafoe\, Frances
@@ -2421,7 +2421,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:72@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Lehecka\, Jiri vs Rublev\, Andrey
@@ -2430,7 +2430,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:73@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Rune\, Holger vs Musetti\, Lorenzo
@@ -2439,7 +2439,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:74@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Fritz\, Taylor vs Baez\, Sebastian
@@ -2448,7 +2448,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:75@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Dimitrov\, Grigor vs Mannarino\, Adrian
@@ -2457,7 +2457,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:76@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Medvedev\, Daniil vs Korda\, Sebastian
@@ -2466,7 +2466,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:77@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Monfils\, Gael vs Norrie\, Cameron
@@ -2475,7 +2475,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:78@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Ruud\, Casper vs Fils\, Arthur
@@ -2484,7 +2484,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:79@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Paul\, Tommy vs Humbert\, Ugo
@@ -2493,7 +2493,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:80@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/16 финала: Nardi\, Luca vs Djokovic\, Novak
@@ -2502,7 +2502,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:81@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Alcaraz\, Carlos vs Marozsan\, Fabian
@@ -2511,7 +2511,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:82@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Zverev\, Alexander vs Minaur\, Alex de
@@ -2520,7 +2520,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:83@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Sinner\, Jannik vs Shelton\, Ben
@@ -2529,7 +2529,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:84@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Lehecka\, Jiri vs Tsitsipas\, Stefanos
@@ -2538,7 +2538,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:85@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Rune\, Holger vs Fritz\, Taylor
@@ -2547,7 +2547,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:86@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Medvedev\, Daniil vs Dimitrov\, Grigor
@@ -2556,7 +2556,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:87@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Ruud\, Casper vs Monfils\, Gael
@@ -2565,7 +2565,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/indian-wells
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-404:88@grand-slam-calendar
-DTSTAMP:20261027T021928Z
+DTSTAMP:20261027T145019Z
 DTSTART:20240304T120000Z
 DTEND:20240304T150000Z
 SUMMARY:Indian Wells 2026 — 1/8 финала: Paul\, Tommy vs Nardi\, Luca
