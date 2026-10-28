@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT30M
 X-PUBLISHED-TTL:PT30M
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:89@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261015T120000Z
 DTEND:20261015T150000Z
 SUMMARY:Shanghai 2026 — Четвертьфинал: Fokina\, Alejandro Davidovich vs Gea\, Arthur
@@ -18,7 +18,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:90@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261015T120000Z
 DTEND:20261015T150000Z
 SUMMARY:Shanghai 2026 — Четвертьфинал: Zverev\, Alexander vs Minaur\, Alex de
@@ -27,7 +27,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:91@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261016T120000Z
 DTEND:20261016T150000Z
 SUMMARY:Shanghai 2026 — Четвертьфинал: Jodar\, Rafael vs Ruud\, Casper
@@ -36,7 +36,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:92@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261016T120000Z
 DTEND:20261016T150000Z
 SUMMARY:Shanghai 2026 — Четвертьфинал: Medvedev\, Daniil vs Paul\, Tommy
@@ -45,7 +45,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:93@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261017T120000Z
 DTEND:20261017T150000Z
 SUMMARY:Shanghai 2026 — Полуфинал: Fokina\, Alejandro Davidovich vs Zverev\, Alexander
@@ -54,7 +54,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:94@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261017T120000Z
 DTEND:20261017T150000Z
 SUMMARY:Shanghai 2026 — Полуфинал: Jodar\, Rafael vs Medvedev\, Daniil
@@ -63,7 +63,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:95@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261018T120000Z
 DTEND:20261018T150000Z
 SUMMARY:Shanghai 2026 — Финал: Fokina\, Alejandro Davidovich vs Jodar\, Rafael
@@ -72,7 +72,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:1@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Berrettini\, Matteo vs Kovacevic\, Aleksandar
@@ -81,7 +81,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:2@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Gea\, Arthur vs Faria\, Jaime
@@ -90,7 +90,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:3@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Hanfmann\, Yannick vs Majchrzak\, Kamil
@@ -99,7 +99,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:4@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Halys\, Quentin vs Wong\, Coleman
@@ -108,7 +108,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:5@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Kecmanovic\, Miomir vs Shimabukuro\, Sho
@@ -117,7 +117,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:6@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Machac\, Tomas vs Zhang\, Zhizhen
@@ -126,7 +126,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:7@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Mannarino\, Adrian vs Basilashvili\, Nikoloz
@@ -135,7 +135,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:8@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Molcan\, Alex vs Cina\, Federico
@@ -144,7 +144,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:9@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Sakamoto\, Rei vs Trungelliti\, Marco
@@ -153,7 +153,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:10@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Safiullin\, Roman vs Hijikata\, Rinky
@@ -162,7 +162,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:11@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Wu\, Yibing vs Zheng\, Michael
@@ -171,7 +171,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:12@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Zhou\, Yi vs Bellucci\, Mattia
@@ -180,7 +180,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:13@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Fery\, Arthur vs Cilic\, Marin
@@ -189,7 +189,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:14@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261007T120000Z
 DTEND:20261007T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Altmaier\, Daniel vs Rune\, Holger
@@ -198,7 +198,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:15@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Tsitsipas\, Stefanos vs Coppejans\, Kimmer
@@ -207,7 +207,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:16@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Kotov\, Pavel vs Griekspoor\, Tallon
@@ -216,7 +216,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:17@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Borges\, Nuno vs Acosta\, Facundo Diaz
@@ -225,7 +225,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:18@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Brooksby\, Jenson vs Munar\, Jaume
@@ -234,7 +234,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:19@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Carabelli\, Camilo Ugo vs Simakin\, Ilia
@@ -243,7 +243,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:20@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Arnaldi\, Matteo vs Tomic\, Bernard
@@ -252,7 +252,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:21@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Hurkacz\, Hubert vs Duckworth\, James
@@ -261,7 +261,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:22@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Tirante\, Thiago Agustin vs Medjedovic\, Hamad
@@ -270,7 +270,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:23@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Vallejo\, Adolfo Daniel vs Royer\, Valentin
@@ -279,7 +279,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:24@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Svajda\, Zachary vs Marozsan\, Fabian
@@ -288,7 +288,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:25@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Baez\, Sebastian vs Giron\, Marcos
@@ -297,7 +297,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:26@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Busta\, Pablo Carreno vs Navone\, Mariano
@@ -306,7 +306,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:27@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Cerundolo\, Juan Manuel vs Mejia\, Nicolas
@@ -315,7 +315,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:28@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Struff\, Jan-Lennard vs Landaluce\, Martin
@@ -324,7 +324,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:29@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Zandschulp\, Botic van de vs Merida\, Daniel
@@ -333,7 +333,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:30@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Bu\, Yunchaokete vs Assche\, Luca Van
@@ -342,7 +342,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:31@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Bergs\, Zizou vs Kopriva\, Vit
@@ -351,7 +351,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:32@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261008T120000Z
 DTEND:20261008T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Svrcina\, Dalibor vs Norrie\, Cameron
@@ -360,7 +360,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:33@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Minaur\, Alex de vs Molcan\, Alex
@@ -369,7 +369,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:34@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Sakamoto\, Rei vs Rublev\, Andrey
@@ -378,7 +378,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:35@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Gea\, Arthur vs Humbert\, Ugo
@@ -387,7 +387,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:36@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Shelton\, Ben vs Altmaier\, Daniel
@@ -396,7 +396,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:37@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Mannarino\, Adrian vs Cobolli\, Flavio
@@ -405,7 +405,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:38@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Nakashima\, Brandon vs Berrettini\, Matteo
@@ -414,7 +414,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:39@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Zverev\, Alexander vs Wu\, Yibing
@@ -423,7 +423,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:40@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Halys\, Quentin vs Blockx\, Alexander
@@ -432,7 +432,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:41@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Tiafoe\, Frances vs Hanfmann\, Yannick
@@ -441,7 +441,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:42@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Brooksby\, Jenson
@@ -450,7 +450,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:43@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Mensik\, Jakub vs Kecmanovic\, Miomir
@@ -459,7 +459,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:44@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Cerundolo\, Francisco vs Safiullin\, Roman
@@ -468,7 +468,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:45@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Hurkacz\, Hubert vs Djokovic\, Novak
@@ -477,7 +477,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:46@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Khachanov\, Karen vs Fery\, Arthur
@@ -486,7 +486,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:47@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Bublik\, Alexander vs Machac\, Tomas
@@ -495,7 +495,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:48@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261009T120000Z
 DTEND:20261009T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Zhou\, Yi vs Musetti\, Lorenzo
@@ -504,7 +504,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:49@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Jodar\, Rafael vs Tirante\, Thiago Agustin
@@ -513,7 +513,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:50@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Lehecka\, Jiri vs Borges\, Nuno
@@ -522,7 +522,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:51@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Medvedev\, Daniil vs Struff\, Jan-Lennard
@@ -531,7 +531,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:52@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Carabelli\, Camilo Ugo
@@ -540,7 +540,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:53@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Fritz\, Taylor vs Arnaldi\, Matteo
@@ -549,7 +549,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:54@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Fils\, Arthur vs Kotov\, Pavel
@@ -558,7 +558,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:55@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Ruud\, Casper vs Bu\, Yunchaokete
@@ -567,7 +567,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:56@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Busta\, Pablo Carreno vs Tabilo\, Alejandro
@@ -576,7 +576,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:57@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Svrcina\, Dalibor vs Etcheverry\, Tomas Martin
@@ -585,7 +585,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:58@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Tien\, Learner vs Svajda\, Zachary
@@ -594,7 +594,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:59@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Alcaraz\, Carlos vs Cerundolo\, Juan Manuel
@@ -603,7 +603,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:60@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Paul\, Tommy vs Vallejo\, Adolfo Daniel
@@ -612,7 +612,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:61@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Tsitsipas\, Stefanos vs Darderi\, Luciano
@@ -621,7 +621,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:62@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Bergs\, Zizou vs Buse\, Ignacio
@@ -630,7 +630,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:63@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Zandschulp\, Botic van de vs Michelsen\, Alex
@@ -639,7 +639,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:64@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261010T120000Z
 DTEND:20261010T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Vacherot\, Valentin vs Baez\, Sebastian
@@ -648,7 +648,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:65@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261011T120000Z
 DTEND:20261011T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Khachanov\, Karen vs Mannarino\, Adrian
@@ -657,7 +657,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:66@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261011T120000Z
 DTEND:20261011T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Gea\, Arthur vs Shelton\, Ben
@@ -666,7 +666,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:67@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261011T120000Z
 DTEND:20261011T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Minaur\, Alex de vs Sakamoto\, Rei
@@ -675,7 +675,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:68@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261011T120000Z
 DTEND:20261011T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Hurkacz\, Hubert vs Zhou\, Yi
@@ -684,7 +684,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:69@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261011T120000Z
 DTEND:20261011T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Mensik\, Jakub vs Cerundolo\, Francisco
@@ -693,7 +693,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:70@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261011T120000Z
 DTEND:20261011T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Zverev\, Alexander vs Halys\, Quentin
@@ -702,7 +702,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:71@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261011T120000Z
 DTEND:20261011T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Bublik\, Alexander vs Nakashima\, Brandon
@@ -711,7 +711,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:72@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261011T120000Z
 DTEND:20261011T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Fokina\, Alejandro Davidovich vs Tiafoe\, Frances
@@ -720,7 +720,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:73@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261012T120000Z
 DTEND:20261012T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Ruud\, Casper vs Tien\, Learner
@@ -729,7 +729,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:74@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261012T120000Z
 DTEND:20261012T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Auger-Aliassime\, Felix vs Busta\, Pablo Carreno
@@ -738,7 +738,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:75@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261012T120000Z
 DTEND:20261012T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Tsitsipas\, Stefanos vs Fritz\, Taylor
@@ -747,7 +747,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:76@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261012T120000Z
 DTEND:20261012T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Jodar\, Rafael vs Lehecka\, Jiri
@@ -756,7 +756,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:77@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261012T120000Z
 DTEND:20261012T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Medvedev\, Daniil vs Svrcina\, Dalibor
@@ -765,7 +765,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:78@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261012T120000Z
 DTEND:20261012T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Bergs\, Zizou vs Alcaraz\, Carlos
@@ -774,7 +774,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:79@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261012T120000Z
 DTEND:20261012T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Zandschulp\, Botic van de vs Fils\, Arthur
@@ -783,7 +783,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:80@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261012T120000Z
 DTEND:20261012T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Paul\, Tommy vs Vacherot\, Valentin
@@ -792,7 +792,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:81@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261013T120000Z
 DTEND:20261013T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Minaur\, Alex de vs Khachanov\, Karen
@@ -801,7 +801,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:82@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261013T120000Z
 DTEND:20261013T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Gea\, Arthur vs Mensik\, Jakub
@@ -810,7 +810,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:83@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261013T120000Z
 DTEND:20261013T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Zverev\, Alexander vs Bublik\, Alexander
@@ -819,7 +819,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:84@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261013T120000Z
 DTEND:20261013T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Fokina\, Alejandro Davidovich vs Hurkacz\, Hubert
@@ -828,7 +828,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:85@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261014T120000Z
 DTEND:20261014T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Jodar\, Rafael vs Zandschulp\, Botic van de
@@ -837,7 +837,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:86@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261014T120000Z
 DTEND:20261014T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Ruud\, Casper vs Auger-Aliassime\, Felix
@@ -846,7 +846,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:87@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261014T120000Z
 DTEND:20261014T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Medvedev\, Daniil vs Tsitsipas\, Stefanos
@@ -855,7 +855,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-5014:88@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20261014T120000Z
 DTEND:20261014T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Paul\, Tommy vs Bergs\, Zizou
@@ -864,7 +864,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:92@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — Четвертьфинал: Vacherot\, Valentin vs Rune\, Holger
@@ -873,7 +873,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:91@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — Четвертьфинал: Djokovic\, Novak vs Bergs\, Zizou
@@ -882,7 +882,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:90@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — Четвертьфинал: Rinderknech\, Arthur vs Auger-Aliassime\, Felix
@@ -891,7 +891,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:89@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — Четвертьфинал: Medvedev\, Daniil vs Minaur\, Alex de
@@ -900,7 +900,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:94@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — Полуфинал: Vacherot\, Valentin vs Djokovic\, Novak
@@ -909,7 +909,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:93@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — Полуфинал: Rinderknech\, Arthur vs Medvedev\, Daniil
@@ -918,7 +918,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:95@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — Финал: Vacherot\, Valentin vs Rinderknech\, Arthur
@@ -927,7 +927,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:28@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Baez\, Sebastian vs Zhang\, Zhizhen
@@ -936,7 +936,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:32@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Altmaier\, Daniel vs Schoolkate\, Tristan
@@ -945,7 +945,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:30@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Bellucci\, Mattia vs Walton\, Adam
@@ -954,7 +954,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:20@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Bergs\, Zizou vs Korda\, Sebastian
@@ -963,7 +963,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:24@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Cilic\, Marin vs Basilashvili\, Nikoloz
@@ -972,7 +972,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:17@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Goffin\, David vs Muller\, Alexandre
@@ -981,7 +981,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:19@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Mannarino\, Adrian vs Berrettini\, Matteo
@@ -990,7 +990,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:22@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Munar\, Jaume vs Fucsovics\, Marton
@@ -999,7 +999,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:26@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Nardi\, Luca vs Ofner\, Sebastian
@@ -1008,7 +1008,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:21@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Nishioka\, Yoshihito vs Shevchenko\, Aleksandr
@@ -1017,7 +1017,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:27@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Thompson\, Jordan vs Holmgren\, August
@@ -1026,7 +1026,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:29@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Vacherot\, Valentin vs Djere\, Laslo
@@ -1035,7 +1035,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:25@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Marozsan\, Fabian vs Wawrinka\, Stan
@@ -1044,7 +1044,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:23@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Hanfmann\, Yannick vs Sonego\, Lorenzo
@@ -1053,7 +1053,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:5@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Shang\, Juncheng vs Kovacevic\, Aleksandar
@@ -1062,7 +1062,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:18@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Bonzi\, Benjamin vs Opelka\, Reilly
@@ -1071,7 +1071,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:6@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Borges\, Nuno vs Zandschulp\, Botic van de
@@ -1080,7 +1080,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:31@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Brooksby\, Jenson vs Trotter\, James
@@ -1089,7 +1089,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:2@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Cazaux\, Arthur vs Martinez\, Pedro
@@ -1098,7 +1098,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:16@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Comesana\, Francisco vs Blanchet\, Ugo
@@ -1107,7 +1107,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:14@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Jong\, Jesper de vs Zhou\, Yi
@@ -1116,7 +1116,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:12@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Halys\, Quentin vs McDonald\, Mackenzie
@@ -1125,7 +1125,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:7@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Majchrzak\, Kamil vs Quinn\, Ethan
@@ -1134,7 +1134,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:11@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: O'Connell\, Christopher vs Dzumhur\, Damir
@@ -1143,7 +1143,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:9@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Royer\, Valentin vs Navone\, Mariano
@@ -1152,7 +1152,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:4@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Svrcina\, Dalibor vs Wu\, Yibing
@@ -1161,7 +1161,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:13@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Tabilo\, Alejandro vs Giron\, Marcos
@@ -1170,7 +1170,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:8@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Carabelli\, Camilo Ugo vs Atmane\, Terence
@@ -1179,7 +1179,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:1@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Tien\, Learner vs Kecmanovic\, Miomir
@@ -1188,7 +1188,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:3@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Arnaldi\, Matteo vs Sakamoto\, Rei
@@ -1197,7 +1197,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:15@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Bu\, Yunchaokete vs Cerundolo\, Juan Manuel
@@ -1206,7 +1206,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:10@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/64 финала: Rinderknech\, Arthur vs Medjedovic\, Hamad
@@ -1215,7 +1215,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:61@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Vacherot\, Valentin vs Bublik\, Alexander
@@ -1224,7 +1224,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:56@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Djokovic\, Novak vs Cilic\, Marin
@@ -1233,7 +1233,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:49@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Goffin\, David vs Shelton\, Ben
@@ -1242,7 +1242,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:60@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Rune\, Holger vs Baez\, Sebastian
@@ -1251,7 +1251,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:51@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Cerundolo\, Francisco vs Mannarino\, Adrian
@@ -1260,7 +1260,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:62@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Machac\, Tomas vs Bellucci\, Mattia
@@ -1269,7 +1269,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:59@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Humbert\, Ugo vs Thompson\, Jordan
@@ -1278,7 +1278,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:54@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Munar\, Jaume vs Cobolli\, Flavio
@@ -1287,7 +1287,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:55@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Hanfmann\, Yannick vs Tiafoe\, Frances
@@ -1296,7 +1296,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:63@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Griekspoor\, Tallon vs Brooksby\, Jenson
@@ -1305,7 +1305,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:50@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Diallo\, Gabriel vs Bonzi\, Benjamin
@@ -1314,7 +1314,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:58@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Perricard\, Giovanni Mpetshi vs Nardi\, Luca
@@ -1323,7 +1323,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:57@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Fritz\, Taylor vs Marozsan\, Fabian
@@ -1332,7 +1332,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:52@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Bergs\, Zizou vs Ruud\, Casper
@@ -1341,7 +1341,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:64@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Sinner\, Jannik vs Altmaier\, Daniel
@@ -1350,7 +1350,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:41@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Zverev\, Alexander vs Royer\, Valentin
@@ -1359,7 +1359,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:40@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Minaur\, Alex de vs Carabelli\, Camilo Ugo
@@ -1368,7 +1368,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:48@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Musetti\, Lorenzo vs Comesana\, Francisco
@@ -1377,7 +1377,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:45@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Tabilo\, Alejandro
@@ -1386,7 +1386,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:53@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Nishioka\, Yoshihito vs Rublev\, Andrey
@@ -1395,7 +1395,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:44@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Lehecka\, Jiri vs Halys\, Quentin
@@ -1404,7 +1404,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:36@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Medvedev\, Daniil vs Svrcina\, Dalibor
@@ -1413,7 +1413,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:46@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Jong\, Jesper de vs Mensik\, Jakub
@@ -1422,7 +1422,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:35@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Arnaldi\, Matteo
@@ -1431,7 +1431,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:43@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Shapovalov\, Denis vs O'Connell\, Christopher
@@ -1440,7 +1440,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:47@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Darderi\, Luciano vs Bu\, Yunchaokete
@@ -1449,7 +1449,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:42@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Rinderknech\, Arthur vs Michelsen\, Alex
@@ -1458,7 +1458,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:39@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Majchrzak\, Kamil vs Nakashima\, Brandon
@@ -1467,7 +1467,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:34@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Norrie\, Cameron vs Cazaux\, Arthur
@@ -1476,7 +1476,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:33@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Tien\, Learner vs Moutet\, Corentin
@@ -1485,7 +1485,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:37@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Shang\, Juncheng vs Khachanov\, Karen
@@ -1494,7 +1494,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:38@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/32 финала: Borges\, Nuno vs Vukic\, Aleksandar
@@ -1503,7 +1503,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:76@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Djokovic\, Novak vs Hanfmann\, Yannick
@@ -1512,7 +1512,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:77@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Perricard\, Giovanni Mpetshi vs Fritz\, Taylor
@@ -1521,7 +1521,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:78@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Rune\, Holger vs Humbert\, Ugo
@@ -1530,7 +1530,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:74@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Bergs\, Zizou vs Cerundolo\, Francisco
@@ -1539,7 +1539,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:79@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Vacherot\, Valentin vs Machac\, Tomas
@@ -1548,7 +1548,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:73@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Diallo\, Gabriel vs Goffin\, David
@@ -1557,7 +1557,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:75@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Munar\, Jaume vs Nishioka\, Yoshihito
@@ -1566,7 +1566,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:80@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Griekspoor\, Tallon vs Sinner\, Jannik
@@ -1575,7 +1575,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:68@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Minaur\, Alex de vs Majchrzak\, Kamil
@@ -1584,7 +1584,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:71@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Auger-Aliassime\, Felix vs Jong\, Jesper de
@@ -1593,7 +1593,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:67@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Borges\, Nuno vs Shang\, Juncheng
@@ -1602,7 +1602,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:70@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Lehecka\, Jiri vs Shapovalov\, Denis
@@ -1611,7 +1611,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:69@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Rinderknech\, Arthur vs Zverev\, Alexander
@@ -1620,7 +1620,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:72@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Musetti\, Lorenzo vs Darderi\, Luciano
@@ -1629,7 +1629,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:66@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Medvedev\, Daniil vs Fokina\, Alejandro Davidovich
@@ -1638,7 +1638,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:65@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/16 финала: Tien\, Learner vs Norrie\, Cameron
@@ -1647,7 +1647,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:85@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Bergs\, Zizou vs Diallo\, Gabriel
@@ -1656,7 +1656,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:87@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Rune\, Holger vs Perricard\, Giovanni Mpetshi
@@ -1665,7 +1665,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:86@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Djokovic\, Novak vs Munar\, Jaume
@@ -1674,7 +1674,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:88@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Vacherot\, Valentin vs Griekspoor\, Tallon
@@ -1683,7 +1683,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:82@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Minaur\, Alex de vs Borges\, Nuno
@@ -1692,7 +1692,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:83@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Rinderknech\, Arthur vs Lehecka\, Jiri
@@ -1701,7 +1701,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:84@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Auger-Aliassime\, Felix vs Musetti\, Lorenzo
@@ -1710,7 +1710,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/shanghai
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-5014:81@grand-slam-calendar
-DTSTAMP:20261028T043213Z
+DTSTAMP:20261028T104529Z
 DTSTART:20251001T120000Z
 DTEND:20251001T150000Z
 SUMMARY:Shanghai 2026 — 1/8 финала: Medvedev\, Daniil vs Tien\, Learner
