@@ -1,275 +1,221 @@
 {
-  "updated_at": "2026-10-28T21:50:34.331060+00:00",
+  "updated_at": "2026-10-29T01:37:22.368322+00:00",
   "items": [
     {
-      "id": "news_1793224209_0",
-      "source": "ATP",
-      "title_orig": "What is the Basel tennis schedule?",
-      "title_ru": "Какое расписание тенниса в Базеле?",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/16/29/basel-2026-schedule.jpg",
-      "url": "https://www.atptour.com/en/news/basel-2026-schedule",
-      "published_at": "2026-10-28T21:50:06.775317+00:00"
-    },
-    {
-      "id": "news_1793224210_1",
-      "source": "ATP",
-      "title_orig": "Struff: ‘My H2H against Djokovic isn’t great, but whose is?’",
-      "title_ru": "Штруфф: «Мой H2H против Джоковича не очень хорош, но чей?»",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/28/20/55/struff-feature-basel-2026-wednesday.jpg",
-      "url": "https://www.atptour.com/en/news/struff-feature-djokovic-basel-2026",
-      "published_at": "2026-10-28T21:50:06.775494+00:00"
-    },
-    {
-      "id": "news_1793224212_2",
-      "source": "ATP",
-      "title_orig": "Bolelli & Vavassori qualify for Nitto ATP Finals",
-      "title_ru": "Болелли и Вавассори вышли в финал Nitto ATP",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/28/04/46/bolelli-vavassori-nitto-atp-finals-2026-qualification-graphic.jpg",
-      "url": "https://www.atptour.com/en/news/bolelli-vavassori-nitto-atp-finals-2026-qualification",
-      "published_at": "2026-10-28T21:50:06.775649+00:00"
-    },
-    {
-      "id": "news_1793224212_3",
-      "source": "ATP",
-      "title_orig": "Djokovic shifts into lockdown mode in Basel, keeps Turin push on track",
-      "title_ru": "Джокович переходит в режим самоизоляции в Базеле, чтобы Турин продолжал двигаться вперед",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/28/18/33/djokovic-basel-2026-wednesday-1.jpg",
-      "url": "https://www.atptour.com/en/news/djokovic-humbert-basel-2026-wednesday",
-      "published_at": "2026-10-28T21:50:06.775816+00:00"
-    },
-    {
-      "id": "news_1793224214_4",
-      "source": "ATP",
-      "title_orig": "Medvedev finds swift adjustment to overcome Merida, reach Vienna R2",
-      "title_ru": "Медведев нашел быструю адаптацию, чтобы одолеть Мериду и добраться до Вены R2",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/28/15/16/medvedev-vienna-2026-wednesday.jpg",
-      "url": "https://www.atptour.com/en/news/medvedev-merida-vienna-2026-wednesday",
-      "published_at": "2026-10-28T21:50:06.775983+00:00"
-    },
-    {
-      "id": "news_1793224215_5",
-      "source": "ATP",
-      "title_orig": "Wawrinka bids farewell to tennis in Basel: ‘It’s an ideal ending’",
-      "title_ru": "Вавринка прощается с теннисом в Базеле: «Это идеальный финал»",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/28/12/30/wawrinka-reaction-basel-2026-tuesday.jpg",
-      "url": "https://www.atptour.com/en/news/wawrinka-reaction-basel-2026-tuesday",
-      "published_at": "2026-10-28T21:50:06.776127+00:00"
-    },
-    {
-      "id": "news_1793224216_6",
-      "source": "ATP",
-      "title_orig": "What were the Basel tennis results?",
-      "title_ru": "Каковы были результаты Базельского тенниса?",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/18/23/basel-2026-results.jpg",
-      "url": "https://www.atptour.com/en/news/basel-2026-results",
-      "published_at": "2026-10-28T21:50:06.776259+00:00"
-    },
-    {
-      "id": "news_1793224216_7",
-      "source": "ATP",
-      "title_orig": "What is the Vienna tennis schedule?",
-      "title_ru": "Какое расписание тенниса в Вене?",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/25/18/52/vienna-2026-schedule.jpg",
-      "url": "https://www.atptour.com/en/news/vienna-2026-schedule",
-      "published_at": "2026-10-28T21:50:06.776397+00:00"
-    },
-    {
-      "id": "news_1793224217_8",
-      "source": "ATP",
-      "title_orig": "What were the Vienna tennis results?",
-      "title_ru": "Каковы были результаты тенниса в Вене?",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/17/50/vienna-2026-results.jpg",
-      "url": "https://www.atptour.com/en/news/vienna-2026-results",
-      "published_at": "2026-10-28T21:50:06.776531+00:00"
-    },
-    {
-      "id": "news_1793224217_9",
-      "source": "ATP",
-      "title_orig": "Wawrinka, without regrets: 'That's the only way you can leave the sport'",
-      "title_ru": "Вавринка без сожалений: «Это единственный способ уйти из спорта»",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/11/49/wawrinka-legacy-feature-basel-2026.jpg",
-      "url": "https://www.atptour.com/en/news/wawrinka-legacy-feature-basel-2026",
-      "published_at": "2026-10-28T21:50:06.776665+00:00"
-    },
-    {
-      "id": "news_1793224218_10",
-      "source": "ATP",
-      "title_orig": "The best photos from Stan Wawrinka's career",
-      "title_ru": "Лучшие фотографии за карьеру Стэна Вавринки",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/24/22/44/wawrinka-retirement-2026-photo-gallery-signature-celebration.jpg",
-      "url": "https://www.atptour.com/en/news/wawrinka-retirement-october-2026-photo-gallery",
-      "published_at": "2026-10-28T21:50:06.776796+00:00"
-    },
-    {
-      "id": "news_1793224218_11",
-      "source": "ATP",
-      "title_orig": "Celebrating Stan Wawrinka: Stan the Everyman",
-      "title_ru": "Чествование Стэна Вавринки: Стэн-обыватель",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/27/15/47/wawrinka-retirement-2026-16x9.jpg",
-      "url": "https://www.atptour.com/en/news/stan-wawrinka-longform-retirement-tribute",
-      "published_at": "2026-10-28T21:50:06.776958+00:00"
-    },
-    {
-      "id": "news_1793224219_12",
-      "source": "ATP",
-      "title_orig": "Wawrinka, 41, retires after standout career",
-      "title_ru": "41-летний Вавринка уходит в отставку после выдающейся карьеры",
-      "image": "https://www.atptour.com/-/media/images/news/2026/10/26/15/06/wawrinka-2026-tribute.jpg",
-      "url": "https://www.atptour.com/en/news/wawrinka-retirement-basel-2026",
-      "published_at": "2026-10-28T21:50:06.777093+00:00"
-    },
-    {
-      "id": "news_1793224219_13",
+      "id": "news_1793237823_0",
       "source": "WTA",
       "title_orig": "Tournaments",
-      "title_ru": "Турниры",
+      "title_ru": "Tournaments",
       "image": null,
       "url": "https://www.wtatennis.com/news/tournaments",
-      "published_at": "2026-10-28T21:50:08.140202+00:00"
+      "published_at": "2026-10-29T01:37:01.492364+00:00"
     },
     {
-      "id": "news_1793224220_14",
+      "id": "news_1793237824_1",
       "source": "WTA",
       "title_orig": "Match Reaction",
-      "title_ru": "Реакция матча",
+      "title_ru": "Match Reaction",
       "image": null,
       "url": "https://www.wtatennis.com/news/match-reaction",
-      "published_at": "2026-10-28T21:50:08.140318+00:00"
+      "published_at": "2026-10-29T01:37:01.492474+00:00"
     },
     {
-      "id": "news_1793224221_15",
+      "id": "news_1793237825_2",
       "source": "WTA",
       "title_orig": "By the numbers: Shnaider, Eala set Tokyo rematch with three-set victories",
-      "title_ru": "По цифрам: Шнайдер и Иала установили матч-реванш в Токио с трехсетовыми победами",
+      "title_ru": "By the numbers: Shnaider, Eala set Tokyo rematch with three-set victories",
       "image": null,
       "url": "https://www.wtatennis.com/news/4600216/by-the-numbers-shnaider-eala-set-tokyo-rematch-with-three-set-victories",
-      "published_at": "2026-10-28T21:50:08.140394+00:00"
+      "published_at": "2026-10-29T01:37:01.492521+00:00"
     },
     {
-      "id": "news_1793224221_16",
+      "id": "news_1793237825_3",
       "source": "WTA",
       "title_orig": "Yastremska saves five match points again, beats friend Volynets in Guangzhou",
-      "title_ru": "Ястремская снова набрала пять матчболов и обыграла подругу Волынец в Гуанчжоу",
+      "title_ru": "Yastremska saves five match points again, beats friend Volynets in Guangzhou",
       "image": null,
       "url": "https://www.wtatennis.com/news/4599795/yastremska-saves-five-match-points-again-beats-friend-volynets-in-guangzhou",
-      "published_at": "2026-10-28T21:50:08.140535+00:00"
+      "published_at": "2026-10-29T01:37:01.492607+00:00"
     },
     {
-      "id": "news_1793224223_17",
+      "id": "news_1793237826_4",
       "source": "WTA",
       "title_orig": "Road to the WTA Finals: Karolina Muchova’s artistic vision finds its winning formula",
-      "title_ru": "Дорога к финалу WTA: творческое видение Каролины Мучовой находит формулу победы",
+      "title_ru": "Road to the WTA Finals: Karolina Muchova’s artistic vision finds its winning formula",
       "image": null,
       "url": "https://www.wtatennis.com/news/4599632/road-to-the-wta-finals-karolina-muchovas-artistic-vision-finds-its-winning-formula",
-      "published_at": "2026-10-28T21:50:08.140654+00:00"
+      "published_at": "2026-10-29T01:37:01.492671+00:00"
     },
     {
-      "id": "news_1793224223_18",
+      "id": "news_1793237827_5",
       "source": "WTA",
       "title_orig": "Osaka wears Hana Yagi, holds off Paolini in Tokyo homecoming",
-      "title_ru": "Осака носит Хана Яги и сдерживает Паолини на возвращении домой в Токио",
+      "title_ru": "Osaka wears Hana Yagi, holds off Paolini in Tokyo homecoming",
       "image": null,
       "url": "https://www.wtatennis.com/news/4599543/osaka-wears-hana-yagi-holds-off-paolini-in-tokyo-homecoming",
-      "published_at": "2026-10-28T21:50:08.140784+00:00"
+      "published_at": "2026-10-29T01:37:01.492740+00:00"
     },
     {
-      "id": "news_1793224224_19",
+      "id": "news_1793237828_6",
       "source": "WTA",
       "title_orig": "View all View all player features",
-      "title_ru": "Посмотреть все Посмотреть все возможности плеера",
+      "title_ru": "View all View all player features",
       "image": null,
       "url": "https://www.wtatennis.com/news/player-feature",
-      "published_at": "2026-10-28T21:50:08.141851+00:00"
+      "published_at": "2026-10-29T01:37:01.493196+00:00"
     },
     {
-      "id": "news_1793224225_20",
+      "id": "news_1793237829_7",
       "source": "WTA",
       "title_orig": "View all View all social buzz",
-      "title_ru": "Просмотреть все Просмотреть все обновления в социальных сетях",
+      "title_ru": "View all View all social buzz",
       "image": null,
       "url": "https://www.wtatennis.com/news/social-buzz",
-      "published_at": "2026-10-28T21:50:08.142976+00:00"
+      "published_at": "2026-10-29T01:37:01.493676+00:00"
     },
     {
-      "id": "news_1793224226_21",
+      "id": "news_1793237829_8",
       "source": "WTA",
       "title_orig": "View all View all hot shots",
-      "title_ru": "Посмотреть все Посмотреть все горячие снимки",
+      "title_ru": "View all View all hot shots",
       "image": null,
       "url": "https://www.wtatennis.com/news/hot-shots",
-      "published_at": "2026-10-28T21:50:08.143464+00:00"
+      "published_at": "2026-10-29T01:37:01.493886+00:00"
     },
     {
-      "id": "news_1793224226_22",
+      "id": "news_1793237830_9",
       "source": "WTA",
       "title_orig": "View all View all stats corner",
-      "title_ru": "Посмотреть все Посмотреть всю статистику",
+      "title_ru": "View all View all stats corner",
       "image": null,
       "url": "https://www.wtatennis.com/news/stats-corner",
-      "published_at": "2026-10-28T21:50:08.143566+00:00"
+      "published_at": "2026-10-29T01:37:01.493931+00:00"
     },
     {
-      "id": "news_1793224227_23",
+      "id": "news_1793237831_10",
       "source": "WTA",
       "title_orig": "All Doubles News All Doubles News",
-      "title_ru": "Все новости парного спорта Все новости парного спорта",
+      "title_ru": "All Doubles News All Doubles News",
       "image": null,
       "url": "https://www.wtatennis.com/news/doubles",
-      "published_at": "2026-10-28T21:50:08.144071+00:00"
+      "published_at": "2026-10-29T01:37:01.494139+00:00"
     },
     {
-      "id": "news_1793224227_24",
+      "id": "news_1793237832_11",
       "source": "WTA",
       "title_orig": "View all View all previews",
-      "title_ru": "Посмотреть все Посмотреть все превью",
+      "title_ru": "View all View all previews",
       "image": null,
       "url": "https://www.wtatennis.com/news/previews",
-      "published_at": "2026-10-28T21:50:08.145076+00:00"
+      "published_at": "2026-10-29T01:37:01.494572+00:00"
     },
     {
-      "id": "news_1793224228_25",
+      "id": "news_1793237833_12",
       "source": "Tennis.com",
       "title_orig": "Felix Auger-Aliassime rises to new career-high ranking of No. 4 after best run at Roland Garros",
-      "title_ru": "Феликс Оже-Альяссим поднялся на новое четвертое место в карьере после лучшего выступления на Ролан Гаррос",
+      "title_ru": "Felix Auger-Aliassime rises to new career-high ranking of No. 4 after best run at Roland Garros",
       "image": "https://tennis.com/images/articles/0bcab86a-6d0c-4833-8adf-1bfe17949798/web.jpg",
       "url": "https://www.tennis.com/news/articles/felix-auger-aliassime-rises-to-new-career-high-ranking-of-number-4-after-roland-garros-raonic-andreescu",
-      "published_at": "2026-10-28T21:50:09.594066+00:00"
+      "published_at": "2026-10-29T01:37:02.968277+00:00"
     },
     {
-      "id": "news_1793224228_26",
+      "id": "news_1793237833_13",
       "source": "Tennis.com",
       "title_orig": "Emilio Nava leaves \"one of the most enjoyable weeks\" in Bad Rappenau with trophy",
-      "title_ru": "Эмилио Нава покидает «одну из самых приятных недель» в Бад-Раппенау с трофеем",
+      "title_ru": "Emilio Nava leaves \"one of the most enjoyable weeks\" in Bad Rappenau with trophy",
       "image": "https://tennis.com/images/articles/8741a1e2-1aaf-4400-8fb2-e9746e0b5634/web.jpg",
       "url": "https://www.tennis.com/news/articles/emilio-nava-leaves-one-of-the-most-enjoyable-weeks-in-bad-rappenau-with-trophy",
-      "published_at": "2026-10-28T21:50:09.594186+00:00"
+      "published_at": "2026-10-29T01:37:02.968354+00:00"
     },
     {
-      "id": "news_1793224229_27",
+      "id": "news_1793237834_14",
       "source": "Tennis.com",
       "title_orig": "Flavio Cobolli breaks into Top 10 after reaching first Grand Slam final at Roland Garros",
-      "title_ru": "Флавио Коболли вошел в десятку лучших после первого выхода в финал турнира Большого шлема на Ролан Гаррос",
+      "title_ru": "Flavio Cobolli breaks into Top 10 after reaching first Grand Slam final at Roland Garros",
       "image": "https://tennis.com/images/articles/4dbcece2-708a-429a-b93c-4c0df4911cad/web.jpg",
       "url": "https://www.tennis.com/news/articles/flavio-cobolli-breaks-into-top-10-after-reaching-first-grand-slam-final-at-roland-garros",
-      "published_at": "2026-10-28T21:50:09.594297+00:00"
+      "published_at": "2026-10-29T01:37:02.968408+00:00"
     },
     {
-      "id": "news_1793224229_28",
+      "id": "news_1793237835_15",
       "source": "Tennis.com",
       "title_orig": "Maja Chwalinska soars from No. 114 to No. 21 following dream run to Roland Garros final",
-      "title_ru": "Майя Хвалинска взлетела со 114-го на 21-е место благодаря своей мечте о выходе в финал Ролан Гаррос",
+      "title_ru": "Maja Chwalinska soars from No. 114 to No. 21 following dream run to Roland Garros final",
       "image": "https://tennis.com/images/articles/ad095ead-3dbb-4fcf-80c0-498cb75fd196/web.jpg",
       "url": "https://www.tennis.com/news/articles/maja-chwalinska-soars-from-114-to-21-on-wta-rankings-after-dream-run-to-roland-garros-final-andreeva-kostyuk-shnaider",
-      "published_at": "2026-10-28T21:50:09.594405+00:00"
+      "published_at": "2026-10-29T01:37:02.968459+00:00"
     },
     {
-      "id": "news_1793224230_29",
+      "id": "news_1793237836_16",
       "source": "Tennis.com",
       "title_orig": "Alexander Zverev won his first Grand Slam title. Choose your own reaction",
-      "title_ru": "Александр Зверев выиграл свой первый титул Большого шлема. Выбери свою реакцию",
+      "title_ru": "Alexander Zverev won his first Grand Slam title. Choose your own reaction",
       "image": "https://tennis.com/images/articles/31dc544b-2a08-428f-a727-86d5c7066901/web.jpg",
       "url": "https://www.tennis.com/news/articles/alexander-zverev-won-his-first-grand-slam-title-choose-your-own-reaction",
-      "published_at": "2026-10-28T21:50:09.594511+00:00"
+      "published_at": "2026-10-29T01:37:02.968509+00:00"
+    },
+    {
+      "id": "news_1793237837_17",
+      "source": "Tennis.com",
+      "title_orig": "Alexander Zverev battles past Flavio Cobolli for first Grand Slam title of career at Roland Garros",
+      "title_ru": "Alexander Zverev battles past Flavio Cobolli for first Grand Slam title of career at Roland Garros",
+      "image": "https://tennis.com/images/articles/e7cd544f-29b5-4a48-91d2-698ffa0f270e/web.jpg",
+      "url": "https://www.tennis.com/news/articles/alexander-zverev-battles-past-flavio-cobolli-for-first-grand-slam-title-of-career-at-roland-garros",
+      "published_at": "2026-10-29T01:37:02.968570+00:00"
+    },
+    {
+      "id": "news_1793237837_18",
+      "source": "Tennis.com",
+      "title_orig": "Katerina Siniakova, Taylor Townsend eye team Career Grand Slam after Roland Garros title",
+      "title_ru": "Katerina Siniakova, Taylor Townsend eye team Career Grand Slam after Roland Garros title",
+      "image": "https://tennis.com/images/articles/a083760f-ce1b-45c8-be82-69d786d39894/web.jpg",
+      "url": "https://www.tennis.com/news/articles/katerina-siniakova-taylor-townsend-eye-team-career-grand-slam-roland-garros-title",
+      "published_at": "2026-10-29T01:37:02.968618+00:00"
+    },
+    {
+      "id": "news_1793237838_19",
+      "source": "Tennis.com",
+      "title_orig": "Mirra Andreeva \"kept my focus, kept my composure” to win first Grand Slam title",
+      "title_ru": "Mirra Andreeva \"kept my focus, kept my composure” to win first Grand Slam title",
+      "image": "https://tennis.com/images/articles/50fcebf0-5b31-484b-ba1e-d252d0796713/web.jpg",
+      "url": "https://www.tennis.com/news/articles/mirra-andreeva-kept-my-focus-kept-my-composure-to-win-first-grand-slam-title-roland-garros-champion",
+      "published_at": "2026-10-29T01:37:02.968674+00:00"
+    },
+    {
+      "id": "news_1793237839_20",
+      "source": "Tennis.com",
+      "title_orig": "Luis Guto Miguel adds another Roland Garros chapter for Brazil with historic boys' singles title",
+      "title_ru": "Luis Guto Miguel adds another Roland Garros chapter for Brazil with historic boys' singles title",
+      "image": "https://tennis.com/images/articles/345ef268-095a-4ec9-8194-03ba6b57688d/web.jpg",
+      "url": "https://www.tennis.com/news/articles/luis-guto-miguel-roland-garros-chapter-brazil-with-historic-boys-singles-title",
+      "published_at": "2026-10-29T01:37:02.968724+00:00"
+    },
+    {
+      "id": "news_1793237840_21",
+      "source": "Tennis.com",
+      "title_orig": "Mirra Andreeva ends dream run of Maja Chwalinska to capture first Grand Slam title at Roland Garros",
+      "title_ru": "Mirra Andreeva ends dream run of Maja Chwalinska to capture first Grand Slam title at Roland Garros",
+      "image": "https://tennis.com/images/articles/14918e7f-7a40-482e-bf9d-3803e32999e5/web.jpg",
+      "url": "https://www.tennis.com/news/articles/mirra-andreeva-ends-dream-run-of-maja-chwalinska-to-capture-first-grand-slam-title-at-roland-garros",
+      "published_at": "2026-10-29T01:37:02.968775+00:00"
+    },
+    {
+      "id": "news_1793237841_22",
+      "source": "Tennis.com",
+      "title_orig": "Roland Garros men’s final preview: Can Alexander Zverev finally cross the Grand Slam finish line against Flavio Cobolli?",
+      "title_ru": "Roland Garros men’s final preview: Can Alexander Zverev finally cross the Grand Slam finish line against Flavio Cobolli?",
+      "image": "https://tennis.com/images/articles/00bc7773-7952-4394-9e0e-ed2212245cb0/web.jpg",
+      "url": "https://www.tennis.com/news/articles/roland-garros-men-s-final-preview-can-alexander-zverev-finally-cross-the-grand-slam-finish-line-against-flavio-cobolli",
+      "published_at": "2026-10-29T01:37:02.968827+00:00"
+    },
+    {
+      "id": "news_1793237841_23",
+      "source": "Tennis.com",
+      "title_orig": "Flavio Cobolli advances to Roland Garros final after Matteo Arnaldi pulls out with viral illness",
+      "title_ru": "Flavio Cobolli advances to Roland Garros final after Matteo Arnaldi pulls out with viral illness",
+      "image": "https://tennis.com/images/articles/2df29b5c-16a6-4fa7-92e5-e6962fdca5c9/web.jpg",
+      "url": "https://www.tennis.com/news/articles/flavio-cobolli-advances-to-roland-garros-final-after-matteo-arnaldi-pulls-out-with-viral-illness",
+      "published_at": "2026-10-29T01:37:02.968878+00:00"
     }
   ]
 }
