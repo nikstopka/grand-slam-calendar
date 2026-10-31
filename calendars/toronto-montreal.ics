@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT30M
 X-PUBLISHED-TTL:PT30M
 BEGIN:VEVENT
 UID:tml:atp:2026-421:89@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260811T120000Z
 DTEND:20260811T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Nakashima\, Brandon vs Darderi\, Luciano
@@ -18,7 +18,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:90@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260811T120000Z
 DTEND:20260811T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Jodar\, Rafael vs Fils\, Arthur
@@ -27,7 +27,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:91@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260812T120000Z
 DTEND:20260812T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Shelton\, Ben vs Mensik\, Jakub
@@ -36,7 +36,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:92@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260812T120000Z
 DTEND:20260812T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Tien\, Learner vs Merida\, Daniel
@@ -45,7 +45,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:93@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260813T120000Z
 DTEND:20260813T150000Z
 SUMMARY:Toronto / Montreal 2026 — Полуфинал: Nakashima\, Brandon vs Jodar\, Rafael
@@ -54,7 +54,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:94@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260813T120000Z
 DTEND:20260813T150000Z
 SUMMARY:Toronto / Montreal 2026 — Полуфинал: Shelton\, Ben vs Tien\, Learner
@@ -63,7 +63,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:95@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260814T120000Z
 DTEND:20260814T150000Z
 SUMMARY:Toronto / Montreal 2026 — Финал: Shelton\, Ben vs Nakashima\, Brandon
@@ -72,7 +72,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:1@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260802T120000Z
 DTEND:20260802T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Munar\, Jaume vs Hijikata\, Rinky
@@ -81,7 +81,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:2@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260802T120000Z
 DTEND:20260802T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Shang\, Juncheng vs Vallejo\, Adolfo Daniel
@@ -90,7 +90,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:3@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Kopriva\, Vit vs Galarneau\, Alexis
@@ -99,7 +99,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:4@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Duckworth\, James vs O'Connell\, Christopher
@@ -108,7 +108,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:5@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Droguet\, Titouan vs Assche\, Luca Van
@@ -117,7 +117,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:6@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Mejia\, Nicolas vs Landaluce\, Martin
@@ -126,7 +126,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:7@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Navone\, Mariano vs Berrettini\, Matteo
@@ -135,7 +135,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:8@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Borges\, Nuno vs Kovacevic\, Aleksandar
@@ -144,7 +144,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:9@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Hanfmann\, Yannick vs Bonzi\, Benjamin
@@ -153,7 +153,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:10@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Kecmanovic\, Miomir vs Zheng\, Michael
@@ -162,7 +162,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:11@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Michelsen\, Alex vs Struff\, Jan-Lennard
@@ -171,7 +171,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:12@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Cilic\, Marin vs Shimabukuro\, Sho
@@ -180,7 +180,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:13@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Diallo\, Gabriel vs Jacquet\, Kyrian
@@ -189,7 +189,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:14@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Moutet\, Corentin vs Fucsovics\, Marton
@@ -198,7 +198,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:15@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Norrie\, Cameron vs Carabelli\, Camilo Ugo
@@ -207,7 +207,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:16@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Altmaier\, Daniel vs Vukic\, Aleksandar
@@ -216,7 +216,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:17@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Monfils\, Gael vs Majchrzak\, Kamil
@@ -225,7 +225,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:18@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Tirante\, Thiago Agustin vs Chan\, Duncan
@@ -234,7 +234,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:19@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Baez\, Sebastian vs Bellucci\, Mattia
@@ -243,7 +243,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:20@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Brooksby\, Jenson vs Walton\, Adam
@@ -252,7 +252,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:21@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Hurkacz\, Hubert vs Giron\, Marcos
@@ -261,7 +261,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:22@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Tsitsipas\, Stefanos vs Damm\, Martin
@@ -270,7 +270,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:23@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Blockx\, Alexander vs Munar\, Jaume
@@ -279,7 +279,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:24@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Merida\, Daniel vs Draxl\, Liam
@@ -288,7 +288,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:25@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Fearnley\, Jacob vs Mannarino\, Adrian
@@ -297,7 +297,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:26@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Popyrin\, Alexei vs Burruchaga\, Roman Andres
@@ -306,7 +306,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:27@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Royer\, Valentin vs Busta\, Pablo Carreno
@@ -315,7 +315,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:28@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260804T120000Z
 DTEND:20260804T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Svajda\, Zachary vs Shapovalov\, Denis
@@ -324,7 +324,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:29@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Nakashima\, Brandon vs Altmaier\, Daniel
@@ -333,7 +333,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:30@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Lehecka\, Jiri vs Kopriva\, Vit
@@ -342,7 +342,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:31@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Shang\, Juncheng vs Rublev\, Andrey
@@ -351,7 +351,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:32@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Atmane\, Terence vs Draper\, Jack
@@ -360,7 +360,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:33@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Cerundolo\, Juan Manuel vs Medjedovic\, Hamad
@@ -369,7 +369,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:34@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Griekspoor\, Tallon vs Sonego\, Lorenzo
@@ -378,7 +378,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:35@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Marozsan\, Fabian vs Mochizuki\, Shintaro
@@ -387,7 +387,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:36@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Zandschulp\, Botic van de vs Perricard\, Giovanni Mpetshi
@@ -396,7 +396,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:37@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Darderi\, Luciano vs Diallo\, Gabriel
@@ -405,7 +405,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:38@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Minaur\, Alex de vs Duckworth\, James
@@ -414,7 +414,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:39@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Tiafoe\, Frances vs Cilic\, Marin
@@ -423,7 +423,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:40@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Hanfmann\, Yannick vs Cobolli\, Flavio
@@ -432,7 +432,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:41@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Musetti\, Lorenzo vs Mejia\, Nicolas
@@ -441,7 +441,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:42@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Navone\, Mariano vs Vacherot\, Valentin
@@ -450,7 +450,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:43@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Fonseca\, Joao vs Tsitsipas\, Stefanos
@@ -459,7 +459,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:44@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Borges\, Nuno vs Etcheverry\, Tomas Martin
@@ -468,7 +468,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:45@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Bergs\, Zizou vs Baez\, Sebastian
@@ -477,7 +477,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:46@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Shelton\, Ben vs Brooksby\, Jenson
@@ -486,7 +486,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:47@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Ruud\, Casper vs Cerundolo\, Juan Manuel
@@ -495,7 +495,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:48@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Norrie\, Cameron vs Buse\, Ignacio
@@ -504,7 +504,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:49@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Hurkacz\, Hubert vs Tabilo\, Alejandro
@@ -513,7 +513,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:50@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Tirante\, Thiago Agustin vs Fritz\, Taylor
@@ -522,7 +522,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:51@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Fils\, Arthur vs Svajda\, Zachary
@@ -531,7 +531,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:52@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260805T120000Z
 DTEND:20260805T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Rinderknech\, Arthur vs Kecmanovic\, Miomir
@@ -540,7 +540,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:53@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Merida\, Daniel vs Humbert\, Ugo
@@ -549,7 +549,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:54@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Griekspoor\, Tallon vs Zverev\, Alexander
@@ -558,7 +558,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:55@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Mensik\, Jakub vs Fearnley\, Jacob
@@ -567,7 +567,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:56@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Michelsen\, Alex vs Cerundolo\, Francisco
@@ -576,7 +576,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:57@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Jodar\, Rafael vs Moutet\, Corentin
@@ -585,7 +585,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:58@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Atmane\, Terence vs Khachanov\, Karen
@@ -594,7 +594,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:59@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Arnaldi\, Matteo vs Marozsan\, Fabian
@@ -603,7 +603,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:60@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Popyrin\, Alexei vs Collignon\, Raphael
@@ -612,7 +612,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:61@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Zandschulp\, Botic van de vs Medvedev\, Daniil
@@ -621,7 +621,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:62@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Tien\, Learner vs Monfils\, Gael
@@ -630,7 +630,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:63@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Paul\, Tommy vs Royer\, Valentin
@@ -639,7 +639,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:64@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Droguet\, Titouan vs Faria\, Jaime
@@ -648,7 +648,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:65@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260806T120000Z
 DTEND:20260806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Fils\, Arthur vs Navone\, Mariano
@@ -657,7 +657,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:66@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260807T120000Z
 DTEND:20260807T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Norrie\, Cameron vs Minaur\, Alex de
@@ -666,7 +666,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:67@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260807T120000Z
 DTEND:20260807T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Lehecka\, Jiri vs Blockx\, Alexander
@@ -675,7 +675,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:68@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260807T120000Z
 DTEND:20260807T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Darderi\, Luciano vs Shang\, Juncheng
@@ -684,7 +684,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:69@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260807T120000Z
 DTEND:20260807T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Borges\, Nuno vs Hanfmann\, Yannick
@@ -693,7 +693,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:70@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260807T120000Z
 DTEND:20260807T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Jodar\, Rafael vs Musetti\, Lorenzo
@@ -702,7 +702,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:71@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260807T120000Z
 DTEND:20260807T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Nakashima\, Brandon vs Droguet\, Titouan
@@ -711,7 +711,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:72@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260807T120000Z
 DTEND:20260807T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Rinderknech\, Arthur vs Tiafoe\, Frances
@@ -720,7 +720,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:73@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260807T120000Z
 DTEND:20260807T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Griekspoor\, Tallon vs Arnaldi\, Matteo
@@ -729,7 +729,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:74@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260807T120000Z
 DTEND:20260807T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Merida\, Daniel vs Michelsen\, Alex
@@ -738,7 +738,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:75@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260808T120000Z
 DTEND:20260808T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Tirante\, Thiago Agustin vs Popyrin\, Alexei
@@ -747,7 +747,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:76@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260808T120000Z
 DTEND:20260808T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Shelton\, Ben vs Bergs\, Zizou
@@ -756,7 +756,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:77@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260808T120000Z
 DTEND:20260808T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Fonseca\, Joao vs Ruud\, Casper
@@ -765,7 +765,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:78@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260808T120000Z
 DTEND:20260808T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Mensik\, Jakub vs Atmane\, Terence
@@ -774,7 +774,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:79@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260808T120000Z
 DTEND:20260808T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Zandschulp\, Botic van de vs Hurkacz\, Hubert
@@ -783,7 +783,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:80@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260808T120000Z
 DTEND:20260808T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Darderi\, Luciano vs Borges\, Nuno
@@ -792,7 +792,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:81@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260808T120000Z
 DTEND:20260808T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Tien\, Learner vs Paul\, Tommy
@@ -801,7 +801,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:82@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260809T120000Z
 DTEND:20260809T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Nakashima\, Brandon vs Rinderknech\, Arthur
@@ -810,7 +810,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:83@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260809T120000Z
 DTEND:20260809T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Jodar\, Rafael vs Lehecka\, Jiri
@@ -819,7 +819,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:84@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260809T120000Z
 DTEND:20260809T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Fils\, Arthur vs Norrie\, Cameron
@@ -828,7 +828,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:85@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260809T120000Z
 DTEND:20260809T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Tien\, Learner vs Tirante\, Thiago Agustin
@@ -837,7 +837,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:86@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260809T120000Z
 DTEND:20260809T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Merida\, Daniel vs Griekspoor\, Tallon
@@ -846,7 +846,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:87@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260810T120000Z
 DTEND:20260810T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Shelton\, Ben vs Fonseca\, Joao
@@ -855,7 +855,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-421:88@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260810T120000Z
 DTEND:20260810T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Mensik\, Jakub vs Zandschulp\, Botic van de
@@ -864,7 +864,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:89@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Fritz\, Taylor vs Rublev\, Andrey
@@ -873,7 +873,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:90@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Shelton\, Ben vs Minaur\, Alex de
@@ -882,7 +882,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:91@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Zverev\, Alexander vs Popyrin\, Alexei
@@ -891,7 +891,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:92@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Khachanov\, Karen vs Michelsen\, Alex
@@ -900,7 +900,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:93@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — Полуфинал: Khachanov\, Karen vs Zverev\, Alexander
@@ -909,7 +909,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:94@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — Полуфинал: Shelton\, Ben vs Fritz\, Taylor
@@ -918,7 +918,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:95@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — Финал: Shelton\, Ben vs Khachanov\, Karen
@@ -927,7 +927,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:1@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Moutet\, Corentin vs Brooksby\, Jenson
@@ -936,7 +936,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:2@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Boyer\, Tristan vs Kovacevic\, Aleksandar
@@ -945,7 +945,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:3@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Bu\, Yunchaokete vs Kopriva\, Vit
@@ -954,7 +954,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:4@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Baena\, Roberto Carballes vs Carabelli\, Camilo Ugo
@@ -963,7 +963,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:5@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Busta\, Pablo Carreno vs Draxl\, Liam
@@ -972,7 +972,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:6@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Comesana\, Francisco vs Dzumhur\, Damir
@@ -981,7 +981,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:7@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Galarneau\, Alexis vs Rinderknech\, Arthur
@@ -990,7 +990,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:8@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Gaston\, Hugo vs Bellucci\, Mattia
@@ -999,7 +999,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:9@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Gigante\, Matteo vs Coric\, Borna
@@ -1008,7 +1008,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:10@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Mannarino\, Adrian vs Giron\, Marcos
@@ -1017,7 +1017,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:11@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Marozsan\, Fabian vs Dellien\, Hugo
@@ -1026,7 +1026,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:12@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: McDonald\, Mackenzie vs Goffin\, David
@@ -1035,7 +1035,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:13@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Munar\, Jaume vs Martin\, Dan
@@ -1044,7 +1044,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:14@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: O'Connell\, Christopher vs Tseng\, Chun-Hsin
@@ -1053,7 +1053,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:15@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Quinn\, Ethan vs Nishioka\, Yoshihito
@@ -1062,7 +1062,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:16@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Schoolkate\, Tristan vs Fonseca\, Joao
@@ -1071,7 +1071,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:17@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Svrcina\, Dalibor vs Blockx\, Alexander
@@ -1080,7 +1080,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:18@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Vukic\, Aleksandar vs Martinez\, Pedro
@@ -1089,7 +1089,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:19@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Watanuki\, Yosuke vs Altmaier\, Daniel
@@ -1098,7 +1098,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:20@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Arseneault\, Nicolas vs Royer\, Valentin
@@ -1107,7 +1107,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:21@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Bagnis\, Facundo vs Pospisil\, Vasek
@@ -1116,7 +1116,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:22@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Vera\, Tomas Barrios vs Monfils\, Gael
@@ -1125,7 +1125,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:23@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Duckworth\, James vs Shang\, Juncheng
@@ -1134,7 +1134,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:24@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Etcheverry\, Tomas Martin vs Herbert\, Pierre-Hugues
@@ -1143,7 +1143,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:25@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Ficovich\, Juan Pablo vs Fearnley\, Jacob
@@ -1152,7 +1152,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:26@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Kecmanovic\, Miomir vs Halys\, Quentin
@@ -1161,7 +1161,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:27@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Perricard\, Giovanni Mpetshi vs Mochizuki\, Shintaro
@@ -1170,7 +1170,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:28@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Nava\, Emilio vs Bergs\, Zizou
@@ -1179,7 +1179,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:29@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Opelka\, Reilly vs Ofner\, Sebastian
@@ -1188,7 +1188,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:30@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Safiullin\, Roman vs Blanchet\, Ugo
@@ -1197,7 +1197,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:31@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Tien\, Learner vs Smith\, Colton
@@ -1206,7 +1206,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:32@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/64 финала: Walton\, Adam vs Bonzi\, Benjamin
@@ -1215,7 +1215,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:33@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Fritz\, Taylor vs Baena\, Roberto Carballes
@@ -1224,7 +1224,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:34@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Shelton\, Ben vs Mannarino\, Adrian
@@ -1233,7 +1233,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:35@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Rublev\, Andrey vs Gaston\, Hugo
@@ -1242,7 +1242,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:36@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Tiafoe\, Frances vs Watanuki\, Yosuke
@@ -1251,7 +1251,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:37@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Minaur\, Alex de vs Comesana\, Francisco
@@ -1260,7 +1260,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:38@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Mensik\, Jakub vs Boyer\, Tristan
@@ -1269,7 +1269,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:39@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Cobolli\, Flavio vs Galarneau\, Alexis
@@ -1278,7 +1278,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:40@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Fils\, Arthur vs Busta\, Pablo Carreno
@@ -1287,7 +1287,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:41@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Lehecka\, Jiri vs McDonald\, Mackenzie
@@ -1296,7 +1296,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:42@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Moutet\, Corentin
@@ -1305,7 +1305,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:43@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Marozsan\, Fabian vs Auger-Aliassime\, Felix
@@ -1314,7 +1314,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:44@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: O'Connell\, Christopher vs Tsitsipas\, Stefanos
@@ -1323,7 +1323,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:45@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Nakashima\, Brandon vs Quinn\, Ethan
@@ -1332,7 +1332,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:46@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Diallo\, Gabriel vs Gigante\, Matteo
@@ -1341,7 +1341,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:47@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Sonego\, Lorenzo vs Bu\, Yunchaokete
@@ -1350,7 +1350,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:48@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Vukic\, Aleksandar vs Norrie\, Cameron
@@ -1359,7 +1359,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:49@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Zverev\, Alexander vs Walton\, Adam
@@ -1368,7 +1368,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:50@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Musetti\, Lorenzo vs Duckworth\, James
@@ -1377,7 +1377,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:51@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Rune\, Holger vs Perricard\, Giovanni Mpetshi
@@ -1386,7 +1386,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:52@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Ruud\, Casper vs Safiullin\, Roman
@@ -1395,7 +1395,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:53@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Medvedev\, Daniil vs Svrcina\, Dalibor
@@ -1404,7 +1404,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:54@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Khachanov\, Karen vs Ficovich\, Juan Pablo
@@ -1413,7 +1413,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:55@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Cerundolo\, Francisco vs Munar\, Jaume
@@ -1422,7 +1422,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:56@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Opelka\, Reilly vs Machac\, Tomas
@@ -1431,7 +1431,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:57@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Popyrin\, Alexei vs Arseneault\, Nicolas
@@ -1440,7 +1440,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:58@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Tien\, Learner vs Shapovalov\, Denis
@@ -1449,7 +1449,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:59@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Etcheverry\, Tomas Martin vs Griekspoor\, Tallon
@@ -1458,7 +1458,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:60@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Michelsen\, Alex vs Vera\, Tomas Barrios
@@ -1467,7 +1467,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:61@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Muller\, Alexandre vs Kecmanovic\, Miomir
@@ -1476,7 +1476,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:62@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Borges\, Nuno vs Bagnis\, Facundo
@@ -1485,7 +1485,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:63@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Arnaldi\, Matteo vs Schoolkate\, Tristan
@@ -1494,7 +1494,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:64@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Nava\, Emilio vs Atmane\, Terence
@@ -1503,7 +1503,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:65@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Fritz\, Taylor vs Diallo\, Gabriel
@@ -1512,7 +1512,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:66@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Shelton\, Ben vs Nakashima\, Brandon
@@ -1521,7 +1521,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:67@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Rublev\, Andrey vs Sonego\, Lorenzo
@@ -1530,7 +1530,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:68@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Tiafoe\, Frances vs Vukic\, Aleksandar
@@ -1539,7 +1539,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:69@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Fokina\, Alejandro Davidovich vs Mensik\, Jakub
@@ -1548,7 +1548,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:70@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Cobolli\, Flavio vs Marozsan\, Fabian
@@ -1557,7 +1557,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:71@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Lehecka\, Jiri vs Fils\, Arthur
@@ -1566,7 +1566,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:72@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Zverev\, Alexander vs Arnaldi\, Matteo
@@ -1575,7 +1575,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:73@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Michelsen\, Alex vs Musetti\, Lorenzo
@@ -1584,7 +1584,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:74@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Rune\, Holger vs Muller\, Alexandre
@@ -1593,7 +1593,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:75@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Ruud\, Casper vs Borges\, Nuno
@@ -1602,7 +1602,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:76@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Popyrin\, Alexei vs Medvedev\, Daniil
@@ -1611,7 +1611,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:77@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Khachanov\, Karen vs Nava\, Emilio
@@ -1620,7 +1620,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:78@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Cerundolo\, Francisco vs Etcheverry\, Tomas Martin
@@ -1629,7 +1629,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:79@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Minaur\, Alex de vs O'Connell\, Christopher
@@ -1638,7 +1638,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:80@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Tien\, Learner vs Opelka\, Reilly
@@ -1647,7 +1647,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:81@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Fritz\, Taylor vs Lehecka\, Jiri
@@ -1656,7 +1656,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:82@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Shelton\, Ben vs Cobolli\, Flavio
@@ -1665,7 +1665,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:83@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Rublev\, Andrey vs Fokina\, Alejandro Davidovich
@@ -1674,7 +1674,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:84@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Minaur\, Alex de vs Tiafoe\, Frances
@@ -1683,7 +1683,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:85@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Zverev\, Alexander vs Cerundolo\, Francisco
@@ -1692,7 +1692,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:86@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Popyrin\, Alexei vs Rune\, Holger
@@ -1701,7 +1701,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:87@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Khachanov\, Karen vs Ruud\, Casper
@@ -1710,7 +1710,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-421:88@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20250727T120000Z
 DTEND:20250727T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Michelsen\, Alex vs Tien\, Learner
@@ -1719,7 +1719,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:49@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Rublev\, Andrey vs Sinner\, Jannik
@@ -1728,7 +1728,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:50@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Arnaldi\, Matteo vs Nishikori\, Kei
@@ -1737,7 +1737,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:51@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Popyrin\, Alexei vs Hurkacz\, Hubert
@@ -1746,7 +1746,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:52@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — Четвертьфинал: Korda\, Sebastian vs Zverev\, Alexander
@@ -1755,7 +1755,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:53@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — Полуфинал: Rublev\, Andrey vs Arnaldi\, Matteo
@@ -1764,7 +1764,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:54@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — Полуфинал: Popyrin\, Alexei vs Korda\, Sebastian
@@ -1773,7 +1773,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:55@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — Финал: Popyrin\, Alexei vs Rublev\, Andrey
@@ -1782,7 +1782,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:1@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Sonego\, Lorenzo vs Griekspoor\, Tallon
@@ -1791,7 +1791,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:2@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Nishikori\, Kei vs Michelsen\, Alex
@@ -1800,7 +1800,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:3@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Etcheverry\, Tomas Martin vs Jarry\, Nicolas
@@ -1809,7 +1809,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:4@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Borges\, Nuno vs Kecmanovic\, Miomir
@@ -1818,7 +1818,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:5@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Khachanov\, Karen vs Diallo\, Gabriel
@@ -1827,7 +1827,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:6@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Busta\, Pablo Carreno vs Marozsan\, Fabian
@@ -1836,7 +1836,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:7@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Rune\, Holger vs Agut\, Roberto Bautista
@@ -1845,7 +1845,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:8@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Tabilo\, Alejandro vs Tiafoe\, Frances
@@ -1854,7 +1854,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:9@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Thompson\, Jordan vs Draper\, Jack
@@ -1863,7 +1863,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:10@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Paul\, Tommy vs Darderi\, Luciano
@@ -1872,7 +1872,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:11@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Hijikata\, Rinky vs Daniel\, Taro
@@ -1881,7 +1881,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:12@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Arnaldi\, Matteo vs McDonald\, Mackenzie
@@ -1890,7 +1890,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:13@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Shelton\, Ben vs Bublik\, Alexander
@@ -1899,7 +1899,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:14@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Safiullin\, Roman
@@ -1908,7 +1908,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:15@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Humbert\, Ugo vs Fils\, Arthur
@@ -1917,7 +1917,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:16@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Coric\, Borna vs Martinez\, Pedro
@@ -1926,7 +1926,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:17@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Nakashima\, Brandon vs Shapovalov\, Denis
@@ -1935,7 +1935,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:18@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Duckworth\, James vs Giron\, Marcos
@@ -1944,7 +1944,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:19@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Popyrin\, Alexei vs Machac\, Tomas
@@ -1953,7 +1953,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:20@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Fritz\, Taylor vs Navone\, Mariano
@@ -1962,7 +1962,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:21@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Rinderknech\, Arthur vs Mannarino\, Adrian
@@ -1971,7 +1971,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:22@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Korda\, Sebastian vs Pospisil\, Vasek
@@ -1980,7 +1980,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:23@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Cobolli\, Flavio vs Auger-Aliassime\, Felix
@@ -1989,7 +1989,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:24@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/32 финала: Kokkinakis\, Thanasi vs Monfils\, Gael
@@ -1998,7 +1998,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:25@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Borges\, Nuno vs Humbert\, Ugo
@@ -2007,7 +2007,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:26@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Fokina\, Alejandro Davidovich vs Medvedev\, Daniil
@@ -2016,7 +2016,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:27@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Nakashima\, Brandon vs Paul\, Tommy
@@ -2025,7 +2025,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:28@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Nishikori\, Kei vs Tsitsipas\, Stefanos
@@ -2034,7 +2034,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:29@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Rublev\, Andrey vs Etcheverry\, Tomas Martin
@@ -2043,7 +2043,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:30@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Zverev\, Alexander vs Thompson\, Jordan
@@ -2052,7 +2052,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:31@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Dimitrov\, Grigor vs Hijikata\, Rinky
@@ -2061,7 +2061,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:32@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Arnaldi\, Matteo vs Khachanov\, Karen
@@ -2070,7 +2070,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:33@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Ruud\, Casper vs Duckworth\, James
@@ -2079,7 +2079,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:34@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Sinner\, Jannik vs Coric\, Borna
@@ -2088,7 +2088,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:35@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Rune\, Holger vs Busta\, Pablo Carreno
@@ -2097,7 +2097,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:36@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Popyrin\, Alexei vs Shelton\, Ben
@@ -2106,7 +2106,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:37@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Tabilo\, Alejandro vs Sonego\, Lorenzo
@@ -2115,7 +2115,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:38@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Korda\, Sebastian vs Fritz\, Taylor
@@ -2124,7 +2124,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:39@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Hurkacz\, Hubert vs Kokkinakis\, Thanasi
@@ -2133,7 +2133,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:40@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/16 финала: Rinderknech\, Arthur vs Cobolli\, Flavio
@@ -2142,7 +2142,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:41@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Arnaldi\, Matteo vs Fokina\, Alejandro Davidovich
@@ -2151,7 +2151,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:42@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Rublev\, Andrey vs Nakashima\, Brandon
@@ -2160,7 +2160,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:43@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Nishikori\, Kei vs Borges\, Nuno
@@ -2169,7 +2169,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:44@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Popyrin\, Alexei vs Dimitrov\, Grigor
@@ -2178,7 +2178,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:45@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Sinner\, Jannik vs Tabilo\, Alejandro
@@ -2187,7 +2187,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:46@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Zverev\, Alexander vs Rune\, Holger
@@ -2196,7 +2196,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:47@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Korda\, Sebastian vs Ruud\, Casper
@@ -2205,7 +2205,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/toronto-montreal
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-421:48@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20240806T120000Z
 DTEND:20240806T150000Z
 SUMMARY:Toronto / Montreal 2026 — 1/8 финала: Hurkacz\, Hubert vs Rinderknech\, Arthur

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT30M
 X-PUBLISHED-TTL:PT30M
 BEGIN:VEVENT
 UID:tml:atp:2026-410:50@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260410T120000Z
 DTEND:20260410T150000Z
 SUMMARY:Monte-Carlo 2026 — Четвертьфинал: Zverev\, Alexander vs Fonseca\, Joao
@@ -18,7 +18,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:51@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260410T120000Z
 DTEND:20260410T150000Z
 SUMMARY:Monte-Carlo 2026 — Четвертьфинал: Sinner\, Jannik vs Auger-Aliassime\, Felix
@@ -27,7 +27,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:52@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260410T120000Z
 DTEND:20260410T150000Z
 SUMMARY:Monte-Carlo 2026 — Четвертьфинал: Alcaraz\, Carlos vs Bublik\, Alexander
@@ -36,7 +36,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:53@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260410T120000Z
 DTEND:20260410T150000Z
 SUMMARY:Monte-Carlo 2026 — Четвертьфинал: Vacherot\, Valentin vs Minaur\, Alex de
@@ -45,7 +45,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:54@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260411T120000Z
 DTEND:20260411T150000Z
 SUMMARY:Monte-Carlo 2026 — Полуфинал: Sinner\, Jannik vs Zverev\, Alexander
@@ -54,7 +54,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:55@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260411T120000Z
 DTEND:20260411T150000Z
 SUMMARY:Monte-Carlo 2026 — Полуфинал: Alcaraz\, Carlos vs Vacherot\, Valentin
@@ -63,7 +63,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:56@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260412T120000Z
 DTEND:20260412T150000Z
 SUMMARY:Monte-Carlo 2026 — Финал: Sinner\, Jannik vs Alcaraz\, Carlos
@@ -72,7 +72,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:1@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260405T120000Z
 DTEND:20260405T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Tabilo\, Alejandro vs Fucsovics\, Marton
@@ -81,7 +81,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:2@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260405T120000Z
 DTEND:20260405T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Norrie\, Cameron vs Kecmanovic\, Miomir
@@ -90,7 +90,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:3@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260405T120000Z
 DTEND:20260405T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Monfils\, Gael vs Griekspoor\, Tallon
@@ -99,7 +99,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:4@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260405T120000Z
 DTEND:20260405T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Humbert\, Ugo vs Kouame\, Moise
@@ -108,7 +108,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:5@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Rublev\, Andrey vs Borges\, Nuno
@@ -117,7 +117,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:6@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Rinderknech\, Arthur vs Khachanov\, Karen
@@ -126,7 +126,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:7@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Blockx\, Alexander vs Shapovalov\, Denis
@@ -135,7 +135,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:8@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Lehecka\, Jiri vs Nava\, Emilio
@@ -144,7 +144,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:9@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Cerundolo\, Francisco vs Tsitsipas\, Stefanos
@@ -153,7 +153,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:11@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Bergs\, Zizou vs Mannarino\, Adrian
@@ -162,7 +162,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:12@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Fonseca\, Joao vs Diallo\, Gabriel
@@ -171,7 +171,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:13@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Garin\, Cristian vs Arnaldi\, Matteo
@@ -180,7 +180,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:14@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Machac\, Tomas vs Altmaier\, Daniel
@@ -189,7 +189,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:15@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Cobolli\, Flavio vs Comesana\, Francisco
@@ -198,7 +198,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:16@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Baez\, Sebastian vs Wawrinka\, Stan
@@ -207,7 +207,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:17@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260406T120000Z
 DTEND:20260406T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Vacherot\, Valentin vs Cerundolo\, Juan Manuel
@@ -216,7 +216,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:18@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Berrettini\, Matteo vs Agut\, Roberto Bautista
@@ -225,7 +225,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:19@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Sinner\, Jannik vs Humbert\, Ugo
@@ -234,7 +234,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:20@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Hurkacz\, Hubert vs Darderi\, Luciano
@@ -243,7 +243,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:21@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Etcheverry\, Tomas Martin vs Dimitrov\, Grigor
@@ -252,7 +252,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:22@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Alcaraz\, Carlos vs Baez\, Sebastian
@@ -261,7 +261,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:23@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Atmane\, Terence vs Quinn\, Ethan
@@ -270,7 +270,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:24@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Cilic\, Marin vs Shevchenko\, Aleksandr
@@ -279,7 +279,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:25@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Marozsan\, Fabian vs Dzumhur\, Damir
@@ -288,7 +288,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:26@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Minaur\, Alex de vs Norrie\, Cameron
@@ -297,7 +297,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:27@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Bublik\, Alexander vs Monfils\, Gael
@@ -306,7 +306,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:28@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Ruud\, Casper vs Popyrin\, Alexei
@@ -315,7 +315,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:29@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260407T120000Z
 DTEND:20260407T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/32 финала: Moutet\, Corentin vs Muller\, Alexandre
@@ -324,7 +324,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:30@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Berrettini\, Matteo vs Medvedev\, Daniil
@@ -333,7 +333,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:31@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Ruud\, Casper vs Moutet\, Corentin
@@ -342,7 +342,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:32@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Zverev\, Alexander vs Garin\, Cristian
@@ -351,7 +351,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:33@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Lehecka\, Jiri vs Tabilo\, Alejandro
@@ -360,7 +360,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:34@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Bergs\, Zizou vs Rublev\, Andrey
@@ -369,7 +369,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:35@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Machac\, Tomas vs Cerundolo\, Francisco
@@ -378,7 +378,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:36@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Fonseca\, Joao vs Rinderknech\, Arthur
@@ -387,7 +387,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:37@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Vacherot\, Valentin vs Musetti\, Lorenzo
@@ -396,7 +396,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:38@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Auger-Aliassime\, Felix vs Cilic\, Marin
@@ -405,7 +405,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:39@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Blockx\, Alexander vs Cobolli\, Flavio
@@ -414,7 +414,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:40@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Etcheverry\, Tomas Martin vs Atmane\, Terence
@@ -423,7 +423,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:41@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260408T120000Z
 DTEND:20260408T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/16 финала: Hurkacz\, Hubert vs Marozsan\, Fabian
@@ -432,7 +432,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:42@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260409T120000Z
 DTEND:20260409T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/8 финала: Fonseca\, Joao vs Berrettini\, Matteo
@@ -441,7 +441,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:43@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260409T120000Z
 DTEND:20260409T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/8 финала: Sinner\, Jannik vs Machac\, Tomas
@@ -450,7 +450,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:44@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260409T120000Z
 DTEND:20260409T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/8 финала: Zverev\, Alexander vs Bergs\, Zizou
@@ -459,7 +459,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:45@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260409T120000Z
 DTEND:20260409T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/8 финала: Auger-Aliassime\, Felix vs Ruud\, Casper
@@ -468,7 +468,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:46@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260409T120000Z
 DTEND:20260409T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/8 финала: Alcaraz\, Carlos vs Etcheverry\, Tomas Martin
@@ -477,7 +477,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:47@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260409T120000Z
 DTEND:20260409T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/8 финала: Bublik\, Alexander vs Lehecka\, Jiri
@@ -486,7 +486,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:48@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260409T120000Z
 DTEND:20260409T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/8 финала: Vacherot\, Valentin vs Hurkacz\, Hubert
@@ -495,7 +495,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/monte-carlo
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-410:49@grand-slam-calendar
-DTSTAMP:20261030T224907Z
+DTSTAMP:20261031T020555Z
 DTSTART:20260409T120000Z
 DTEND:20260409T150000Z
 SUMMARY:Monte-Carlo 2026 — 1/8 финала: Minaur\, Alex de vs Blockx\, Alexander
