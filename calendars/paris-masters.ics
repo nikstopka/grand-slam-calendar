@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT30M
 X-PUBLISHED-TTL:PT30M
 BEGIN:VEVENT
 UID:tml:atp:2026-352:49@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261106T120000Z
 DTEND:20261106T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Shelton\, Ben vs Paul\, Tommy
@@ -18,7 +18,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:50@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261106T120000Z
 DTEND:20261106T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Assche\, Luca Van vs Hijikata\, Rinky
@@ -27,7 +27,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:51@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261106T120000Z
 DTEND:20261106T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Alcaraz\, Carlos vs Fritz\, Taylor
@@ -36,7 +36,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:52@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261106T120000Z
 DTEND:20261106T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Ruud\, Casper vs Borges\, Nuno
@@ -45,7 +45,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:53@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261107T120000Z
 DTEND:20261107T150000Z
 SUMMARY:Paris Masters 2026 — Полуфинал: Shelton\, Ben vs Assche\, Luca Van
@@ -54,7 +54,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:54@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261107T120000Z
 DTEND:20261107T150000Z
 SUMMARY:Paris Masters 2026 — Полуфинал: Alcaraz\, Carlos vs Ruud\, Casper
@@ -63,7 +63,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:55@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261108T120000Z
 DTEND:20261108T150000Z
 SUMMARY:Paris Masters 2026 — Финал: Alcaraz\, Carlos vs Shelton\, Ben
@@ -72,7 +72,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:1@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Buse\, Ignacio vs Bergs\, Zizou
@@ -81,7 +81,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:2@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Hijikata\, Rinky vs Darderi\, Luciano
@@ -90,7 +90,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:3@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Musetti\, Lorenzo vs Hurkacz\, Hubert
@@ -99,7 +99,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:4@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Assche\, Luca Van vs Navone\, Mariano
@@ -108,7 +108,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:5@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Jodar\, Rafael vs Tabilo\, Alejandro
@@ -117,7 +117,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:6@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Merida\, Daniel vs Baez\, Sebastian
@@ -126,7 +126,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:7@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Ruud\, Casper vs Cerundolo\, Juan Manuel
@@ -135,7 +135,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:8@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Norrie\, Cameron vs Arnaldi\, Matteo
@@ -144,7 +144,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:9@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Bellucci\, Mattia vs Sonego\, Lorenzo
@@ -153,7 +153,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:10@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Machac\, Tomas vs Jacquet\, Kyrian
@@ -162,7 +162,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:11@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Molcan\, Alex vs Droguet\, Titouan
@@ -171,7 +171,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:12@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Khachanov\, Karen vs Shapovalov\, Denis
@@ -180,7 +180,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:13@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261102T120000Z
 DTEND:20261102T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Humbert\, Ugo vs Zandschulp\, Botic van de
@@ -189,7 +189,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:14@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Halys\, Quentin vs Fery\, Arthur
@@ -198,7 +198,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:15@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Etcheverry\, Tomas Martin vs Rublev\, Andrey
@@ -207,7 +207,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:16@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Rinderknech\, Arthur vs Cerundolo\, Francisco
@@ -216,7 +216,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:17@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Borges\, Nuno vs Kouame\, Moise
@@ -225,7 +225,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:18@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Tien\, Learner vs Vallejo\, Adolfo Daniel
@@ -234,7 +234,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:19@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Berrettini\, Matteo vs Nakashima\, Brandon
@@ -243,7 +243,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:20@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Djokovic\, Novak vs Vacherot\, Valentin
@@ -252,7 +252,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:21@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Paul\, Tommy vs Rune\, Holger
@@ -261,7 +261,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:22@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Fritz\, Taylor vs Bonzi\, Benjamin
@@ -270,7 +270,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:23@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Michelsen\, Alex vs Lehecka\, Jiri
@@ -279,7 +279,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:24@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Shelton\, Ben vs Norrie\, Cameron
@@ -288,7 +288,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:25@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Struff\, Jan-Lennard vs Gea\, Arthur
@@ -297,7 +297,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:26@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261103T120000Z
 DTEND:20261103T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Ruud\, Casper vs Jodar\, Rafael
@@ -306,7 +306,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:27@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Rinderknech\, Arthur vs Bellucci\, Mattia
@@ -315,7 +315,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:28@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Halys\, Quentin vs Tiafoe\, Frances
@@ -324,7 +324,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:29@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Paul\, Tommy vs Merida\, Daniel
@@ -333,7 +333,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:30@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Assche\, Luca Van vs Tien\, Learner
@@ -342,7 +342,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:31@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Musetti\, Lorenzo vs Zverev\, Alexander
@@ -351,7 +351,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:32@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Etcheverry\, Tomas Martin vs Minaur\, Alex de
@@ -360,7 +360,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:33@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Buse\, Ignacio vs Medvedev\, Daniil
@@ -369,7 +369,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:34@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Hijikata\, Rinky vs Djokovic\, Novak
@@ -378,7 +378,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:35@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Borges\, Nuno vs Khachanov\, Karen
@@ -387,7 +387,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:36@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Fritz\, Taylor vs Molcan\, Alex
@@ -396,7 +396,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:37@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Berrettini\, Matteo vs Humbert\, Ugo
@@ -405,7 +405,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:38@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Alcaraz\, Carlos vs Michelsen\, Alex
@@ -414,7 +414,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:39@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Struff\, Jan-Lennard vs Tirante\, Thiago Agustin
@@ -423,7 +423,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:40@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261104T120000Z
 DTEND:20261104T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Fils\, Arthur vs Machac\, Tomas
@@ -432,7 +432,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:41@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261105T120000Z
 DTEND:20261105T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Alcaraz\, Carlos vs Berrettini\, Matteo
@@ -441,7 +441,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:42@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261105T120000Z
 DTEND:20261105T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Paul\, Tommy vs Halys\, Quentin
@@ -450,7 +450,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:43@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261105T120000Z
 DTEND:20261105T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Shelton\, Ben vs Rinderknech\, Arthur
@@ -459,7 +459,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:44@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261105T120000Z
 DTEND:20261105T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Hijikata\, Rinky vs Etcheverry\, Tomas Martin
@@ -468,7 +468,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:45@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261105T120000Z
 DTEND:20261105T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Assche\, Luca Van vs Musetti\, Lorenzo
@@ -477,7 +477,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:46@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261105T120000Z
 DTEND:20261105T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Borges\, Nuno vs Buse\, Ignacio
@@ -486,7 +486,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:47@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261105T120000Z
 DTEND:20261105T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Fritz\, Taylor vs Fils\, Arthur
@@ -495,7 +495,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2026-352:48@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20261105T120000Z
 DTEND:20261105T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Ruud\, Casper vs Struff\, Jan-Lennard
@@ -504,7 +504,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:49@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Auger-Aliassime\, Felix vs Vacherot\, Valentin
@@ -513,7 +513,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:50@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Bublik\, Alexander vs Minaur\, Alex de
@@ -522,7 +522,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:51@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Sinner\, Jannik vs Shelton\, Ben
@@ -531,7 +531,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:52@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Zverev\, Alexander vs Medvedev\, Daniil
@@ -540,7 +540,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:53@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — Полуфинал: Auger-Aliassime\, Felix vs Bublik\, Alexander
@@ -549,7 +549,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:54@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — Полуфинал: Sinner\, Jannik vs Zverev\, Alexander
@@ -558,7 +558,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:55@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — Финал: Sinner\, Jannik vs Auger-Aliassime\, Felix
@@ -567,7 +567,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:1@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Bublik\, Alexander vs Popyrin\, Alexei
@@ -576,7 +576,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:2@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Rublev\, Andrey vs Fearnley\, Jacob
@@ -585,7 +585,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:3@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Altmaier\, Daniel vs Giron\, Marcos
@@ -594,7 +594,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:4@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Cazaux\, Arthur vs Darderi\, Luciano
@@ -603,7 +603,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:5@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Cerundolo\, Francisco vs Dzumhur\, Damir
@@ -612,7 +612,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:6@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Cobolli\, Flavio vs Machac\, Tomas
@@ -621,7 +621,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:7@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Kecmanovic\, Miomir vs Kovacevic\, Aleksandar
@@ -630,7 +630,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:8@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Norrie\, Cameron vs Baez\, Sebastian
@@ -639,7 +639,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:9@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Rinderknech\, Arthur vs Marozsan\, Fabian
@@ -648,7 +648,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:10@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Tien\, Learner vs Borges\, Nuno
@@ -657,7 +657,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:11@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Vukic\, Aleksandar vs Atmane\, Terence
@@ -666,7 +666,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:12@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Khachanov\, Karen vs Quinn\, Ethan
@@ -675,7 +675,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:13@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Bergs\, Zizou vs Michelsen\, Alex
@@ -684,7 +684,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:14@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Dimitrov\, Grigor vs Perricard\, Giovanni Mpetshi
@@ -693,7 +693,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:15@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Muller\, Alexandre vs Nakashima\, Brandon
@@ -702,7 +702,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:16@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Sonego\, Lorenzo vs Korda\, Sebastian
@@ -711,7 +711,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:17@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Auger-Aliassime\, Felix vs Comesana\, Francisco
@@ -720,7 +720,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:18@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Medvedev\, Daniil vs Munar\, Jaume
@@ -729,7 +729,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:19@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Vacherot\, Valentin vs Lehecka\, Jiri
@@ -738,7 +738,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:20@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Diallo\, Gabriel vs Griekspoor\, Tallon
@@ -747,7 +747,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:21@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Fonseca\, Joao vs Shapovalov\, Denis
@@ -756,7 +756,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:22@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Moutet\, Corentin vs Opelka\, Reilly
@@ -765,7 +765,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:23@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Carabelli\, Camilo Ugo vs Etcheverry\, Tomas Martin
@@ -774,7 +774,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:24@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Fokina\, Alejandro Davidovich vs Royer\, Valentin
@@ -783,7 +783,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:25@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Fritz\, Taylor vs Vukic\, Aleksandar
@@ -792,7 +792,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:26@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Norrie\, Cameron vs Alcaraz\, Carlos
@@ -801,7 +801,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:27@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Shelton\, Ben vs Cobolli\, Flavio
@@ -810,7 +810,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:28@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Rublev\, Andrey vs Tien\, Learner
@@ -819,7 +819,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:29@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Sinner\, Jannik vs Bergs\, Zizou
@@ -828,7 +828,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:30@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Zverev\, Alexander vs Carabelli\, Camilo Ugo
@@ -837,7 +837,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:31@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Altmaier\, Daniel vs Ruud\, Casper
@@ -846,7 +846,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:32@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Auger-Aliassime\, Felix vs Muller\, Alexandre
@@ -855,7 +855,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:33@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Medvedev\, Daniil vs Dimitrov\, Grigor
@@ -864,7 +864,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:34@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Fokina\, Alejandro Davidovich vs Cazaux\, Arthur
@@ -873,7 +873,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:35@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Cerundolo\, Francisco vs Kecmanovic\, Miomir
@@ -882,7 +882,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:36@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Vacherot\, Valentin vs Rinderknech\, Arthur
@@ -891,7 +891,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:37@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Minaur\, Alex de vs Diallo\, Gabriel
@@ -900,7 +900,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:38@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Sonego\, Lorenzo vs Musetti\, Lorenzo
@@ -909,7 +909,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:39@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Khachanov\, Karen vs Fonseca\, Joao
@@ -918,7 +918,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:40@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Bublik\, Alexander vs Moutet\, Corentin
@@ -927,7 +927,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:41@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Sinner\, Jannik vs Cerundolo\, Francisco
@@ -936,7 +936,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:42@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Zverev\, Alexander vs Fokina\, Alejandro Davidovich
@@ -945,7 +945,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:43@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Bublik\, Alexander vs Fritz\, Taylor
@@ -954,7 +954,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:44@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Shelton\, Ben vs Rublev\, Andrey
@@ -963,7 +963,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:45@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Minaur\, Alex de vs Khachanov\, Karen
@@ -972,7 +972,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:46@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Auger-Aliassime\, Felix vs Altmaier\, Daniel
@@ -981,7 +981,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:47@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Medvedev\, Daniil vs Sonego\, Lorenzo
@@ -990,7 +990,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2025-352:48@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20251027T120000Z
 DTEND:20251027T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Vacherot\, Valentin vs Norrie\, Cameron
@@ -999,7 +999,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:49@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Zverev\, Alexander vs Tsitsipas\, Stefanos
@@ -1008,7 +1008,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:50@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Rune\, Holger vs Minaur\, Alex de
@@ -1017,7 +1017,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:51@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Humbert\, Ugo vs Thompson\, Jordan
@@ -1026,7 +1026,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:52@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — Четвертьфинал: Khachanov\, Karen vs Dimitrov\, Grigor
@@ -1035,7 +1035,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:53@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — Полуфинал: Zverev\, Alexander vs Rune\, Holger
@@ -1044,7 +1044,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:54@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — Полуфинал: Humbert\, Ugo vs Khachanov\, Karen
@@ -1053,7 +1053,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:55@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — Финал: Zverev\, Alexander vs Humbert\, Ugo
@@ -1062,7 +1062,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:1@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Rinderknech\, Arthur vs Machac\, Tomas
@@ -1071,7 +1071,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:2@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Griekspoor\, Tallon vs Darderi\, Luciano
@@ -1080,7 +1080,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:3@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Thompson\, Jordan vs Martinez\, Pedro
@@ -1089,7 +1089,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:4@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Cerundolo\, Francisco vs Halys\, Quentin
@@ -1098,7 +1098,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:5@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Etcheverry\, Tomas Martin vs Zhang\, Zhizhen
@@ -1107,7 +1107,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:6@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Giron\, Marcos vs Shang\, Juncheng
@@ -1116,7 +1116,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:7@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Humbert\, Ugo vs Nakashima\, Brandon
@@ -1125,7 +1125,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:8@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Kecmanovic\, Miomir vs Baez\, Sebastian
@@ -1134,7 +1134,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:9@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Bublik\, Alexander vs Fognini\, Fabio
@@ -1143,7 +1143,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:10@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Tsitsipas\, Stefanos vs Baena\, Roberto Carballes
@@ -1152,7 +1152,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:11@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Jarry\, Nicolas vs Sonego\, Lorenzo
@@ -1161,7 +1161,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:12@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Tabilo\, Alejandro vs Borges\, Nuno
@@ -1170,7 +1170,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:13@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Mannarino\, Adrian vs Paul\, Tommy
@@ -1179,7 +1179,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:14@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Struff\, Jan-Lennard vs Musetti\, Lorenzo
@@ -1188,7 +1188,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:15@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Michelsen\, Alex vs Hurkacz\, Hubert
@@ -1197,7 +1197,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:16@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Fils\, Arthur vs Cilic\, Marin
@@ -1206,7 +1206,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:17@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Popyrin\, Alexei vs Berrettini\, Matteo
@@ -1215,7 +1215,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:18@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Perricard\, Giovanni Mpetshi vs Tiafoe\, Frances
@@ -1224,7 +1224,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:19@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Khachanov\, Karen vs O'Connell\, Christopher
@@ -1233,7 +1233,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:20@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Rune\, Holger vs Arnaldi\, Matteo
@@ -1242,7 +1242,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:21@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Bergs\, Zizou vs Gasquet\, Richard
@@ -1251,7 +1251,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:22@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Minaur\, Alex de vs Navone\, Mariano
@@ -1260,7 +1260,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:23@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Shelton\, Ben vs Moutet\, Corentin
@@ -1269,7 +1269,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:24@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/32 финала: Draper\, Jack vs Lehecka\, Jiri
@@ -1278,7 +1278,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:25@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Cerundolo\, Francisco vs Rublev\, Andrey
@@ -1287,7 +1287,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:26@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Alcaraz\, Carlos vs Jarry\, Nicolas
@@ -1296,7 +1296,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:27@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Tsitsipas\, Stefanos vs Tabilo\, Alejandro
@@ -1305,7 +1305,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:28@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Thompson\, Jordan vs Ruud\, Casper
@@ -1314,7 +1314,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:29@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Dimitrov\, Grigor vs Etcheverry\, Tomas Martin
@@ -1323,7 +1323,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:30@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Rinderknech\, Arthur vs Michelsen\, Alex
@@ -1332,7 +1332,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:31@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Popyrin\, Alexei vs Medvedev\, Daniil
@@ -1341,7 +1341,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:32@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Mannarino\, Adrian vs Bergs\, Zizou
@@ -1350,7 +1350,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:33@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Fils\, Arthur vs Struff\, Jan-Lennard
@@ -1359,7 +1359,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:34@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Humbert\, Ugo vs Giron\, Marcos
@@ -1368,7 +1368,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:35@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Rune\, Holger vs Bublik\, Alexander
@@ -1377,7 +1377,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:36@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Khachanov\, Karen vs Perricard\, Giovanni Mpetshi
@@ -1386,7 +1386,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:37@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Minaur\, Alex de vs Kecmanovic\, Miomir
@@ -1395,7 +1395,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:38@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Zverev\, Alexander vs Griekspoor\, Tallon
@@ -1404,7 +1404,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:39@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Draper\, Jack vs Fritz\, Taylor
@@ -1413,7 +1413,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:40@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/16 финала: Cazaux\, Arthur vs Shelton\, Ben
@@ -1422,7 +1422,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:41@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Thompson\, Jordan vs Mannarino\, Adrian
@@ -1431,7 +1431,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:42@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Tsitsipas\, Stefanos vs Cerundolo\, Francisco
@@ -1440,7 +1440,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:43@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Khachanov\, Karen vs Popyrin\, Alexei
@@ -1449,7 +1449,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:44@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Zverev\, Alexander vs Fils\, Arthur
@@ -1458,7 +1458,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:45@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Minaur\, Alex de vs Draper\, Jack
@@ -1467,7 +1467,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:46@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Humbert\, Ugo vs Alcaraz\, Carlos
@@ -1476,7 +1476,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:47@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Rune\, Holger vs Cazaux\, Arthur
@@ -1485,7 +1485,7 @@ URL:https://nikstopka.github.io/grand-slam-calendar/#/paris-masters
 END:VEVENT
 BEGIN:VEVENT
 UID:tml:atp:2024-352:48@grand-slam-calendar
-DTSTAMP:20261114T013655Z
+DTSTAMP:20261114T084143Z
 DTSTART:20241028T120000Z
 DTEND:20241028T150000Z
 SUMMARY:Paris Masters 2026 — 1/8 финала: Dimitrov\, Grigor vs Rinderknech\, Arthur
