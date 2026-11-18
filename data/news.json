@@ -1,221 +1,221 @@
 {
-  "updated_at": "2026-11-18T17:50:32.586973+00:00",
+  "updated_at": "2026-11-18T23:58:05.794859+00:00",
   "items": [
     {
-      "id": "news_1795024218_0",
+      "id": "news_1795046258_0",
       "source": "WTA",
       "title_orig": "Tournaments",
       "title_ru": "Турниры",
       "image": null,
       "url": "https://www.wtatennis.com/news/tournaments",
-      "published_at": "2026-11-18T17:50:16.878858+00:00"
+      "published_at": "2026-11-18T23:57:36.693744+00:00"
     },
     {
-      "id": "news_1795024218_1",
+      "id": "news_1795046259_1",
+      "source": "WTA",
+      "title_orig": "A fitting conclusion: Reliving eight action-packed days in the desert",
+      "title_ru": "Достойный вывод: заново пережить восемь насыщенных событиями дней в пустыне.",
+      "image": null,
+      "url": "https://www.wtatennis.com/news/4610959/reliving-eight-action-packed-days-at-the-fage-wta-finals-indian-wells",
+      "published_at": "2026-11-18T23:57:36.694000+00:00"
+    },
+    {
+      "id": "news_1795046260_2",
       "source": "WTA",
       "title_orig": "Social Buzz",
       "title_ru": "Социальный бред",
       "image": null,
       "url": "https://www.wtatennis.com/news/social-buzz",
-      "published_at": "2026-11-18T17:50:16.878977+00:00"
+      "published_at": "2026-11-18T23:57:36.694082+00:00"
     },
     {
-      "id": "news_1795024220_2",
+      "id": "news_1795046261_3",
       "source": "WTA",
       "title_orig": "The time Elton John wrote a song for Billie Jean King",
       "title_ru": "Время, когда Элтон Джон написал песню для Билли Джин Кинг",
       "image": null,
       "url": "https://www.wtatennis.com/news/4610923/the-time-elton-john-wrote-a-song-for-billie-jean-king-jimmy-kimmel-live-interview",
-      "published_at": "2026-11-18T17:50:16.879032+00:00"
+      "published_at": "2026-11-18T23:57:36.694164+00:00"
     },
     {
-      "id": "news_1795024221_3",
+      "id": "news_1795046262_4",
       "source": "WTA",
       "title_orig": "Mary Carillo honored at WTA Foundation Champions for Change brunch",
       "title_ru": "Мэри Карилло удостоена чести на бранче WTA Foundation Champions for Change",
       "image": null,
       "url": "https://www.wtatennis.com/news/4610907/mary-carillo-honored-at-wta-foundation-champions-for-change-brunch",
-      "published_at": "2026-11-18T17:50:16.879076+00:00"
+      "published_at": "2026-11-18T23:57:36.694238+00:00"
     },
     {
-      "id": "news_1795024222_4",
+      "id": "news_1795046262_5",
       "source": "WTA",
       "title_orig": "The best moments and biggest takeaways from a landmark FAGE WTA Finals",
       "title_ru": "Лучшие моменты и важные выводы знаменательного финала FAGE WTA",
       "image": null,
       "url": "https://www.wtatennis.com/news/4610474/the-best-moments-and-biggest-takeaways-from-a-landmark-wta-finals",
-      "published_at": "2026-11-18T17:50:16.879150+00:00"
+      "published_at": "2026-11-18T23:57:36.694352+00:00"
     },
     {
-      "id": "news_1795024222_5",
-      "source": "WTA",
-      "title_orig": "Giorgi announces return to WTA Tour in 2027 after nearly three-year absence",
-      "title_ru": "Георгий объявляет о возвращении в WTA Tour в 2027 году после почти трехлетнего отсутствия",
-      "image": null,
-      "url": "https://www.wtatennis.com/news/4610026/giorgi-announces-return-to-wta-tour-in-2027-after-nearly-three-year-absence",
-      "published_at": "2026-11-18T17:50:16.879225+00:00"
-    },
-    {
-      "id": "news_1795024223_6",
+      "id": "news_1795046264_6",
       "source": "WTA",
       "title_orig": "Player Feature",
       "title_ru": "Функция игрока",
       "image": null,
       "url": "https://www.wtatennis.com/news/player-feature",
-      "published_at": "2026-11-18T17:50:16.879362+00:00"
+      "published_at": "2026-11-18T23:57:36.694676+00:00"
     },
     {
-      "id": "news_1795024223_7",
+      "id": "news_1795046265_7",
       "source": "WTA",
       "title_orig": "Match Reaction",
       "title_ru": "Реакция матча",
       "image": null,
       "url": "https://www.wtatennis.com/news/match-reaction",
-      "published_at": "2026-11-18T17:50:16.879497+00:00"
+      "published_at": "2026-11-18T23:57:36.694998+00:00"
     },
     {
-      "id": "news_1795024224_8",
+      "id": "news_1795046267_8",
       "source": "WTA",
       "title_orig": "View all View all hot shots",
       "title_ru": "Посмотреть все Посмотреть все горячие снимки",
       "image": null,
       "url": "https://www.wtatennis.com/news/hot-shots",
-      "published_at": "2026-11-18T17:50:16.880506+00:00"
+      "published_at": "2026-11-18T23:57:36.696994+00:00"
     },
     {
-      "id": "news_1795024225_9",
+      "id": "news_1795046267_9",
       "source": "WTA",
       "title_orig": "View all View all stats corner",
       "title_ru": "Посмотреть все Посмотреть всю статистику",
       "image": null,
       "url": "https://www.wtatennis.com/news/stats-corner",
-      "published_at": "2026-11-18T17:50:16.880558+00:00"
+      "published_at": "2026-11-18T23:57:36.697098+00:00"
     },
     {
-      "id": "news_1795024226_10",
+      "id": "news_1795046269_10",
       "source": "WTA",
       "title_orig": "All Doubles News All Doubles News",
       "title_ru": "Все новости парного спорта Все новости парного спорта",
       "image": null,
       "url": "https://www.wtatennis.com/news/doubles",
-      "published_at": "2026-11-18T17:50:16.880793+00:00"
+      "published_at": "2026-11-18T23:57:36.697562+00:00"
     },
     {
-      "id": "news_1795024226_11",
+      "id": "news_1795046271_11",
       "source": "WTA",
       "title_orig": "View all View all previews",
       "title_ru": "Посмотреть все Посмотреть все превью",
       "image": null,
       "url": "https://www.wtatennis.com/news/previews",
-      "published_at": "2026-11-18T17:50:16.881261+00:00"
+      "published_at": "2026-11-18T23:57:36.698544+00:00"
     },
     {
-      "id": "news_1795024227_12",
+      "id": "news_1795046272_12",
       "source": "Tennis.com",
       "title_orig": "Felix Auger-Aliassime rises to new career-high ranking of No. 4 after best run at Roland Garros",
       "title_ru": "Феликс Оже-Альяссим поднялся на новое четвертое место в карьере после лучшего результата на Ролан Гаррос",
       "image": "https://tennis.com/images/articles/0bcab86a-6d0c-4833-8adf-1bfe17949798/web.jpg",
       "url": "https://www.tennis.com/news/articles/felix-auger-aliassime-rises-to-new-career-high-ranking-of-number-4-after-roland-garros-raonic-andreescu",
-      "published_at": "2026-11-18T17:50:18.307252+00:00"
+      "published_at": "2026-11-18T23:57:38.205595+00:00"
     },
     {
-      "id": "news_1795024227_13",
+      "id": "news_1795046273_13",
       "source": "Tennis.com",
       "title_orig": "Emilio Nava leaves \"one of the most enjoyable weeks\" in Bad Rappenau with trophy",
       "title_ru": "Эмилио Нава покидает «одну из самых приятных недель» в Бад-Раппенау с трофеем",
       "image": "https://tennis.com/images/articles/8741a1e2-1aaf-4400-8fb2-e9746e0b5634/web.jpg",
       "url": "https://www.tennis.com/news/articles/emilio-nava-leaves-one-of-the-most-enjoyable-weeks-in-bad-rappenau-with-trophy",
-      "published_at": "2026-11-18T17:50:18.307324+00:00"
+      "published_at": "2026-11-18T23:57:38.205716+00:00"
     },
     {
-      "id": "news_1795024227_14",
+      "id": "news_1795046274_14",
       "source": "Tennis.com",
       "title_orig": "Flavio Cobolli breaks into Top 10 after reaching first Grand Slam final at Roland Garros",
-      "title_ru": "Флавио Коболли вошел в десятку лучших после первого выхода в финал турнира Большого шлема на Ролан Гаррос.",
+      "title_ru": "Флавио Коболли вошел в десятку лучших после первого выхода в финал турнира Большого шлема на Ролан Гаррос",
       "image": "https://tennis.com/images/articles/4dbcece2-708a-429a-b93c-4c0df4911cad/web.jpg",
       "url": "https://www.tennis.com/news/articles/flavio-cobolli-breaks-into-top-10-after-reaching-first-grand-slam-final-at-roland-garros",
-      "published_at": "2026-11-18T17:50:18.307381+00:00"
+      "published_at": "2026-11-18T23:57:38.205820+00:00"
     },
     {
-      "id": "news_1795024228_15",
+      "id": "news_1795046275_15",
       "source": "Tennis.com",
       "title_orig": "Maja Chwalinska soars from No. 114 to No. 21 following dream run to Roland Garros final",
       "title_ru": "Майя Хвалинска взлетела со 114-го на 21-е место благодаря своей мечте о выходе в финал Ролан Гаррос",
       "image": "https://tennis.com/images/articles/ad095ead-3dbb-4fcf-80c0-498cb75fd196/web.jpg",
       "url": "https://www.tennis.com/news/articles/maja-chwalinska-soars-from-114-to-21-on-wta-rankings-after-dream-run-to-roland-garros-final-andreeva-kostyuk-shnaider",
-      "published_at": "2026-11-18T17:50:18.307433+00:00"
+      "published_at": "2026-11-18T23:57:38.205940+00:00"
     },
     {
-      "id": "news_1795024228_16",
+      "id": "news_1795046277_16",
       "source": "Tennis.com",
       "title_orig": "Alexander Zverev won his first Grand Slam title. Choose your own reaction",
       "title_ru": "Александр Зверев выиграл свой первый титул Большого шлема. Выбери свою реакцию",
       "image": "https://tennis.com/images/articles/31dc544b-2a08-428f-a727-86d5c7066901/web.jpg",
       "url": "https://www.tennis.com/news/articles/alexander-zverev-won-his-first-grand-slam-title-choose-your-own-reaction",
-      "published_at": "2026-11-18T17:50:18.307483+00:00"
+      "published_at": "2026-11-18T23:57:38.206042+00:00"
     },
     {
-      "id": "news_1795024229_17",
+      "id": "news_1795046278_17",
       "source": "Tennis.com",
       "title_orig": "Alexander Zverev battles past Flavio Cobolli for first Grand Slam title of career at Roland Garros",
       "title_ru": "Александр Зверев обыграл Флавио Коболли за первый в карьере титул Большого шлема на Ролан Гаррос",
       "image": "https://tennis.com/images/articles/e7cd544f-29b5-4a48-91d2-698ffa0f270e/web.jpg",
       "url": "https://www.tennis.com/news/articles/alexander-zverev-battles-past-flavio-cobolli-for-first-grand-slam-title-of-career-at-roland-garros",
-      "published_at": "2026-11-18T17:50:18.307533+00:00"
+      "published_at": "2026-11-18T23:57:38.206141+00:00"
     },
     {
-      "id": "news_1795024229_18",
+      "id": "news_1795046279_18",
       "source": "Tennis.com",
       "title_orig": "Katerina Siniakova, Taylor Townsend eye team Career Grand Slam after Roland Garros title",
       "title_ru": "Катерина Синякова и Тейлор Таунсенд видят команду карьерного Большого шлема после титула Ролан Гаррос",
       "image": "https://tennis.com/images/articles/a083760f-ce1b-45c8-be82-69d786d39894/web.jpg",
       "url": "https://www.tennis.com/news/articles/katerina-siniakova-taylor-townsend-eye-team-career-grand-slam-roland-garros-title",
-      "published_at": "2026-11-18T17:50:18.307583+00:00"
+      "published_at": "2026-11-18T23:57:38.206240+00:00"
     },
     {
-      "id": "news_1795024230_19",
+      "id": "news_1795046280_19",
       "source": "Tennis.com",
       "title_orig": "Mirra Andreeva \"kept my focus, kept my composure” to win first Grand Slam title",
       "title_ru": "Мирра Андреева «сохраняла концентрацию и самообладание», чтобы выиграть первый титул Большого шлема.",
       "image": "https://tennis.com/images/articles/50fcebf0-5b31-484b-ba1e-d252d0796713/web.jpg",
       "url": "https://www.tennis.com/news/articles/mirra-andreeva-kept-my-focus-kept-my-composure-to-win-first-grand-slam-title-roland-garros-champion",
-      "published_at": "2026-11-18T17:50:18.307638+00:00"
+      "published_at": "2026-11-18T23:57:38.206355+00:00"
     },
     {
-      "id": "news_1795024230_20",
+      "id": "news_1795046281_20",
       "source": "Tennis.com",
       "title_orig": "Luis Guto Miguel adds another Roland Garros chapter for Brazil with historic boys' singles title",
       "title_ru": "Луис Гуто Мигель открывает еще одну главу Ролан Гаррос для Бразилии, завоевав исторический титул среди мальчиков в одиночном разряде.",
       "image": "https://tennis.com/images/articles/345ef268-095a-4ec9-8194-03ba6b57688d/web.jpg",
       "url": "https://www.tennis.com/news/articles/luis-guto-miguel-roland-garros-chapter-brazil-with-historic-boys-singles-title",
-      "published_at": "2026-11-18T17:50:18.307689+00:00"
+      "published_at": "2026-11-18T23:57:38.206457+00:00"
     },
     {
-      "id": "news_1795024231_21",
+      "id": "news_1795046282_21",
       "source": "Tennis.com",
       "title_orig": "Mirra Andreeva ends dream run of Maja Chwalinska to capture first Grand Slam title at Roland Garros",
       "title_ru": "Мирра Андреева прервала забег мечты Майи Хвалинской и завоевала первый титул Большого шлема на Ролан Гаррос",
       "image": "https://tennis.com/images/articles/14918e7f-7a40-482e-bf9d-3803e32999e5/web.jpg",
       "url": "https://www.tennis.com/news/articles/mirra-andreeva-ends-dream-run-of-maja-chwalinska-to-capture-first-grand-slam-title-at-roland-garros",
-      "published_at": "2026-11-18T17:50:18.307738+00:00"
+      "published_at": "2026-11-18T23:57:38.206561+00:00"
     },
     {
-      "id": "news_1795024231_22",
+      "id": "news_1795046283_22",
       "source": "Tennis.com",
       "title_orig": "Roland Garros men’s final preview: Can Alexander Zverev finally cross the Grand Slam finish line against Flavio Cobolli?",
       "title_ru": "Финальный превью мужского Ролан Гаррос: сможет ли Александр Зверев наконец пересечь финишную черту турнира Большого шлема против Флавио Коболли?",
       "image": "https://tennis.com/images/articles/00bc7773-7952-4394-9e0e-ed2212245cb0/web.jpg",
       "url": "https://www.tennis.com/news/articles/roland-garros-men-s-final-preview-can-alexander-zverev-finally-cross-the-grand-slam-finish-line-against-flavio-cobolli",
-      "published_at": "2026-11-18T17:50:18.307799+00:00"
+      "published_at": "2026-11-18T23:57:38.206669+00:00"
     },
     {
-      "id": "news_1795024232_23",
+      "id": "news_1795046285_23",
       "source": "Tennis.com",
       "title_orig": "Flavio Cobolli advances to Roland Garros final after Matteo Arnaldi pulls out with viral illness",
       "title_ru": "Флавио Коболли вышел в финал Ролан Гаррос после того, как Маттео Арнальди выбыл из-за вирусного заболевания",
       "image": "https://tennis.com/images/articles/2df29b5c-16a6-4fa7-92e5-e6962fdca5c9/web.jpg",
       "url": "https://www.tennis.com/news/articles/flavio-cobolli-advances-to-roland-garros-final-after-matteo-arnaldi-pulls-out-with-viral-illness",
-      "published_at": "2026-11-18T17:50:18.307849+00:00"
+      "published_at": "2026-11-18T23:57:38.206772+00:00"
     }
   ]
 }
